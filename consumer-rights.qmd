@@ -1,0 +1,47 @@
+---
+title: "{{< fa gavel >}} Consumer rights"
+---
+
+# Summary
+
+::: {.callout-note collapse="false" appearance="simple" icon="false"}
+We look here at consumer-rights approaches - which indirectly place a responsibility on firms, but only if exercised.
+:::
+
+# How it works and current applications
+
+::: {.callout-tip collapse="true" appearance="simple" icon="false"}
+## Consumer rights approaches
+
+This may also be seen to be extended by consumer rights approaches such as the 2015 Consumer Rights Act, the flip-side of which is a producer-level liability.
+
+-   **Consumer rights law*:*** Evidence limited here but not to say it wouldn't be effective. [German Environment Agency (2017) -](https://www.umweltbundesamt.de/sites/default/files/medien/376/dokumente/2017-06-01_obsolescence_scientific_opinion_paper_german_environment_agency.pdf) suggests possibly rebalancing consumer rights policy to support more repair activity rather than giving consumers the right to refunds or brand new replacements. Some evidence of demand for reparability, but people would prefer products that work.
+
+Mandatory minimum warranty/guarantees
+:::
+
+# Performance
+
+## Strategic fit
+
+## Effectiveness and efficiency
+
+ERM (2011) find that both extended warranties and mandatory durability standards would be likely to successfully extend product lifetimes, though both are likely to face opposition from industry.
+
+A report by the European Parliamentary Research Service suggests the best way to enhance the longevity of products is for a mandatory guarantee equal to a product's expected lifetime, as defined by technical standards ([Keirsbilk *et al.* 2020](https://www.europarl.europa.eu/RegData/etudes/IDAN/2020/648769/IPOL_IDA(2020)648769_EN.pdf)). The regulatory basis for this is in place in the UK already. Under the Consumer Rights Act 2015, consumers are entitled to a right to repair or replacement for defective electronics within 6 years of purchase in England and Wales and 5 years in Scotland. At present however, a retailer has the choice of which remedy between these to provide while after 6 months, the burden of proof of a defect being there at the time of purchase lies with consumers. Changes in these two aspects could help strengthen this tool in extending the lifespan of products within scope.[^1]
+
+[^1]: Where these obligations are not applicable, limited competition in extended product warranty markets has been tackled in the past via the Supply of Extended Warranties on Domestic Electrical Goods Order 2005 legislation.
+
+## Affordability
+
+## Long-run effects
+
+## Distributional effects
+
+## Positive and negative spillovers
+
+# Conditions for effectiveness
+
+## Design and implementation considerations
+
+# Future applications in UK CE framework

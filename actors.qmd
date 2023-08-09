@@ -1,0 +1,294 @@
+---
+title: "{{< fa people-arrows >}} Actors"
+---
+
+> [A range of actors can, and in some cases are already, having a role in aligning the UK with the principles of a circular economy]{style="color: SteelBlue;"}
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  cache = FALSE
+)
+
+# Require packages
+library(dplyr)
+library(ggplot2)
+library(readxl)
+library(tidyverse)
+library(magrittr)
+library(plotly)
+
+# Turn off scientific notation
+options(scipen = 999)
+
+```
+
+```{css, echo=FALSE}
+.callout {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-right: 1em;
+}
+```
+
+# The value chain
+
+> *"The question of how to overcome...barriers to a circular economy is multifaceted. The role of policy is central on many levels -- international, regional, national and city -- but other stakeholders play a crucial role as well, the most important being business organizations, science and technology and civil society" ([Wijkman, 2021](https://globalchallenges.org/wp-content/uploads/2021/10/Reflections-on-Governance-for-a-Circular-Economy-FINAL.pdf)).*
+>
+> *"The whole spectrum of stakeholder groups in the UK need to be involved...and make their contribution" ([Wiedmann et al. 2006](https://sciencesearch.defra.gov.uk/ProjectDetails?ProjectId=14064), p. 13).*
+
+The way that goods and services are produced, used and disposed of within the global and UK economy is often complex, involving multiple actors and activities frequently spanning different countries. The term 'value chain' refers to the full range of activities needed to create a product or service. This includes across stages of extraction, production, processing, manufacture, distribution, retail, use and disposal as well as those typically associated with the circular economy - such as recycling, repair and remanufacturing - where being undertaken (Figure 1).
+
+![](images/image-1895469480.png)\
+
+**Figure 1. The CE-Hub value chain taxonomy** (Zils, 2023)
+
+Circular systems, whether technical or biological, incorporate a range of activities that reduce demand for material inputs and revalorise, recover or reuse materials already in use (Post, 2016). For example, a technical cycle may involve a car being well maintained and then resold, its components then being reused, and finally constituent materials of parts no longer economically or technically able to be reused, recycled (Post, 2016).
+
+To help understand their potential contribution to aligning the UK economy with CE principles, actors along a value chain can be grouped in the following way (UNECE, [2021](https://unece.org/sites/default/files/2021-05/Ecosystem_report-April2021.pdf)) (Fig 2):
+
+<center>![](images/image-514186384.png){width="693"}</center>
+
+**Figure 2. The Ecosystem Model** (UNECE, 2021)
+
+We describe the ways in which these groups of actors can contribute to a more circular economy across the countries making up the UK below.
+
+## Wider business ecosystem stakeholders
+
+Wider business ecosystem stakeholders (ES) such as government bodies, non-governmental organisations and academia can in various ways shape and parameterise the landscape in which value-chain-activities occur.  
+
+::: {.callout-note collapse="true" icon="false"}
+## {{< fa building-columns >}} Central government
+
+Over 80% of UK business leaders surveyed in a 2022 poll agreed that government policies are required to bring about the economy-wide changes needed to tackle climate change, as a closely linked issue ([CISL, 2022](https://www.cisl.cam.ac.uk/news/new-poll-indicates-strong-business-appetite-net-zero-regulation)). Regulation is often thought about solely as control by a government furthermore, with the OECD ([2021](https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0464)) defining regulation as *'instruments by which governments set requirements on enterprises and citizens*'. Given their responsibilities and resources, primary avenues of influence available to central governments across the UK include:
+
+1.  the ability to issue legislative and policy instruments prescribing or prohibiting certain behaviours;
+
+2.  financial and other resources which can be distributed or redistributed to enable activities to be undertaken;
+
+3.  the means to collate and generated information by being in the centre of knowledge networks; and
+
+4.  the capacity to create organisations conducting activities such as public bodies or committees (Steurer, 2013; Duit, 2016).
+
+While the UK Government is the central executive authority of the United Kingdom of Great Britain and Northern Ireland, since the 1990s many areas of law and policy-making relating to waste and resource management have become devolved across the countries making up the UK. This means that central government departments with jurisdictions relating to the circular economy exist not only in the UK Government but too the Scottish Government, Welsh Government and Northern Ireland Executive, though devolution has been asymmetrical in the powers devolved across these bodies.
+:::
+
+::: {.callout-note appearance="default" collapse="true" icon="false"}
+## {{< fa people-line >}} Local authorities and cities
+
+The structure of local government varies by country in the UK, with N. Ireland, Scotland and Wales having a single level of local government bodies, while in England there is a combination of single-tier authorities in some areas and two-tiers of local government in others ([OECD, 2022](https://www.oecd-ilibrary.org/sites/edf6758d-en/index.html?itemId=/content/component/edf6758d-en#section-d1e10091)). Local authorities (LA) across the UK (referred to as local councils in N. Ireland) have statutory responsibility for council services including the collection and treatment of local-authority collected waste (LACW) and street sweepings ([Rezaie et al. 2022](https://www.sei.org/publications/circular-economy-urban-policymakers/)).
+
+Historically, LAs organised as either individual or combined waste collection and/or disposal authorities have had localised discretion over budgetary allocations for waste management, which materials are collected, how frequently and treatment arrangements (Abbott *et al*. 2011). The 2021 Environment Bill provides Defra the legal power to mandate improved consistency of recycling collections across LAs in England alongside cost-sharing mechanisms through EPR as part of its major waste reforms, with similar proposals in Scotland and Wales.
+
+In addition to potentially altering council services for which they are responsible to drive a more circular economy, LAs as well as regional bodies and cities can help provide other enabling conditions for a CE transition (Figure 3) ([EMF, 2019](https://ce-hub.org/knowledge-hub/city-governments-and-urban-policy-levers/)). This includes through setting ambition and direction (e.g. the [West Midlands' Circular Economy Routemap](https://governance.wmca.org.uk/documents/s5989/Appendix%202.pdf)), community engagement, financial resource allocation, advice and in-kind support (e.g. [ReLondon's Business Transformation programme](https://ellenmacarthurfoundation.org/circular-examples/advance-london-circular-economy-sme-business-support-programme-london?utm_source=linkedin&utm_medium=organic_social&utm_campaign=_&utm_content=ap_s9g1ice7y2)), planning, the management of public assets and as a purchaser of goods and services.
+
+Reports submitted by signatories to the [Circular Cities Declaration](https://circularcitiesdeclaration.eu/) show key trends including growing national and supra-national support to cities, the adoption of circular strategies and roadmaps to steer the transition (Abu-Bakar, 2023), investment in infrastructure, using public procurement to achieve objectives, establishing innovation programmes and projects, raising awareness and empowering citizens along with particular focuses on the construction and food sectors ([CCD, 2023](https://circularcitiesdeclaration.eu/fileadmin/user_upload/CCD-Report-2022.pdf)).
+
+<center>
+
+![](images/image-662520240.png){width="500"}
+
+**Figure 3. Urban policy levers for circular economy transitions (EMF, 2019)**
+
+</center>
+:::
+
+::: {.callout-note appearance="default" collapse="true" icon="false"}
+## {{< fa building-ngo >}} Non-governmental organisations and civil society
+
+Through growth in opportunities for participation in the policy-making process (Bäckstrand, 2005) and outside of it, civil society actors have acquired greater status in the landscape of environmental regulation ([OECD, 2022](https://www.oecd.org/local-forum/events/workshops/Making-the-most-of-the-social-economy-and-the-circular-economy-Highlights.pdf)). 'Civil society' broadly refers to stakeholders (interacting as) neither the government nor market and which includes the general public and those organised. Citizens in the liberal democracy of the UK can influence outcomes through participation in the voting and wider political process. Organised, non-governmental organisations (NGOs) perform a variety of regulatory and steering functions that include:
+
+1.  Inputting to agenda-setting and policy formulation via government facilitated routes of engagement such as consultations and too outside of these;
+
+2.  Collecting, analysing and disseminating information e.g. to monitor compliance;
+
+3.  Coordinating with other actors e.g. the Circular Economy Task Force convened by the Green Alliance which sought to broker greater collaboration within sectors, improve product design and company reporting (Oswald et al. 2018; [BITC, 2023](https://www.bitc.org.uk/report/in-your-hands-going-circular-for-net-zero/));
+
+4.  Pressurising firms and the government (such as through organising boycotts or legal routes e.g. client earth) and whistle-blowing; and
+
+5.  Developing localised schemes ([Maitre-Ekern and Dalhammar, 2019](https://www.frontiersin.org/articles/10.3389/frsus.2022.980047/full#B31)).
+
+In addition, NGO influence has increasingly taken new forms such as establishing unilateral partnerships with firms and creating, promulgating and monitoring formalised standards e.g. the EMF's 'Circulytics' monitoring system (Steurer, 2013). In many cases, this has arisen through the need to fill regulatory gaps emerging e.g. at the international level, such as the Forest Stewardship Council - a multi-stakeholder voluntary third-party mechanism covering global wood production chains (Klooster, 2010). Particularly prominent NGOs in this area include those more closely tied to government bodies in the UK such as Wrap and Zero Waste Scotland as well as the Ellen MacArthur Foundation, Circle Economy, the Green Alliance and Business in the Community. Philanthropic groups which blur the line between public and private can too be active.
+:::
+
+::: {.callout-note appearance="default" collapse="true" icon="false"}
+## {{< fa building-un >}} Intergovernmental bodies
+
+Several intergovernmental bodies have taken key positions in facilitating countries to tackle environmental pressures from human activities. For instance, the United Nations' (UN) environmental programme (UNEP) has played a role in coordinating international scientific advisory bodies such as the IPCC, organising international conferences, and establishing international frameworks for climate change mitigation and adaptation, desertification and biodiversity. UNEP also has an important role in brokering information (e.g. the Global Material Flows database) and wider thought leadership.
+
+A particular active supranational body in the area of CE is the World Economic Forum (WEF), with programmes developed including the Platform for Accelerating the Circular Economy (PACE) that works to develop commitments towards the circular economy via a range of value-chain partnerships ([Circle Economy, 2022](https://circleeconomy.medium.com/the-circular-economy-who-is-leading-the-way-11375cc24f23)). Other international bodies such as the World Bank are increasingly active in this area through the production of reports and other outputs ([WB, 2022](https://www.worldbank.org/en/news/press-release/2022/12/06/world-bank-releases-its-first-report-on-the-circular-economy-says-decoupling-growth-from-resource-use-in-europe-achievab)). Many other international agencies and organisations covering finance, shipping, energy and food production have the potential to contribute to more circular and sustainable practices via their own routes of influence. At a regional level, the UNECE is leading on many circular economy issues such as relating to data and value chain mapping.
+:::
+
+::: {.callout-note appearance="default" collapse="true" icon="false"}
+## {{< fa school >}} Academia
+
+Academic researchers and research programmes contribute to, among other things, the ability to evaluate and evidence the benefits, costs and risks of different CE options, including at the direct request of government policy-makers. Examples of such organisations include the UKRI NICER Programme and [Circ-NSR project](https://northsearegion.eu/circ-nsr).
+:::
+
+## Extended enterprises
+
+An extended enterprise (EN) of organisations such as auditors and standardisation bodies, testing labs, insurance firms and technology providers who through their activities support, administer and enable value chains to operate and function.
+
+::: {.callout-tip appearance="default" collapse="true" icon="false"}
+## {{< fa file-lines >}} Standardisation bodies
+
+Standardisation bodies help unify terminology and play an important role in providing frameworks and guidance to support, among other things, consistent testing, measurement, inspection and validation assessments, uptake of relevant product requirements and information provision as part of environmental management standards. This can support the circular economy through more efficient exchange of information between market actors by removing ambiguity in terms used, building trust in safety and reliability and reducing risk e.g. for batteries ([DIN](https://www.din.de/en/innovation-and-research/circular-economy); [ISO](https://www.iso.org/insights/circular-economy-building-trust); [CEN CENELEC](https://www.cencenelec.eu/media/CEN-CENELEC/News/Publications/standardization_circular_economy_closing_the_loop.pdf)).
+
+An example of a key standardisation body is the British Standards Institution (BSI) who have been active in developing standards in the circular economy space for almost a decade e.g. its voluntary 'Framework for implementing the principles of the circular economy in organisations'. BSI standards are typically broad in nature (covering e.g. principles and terminology) and for use by technical committees or actors when producing their own horizontal, generic or product-specific standards. Examples of BSI standards relevant to the circular economy include:
+
+-   **BS EN 45552:2020** - General method for the assessment of the durability of energy-related products;
+
+-   **BS EN 45555:2019** - General methods for assessing the recyclability and recoverability of energy-related products; and
+
+-   **BS EN IEC 62474:2019** - Material declaration for products of and for the electrotechnical industry.
+
+The widely used ISO family of industry-based environmental management standards have also been extended to include circular economy guidance such as:
+
+-   **ISO 14009**  - Guidelines for incorporating material circulation in design and development; and
+
+-   **ISO 59020** - Circular economy --- Measuring circularity framework
+
+This also reflects ISO's commitment to climate action as set out in its 2021 [London Declaration](https://www.iso.org/insights/circular-economy-building-trust). ISO and BSI standards are voluntarily adopted, maintained by private organisations but accepted by public actors which adds to their perceived legitimacy (Falkner, 2003). ISO certificates have been found to be largely concentrated in higher-income countries (To and Lee, 2014).
+:::
+
+::: {.callout-tip appearance="default" collapse="true" icon="false"}
+## {{< fa microchip >}} Technology providers
+
+Technology providers may work to fill new markets generated by government regulation or proactively offer a technology solution to core market actors and those throughout the business ecosystem. This can be in anticipation of future government regulation or not. Examples of relevant technology providers include those working in the area of data such as SAP and Topolytics, who offer products to support improved material tracing and internal accounting.
+
+<center>![](images/image-630986209.png){width="479"}</center>
+:::
+
+::: {.callout-tip appearance="default" collapse="true" icon="false"}
+## {{< fa file-invoice-dollar >}} Finance sector
+
+There exist potential financial risks associated with poor environmental performance for firms using equity financing, commercial financing or income generation through the sale of bonds as investor cost of capital may increase for firms perceived as irresponsible. This risk may have grown in recent years in a context of third sector organisations encouraging shareholder action and fiduciary duty dynamics become of wider importance. Public equity, private market funds and wider debt and equity instruments can enable the development of CE activities ([Mahönën, 2019](https://researchportal.helsinki.fi/en/publications/financing-sustainable-market-actors-in-circular-economy)). Investor action on the circular economy is relatively nascent, but as with climate considerations, may be expected to come in the form of commitments and policies or the uptake of metrics and ESG criteria ([UN PRI, 2022](https://www.unpri.org/sustainability-issues/environmental-social-and-governance-issues/environmental-issues/circular-economy)). Central banks and wider financial supervisory bodies from international to national scales can contribute to aligning the financial sector with societal objectives given their uniquely close links to capital markets ([Couto, 2023](https://www.chathamhouse.org/2023/04/how-boost-international-private-climate-finance/03-role-central-banks-and-financial)).
+:::
+
+\
+
+Other relevant actors in the extended enterprise network include certification bodies, ratings agencies and wider service suppliers including in the insurance sector ([Swiss Re, 2023](https://www.swissre.com/swissre/institute/research/topics-and-risk-dialogues/economy-and-insurance-outlook/expertise-publication-circular-economy-recycling.html)).
+
+## Core market actors
+
+Core market (CM) actors such as raw material providers, manufacturers and recyclers on the one hand, and consumers on the other - bound together through the production, processing and use of goods and services along a given value chain.
+
+::: {.callout-caution appearance="default" collapse="true" icon="false"}
+## {{< fa industry >}} Manufacturers and remanufacturers
+
+Self regulation can take place at the level of single firms or entire industries. Examples at the firm level include applying ESG Criteria, strategies or demands between firms for certain practices. An examples at the industry level is the Sustainable Forestry Initiative.[^1] There are a range of motivations internal to firms which might encourage improved environmental performance in the absence of overt government regulation (Porter and van der Linde, 1995; Ambec and Lanoie, 2008):
+
+1.  Reducing resource and waste-related production costs and minimising future liabilities/supply chain risks;
+
+2.  Differentiation advantages through business model development and entry into new markets;
+
+3.  Building corporate imagery and brand integrity;
+
+4.  Navigating conditions on access to inputs such as capital or the sale of outputs linked to purchaser expectations;
+
+5.  Helping manage supply or demand-side risks;
+
+6.  Factors around organisational culture and normative drivers.
+
+Shifts in business models can be thought about as being: 1) philanthropic; 2) integrative (though incorporating more responsible behaviours into current practices); or 3) innovative (though the development of new business models to solve issues) (Halme and Laurila, 2008).
+
+Examples of resource-efficient business models are set out below (Wrap, 2016).
+
++---------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Model**                       | **Description**                                                                                                                                                                                                                    |
++=================================+====================================================================================================================================================================================================================================+
+| Service systems                 | Providing a service based upon delivering performance outputs that are linked to products or services. Products could also be designed for disassembly, re-manufacture and re-use.                                                 |
++---------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Hire and leasing                | Long-term hire and leasing of products can deliver a longer term approach to product durability, with longer service life, lower maintenance load and lower use of materials and CO~2~.                                            |
++---------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Incentivised returns and re-use | Encourages customers to return used items for an agreed value. Customers gain value for unwanted items and return products via a convenient system. Collected products are refurbished and sold for re-use on appropriate markets. |
++---------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Long life                       | Products are designed to have a long life time with durability, reducing consumption.                                                                                                                                              |
++---------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+:::
+
+[^1]: Clarkson (1995) distinguishes between reactive, defensive, accommodative and proactive approaches. Similarly, Steurer (2013) distinguishes between symbolic, philanthropic, integrative and innovative approaches (Steurer, 2013).
+
+::: {.callout-caution appearance="default" collapse="true" icon="false"}
+## {{< fa shop >}} Retailers
+
+Retailers act as the interface between producers and consumers, influencing demand for goods and services and how they are delivered. Retailers are therefore subject to a range of pressures to drive change, with growing environmental awareness, stakeholder pressures and government rules and regulations reportedly encouraging UK retailers to embrace circular business models in their operations ([Upadhyay, Kumar & Akter, 2021](https://link.springer.com/article/10.1007/s10098-020-02004-9)). They can also influence post-consumption phases through the adoption and promotion of business models other than a traditional sales-ownership transaction. Various forms of pre-competitive collaboration can be seen among these actors such as the 'Retailer Net-Zero Collaborative Action Plan' to align carbon accounting approaches facilitated by Wrap and WWF ([George, 2023](https://www-edie-net.cdn.ampproject.org/c/s/www.edie.net/british-supermarkets-forge-fresh-collaboration-to-tackle-scope-3-emissions/?amp=true)).
+:::
+
+::: {.callout-caution appearance="default" collapse="true" icon="false"}
+## {{< fa credit-card >}} Households
+
+In addition to influencing value-chain activities as citizens through advocacy or reputation shaming, households can also drive change through their consumption behaviours (Newell, 2008). For instance, consumers may: move patronage to a retailer who offers refillable solutions; purchase second-hand or remanufactured goods; or buy products less often and seek out repair opportunities for currently held goods instead. The responsiveness of consumers is a key determinant of the effectiveness of interventions such as mandatory information disclosure via labelling. Beneficial household behaviour change can be categorised into:
+
+1.  **Avoid** unecessary consumption or impactful behaviour e.g. reducing food waste;
+
+2.  **Shift** consumption activities to less environmentally impactful alternatives e.g. sharing instead of buying new; and
+
+3.  **Improve** environmental performance of activity in question e.g. using BEVs instead of ICEs.
+:::
+
+::: {.callout-caution appearance="default" collapse="true" icon="false"}
+## {{< fa recycle >}} Waste management companies
+
+Waste management companies are a key group who manage and coordinate the collection, processing and disposal of products and materials from different economic sectors and households, frequently on behalf of LAs. They do so as private entities ranging from small-medium enterprises (SMEs) to multinational corporations, for whom the need to generate profit including via markets for secondary materials, drives investment and interest in public and private sector contracts.
+
+Recycling, waste and wastewater activities generated a gross value added (GVA) of £16 billion in the UK in 2019 and were associated with 158,000 FTE job roles ([ONS, 2022](https://www.ons.gov.uk/economy/environmentalaccounts/datasets/ukenvironmentalgoodsandservicessectoregssestimates)). Data on the flows of wastes as held by many of these companies form a key building block for understanding the quantity, quality, spatial distribution and disposal pathways for products and materials of interest.
+:::
+
+\
+
+# Regulatory modes and functions
+
+Regulatory modes can be understood as 'bundles of rules guiding interactions based on general principles about how actors are best motivated' (Evans, 2012, p.34) or expected and resourced to behave (Steurer, 2013) and which are often split at a high-level into (Williamson, 1975; Kooiman, 1993):
+
+\
+
+::: {.callout-important collapse="true" icon="false"}
+## {{< fa circle-exclamation >}} **Hierarchical**
+
+Involving a pyramid of control with stakeholders bound by a central authority as with traditional government. Instruments including the exercise of formal laws and regulations.
+:::
+
+::: {.callout-warning collapse="true" icon="false"}
+## {{< fa money-bill-transfer >}} **Market**
+
+Autonomous stakeholders bound together as producers and consumers, communicating via prices, enabled by institutions such as property rights and with actors free to enter or exit transactions.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## {{< fa circle-nodes >}} **Network**
+
+Autonomous stakeholders voluntarily coming together to achieve common goals through negotiation and connections
+:::
+
+\
+Actors across the groups outlined can contribute to more circular ways of doing things in the UK through these regulatory modes to varying extents as parameterised by their role in value chains, responsibilities, motivations and resources.[^2][^3]
+
+[^2]: These modes cast actors in different lights, furthermore. For instance, network modes may portray the public as environmental citizens whereas market-based modes cast the public as consumers. Hysing (2009) distinguishes between government as an actor and government as a form of steering, recognising the growing number of ways governments seeks to bring about change - including as a purchaser, delegator, convener and promoter (Sørensen, 2006).
+
+[^3]: The scale (geographical, but too institution, extent to which an actor can exert influence, varies too by actor) actors can act at defines their capacity for influence across different activities, while the applicability of different types of regulation also differs by scale e.g., there is a low potential for binding rules at the supranational level.
+
+Government holds a prominent role through its ability to issue laws, distribute and redistribute resources and set direction (Steurer, 2013; Duit, 2016). The past several decades have seen a growth in market-driven approaches in part to fill regulatory gaps arising through increased trade interdependencies. Some action and responsiveness by consumers and influence of organised and non-organised citizens to environmental objectives (including those directly congruent to the circular economy principles) can be seen. Various forms of 'co-regulation' have also emerged i.e. when actors from different societal domains seek to achieve objectives jointly e.g. partnerships between NGOs and industry groups.[^4] An example is the industry-led, [UN-convened, Net-Zero Banking Alliance](https://www.unepfi.org/net-zero-banking/).
+
+[^4]: Co-regulation is an umbrella term for co-operative forms of regulation in which actors across societal domains interact, hybridise or orchestrate one another to produce governance arrangements (Steurer, 2013; Abbott and Snidal, 2008). Forms of co-regulation between these actors can be defined in the following terms: 1) Private governance between market and civil society actors; 2) Market governance between governments and businesses; 3) Civil society governance between governments and NGOs; and 4) Network governance between the three. As well as active engagement between actors, more tacit approaches such as empowering actors to behave as quasi-regulators can be seen. For instance, mandated information disclosure by the state coupled with data made accessible to voluntary groups on online portals for use to monitor and evaluate.
+
+::: {.callout-tip collapse="true"}
+## **Regulatory modes and actors**
+
++-------------------+--------------+-----------+-----------+
+|                   | Hierarchical | Market    | Network   |
++===================+==============+===========+===========+
+| **Government**    | X            | X         | X         |
++-------------------+--------------+-----------+-----------+
+| **Market actors** | \            | X         | X         |
++-------------------+--------------+-----------+-----------+
+| **Civil society** | \            | X         | X         |
++-------------------+--------------+-----------+-----------+
+:::
+
+\
+While network forms of regulation benefit from being flexible and responsive to emerging needs they can be susceptible to break-ups due to their voluntary nature. Non-state market-driven forms of regulation that can take place at the level of individual firms or industries such as the use of codes of conducts, customer charters, standards, accreditation or offsets, can be limited in their effect by being contigent on economic rationales and market conditions.
+
+Government actors therefore hold unique resources in the regulatory landscape, including through the ability to regulate via hierarchical, market and network modes. They are also being subject to public democratic oversight and accountability (Abbott, 2012). These functions are difficult, if not impossible, to replicate by other actors in many cases (Duit, 2018). At the same time and acknowledging some of the limitations of hierarchical-only approaches such as long lead times, government simultaneously enabling other forms of effective regulation where being undertaken by other actors and equipping quasi-regulators, can help more effectively drive the delivery of a more circular UK economy.

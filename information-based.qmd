@@ -1,0 +1,171 @@
+---
+title: "{{< fa circle-info >}} Information-based tools"
+---
+
+# Summary
+
+::: {.callout-note collapse="false" appearance="simple" icon="false"}
+Moving towards a more circular economy in the UK presents new data needs, challenges and opportunities. These exist from micro-level interactions in purchasing and capital allocation decisions to the macro-level as an input into opportunity scanning and setting direction with central government policies. Across these needs, high quality, reliable, relevant and timely data are frequently sought. Being in the centre of information and knowledge networks as well as having the ability to regulate hierarchically means central and local government actors can have a key role in filling many data gaps (Hood, 1983; Duit, 2019).
+
+Information-based policy instruments seek to create boundary conditions to smoothe socio-technical transitions by influencing knowledge, resolving information-market failures and equipping quasi-regulators (Circle Economy, ). Information-based approaches are diverse covering different directions of flows between actors and include: mandating information disclosure with this information then presented on labels or in registers in any attempt to resolve information asymmetries between actors; the provision of guidance to resolve information gaps; and the regulation of environmental 'claims' such as made in advertising regarding the performance of products and organisations.
+
+Overall, information-based instruments are an important part of a circular-economy policy framework, though their effects alone are likely to be small.
+:::
+
+# How it works and current applications
+
+::: {.callout-note collapse="true" appearance="simple" icon="false"}
+## Mandated information disclosure
+
+Mandated[^1] information disclosure involves government mandating the reporting and public disclosure of information regarding specific activities or the environmental performance of an organisation or product (Blackman *et al*. 2004). This follows the logic that by reducing information asymmetries such as between producers and consumers regarding the expected lifespans of products or ease of product repair, those responsive to this information will be pulled towards environmentally-improved decisions and, in turn, the market will supply these.[^2] Key routes for information to be made available are via labels, [marking](https://www.rdcenvironment.be/wp-content/uploads/2017/11/2665-Ministrie-Infra-Milieu-Ecodesign-1.pdf) and information registers.
+
+Disclosure can be mandated by the state, though increasingly non-state actors are involved in various forms of information governance e.g. the Carbon Disclosure Project.
+
+There are already a range of voluntary and mandatory labels relevant to the environmental performance of products in the UK and further afield. Environmental labelling generally relies on one of three types of communication ([OECD, 2016)](https://www.oecd.org/env/labelling-and-information-schemes.htm): 1) environmental seals/endorsements based on certification; 2) comparative multi-tier ratings; or 3) comparative complex reporting approaches such as footprinting.
+
+The UK Pollution Release and Transfer Register (PRTR) implements the PRTR (Kiev) Protocol and UK PRTR legislation ([Defra, 2012](https://www.gov.uk/guidance/uk-pollutant-release-and-transfer-register-prtr-data-sets)) and makes publicly available point-source data going back to 2007 on pollution releases to air, water and soil above a set threshold by industrial or business facilities required to report to regulators ([Defra, 2020](https://consult.defra.gov.uk/airquality/uk-prtr-2021-draft-nir/)). Another example of a public register is the 'Material Facilities' data published by the respective Environment Agencies of the UK governments is another example.
+
+We consider voluntary information disclosure here.
+:::
+
+[^1]: While disclosure can be mandated by the government, disclosure systems have been increasingly developed or maintained by non-government actors such as EMF.
+
+[^2]: We look in particular at labels and information registers and do not consider in detail regulations mandating information disclosure by the state e.g. the Freedom of Information Act 2000 and Environmental Information Regulations 2004, under which some freedom of information requests can be handled.
+
+::: {.callout-tip collapse="true" appearance="simple" icon="false"}
+### Advice and communications campaigns
+
+Guidance provision involves information being made available to institutional actors like firms or local authorities such as on effective end-of-life treatment, as well as information, education and awareness-raising programmes aimed at the general public.
+
+Differ by the intended recipient.
+
+Suasory component with communications campaigns.
+:::
+
+::: {.callout-important collapse="true" appearance="simple" icon="false"}
+## Regulation of 'claims'
+
+This involves regulation by the government of flows of information between private actors. For example, in October 2021, the UK's Competition and Markets Authority (**CMA**) published its [final guidance](https://www.gov.uk/government/publications/green-claims-code-making-environmental-claims) on misleading green claims.
+:::
+
+# Performance
+
+## Strategic fit
+
+## Effectiveness and efficiency
+
+### Effectiveness
+
+Informational strategies have long been central to attempts to promote pro-environmental behaviour, however while some studies have found environmental knowledge plays a role in pro-environmental behaviours (e.g. Bartkus et al. 1999), others have found environmental knowledge to have no effect (e.g. Pedersen and Neegaard 2006). Knowledge-action and value-action gaps have been identified in the literature and describe disparities between individual's knowledge for the environment and their behaviour, which can importantly be influenced by economics (e.g. prices of green options being too high) in addition to other psychological and sociological factors.
+
+Information-based approaches can also take time to have an impact ([NAO, 2014](https://www.nao.org.uk/wp-content/uploads/2014/06/Using-alternatives-to-regulation-to-achieve-policy-objectives1.pdf)) and it can be difficult to anticipate how people will react to new information.
+
+The effectiveness of informational approaches depend on the quality and type of information reported, its relevance to the intended audience and the resulting capacity to change business behaviour (Sunstein, 1999).
+
+The potential impact of information-based instruments will depend on the type of information and its salience, while it will be parameterized by how embedded that information becomes in the decision-making processes of users and disclosers.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+## Read more
+
+[2019 Eurobarometer survey](https://ec.europa.eu/commfrontoffice/publicopinion/index.cfm/survey/getsurveydetail/instruments/special/surveyky/2238) covering EU energy label, confirmed that 93% of the population recognised the energy labels, and that 79% of Europeans had been influenced by the label when purchasing an appliance.
+
+Generally good evidence they have driven change in the EU's energy efficiency of labelled products when used in unison with standards.
+
+SQW Consultancy (2007) concluded eco-labelling and minimum energy performance standards have been effective in increasing energy efficiency in household appliances in the EU, but that labelling alone would not have been effective.
+
+[European Commission (2018)](https://ec.europa.eu/info/sites/info/files/ec_circular_economy_final_report_0.pdf) -- Evidence from literature reviews, stakeholder intervals, focus groups and experiments showed improved information at the point of purchase was effective at promoting circular economy behaviours. Nudges informing consumers of benefits and norms of buying durable/reparable products increased salience of CE characteristics and triggered shifts in preferences towards more durable/reparable products. When durability or reparability info was provided in experiments, consumers were almost 3 times more likely to choose products with the highest durability on offer, and more than two times more likely to choose products with the highest reparability ratings. Depending on how durability/reparability information was presented, willingness-to-pay for an additional year of durability ranged between 20-36 euros for vacuum cleaners and dishwashers, 92-148 for TVs and 148-217 for smartphones. Improved reparability ratings were around 29-54 euros for vacuum cleaners, 83-105 for dishwashers, 77-171 for TVs and 48-98 for smartphones.
+
+A 2016 study commissioned by the European Economic and Social Committee used a stated choice experiment in a simulated online retail platform to assess the influence of lifespan labelling on consumer purchasing choices for 9 product categories in four regions under different price scenarios. All types of labels examined were found to affect stated purchase decisions, and on average, sales of long-lived products increased by 14% relative to shorter lived products in the same class. All product groups with exception to televisions were affected, varying from sales of longer-lived products increasing by 24% for suitcases to 11% for smartphones, influenced by the expected replacement rate of these different products. The anomaly for televisions was explained by limited variation across the products proposed.
+
+[European Economic and Social Committee (2016)](https://www.eesc.europa.eu/resources/docs/16_123_duree-dutilisation-des-produits_complet_en.pdf) *-* An experimental study on the influence of Lifespan Labelling on Consumers with a sample of 2,917 participants across four different European regions (France, Spain, Czech Republic, and Benelux)  and using a dummy retail website to test the effects of lifespan labelling across nine product categories (including suitcases, printers, coffee makers, vacuum cleaners, smartphones, televisions and wash machines) and 10 variations of each, found lifespan labelling had an influence on purchasing decisions in favour of products with longer lifespans. On average, sales of products with a label showing a longer lifespan than competing products increased by 13.8%. Though a significant influence was evident for eight of nine product categories tested, this effect was not uniform across the products purchased, with simulated purchase of televisions not significantly affected by environmental labelling. Suitcases and printers were the products for which labelling had the greatest effect, while smartphones and televisions saw the weakest impact (+11.4%). 90% of respondents were happy to pay more for a similar product with a lifespan that was 2 years longer. On average were willing pay to 102 Euros for this assurance for a dishwasher priced between EUR 300 and EUR 500. Out of four labels tested: 1) a label showing useful lifespans in terms of cycles, page yield; 2) a label showing lifespan in years or months; 3) a label showing cost per year; and 4) a label similar to the energy label, with a scale from A to G. The labels appearing to be particularly effective were 4 (+20.4%) and 2 (+14.1%). Issues with the study are that samples haven't been based on quotas, and the experimental approach involved limiting the variable to durability labels, while holding constant all else. Thus hasn't allowed for trading off with other attributes outside of price.
+
+[Erskine and Collins (1997)](https://link.springer.com/article/10.1023/A:1018552000651) - Little evidence had been seen in the effectiveness of European Commission eco-labels for paper products put in place in 1992.
+
+[Gaspar and Antunes (2011)](https://www.sciencedirect.com/science/article/pii/S0301421511006549) -- Research across several EU nations found energy efficiency was the fourth most important attribute after cost, quality and the price-quality tradeoff. Thus, while eco-labels provide desired information, such information is still less important than more traditional product attributes.
+
+Kerret and Gray (2007) - Difficult to measure effectiveness of PRTRs in the Anglo-countries for Industry chemicals absolutely, but can assess relatively between these countries that there is substantial variance in systems across countries and that the presence of a PRTR does not automatically lead to reduce emissions. The focus on risks across these are not necessarily correlated to emissions. Found that US and English system saw consistent reductions in chemicals released into the atmosphere, Canada saw a mix and Australia a rise after PRTR instituted - variable effect. Response strongest in US.
+
+Matisoff (2013) finds neither state disclosure programmes or the Carbon Disclosure Project (form of civil regulation) in the USA has had a positive impact on carbon intensity or carbon emissions. Considers there may still be a role for ID in conjunction with other policy tools.
+
+[WRAP (2019](http://www.wrap.org.uk/sites/files/wrap/Env%20Sust%20Product%20Purchase%20Decisions_0.pdf)) - The influence of environmental information may be product dependent. For instance, while a lifespan label influenced choices of washing machines and coffee makers, it did not influence choice of televisions ([Jahnich *et al.* 2016](https://www.researchgate.net/figure/Different-designs-of-lifespan-labels-used-in-the-trial-Jahnich-et-al-2016_fig2_334051537)). The addition of running costs to the EU Energy Label was not more effective than just the energy label for vacuum cleaners, fridge freezers or washing machines, but more effective for tumble-dryers ([Kalkbekken *et al.* 2013](https://link.springer.com/article/10.1007/s10603-012-9211-z)) and washer-dryers ([DECC, 2014](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/350282/John_Lewis_trial_report_010914FINAL.pdf)).
+
+A 2023 study by Kantar examining 107 pieces of evidence concluded there is limited evidence of ecolabels greatly influencing consumer and business behaviour, though what data there is shows a small but positive effect ([Kantar, 2023](https://sciencesearch.defra.gov.uk/ProjectDetails?ProjectId=21231)).
+
+An example in Germany is expanding resource efficiency advice for businesses under the ProgRess programme and contracted out to VDI ZRE - whose product included sector-specific aids, methodologies and information such as resource efficiency checks and process systematisation tools to assist manufacturing enterprises with internal resource efficiency improvement projects. One objective of ProgRess I was the expansion of resource efficiency advice for businesses. Since 2009, with National Climate Initiative funding, BMU/BMUB has contracted out the activities of a Competence Centre for Resource Efficiency. The contract was awarded in 2009, 2012 and 2015 (up to 31 May 2019) to VDI ZRE.
+:::
+
+### Cost-effectiveness and efficiency
+
+Energy eco-labelling introduced in Europe in 1995 covering 14 domestic and commercial product categories. Goal has been to promote products with better environmental performance on a voluntary basis. Recognized as a (cost) effective policy in driving energy efficiency ([TopTen International Services, 2012](https://storage.topten.eu/source/files/Swiss_appliance_market_analysis_and_recommendations.pdf)) in conjunction with ecodesign, in particular.
+
+## Affordability and feasibility
+
+## Long-run effects
+
+## Distributional effects
+
+## Positive and negative spillovers
+
+Secondary Effects: 1) Firm-level learning through 'environmental audit effect' - Enhancing firms' internal learning through providing information that counteracts organizational failure (Blackman, Afsah and Ratunanda, 2004; Lee 2010; Lee et al. 2013). This has to combine with external pressure through making the information public to motivate abatement, as found in Indonesia for the PROPER programme between 1995-8.
+
+# Conditions for effectiveness
+
+A necessary condition for ID's effectiveness is that information becomes embedded in the decision making processes of both users and disclosers and lead to positive improvements in their environmental performance (Weil et al. 2006). It does not automatically result in change and rather must I've rise to behaviour change at several levels.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+## Read more
+
+There are several channels through which information disclosure may affect environmental performance (Kathuria, 2009).In product markets, consumers may substitute more with less environmentally damaging products if informed about their environmental damage (or correlating aspects such as product durability) and alternatives are available, though this depends on availability of substitutes, price differences, preferences and elasticity of demand. Only a small group of consumers who have environmental concerns make decisions based on protecting the environment, with this especially the case when there is a difference in cost. Demand for a firm\'s securities may be impacted if information is available which indicates a poor environmental track record and potential susceptibility to future regulatory risks. Information disclosure can be an important channel through which investors who have preferences for more environmentally performative companies realise this, while banks may be cautious about extending credit to environmentally polluting firms based on possible liabilities identified through information-based approaches. There may also be some effect of information disclosure via labour markets from employees who wish to work for environmentally conscientious employers, and employers seeking to respond to this. Civil regulation enabled by information in contexts where legislation seems inadequate may result in greater demands from communities and NGOs for additional legislation, while reputational costs might be associated with the likes of protesting. Internal demand within firms to \'keep up\' through governance by comparison may be present. Effects of information-disclosure can include firm-level learning through \'environmental audit effect\'.
+
+A necessary condition for the effectiveness of information disclosure is that information becomes embedded in the decision-making processes of both users and disclosers. Simply mandating the disclosure of information won\'t automatically lead to environmental improvements as behaviour changes will be contingent on the design of the disclosure scheme - how information is collected, disseminated and processed and how useful and legitimate this information is seen to be. Informational approaches depend on the quality and type of information reported, its relevance to the intended audience and the resulting capacity to change producer and consumer behaviour. Information disclosure can fail to bring about substantive improvements in environmental performance and/or quality as a result of ineffective translation e.g. information being difficult to understand or to access (Bae, Willcoxen and Pop, 2010). Effective information disclosure often needs to occur in conjunction with meta-regulators which increase transparency of information and convey information in more pertinent ways. Unresponsive consumers, capital and insurance markets due to a lack of preference for higher environmental quality will inhibit effectiveness as there is limited incentive for firms to change. Responsiveness of these actors depend on characteristics of the pollutant or environmental issue that information is being disclosed regarding, with those more tangible and salient likely to see greater response. Firms must also be willing and capable to respond to external/internal pressures, which can be limited if they hold monopoly positions of any sort e.g. there being limited employment or product alternatives.
+
+Won't automatically lead to improvement. Conditions under which information disclosure will lead to substantive improvements in firm environmental performance. The potential impact of information-based instruments will depend on the type of information and its salience, while it will be parameterized by how embedded that information becomes in the decision-making processes of users and disclosers.
+
+A necessary condition for the effectiveness of information disclosure is that information becomes embedded in the decision-making processes of both users and disclosers. Simply mandating the disclosure of information won't automatically lead to environmental improvements as behaviour changes will be contingent on the design of the disclosure scheme - how information is collected, disseminated and processed and how useful and legitimate this information is seen to be.
+
+Responsiveness depends on characteristics of the pollutant considered - those more tangible and salient likely to see greater response;
+
+Design of Disclosure Scheme - How information is collected, disseminated and processed, lending to how useful and legitimate (e.g. risk-weighted, user-friendly) it is seen to be etc. Informational approaches depend on the quality and type of information reported, its relevance to the intended audience and the resulting capacity to change producer and consumer behaviour. Information disclosure can fail to bring about substantive improvements in environmental performance and/or quality as a result of ineffective translation e.g. information being difficult to understand or to access (Bae, Willcoxen and Pop, 2010).
+
+External Context - Market context: where consumers and investors are responsive to information, Civil society context: with the capacity and freedoms to effectively use channels (Mol, 2009), Governmental context: mechanisms for externality resolve and facilitating information disclosure.
+
+Unresponsiveness of quasi-regulating consumers, employees, capital and insurance markets due to lack of alternatives e.g. if firms that are being reported on are also major employers and there are few employment alternatives (e.g. Tata in India) or due to a lack of preference for higher environmental quality (e.g. Mennemeyer, Morrisey, and Howard (1997) found consumers unresponsive to information about hospital mortalities.
+
+Effective information disclosure often needs to occur in conjunction with meta-regulators which increase transparency of information and convey information in more pertinent ways. Unresponsive consumers, capital and insurance markets due to a lack of preference for higher environmental quality will inhibit effectiveness as there is limited incentive for firms to change. Responsiveness of these actors depend on characteristics of the pollutant or environmental issue that information is being disclosed regarding, with those more tangible and salient likely to see greater response.
+
+Meta-regulators such as PRI play an important role in giving incentives to firms to report which cover both demand-pull and cost-push incentives. Governments also often play a mediating role in ensuring that information provided by firms can reach consumers or is in a standardised form to allow for comparison.
+
+Firms must also be willing and capable to respond to external/internal pressures, which can be limited if they hold monopoly positions of any sort e.g. there being limited employment or product alternatives.
+
+Manufacturers have been found to be providing incorrect information on labels, [highlighting](http://www.atlete.eu/doc/ATLETE%202nd%20PRESS%20RELEASE%20June2011_final.pdf) need for strict monitoring and verification which has [since](http://www.eepliant.eu/) been put in place in the EU. [Gavertsson *et al.* (2018)](https://link.springer.com/article/10.1007/s10603-018-9397-9) - Investigated the potential of establishing a comprehensive labelling scheme for ICT products, covering criteria on product quality, as a way of supporting the uptake of re-used and remanufactured products in Sweden through structured interviews and literature review. Established that comprehensive labelling for electronic products has the potential to be a useful policy instrument for increasing reuse. Identified a tradeoff between information communicated by a label of re-used and remanufactured ICT products and the costs to cover and verify these.
+:::
+
+## Design and implementation considerations
+
+Sequencing in relation to other instruments also important. When eco-design performance requirements were introduced in 1999 in the EU, this weakened consumer comprehension of labels as, for instance, now the worst refrigerators were rated A+ rather than G. Resolved by adding categories first and then scheme rescaled later. The need for rescaling. Menanteau (2000) recommends introducing labels initially to induce manufacturers to adapt and lessen the disruption associated with the subsequent introduction of performance standards to instigate a step change in removing the most inefficient policies. When eco-design performance requirements were introduced in 1999 in the EU, this weakened consumer comprehension of labels as, for instance, now the worst refrigerators were rated A+ rather than G. Resolved by adding categories first and then scheme rescaled later. The need for rescaling should be anticipated to ensure salience and also to increase their innovatory effect.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+## Read more
+
+[Bawden and Robinson (2008)](https://journals.sagepub.com/doi/abs/10.1177/0165551508095781) - Need to ensure information is understandable. An issue highlighted is one of overload, where the information is too much for an individual and it is discarded. There is a real risk of this being the case by adding both an energy efficiency and material efficiency scale (already confusion highlighted in surveys -- [Waechter *et al.* 2015](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134132)).
+
+[Waide *et al.* (2013)](https://www.eceee.org/library/conference_proceedings/eceee_Summer_Studies/2013/6-appliances-product-policy-and-ict/the-new-energy-label-assessing-consumer-comprehension-and-effectiveness-as-a-market-transformation-tool/2013/6-124-13_Waide.pdf/) - Assessment of new EU energy labels found the new scale, use of colour, efficiency classification and energy consumption information all assisted comprehension. Room for public education about interpreting the labels however. Better to rescale existing classes than to add new classes as was done in the EU.
+
+[European Environmental Bureau (2015):](http://makeresourcescount.eu/wp-content/uploads/2015/07/Durability_and_reparability-report_FINAL.pdf) If a comparative label is adopted, it could be graded on a sliding scale of durability, reparability or lifecycle resource use and an appropriate rating scale is therefore needed. Have to think carefully about what data we want the label to include. Criteria for a comparative label might include: 1) **reparability** (e.g. availability of spare parts, repair tools and information for repairs); 2) expected product **lifespans** or the lifespan of key components, the length of product guarantees; 3) **upgradability** of parts, model, version and brand compatibility; 4) existence of **hazardous substances** e.g. polybrominated biphenyls in circuit boards; 5) **material use** i.e. the quantity of materials required for the product. Alternatively, could be presented as an expected product lifespan alone (elicited from firms who are then required to offer a warranty for that period) or annual cost given this expected lifetime (helps standardize).
+
+[JRC (2016)](https://publications.jrc.ec.europa.eu/repository/bitstream/JRC100785/lb-na-27793-en-n%20(final).pdf) - In a study of material efficiency measures, highlighted it is desirable that EU Ecolabel criteria and Ecodesign requirements are built upon technical analyses of the same features as well and designed as complementary tools to ensure the consistency of diverse policy objectives.
+
+Identified 'hot spots' or features and characteristics of products that could be improved to facilitate repair, reuse and recycling e.g. the design of battery packs for laptops or for electronic displays, the accessibility to components. Assessing products based on these hot spots could produce a material efficiency score. e.g. the Blue Angle criteria for computer batteries: 1) for life cycle extension focus on whether rechargeable batteries are available for a period of five years from the end of production; 2) for design for recyclability -- batteries should be easy to disassemble; 3) for end of life management -- information should be provided that batteries should not be disposed of with normal household waste.
+
+[Langley *et al.* (2012)](https://ec.europa.eu/energy/sites/ener/files/documents/2012-12-research-eu-product-label-options.pdf) -- In a comparison of the effectiveness of different environmental sustainability information in choice experiments and experimental auctions, found the WTP for washing machines with Energy Labels that had additional carbon footprint data was higher than for machines with an EU Energy Label capturing other impacts. Found adding just one other element of information more effective than several.
+
+[Newell and Siikamaki (2013)](https://www.nber.org/papers/w19224) found through a choice experiment with alternative labels, that energy efficiency labels were more effective in altering consumer choice when emphasizing cost savings versus physical energy use or carbon emissions. Nevertheless, other analysis e.g. that commissioned by WRAP (2019) on the effectiveness of providing information in encouraging sustainable purchase decisions arrived at the opposite conclusion, finding that although there was robust evidence that energy consumption information can influence purchase behaviour (particularly for the EU Energy Label but varying with other labels and primarily in experimental studies vs. revealed preferences), there was more contested evidence that information on monetary running costs had a positive impact on purchasing decisions.
+:::
+
+# Prospective applications in UK CE framework
+
+Overall, information-based instruments are a crucial yet insufficient component of a circular-economy policy framework. They must therefore be introduced alongside other instruments.
+
+Harrington (2012) found facilities in US states increased pollution prevention where reporting requirements existed alongside C&C more so than those that did not, however meaningful pollution reductions still remained out of reach, meaning other interventions were needed.
+
+[SQW Consultancy (2007)](http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&cad=rja&uact=8&ved=2ahUKEwiJgdWB1oLmAhU1QUEAHarkBjwQFjAEegQICRAC&url=http%3A%2F%2Fsciencesearch.defra.gov.uk%2FDocument.aspx%3FDocument%3DEV02035_5684_FRA.pdf&usg=AOvVaw26GxD1h2st7kMdE-Q8XFBC) explored the relationship between environmental regulation and ecodesign regulation. Found a shift in sales towards more efficient production following labels and in anticipation of performance standards being introduced in the EU. Both forms of regulation can support each other, with labels stimulating innovation and encouraging more efficient products, while standards contribute to the gradual removal of most inefficient products from the market. Concluded eco-labelling and minimum energy performance standards have been effective in increasing energy efficiency in household appliances in the EU, but that labelling alone would not have been effective.

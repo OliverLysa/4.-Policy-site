@@ -1,0 +1,285 @@
+---
+title: "{{< fa handshake-angle >}} Voluntary instruments"
+---
+
+# Summary
+
+::: {.callout-note collapse="false" appearance="simple" icon="false"}
+Voluntary environmental instruments has been used increasingly in the UK since the 1990s, including as part of a wider trend towards 'better regulation' (NAO, 2014). A key motivation for their use is achieving sought outcomes without the need for additional regulation, and in some cases sidestepping inertia that can be associated with the policy-making process. Voluntary approaches can be introduced as an alternative to regulation or as a supplement to it (Delmas and Terlaak, 2002). There are examples of voluntary approaches achieving positive change in the UK in relation to CE objectives and those wider, suggesting these can be made to work when well-designed and targeted ([OECD, 1999](https://www.oecd-ilibrary.org/environment/voluntary-approaches-for-environmental-policy_9789264180260-en)). Voluntary approaches can help address regulatory and data gaps - in some cases with rapidity - and help encourage beyond-compliance improvements to deliver positive net-benefits (Wrap, 2023).
+
+While effective design and coordination can overcome some barriers to voluntary action, the effectiveness of voluntary approaches can be curtailed by economic limits to voluntarism along with a lack of enforceable commitments and scope for non-interaction or free-riding. A willingness to refrain from regulatory approaches in favour of those voluntary may run the risk of reducing government negotiating power in delivering objectives ([Rennings *et al.* 1997](https://www.econstor.eu/bitstream/10419/29409/1/227844114.pdf)). Voluntary approaches should be viewed as a useful complement in a policy mix for CE-related change when well-designed and in the right context (these conditions are further explored here), but not be relied upon solely nor replace existing regulations.
+:::
+
+# How it works and current applications
+
+Voluntary approaches can be defined as: public or private efforts to improve environmental performance in the absence of a binding legal mandate[^1] and be categorised into (Paton, 2001; OECD, 2003):
+
+[^1]: This is not to say that government is not involved however. 40 voluntary environmental programs in the building sector in Australia, the Netherlands, Singapore and the US, were found to involve governments in nearly (95%) of these (van der Heijden, 2015).
+
+::: {.callout-note collapse="true" appearance="simple" icon="false"}
+## Unilateral initiatives
+
+Involving actions within a single firm that can be expanded through e.g. supply-chain integration (where firms require suppliers to subscribe to similar practices) as well as household voluntary action like purchasing offsets.
+:::
+
+::: {.callout-tip collapse="true" appearance="simple" icon="false"}
+## Voluntary industry standards
+
+Private codes of conduct to improve firm performance promoted by standardisation or non-governmental organisations e.g. the ISO 14000 environmental management system series or the European-level Eco-Management and Audit Scheme (EMAS).
+:::
+
+::: {.callout-important collapse="true" appearance="simple" icon="false"}
+## Public voluntary challenges
+
+Programmes promoted or supported by public authorities which encourage firms, households or other institutional actors to improve environmental performance. For example, London's Food Purchasing Commitment 'developed by ReLondon, London borough of Hackney and Sustain: The alliance for better food and farming, in collaboration with a Working Group of 21 #Londonboroughs, and as part of London Councils' One World Living programme to reduce the climate impact of London's food system' ([ReLondon, 2023](https://relondon.gov.uk/latest/hackney-hounslow-lambeth-and-newham-councils-pave-the-way-in-londons-food-system-transformation)). Alternatively, proposed voluntary food waste reporting by Defra.
+:::
+
+::: {.callout-caution collapse="true" appearance="simple" icon="false"}
+## Voluntary agreements
+
+Contractual or non-binding agreements developed through dialogue between public authorities or voluntary groups on one hand, and firms on the other to achieve certain objectives ([Defra, 2018](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/765915/rws-evidence-annex.pdf)). Examples include the UK Plastics Pact and Textiles 2030 brokered by Wrap, as well as 'climate change agreements' made between industry and the Environment Agency to reduce energy use and CO2 emissions.
+:::
+
+Of these, we look in most detail at voluntary industry standards (VIS) and voluntary agreements (VAs).
+
+# Performance
+
+## Strategic fit
+
+Interest in voluntarism grew in the 1990s in the UK in particular, given impetus by perceived limits to regulatory approaches such as associated compliance and exchequer costs, calls by industry for greater flexibility and with the hope that it could spur beyond-compliance outcomes (Moffet and Bregha, 1999). Today, voluntary action is explicitly or tacitly encouraged by UK governments across a range of directly and indirectly areas, suggesting a high level of 'strategic fit' with current government preferences.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+## Read more
+
+For instance,
+
+-   There has been a push for greater consideration of the potential of extra-regulatory options to achieve objectives across governments in the UK in recent years. Consideration of non-regulatory options is also a requirement as part of UK Regulatory Impact Assessments (HMT, );
+-   Powers were sought in the Welsh Government's Environment (Wales) Act 2016 by Natural Resources Wales to enter into voluntary agreements with land owners regarding land management practices (Wales Government, 2016);
+-   Scotland's SEPA has a programme of Sustainable Growth Agreements (SGAs) - formal voluntary agreements between SEPA and (an) organisation(s) focussing on delivering 'environmentally positive outcomes' ([SEPA,](https://www.sepa.org.uk/one-planet-prosperity/sustainable-growth-agreements/))[^2];
+-   Northern Ireland's Environment Agency have, since 2014, introduced 'Prosperity Agreements' with a range of stakeholders to reduce environmental impacts and currently has in place 4 such agreements ([DAERA,](https://www.daera-ni.gov.uk/articles/prosperity-agreements)); and
+-   Defra's Resources and Waste Strategy references ongoing engagement with Wrap to support a number of VAs including the Sustainable Clothing Action Plan (SCAP) as well as the aim to 'we will consider how best Government can continue to support voluntary industry action' in that context. Defra's 2021 Draft Waste Prevention Programme proposes fostering industry action via trade associations, voluntary agreements and industry standards through encouraging sharing of best practices, while a 2011 review of waste management policy and in relation to packaging, highlighted 'voluntary action is also an important driver of behaviour change' ([Defra, 2011](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/69401/pb13540-waste-policy-review110614.pdf)).
+
+A tenet of 'smart regulation' as encouraged by European Commission as a means 'to harness all actors to go beyond direct regulation' (European Commission, 2013) encourages the application of less interventionist approaches initially, thereafter expanding out in a responsive way to instruments associated with a higher degree of coercion (Gunningham 2009).
+:::
+
+[^2]: Though the SGA principles emphasise these augmenting rather than replacing SEPA's regulatory work ([SEPA,](https://www.sepa.org.uk/media/286873/sga_guiding_principals.pdf))
+
+## Effectiveness and efficiency
+
+### Effectiveness
+
+From the perspective of government, voluntary agreements can lend rapidity to the advancement of environmental performance without legal impasse, argued to have been the case with the Courtauld Agreement in the UK for regulating food waste (Goodwin, 2015).
+
+The gross effectiveness of a given voluntary instrument can be measured on the basis of (Borck & Coglianese, 2009; Coglianese and Nash, 2016): 1) the number of participants; 2) the average effect per participant; and 3) spillover effects.
+
+::: {.callout-tip collapse="true" appearance="minimal" icon="false"}
+## Read more
+
+### VAs
+
+There is evidence of VAs achieving impact. Wrap introduced its first VA in the UK in 2005 and since, has overseen the introduction of several further agreements which have been reported to achieve improvements in their areas of focus. The UK Plastics Pact - a collaboration between 68 retailers, brands, makers of packaging and waste and recycling companies - introduced in 2018 was reported to have achieved an 84% reduction in problematic and unecessary plastics between 2018-21 in unit terms, and a 57% reduction in those products in mass. Further, businesses taking part have been reported to have a higher level of recycled content and use less plastic than the industry average. The Pact also introduced a target for all plastics packaging to be either reusable, recyclable or compostable by 2025.
+
+England's Environment Agency also reported improvements through the VAs organised to reduce industrial emissions. For instance, 'there was a 17% reduction in overall emissions reported during TP4 from the 53 sectors in the CCA scheme.' ([EA, 2023](https://www.gov.uk/government/publications/climate-change-agreements-cca-biennial-report/climate-change-agreements-biennial-progress-report-for-2019-and-2020)).
+
+Courtauld 2025 (C2025) aims to achieve a 20% per capita reduction in UK food and drink waste associated with production and consumption by 2025, relative to 2015 levels. 2018 data appears to show progress is on track to achieve this objective: 'per capita food waste generated in the United Kingdom, including inedible parts, fell by approximately 7% between 2015 and 2018, from 154 kg to 143 kg. In the same period, it is estimated that there has been a 7% per capita reduction in annual GHG emissions associated with food and drink consumed in the United Kingdom' ([Defra, 2022](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1120055/resources-and-waste-strategy-monitoring-progress-third-edition.pdf)).
+
+VAs have been shown to deliver benefits elsewhere. For instance, the Dutch Target Group Policy, comprising a series of negotiated agreements with industry has been generally regarded as successful in achieving emission reductions. Asensio & Magali (2017) find participants in the US Department of Energy's Better Building Challenge programme in LA, which provides energy audits to support US commercial and industrial building owners who commit to reducing energy and water consumption, achieved energy savings of 18.7% via building technology upgrades. A key argument put forward for the effectiveness of VAs relates to the rapidity with which they can achieve objectives. Goodwin (2015) and Sitra (2019) argue that voluntary instruments such as VAs and VIS can offer a faster way to bring about action by avoiding the legal process (Goodwin, 2015; Sitra, 2019).
+
+However, not all studies paint the effectiveness of VAs in such a positive light. In a meta-study of UK VAs, [McCarthy and Morling (2015)](https://www.rspb.org.uk/globalassets/downloads/documents/positions/economics/using-regulation-as-a-last-resort.pdf) found 82% of reviewed VAs scored poorly in relation to either: 1) level of uptake (participation rate); 2) target ambition (the stringency of the targets relative to the policy objective); or 3) target achievement (the extent to which voluntary targets are realised). A 1999 review by the OECD found that although 'stipulated environmental targets are generally met, the achievement is \[often\] driven by factors other than the agreement itself -- in other words firms would have done what the agreement stipulates even in its absence.' ([OECD, 1999](https://www.oecd-ilibrary.org/environment/voluntary-approaches-for-environmental-policy_9789264180260-en)).
+
+There is also a need to consider the activities of non-signatories by comparison to understand the overall impact and approximate the 'do nothing' option. Berlin and Prakash (2015) find participants in the Global Compact perform worse than non-participants on costly environmental and human rights performance aspects and show improvements on only more superficial dimensions. Marx and Cuypers (2010) found the Forest Stewarship Council (FSC) had a limited impact in halting deforestation, not least because of the limited number of countries with FSC certification, particularly, large developing ones with significant forest areas experiencing high rates of forest degradation and loss. The EU's negotiated CO2 agreements with car-makers were not on track to meet required targets and have since been replaced by standards.
+
+Regarding average effects per participant, for negotiated agreements in particular, regulations/standards may need to be set at the level of the lowest common denominator, retarding the development of more ambitious environmental policy. One critique is that VAs may perversely recognise the wrong firms, with such adverse selection occurring as a result of firms seeking to 'gain signaling and insurance benefits without putting forth the required effort' (Lenox and Nash 2003: 344). In the UK context, [Morakinyo and Stathopoulou (2021](https://doi.org/10.1093/oep/gpaa018)) found that firms with lower levels of environmental efficiency received higher CCA tax discounts ([Morakinyo and Stathopoulou, 2021](https://doi.org/10.1093/oep/gpaa018)).
+
+The EMF's "Global Commitment" voluntary initiative for companies to reduce single-use plastic showed in its most recent annual report that members have made limited progress in reducing virgin plastic use since 2018 and with a high likelihood of missing 2025 targets for reusable, recyclable and compostable packaging ([EMF, 2022](https://ellenmacarthurfoundation.org/global-commitment-2022/overview)).
+
+A [2011 review](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/69500/pb13548-economic-principles-wr110613.pdf) of the effectiveness of voluntary agreements in the publication 'the Economics of Wase and Waste Policy' found 'empirical evidence suggests that voluntary approaches are not likely to be as effective as pricing instruments in delivering significant behaviour change'.
+
+Defra's Resources and Waste highlights the activities of 'VinylPlus' - a European-wide Industry voluntary commitment representing the whole value chain of the PVC industry and with the aim of achieving 800,000 tonnes recycled annually across Europe by 2020. Though this figure was missed in the target year, it has since been reached in 2021 and 2022 ([VinylPlus, 2023](https://www.vinylplus.eu/our-achievements/progress-report-2023/pathway-1/)), with an estimated 35% recycling rate now estimated to be achieved across Europe and reduction in the emissions intensity and energy consumption of production of 14.4% and 9.5% between 2007-08 and 2015-16. The scheme has also further developed recycled PVC measurement systems by tracking both how much PVC waste has been recycled by recyclers and converters and how much recycled PVC has been used in new products.
+
+### VIS
+
+EMS such as the ISO 14000 series are arguably the most widely adopted form of voluntary corporate environmental policy (Darnall, 2008), with x certifications issued globally. These function by seeking to embed specific practices in firm operations such that environmental protection become integral to activities (Darnall, 2008). The success of their uptake has been attributed to their flexible, procedural-based approach given they do not specify substantive improvements (Testa et al. ).
+
+EMAS is a 'voluntary EU environmental management scheme to enable organisations to evaluate, report and improve their environmental performance.' introduced by Regulation (EEC) No 1836/93 ([European Court of Auditors, 2023](https://circulareconomy.europa.eu/platform/sites/default/files/2023-07/Court%20of%20Auditors%20CE%20Report_SR-2023-17_EN.pdf)). A 2017 review by the European Commission found that 'although registered organisations generally benefitted from EMAS in environmental terms, they struggled to reduce their waste generation and material consumption, which even increased in some cases' ([EC, 2017](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52017SC0253&from=EN) in [European Court of Auditors, 2023](https://circulareconomy.europa.eu/platform/sites/default/files/2023-07/Court%20of%20Auditors%20CE%20Report_SR-2023-17_EN.pdf)).
+
+There is evidence of the uptake of VIS in firms leading to a reduction in waste generated (Melynk et al. 2003), wastewater management (Darnall and Kim, 2012), resource use (Rao & Hammer, 1999), and certain emissions (Szymanski & Tiwari, 2004; Darnall, Henriquez and Sadorsky, 2008). ISO 14001 adoption led to a reduction in toxic emissions in electronic plants in Canada (Russo, 2009). A meta-analysis of 94 studies found a generally positive relationship between the uptake of ISO 14001 and indicators of improved management practice and employee awareness.
+
+However, the impacts of ISO certification have been argued to be substantively small in most cases (Coglianese and Nash, 2001) and a more ambiguous relationship between the adoption of EMS and indicators environmental performance has been found in several studies. King *et al*. (2005) found there to be no effect on environmental performance among US manufacturing firms of ISO 14001 certification. In Sweden, Zobel found no statistically significant difference between ISO certified and non-certified manufacturing firms holding for prior environmental performance, with adopting firms seeing some positive effects on energy use and waste generation/treatment, whereas non-adopting firms performed better for air emissions. Barla (2007) found worse environmental outcomes in Canadian pulp and paper mills after certification. The Europe-wide EMS (EMAS) was found to be associated with symbolic behaviour among firms in Spain examined rather than genuine performance improvements (Martín de Castro et al. 2017).
+
+This can be seen as due to several features of VIS including that targets are self-created - meaning they can be more readily limited in aspiration, including being constrained by their voluntary nature.
+
+### Public voluntary challenges
+
+Behavioural effects of Food Waste Reduction Week ( ) for those that it reached was around 60% (Wrap, 2023).
+:::
+
+Reviews have generally shown that voluntary initiatives benefit only when confined to soft issues, though this is not always the case. Reasons for a lack of effectiveness can include: scope for free-riding; non-enforceable nature of the agreements; and a lack of transparency. Voluntary approaches can be characterized by being too unambitious, with levels of abatement premised on goodwill or rational self-enlightenment. As opportunities for painless pollution prevention have been increasingly exhausted for some time (Walley and Whitehead, 1994).
+
+### Cost-effectiveness and efficiency
+
+Several studies have shown a positive net present value of voluntary agreements.
+
+::: {.callout-important collapse="true" appearance="minimal" icon="false"}
+## Read more
+
+There is a history of voluntary initiatives seeking to improve the environmental performance of textiles produced and consumed in the UK. The Sustainable Clothing Roadmap established by Defra in 2007, involved over 300 companies in an attempt to increase sustainability throughout the clothing supply chain ([Defra, 2009](https://www.thesustainablebusinessgroup.com/source/filemanager/files/Reuse_and_Recycling_of_Clothing_And_Textiles.pdf)) including through maximising the reuse and recycling of fibres. The linked Sustainable Clothing Action Plan updated in 2010 set out agreed stakeholder actions ([Defra, 2011](https://www.gov.uk/government/publications/sustainable-clothing-action-plan)) across priority areas including consumption trends and behaviour; awareness raising; creating market drivers; and improving traceability, and worked through 'coordinating' action by stakeholders. Building off these, the Sustainable Clothing Action Plan 2020 Commitment (SCAP) voluntary agreement launched in 2012 by Wrap sought to further improve the environmental and social performance of the UK clothing system. The [SCAP 2020 Final Report](https://wrap.org.uk/resources/report/scap2020-final-report) found the benefit to cost ratio of the textiles-focussed VA running to 2020 was **2:1**. The Textiles 2030 Agreement, also coordinated by Wrap was launched in 2022.
+
+Also coordinated by Wrap, VAs established as part of the Courtauld 2025 Agreement focussed on reducing waste and improving wider environmental performance in the agri-food sector (making up around 10% of UK GVA) were estimated to have a benefit to cost ratio of **6:1** with costs estimated to be in the range of 0.3-0.8Bn GBP including costs to government for sponsoring the agreement and in foregone Landfill Tax revenue ([Wrap, 2020](https://wrap.org.uk/resources/report/courtauld-commitment-2025-annual-report-2020)). This set of agreements were since replaced by Courtauld 2030 in 2021, which increased the ambition of targets ([Wrap, 2022](https://wrap.org.uk/resources/report/courtauld-commitment-2030-progress-and-insights-report-2022)).
+
+The UK National Industrial Symbiosis Programme was a free at point-of-receipt, advice and networking programme managed by a private company 'International Synergies', which sought to facilitate industrial symbiosis[^3] and identify sustainable resource management solutions for business. After the trialling of three pilot schemes in 2003 in Scotland, West Midlands and Yorkshire & Humberside, the programme received £27 million funding from Defra over three years to roll it out across nine English regions and was operational to approximately 2013 and was discontinued due to failure to establish a commercial model. Similar programmes were also initiated in Wales, N.Ireland & Scotland (SISP) ([International Synergies,](https://www.international-synergies.com/ourprojects/nisp/)). Estimated benefits of the programme from 2005-2013 in England include 47 million tonnes of landfill diversion, 42 million tonnes of CO2 reduced and 45 million tonnes of materials recovered and reused, as well as cost-savings of over a billion pounds and 10,000 jobs. Manchester Economics assessed the programme as having a cost-benefit ratio of between **32:1** and **53:1** ([Scott *et al.* 2016](https://nispcanada.files.wordpress.com/2016/06/appendix-d-nisp-economic-valuation-final-report-2009-issued-2.pdf)).
+
+In addition, there may be 'hedging' benefits to the use of VAs. In a context of uncertainty regarding potential costs of regulation, voluntary agreements can give the opportunity to begin environmental improvements with less risks of costs outweighing benefits and with greater flexibility (Defra, 2011).
+:::
+
+[^3]: An association between two or more industrial facilities or companies in which the wastes or byproducts of one become the raw materials for another (Wrap in [Resource, 2017](https://resource.co/article/industrial-symbiosis-one-mans-waste-11903)).
+
+## Affordability
+
+A widely cited benefit of voluntary approaches is government affordability. From the perspective of government, VAs 'can be set up without the need for new legislation' and therefore avoid associated resource costs including collecting information and required labour inputs (Wrap, 2021; Frey, 1997; [Bauer, Busch and Tuncer, 2023](https://www.eeas.europa.eu/sites/default/files/documents/2023/EU%20Project%20in%20Canada%20-%20Green%20Deals%20Policy%20Brief%20January%20%202023_0.pdf)). At the same time, VAs can require government funding either directly or indirectly and funding models for previous ventures generally resemble projects rather than longer-term programmes. Comparatively and for EMS, costs to government for routes by which they can leverage support e.g. via endorsement activities, are likely to be relatively small or non-existent.
+
+::: {.callout-caution collapse="true" appearance="minimal" icon="false"}
+## Read more
+
+At the same time, financial resources may be required. The costs of negotiating and administering VAs as part of the US EPA's Project XL were estimated to be \$450,000 per firm (Blackman & Mazurek (2001). The UK NISP programme was associated with an exchequer cost of £27 million public funding for NISP. When public funding was reduced, the programme was terminated despite high reported BCA.
+
+WRAP Electrical and Electronic Equipment Sustainability Action Plan (ESAP) : 'Seeks to catalyse sector action, share evidence and bring the many different stakeholders to provide tangible economic and environmental benefits' (Defra, 2014). A voluntary agreement with 74 signatories which focusses on extending product durability through design and encouraging new business models keeping products in circulation for longer. WRAP was unable to meet their business plan targets for funding from businesses and governments to progress interventions in the sector.
+:::
+
+## Long-run effects
+
+The theoretical literature emphasise the role voluntary approaches can play in driving learning and innovation.
+
+::: {.callout-warning collapse="true" appearance="minimal" icon="false"}
+## Read more
+
+A relationship between eco-innovation creation and the introduction of the German EMAS system across participating firms was found (Rennings et al. 2006). Normative shifts that arise from the use of EMS can encourage environmentally-friendly innovations, with adopting an EMS simply the first step of many in controlling firm environmental impacts (Nawrocka & Parker, 2009). In addition, as a process standard, ISO 14001 gets firms used to continual improvements and integrating incoming regulation.
+
+VAs' impacts may be felt in the longer term in response to awareness building, information sharing and capacity building (Matisoff, 2015).
+:::
+
+## Distributional effects
+
+## Positive and negative spillovers
+
+'Spillovers' are the effects on actors other than participants of VIs, which can occur through dynamics such as: the diffusion of technology; improved data, metrics and transparency; reductions in defensive expenditures by regulated parties and government legal costs; and and crowding in of intrinsic motivations (Frey, 1997).
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+## Read more
+
+In addition, can fosters positive commitments to achieve shared goals amongst firms, and in doing so reduces resistance, resentment and defensive expenditures by regulated parties, crowds in the intrinsic motivation of regulated agents and reduces governments' legal costs (Frey, 1997). Can help exploits firms' knowledge, resources and innovative capabilities, helping them develop new capabilities. Can reduces the need for mandatory regulation, its associated informational and cost requirements e.g. regarding best available processes or technologies and associated regulatory costs for governments while helping fill 'gaps' in existing regulatory systems (Blackman et al. 2012).
+
+Can be used to build state regulatory capacity e.g. Law 99 in Colombia was followed by 65 VAs which sought to establish more co-operative relationships between firms and promote information exchange between themselves and industry to advance environmental performance in the absence of well-functioning C&C regulations, while facilitating the development of regulatory capacity (Blackman et al. 2012). Also applies to new areas in which to apply regulation. Supports learning, and helps preventing Type II errors where incorrect interventions are made.
+
+Firms also can hold their supply chains to their EMS standards, alleviating pressures on government regulatory costs and extending governance beyond the remit of firms in international settings (Darnall, Henriquez and Sadorsky, 2008). In the pressure-treated wood industry, Hsueh (2013) found an association between reductions in chromated copper arsenate as covered by VAs with the EPA and a reduction in arsenic levels otherwise not covered by the agreement indicating the potential for cross-media impacts.
+
+Self-reflection in firms through applying VIS and the monitoring of nonconformities, computerisation of environmental management systems and more systematic auditing can help overcome willful ignorance and led to better compliance with other regulation (Boiral, 2011; Potoski & Prakash, 2005). This has been shown in China among firms adopting ISO 14001 certifications (McGuire, 2014), though also no effect was found between certifications and compliance with the UK's Integrated Pollution Prevention & Control Regime (Dahlstrom *et al.* 2003). Dahlstrom et al. (2003) find certification improved only procedural aspects of UK manufacturing plants rather than legal compliance, numbers of complaints etc. Even therefore if we support the benefits of EMS, the efficacy of regulatory relief remains unclear.
+
+EMS can reduce costs of compliance with other laws by introducing standardized environmental audits acknowledged by the state. Can be used to fulfill requirements of national legislation and thus reduce compliance costs for both the state and companies.
+
+However, negative spillovers with the regulatory system and long-term environmental improvement may also arise. This can be due to the adoption of more modest improvements voluntarily leading to regulators not imposing further requirements, even where environmental beneficial and economically efficient such as was found to occur in Leon, Mexico with negotiated agreements between tanneries and the state (Blackman, 2008).
+:::
+
+# Conditions for effectiveness
+
+The efficacy of voluntary approach depends on their design, the context in which they are applied and whether they are implemented alongside other instruments. Determinants of the effectiveness of this instrument include:
+
+::: {.callout-note collapse="true" appearance="simple" icon="false"}
+## **Issue of focus**
+
+-   voluntary approaches may only be of benefit when confined to soft issues (Gibson, 2000). Based on assessment of VAs in the EU and Netherlands, most likely to work the problems are easy and can be coped with through no-regret measures ([Skjærseth, 2000](https://onlinelibrary.wiley.com/doi/pdf/10.1002/j.1662-6370.2000.tb00292.x)).
+
+-   Can be effective within some contexts e.g. when arguments for mandatory programmes are unclear or lacking legal/political support. Blackman (2008) - Ineffectiveness can be minimised by avoiding VAs in certain situations e.g. where regulatory and non regulatory pressures for improved environmental performance are weak and where polluters can block targets, sanctions for noncompliance and other prerequisites of effective VAs; and
+:::
+
+::: {.callout-tip collapse="true" appearance="simple" icon="false"}
+## Internal and external context
+
+-   Nawrocka and Parker (2009) the effects of EMS are not easily generalisable, but depend on other factors, such as the management style and goals of the particular company, its operating environment, culture and stakeholders.
+
+-   Co-regulatory pressures in the landscape - a robust backdrop of community pressure and regulatory threats
+
+-   Wider societal context that legitimizes and incentivises environmental protection and management increases participation, as where non-regulatory pressure from civil society, capital markets, consumers, are low, uptake and/or effect of uptake is more likely to be correspondingly weak (Blackman 2008) while normative and/or coercive pressure from peers for participation and compliance e.g. expulsion from industry associations increases effectiveness.
+
+-   Blackman (2008) - Ineffectiveness can be minimised by avoiding VAs in certain situations e.g. where regulatory and non regulatory pressures for improved environmental performance are weak and where polluters can block targets, sanctions for noncompliance and other prerequisites of effective VAs; and by implementing at a national scale because this can tap into a broader set of non-regulatory pressures, can target larger firms which are easier to monitor and be ran by bodies with greater capacity for enforcement.
+
+-   External Conditions: In context of high levels of media scrutiny and transparency, enabled by effective monitoring. Rivera (2004) evaluating the Certification for Sustainable Tourism programme in Costa Rica using neo-institutional theory find firms enroll in the programme for financial needs and a want for societal legitimacy. Finds that VAs that include performance-based standards and third party certification may not work effectively in promoting above-compliance pollution reductions even when correlated with market incentives and involving third-party oversight, if coercive institutional pressures from government environmental monitoring, and normative pressures from industry association membership are missing.
+
+-   Iatridis and Kesidou (2018) - Find that in a context of economic downturn in Greece, weak external pressure can lead to the more symbolic integration of ISO 14001 as firms can defend their legitimacy without incurring the full costs of internalization; 2) weak external pressures can be compensated for when firms have strong internal motivations seeking to strategically differentiate themselves from competitors in international markets; and 3) these strong internal motivations pave the way for companies to stimulate their competitiveness by enhancing their efficiency as some companies might strengthen their position in the local market by implementing ISO 14001 substantively. Internal motivations are important for uptake, while external motivations are too - though the degree of external pressure and internalization may not be linear.
+:::
+
+::: {.callout-important collapse="true" appearance="simple" icon="false"}
+## Position in policy mix
+
+-   VAs may work best as part of a policy package, rather than as a stand-alone instrument (Krarup and Ramesohl, 2002; Torvanger and Skodvin, 2002).
+
+-   'Schemes implemented as part of a policy mix (e.g. alongside complementary regulations/fiscal incentives) or under a credible threat of regulation, performed significantly better than those schemes for which such policy drivers were not present' (McCarthy and Morling, 2015).
+
+-   Bizer (1999) recommends voluntary agreements be used as additional rather than alternative instrument in contexts where small and homogenous groups can be motivated to adhere to voluntary standards and where Government agencies carry big sticks. Tend to work best when backed up by the credible threat of alternative instruments coming in if the agreement doesn't achieve what it set out to do.
+
+-   [Menanteau (2005, p.1)](https://halshs.archives-ouvertes.fr/halshs-00004031/document) 'The alternative of regulatory measures must remain a credible, realistic threat if voluntary agreements are to have a really significant impact on performance improvement'.
+
+-   An enabling state which, directly or indirectly, provides a context supporting the uptake of VAs and includes the credible threat of mandatory regulation, regulatory relief and the provision of subsidies.
+
+-   Sequencing: Can play a role in starting the regulatory process. Switching from mandatory, state regulation, to voluntary business-led regulation may ***ultimately reduce incentives*** to make environmental investments (concerns about the efficacy of VAs where non-regulatory pressures from firms are weak).
+:::
+
+::: {.callout-caution collapse="true" appearance="simple" icon="false"}
+## Design and implementation
+
+Several recommendations for designing and implementing effective VAs and potentially increasing the benefits of VIS can be made.
+
+::: {.callout-note collapse="true" appearance="simple" icon="false"}
+## Enhance incentives for participation
+
+For VAs and to increase the incentive for firms to participate,
+
+-   Excludable benefits such as for reputation or specialised technical assistance, can be leveraged by governments to increase participation (Delmas and Terlaak, 2001; Prakash and Potoski, 2006)
+
+-   Increasing the incentive to participate: Club theory explains membership of any 'club' as being motivated by its excludable benefits such as reputational benefits or specialised technical assistance otherwise not available (Prakash and Potoski, 2006). There may also be opportunities to gain technical or other assistance from government regulators, helping improve competitiveness (Delmas and Terlaak, 2001) in addition to other club benefits (Prakash and Potoski (2006) depending on the nature of the agreement. Marketing benefits from participation increase participant numbers in a programme e.g. the Energy Star programme has been made more effective by US Government procurement rules. Ability to exclude benefits from 'free-riders' e.g. positive stakeholder reputation, which explains difference in effectiveness between the Sustainability Forestry Initiative and Responsible Care.
+
+    -   The types of policy instruments which can be used to provide support: 1) legal instruments such as regulatory relief e.g. reduced inspection frequency; 2) economic instruments e.g. tax reductions or rebates for using EMS; 3) informational instruments - training, EMS register; 4) promotional instruments e.g. EMAS awards. Support would benefit most SMEs, companies in underperforming industries, by raising awareness of the public to increase consumer pressure and raising awareness among firms to diffuse innovation and enhance an enabling company culture.
+
+        -   VEPs more successful when firms participating are motivated by economic incentives (Moon and Ko, 2013)
+
+        -   Climate change agreements - operators receive a discount on the Climate Change Levy ( CCL ), a tax added to electricity and fuel bills.
+
+-   EMAS seems to lead to better performance than ISO in the long run because EMAS countries are strongly influenced by the involvement of the competent authorities, providing an opportunity for developing transparent and collaborative relations and stronger pressure towards tangible and continuous improvements.
+:::
+
+::: {.callout-tip collapse="true" appearance="simple" icon="false"}
+## Take a targeted and data-driven approach
+
+Monitoring and verification - Important otherwise the VA is neither credible nor accountable. Levels of public availability are generally quite low e.g. in Denmark, VAs don't have results published, in NL they are confidential etc. If not available, civil regulation cannot act as a further lever of regulation. Despite a lack of monitoring and enforcement, the International Council for Local Environmental Initiatives which provides tools and helps build capacity in tackling CC at a municipal level has been shown to be effective in reducing emissions and promoting green economic development at the local level (Krause, 2012; Yi, 2013).
+
+Yin and Schmeidler (2009) find heterogeneous environmental outcomes stemming from ISO 14001 implementing companies can be traced partly to differences in whether performance management elements were incorporated.
+
+Key issue with EMS is the lack of standardized data collection for monitoring (Nawrocka, 2009). Quantitative targets need to be in place, with the threat of sanctions. The nature of ISO is that it prescribes procedure so is naturally vague around outcomes. Clear goals facilitate implementation, monitoring and evaluation, both by internal (managerial commitment) and external parties, and helps to avoid greenwash.
+
+Ambitious and realistic target setting, effectively enforceable incentives and penalties, and a strong monitoring and evaluation mechanism, were found to be essential for well-functioning voluntary agreements for improved energy efficiency in China, Finland, Japan, the Netherlands, and the United Kingdom ([Kim and Liu, 2020](https://www.adb.org/sites/default/files/publication/629411/adbi-wp1170.pdf)).
+
+Clear goals facilitate implementation, monitoring and evaluation, both by internal (managerial commitment) and external parties, and helps to avoid greenwash. Credible monitoring mechanisms, with independent, third-party monitoring and verification more likely to be effective than self-monitoring. Monitoring and verification - Important otherwise the VA is neither credible nor accountable. Audits, even when undertaken by a third-party, are characterized by expectation gaps, with significant discrepancies between the expected rigour and impartiality of such audits and reality (Boiral, 2011). Audits do not focus on actual performance often furthermore, but rather conformity with the management systems.
+
+Third, it is important to set a baseline by which to judge the additional value of the voluntary agreement in delivering environmental outcomes, over and above other instruments/business-as-usual behaviour.
+:::
+:::
+
+# Prospective applications in UK policy pathways
+
+## Policy recommendations
+
+There is the potential for voluntary approaches to be more widely applied in the UK. For instance, to reduce waste electronics, voluntary approaches might include working with industry through sharing knowledge, best-practice and other non-monetary resources, through regular meetings to advance an sector-specific industrial strategy, or through adding to existing voluntary guidelines. A 2022 OECD snapshot of UK CE progress recommends "*continuing and enhance initiatives for private sector action on circular economy, including support for voluntary agreements, innovative research and co-operation with local authorities and civil society*."
+
+However, there are risks to relying on voluntary approaches for the following reasons. Voluntary approaches play a role in starting the regulatory process. However, switching from mandatory, state regulation, to voluntary business-led regulation may ultimately reduce incentives to make environmental investments.
+
+## Modelling blueprints
+
+In summary, we looked at \_ voluntary instruments as part of this review - \_ voluntary industry standards (VIS) and \_ voluntary agreements (VAs).
+
+| Parameter           | Assumption |
+|---------------------|------------|
+| *Penetration rate*  |            |
+| *Scale of effect*   |            |
+| *Immediacy*         |            |
+| *Costs*             |            |
+| *Spillover effects* |            |

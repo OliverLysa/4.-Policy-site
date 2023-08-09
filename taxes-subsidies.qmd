@@ -1,0 +1,656 @@
+---
+title: "{{< fa sterling-sign >}} Price and market-based instruments"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+#### Libraries ####
+require(writexl)
+require(readODS)
+require(readxl)
+require(janitor)
+require(xlsx)
+library(tidyverse)
+require(data.table)
+require(ggplot2)
+require(plotly)
+library(DT)
+
+rm(list = ls())
+options(scipen=999)
+
+```
+
+```{css, echo=FALSE}
+.callout {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-right: 1em;
+}
+```
+
+# Summary
+
+::: {.callout-note collapse="false" appearance="simple" icon="false"}
+In market economies such as the UK, prices parameterise activity. Prices for resources and waste management which don't reflect associated negative externalities, incentivize the over-consumption of resources and over-production of waste (Bleischwitz, 2010; Defra, 2011). Prices can be a function of not only demand and supply dynamics but also government regulation. Price and market-based instruments (PMBIs) seek to incentivise outcomes by directly affecting payoff structures via the price system (Stavins, 2001). This is often framed in terms of internalising 'externalities' i.e. environmental costs not already captured in market prices (Pigou, 1920; Coase, 1960). 
+
+A variety of proposals have been applied and put forward to better leverage price-based instruments for circular economy aims. Taxation on certain disposal routes, non-recycled content and reduced VAT, business rates and National Insurance contributions for activities such as maintenance and repair are examples. The effectiveness of these approaches will depend on their ability to alter the economics of purchasing and use choices, including alongside other measures.
+:::
+
+# How it works and current applications
+
+A range of administered-price instruments can help develop a more circular UK economy. These can either involve assigning prices to environmental externalities or uses where one did not already exist, or modifying an existing price to better incorporate the price of externalities.
+
+PMBIs try to attain an optimal level of environmental use by reflecting the true environmental costs of production and consumption in market prices (internalization) or by creating property rights and facilitating the establishment of proxy markets. Based on the rational polluter hypothesis, it is expected that in response to the instrument, regulatees will switch to  less environmentally-intensive production and consumption in response to these increased costs.
+
+## Administered prices
+
+Administered prices (sometimes referred to as non-market-based economic and fiscal instruments [UNFCCC, 2014](https://unfccc.int/resource/docs/2014/tp/10.pdf)) involve introducing a price where one did not previously exist or modifying an existing price on goods or services. This is done to better reflect (or internalise) externalities in market prices (Pigou, 1920).[^1] Instrument sub-types include:
+
+[^1]: Pigouvian taxes are a specific form, with the per-unit price of which is equal to its marginal social damage. Pigou (1920) introduced the notion of externalities or costs and benefits not captured in the market price of goods, and proposed that a corrective tax in proportion to the externality could address this market failure
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+## Taxes
+
+Taxes[^2] relevant to CE strategies can be levied: directly on rates of materials within the economy; on the use of the environment as a *source* (such as a tax on primary material extraction or transformed inputs such as energy) or as a *sink*, whether in the form of solid waste (such as a tax on landfill) or gaseous wastes (such as levied on greenhouse gas emissions) resulting from economic activity.
+
+In addition, the existing tax regime covering relevant factor markets such as for labour or capital can be altered via e.g. relief schemes to incentivise activities which indirectly impact environmental use such as a reduction in VAT charged on repair services. Current applications in the UK include the:
+
+-   *Aggregates Levy*[^3] - Introduced in the UK in 2002, a tax levied on the commercial exploitation of rock, sand and gravel in the UK. Current rates are £2.03 per tonne. proposed Scottish [Aggregates Levy](https://www.gov.scot/publications/breaking-new-ground-developing-scottish-tax-replace-uk-aggregates-levy-consultation/);
+
+-   *Plastic Packaging Tax* - Introduced in the UK in 2022, a tax on plastic packaging with less than 30% recycled content. Current rates are £210.82 per tonne;
+
+-   *Landfill Tax* - Introduced in the UK in 1996, a two-tiered tax on the treatment of waste by landfill. Current rates are £102.10 per tonne for the 'standard rate' including municipal waste and £3.25 per tonne for the lower rate;
+
+-   *Climate Change Levy* - Introduced in the UK in 2001, a tax on energy delivered to non-domestic users[^4] Current rates are £0.00775 per kWh electricity, £0.00672 per KwH gas and £0.02175 per kg LPG.[^5]
+:::
+
+[^2]: Differs from fines which are generally applied to uses above or outside that mandated/permitted by regulatory instruments
+
+[^3]: Major environmental impacts at the stage of material extraction include the scarring of landscapes and the production of dust and noise impacting environmental amenity values as well as tradeoffs with habitat for other species
+
+[^4]: On 13 December 2022, the Council of the EU and the European Parliament reached a provisional agreement on a Regulation establishing a carbon border adjustment mechanism (CBAM), following a 2021 proposal by the Commission
+
+[^5]: Pricing of carbon emissions also already goes on in the UK, via, for instance, trading-schemes covering emissions from large industrial installations alongside a carbon price floor. In the wider context of the EU, taxation of carbon embodied in traded products is more advanced that embodied materials (as captured by measures of raw material consumption) through the proposed CBAM system and has the potential to deliver reductions in resource use, material substitution and an increase in secondary material use though depends on how taxes are responded to and their design.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+## Charges/fees
+
+Fees levied on the use of the environment or a proxy of it and whether as a flat fee or payment per unit. Current applications in the UK include the:
+
+-   *Congestion and emissions charges* - In London, a Congestion Charge and ULEZ charge.
+
+-   *Plastic Bag Charge*[^6] - Introduced in the UK in October 2015, a charge levied on single-use carrier bags sold at the level of 10p per bag since 2021, up from 5p when first introduced (2015).
+
+e.g. Pay as you throw approaches
+:::
+
+[^6]: Over 7.6 billion single-use carrier bags were given to customers by major supermarkets in England during 2014 (Defra, 2021).
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+## Charge-rebate systems
+
+Front end fees added to a transaction, combined with a rebate condiitional upon a sought action being udertaken. Prospective applications in the UK include the:
+
+-   *Deposit-Return Schemes* -- Planned for introduction in Scotland in 2023 and in 2025 in England, Wales & N. Ireland, a charge-rebate system consisting of front-end charges on single-use drinks containers combined with a rebate upon their disposal at collection points. This is intended to incentivise correct end-of-life treatment.
+
+-   Can extend to the scale of environmental impact bonds paid by companies prior e.g. to non-renewable resource extraction, rebated minus any damages once cleaned up (Costanza and Perring, 1990).
+:::
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+## **Tax relief and subsidies**
+
+Tax relief involves adjusting existing taxes to reduce disincentives to particular behaviours. Applications in the UK include the:
+
+-   *Enhanced Capital Allowances for water and energy-saving technologies* - A form of tax relief, currently used in the UK to incentivise the use of water-saving and energy-saving technologies in the past
+
+Subsidies are a payments to an actor either to not undertake environmental bads or to subsidize the provision of environmental goods and which can take the form of lump sums e.g. for capital costs or per unit subsidies for desired results. Applications in the UK include:
+
+-   *Boiler Scrappage Scheme* - Introduced in 2010, the scheme aimed to encourage the replacement of old boilers with newer more energy efficient ones
+
+-   *Feed-in tariff scheme for renewable energy sources* - Introduced by Department of Energy and Climate Change and Ofgem from 2010 to stimulate the uptake of renewable energy sources in order to combat climate change and improve energy security.
+:::
+
+## Administered markets
+
+Administered markets work by assigning property rights over an allowable quantity of an environmental use or externality and creating (the mandate or conditions for) a market to trade in these (Coase, 1960; Ellerman 2005). Such tradable permit schemes include:
+
+::: {.callout-tip collapse="true" appearance="minimal" icon="false"}
+## Cap and trade schemes
+
+A maximum level of environmental use is set, which is then split into individual units and allocated by auction or other mechanism e.g. grandfathering. Actors who reduce environmental use below the level of permits they hold can then sell their surplus, while those who have a greater level of use must buy them. Applications in the UK include the:
+
+-   [*Traded fishery quotas*](https://www.gov.uk/government/publications/fishing-quota-trading-and-swaps)- [quota management rules](https://www.gov.uk/government/publications/quota-management-rules)
+
+-   Landfill Allowance Trading Scheme [(LATS)](https://www.researchgate.net/publication/260997856_Cap_and_trade_schemes_on_waste_management_A_case_study_of_the_Landfill_Allowance_Trading_Scheme_LATS_in_England) - Introduced in 2005 and now defunct, to reduce the amount of biodegradable waste going to landfill under the Landfill Directive (1999)
+
+-   *EU and UK Emissions Trading Scheme* - A trading scheme introduced from 2009
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal" icon="false"}
+## Credit trading
+
+Credits are assigned when an environmental good is produced, which is then traded with those required to hold credits. Current applications in the UK include the:
+
+-   Packaging Directive \[94/62/EC\] - The UK implementation involved a waste recovery note and packaging waste recovery export note system
+:::
+
+## Market-friction reductions and market ordering instruments
+
+The strengthening of liability rules, antitrust/competition enhancing laws and government development of information transaction programmes can be thought about as market-based or market-oriented through establishing market order (Bleischwitz, ), countering monopolistic pricing, reducing market transaction costs and bridging information asymmetries. Current applications in the UK include[^7] the:
+
+[^7]: Those related to EPR and 'information markets' are covered under other respective toolkit briefs
+
+::: {.callout-important collapse="true" appearance="minimal" icon="false"}
+## **Enhanced competition in warranty markets**
+
+-   *Supply of Extended Warranties on Domestic Electrical Goods Order 2005* - Improved competition in extended product warranty markets
+:::
+
+\
+
+![](images/image-279302335.png)
+
+Figure . Example of current, historic and prospective UK price and market-based instruments placed in relation to point of introduction along the value-chain
+
+# Performance
+
+## Strategic fit
+
+Tax and charge-based approaches generally have low levels of strategic fit among households. The results of the third OECD Survey on Environmental Policies and Individual Behaviour Change (EPIC) published in the 2023 OECD report 'How Green is Household Behaviour' ([OECD, 2023](https://www.oecd-ilibrary.org/sites/2bbbb663-en/1/3/1/index.html?itemId=/content/publication/2bbbb663-en&_csp_=3837f5bbbb774a9988d38f9b7b30111f&itemIGO=oecd&itemContentType=book#section-d1e316-43ad546dea)) found tax and charge-based approaches were the least supported policy measure by household respondents across domains including food and transport. While this may be linked to their costs, there is also the issue of fairness with price-based instruments being viewed as allowing wealthier actors to buy their way out of responsibility or buying a license to pollute.
+
+Reductions in the current tax regime such as on VAT, capital allowances and too subsidies are also least preferred options by government authorities due to reductions in tax receipts and exchequer costs.
+
+## Environmental effectiveness
+
+Our review found environmental effectiveness differed by PMBI.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+## Material input taxation and charges
+
+In theory, increased primary resource prices may reduce the environmental pressures associated with primary resource consumption by: 1) reducing the use of resource inputs into production and consumption activities; and 2) driving input substitution away from primary materials and towards secondary raw materials (Government Office for Science, 2014). Blueprint for a green economy (Pearce et al., 1989)
+
+While the Levy has been associated with increased secondary aggregates use in the UK, this has also been attributed to sink tax Landfill Tax.
+
+In a meta-study of virgin material taxation schemes, Söderholm (2011) concludes, ''Experiences of taxing virgin materials are mixed and show efficacy in reducing the supply of virgin materials and increasing the demand for recycled products but often only lead to a limited use of recycled materials since virgin materials may be sourced through imports instead'.
+
+The UK Aggregates Levy also had the dual aim of reducing the negative environmental impacts of quarrying and increasing the recycling rate of construction materials by making tax-free recycled aggregates more financially attactive and reducing the rate of primary material extraction (ECOTEC et al., 2001 in [Ettlinger, 2022](https://ieep.eu/wp-content/uploads/2022/12/UK-Aggregates-Levy-final.pdf)). As an instrument, was anticipated to be more effective than voluntary measures when these were proposed by the aggregates industry at the time. In relation to objectives, 'the environmental impacts of the levy are difficult to attribute specifically to the levy itself' ([Ettlinger 2022](https://ieep.eu/wp-content/uploads/2022/12/UK-Aggregates-Levy-final.pdf)). Use of primary aggregates was largely constant between 2000 and 2018 (MPA, ), though per unit of output has fallen - a trend emerging before 2000 and potentially linked to the Landfill Tax which incentivised the creation of secondary markets ([Ettlinger 2022](https://ieep.eu/wp-content/uploads/2022/12/UK-Aggregates-Levy-final.pdf)).
+
+**Recycled and secondary materials in total aggregates sales in Great Britain (Million tonnes) (MPA, 20 )**
+
+```{r echo=FALSE}
+Aggregates <-  read_excel(
+  "./data/PMBIs.xlsx",
+  sheet = 1,
+  col_names = T
+) %>%
+  pivot_longer(-1,
+               names_to = 'Variables',
+               values_to = 'Value') %>%
+  filter(Variables != "Share") %>%
+  mutate(across(c('Value'), round, 2))
+
+```
+
+```{r}
+Aggregates_plot <- ggplot(data = Aggregates, aes(x = Year, y = Value, fill = Variables)) +
+  geom_bar(position="dodge", stat="identity") +
+  theme_minimal() +
+  theme(axis.title.x = element_blank()) +
+  theme(axis.title.y = element_blank()) +
+  geom_vline(xintercept = 2000, linetype="dotted", 
+                color = "red", size=0.5)
+
+ggplotly(Aggregates_plot, tooltip = c("Value")) %>%
+  layout(legend = list(orientation = 'h')) %>%
+  layout(legend = list(x = 0, y = -0.1))
+
+```
+
+The area, as a percentage, of the UK for which there is planing permission for mineral development is approximately 0.35% and includes extraction sites, processing plants, minerals waste tips and landscaping schemes ( ). Emissions and pollutants by sector have... (BEIS, ).
+
+**Bags issued by reportees in England, by bag type (million) (Defra (2022)**
+
+```{r echo=FALSE}
+SUCB_data <-  read_excel(
+  "./data/Single_use_plastic_carrier_bag_England_data_2016_17_to_2021_22.xlsx",
+  sheet = "Data",
+  col_names = T
+) 
+
+SUCB_data <- SUCB_data[c(1:1131), c(1,4,20:23)] %>%
+  mutate_at(c(2:6), as.numeric) %>%
+  pivot_longer(-1,
+               names_to = 'Variables',
+               values_to = 'Value') %>%
+  na.omit() %>%
+  group_by(Year, Variables) %>%
+  summarise(Value = sum(Value)) %>%
+  mutate(Value = Value/1000000) %>%
+  mutate(across(c('Value'), round, 2))
+
+```
+
+```{r}
+SUCBplot <- ggplot(data = SUCB_data, aes(x = Year, y = Value, fill = Variables)) +
+  geom_col() +
+  theme_minimal() +
+  theme(axis.title.x = element_blank()) +
+  theme(axis.title.y = element_blank())
+
+ggplotly(SUCBplot, tooltip = c("Value")) %>%
+  layout(legend = list(orientation = 'h')) %>%
+  layout(legend = list(x = 0, y = -0.1))
+
+```
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal" icon="false"}
+## End-of-life taxation and charges
+
+The landfill tax introduced in the United Kingdom in 1996 to reduce GHG emissions and waste generation.
+
+Landfill Tax Review [Summary of Responses](https://www.gov.uk/government/consultations/landfill-tax-review-call-for-evidence)
+
+**Landfilled waste by EWC Chapter, England & England and Wales (million tonnes) (Environment Agency, )**
+
+```{r echo=FALSE}
+Landfill_data <- read_excel("./data/EWC-STAT_Compiled.xlsx", sheet = 1) %>%
+  mutate(Value = Value/1000000) %>%
+  mutate(across(c('Value'), round, 2))
+
+```
+
+```{r}
+Landfill_plot <- ggplot(Landfill_data,
+               aes(x= Year, y = Value, fill = EWC_Chapter)) +
+               geom_bar(position="stack", stat="identity") +
+               scale_x_continuous(breaks=seq(2006, 2019, 1)) +
+               theme_minimal() +
+               theme(axis.title.x = element_blank()) +
+               theme(axis.title.y = element_blank())
+
+ggplotly(Landfill_plot, tooltip = c("Value")) %>%
+  layout(legend = list(orientation = 'h')) %>%
+  layout(legend = list(x = 0, y = -0.1))
+
+```
+:::
+
+::: {.callout-important collapse="true" appearance="minimal" icon="false"}
+## Emissions taxation and tradable permits
+
+An OECD assessment of carbon pricing in selected jurisdictions found carbon price levels and coverage too low to reduce emissions in line with commitments made as part of the Paris Agreement ([Errendal, Ellis and Jeudy-Hugo, 2023](https://www.oecd-ilibrary.org/environment/the-role-of-carbon-pricing-in-transforming-pathways-to-reach-net-zero-emissions_5cefdf8c-en)).
+:::
+
+::: {.callout-important collapse="true" appearance="minimal" icon="false"}
+## Charge-rebate
+
+Anticipated benefits include reducing volume of waste/pollution, encouraging safe disposal, improving the quality of recycling materials and reducing litter rates.
+:::
+
+::: {.callout-caution collapse="true" appearance="minimal" icon="false"}
+## Subsidies
+
+Subsidies for not undertaking environmental bads can crowd in negative behaviour and may lead to increased environmental impact.
+:::
+
+One issue with price-based approaches is that without precise information about the aggregate marginal abatement cost curve or the price elasticity of regulated agents, the aggregate environmental outcome of a given tax rate can be difficult to know. The associated trial-and-error of these methods can delay specific environmental improvement targets (Pearce and Barbier, 2000). Conversely, tradable permits provide more certainty of the outcome envirnmental use through setting a hard cap, and suffice monitoring and enforcement are robust (Vivanco, Kemp and Voet 2016).
+
+## Efficiency
+
+In theory, market-based instruments can cost-efficiently tackle negative environmental externalities (static efficiency) while maintaining incentives for innovation and cost-reduction over time (dynamic efficiency).
+
+If properly designed and implemented, market based instruments can theoretically help achieve a desired level of environmental use at the lowest overall cost to society and with dynamic incentives to bring down abatement costs over time (Pearce, 2002; Johnson, 1999). Based on the rational polluter hypothesis, PMBIs work by eliminating the difference between private and socially efficient prices thereby inducing polluters to behave as if pollution costs entered their private cost functions and encouraging movement towards a more socially efficient aggregate level of environmental use. This is done through polluters with lower MACs undertaking more abatement than those with higher MACs (Goulder and Parry 2008).
+
+::: {.callout-tip collapse="true" appearance="minimal" icon="false"}
+## Read more
+
+Taxes increase costs of products and activities in a predictable manner, making it easier to judge first round financial impact on consumers and firms (OECD 2011). Tradable permits: high degree of potential cost uncertainty because the aggregate cost of compliance is based on the future price of permits which can be difficult to predict.
+
+Achieve allocatively efficient outcome at least cost: This will also be realised at the lowest overall cost to society because: 1) assumng market participants have knowledge of their own MACs, can be incentivised to reduce environmental consumption/pollution until the cost of abating an additional unit of use equals the marginal benefit of reducing use in terms of avoided tax payments (Baumol & Oates, 1971); 2) polluters with lower marginal abatement cost-curves (MACs) i.e. who can abate most cheaply, will undertake more abatement than those with higher MAC curves (in line with the equimarginal principle) - the efficiency benefits of which increase with MAC heterogeneity (Fiorino, 2004); and 3) taxees are given flexibility as to how they reduce their costs across abatement channels and facilities.
+
+Secondly, the tax that is accrued can be used to offset distortionary taxes such as income tax. Distortionary taxes are those that cause a deviation from allocative efficiency. Heavier taxation of virgin materials and a reduced taxation of labour can contribute to changes in relative factor prices which will better reflect the social value of resources, without increasing overall costs -- improving market efficiency. The Ex'tax Project argues that "High taxes on labour encourage businesses to minimise their number of employees. Resources, however, tend to be untaxed; they are used unrestrained. This system causes unemployment, overconsumption and pollution". (Ex-Tax,).
+
+-   ABS data on quarrying activities
+
+-   Prodcom on quarrying activities
+
+-   Construction Industry Output
+
+Cost to industry of the Aggregates Levy and Landfill Tax ([Bicket and Salmons, 2013](https://dynamix-project.eu/sites/default/files/Aggregates_UK.pdf)). Extractive industries contributed £ to the national economy in , inputting to other sectors e.g. construction (English Heritage, ). the quarrying of aggregates as sand, gravel and crushed rock is the most common type of mineral operation in England ().
+
+For prices, some firms may have to take on greater costs than with command-and-control approaches because taxes make firms pay for both their abatement costs plus taxes on residual emissions. For markets, there is a high degree of potential cost uncertainty because the aggregate cost of compliance as based on the future price of permits is difficult to predict. Cost effectiveness depends more on the extent of pricing and design of the instrument than whether a tax or C&T is used.
+
+Goulder (2013) finds cap & trade e.g. the SO2 trading scheme under the Clean Air Act and SO2 and NOx trading in LA under RECLAIM, brought significant cost reductions relative to conventional regulatory approaches.
+
+Charge-rebate schemes may be associated with high transaction costs and markets for recycled products may not be well developed without accompanying instruments e.g. a minimum recycled-content law.
+
+Welsh Government (2016) Post Implementation review of the single use carrier bag charge in Wales - SUCB just 13% of eligible firms said that it had had a negative impact on their business.
+:::
+
+## Affordability and feasibility
+
+The UK government raises over £820 billion a year in receipts. The majority are from three main sources: income tax, National Insurance contributions (NICs) and value added tax (VAT) which together raise over £470 billion.
+
+```{r echo=FALSE}
+# Read file
+Taxes_data <-
+  read_excel(
+    "environmentaltaxes.xlsx",
+    sheet = "Table 1",
+    range = "A3:Z30",
+    col_names = T
+  ) %>%
+  na.omit() %>%
+  filter(
+    `Environmental tax` %in% c(
+      "Energy taxes",
+      "Transport taxes",
+      "Pollution/Resources taxes"
+    )) %>%
+  pivot_longer(-1,
+               names_to = 'Year',
+               values_to = 'Value') %>%
+  rename(Type = 1)
+
+Taxes_data$Year <- as.numeric(Taxes_data$Year)
+
+```
+
+**Government revenue from environmental taxes in the UK, 1997 to 2021 ([ONS, 2022](https://www.ons.gov.uk/economy/environmentalaccounts/datasets/ukenvironmentalaccountsenvironmentaltaxes))**
+
+```{r}
+Taxes_chart <- ggplot(data = Taxes_data, aes(x = Year, y = Value, fill = Type)) +
+  geom_col() +
+  scale_x_continuous(breaks=seq(1997, 2021, 5)) +
+  theme_minimal()
+
+ggplotly(Taxes_chart) %>%
+  hide_legend()
+```
+
+::: {.callout-tip collapse="true" appearance="minimal" icon="false"}
+## Read more
+
+-   MBIs still rely on laws being introduced
+
+-   Some of these instruments can generate tax revenues.
+
+-   An optimal level of environmental use arises when societal welfare is maximised in relation to environmental quality or in other words, where the NPV of marginal abatement benefits equals that of marginal abatement costs. Optimal pricing has high information requirements however due mainly to uncertainty in the marginal social damage curve, leading regulators to generally seek acceptable or improved rather than optimal levels (Pearce and Turner, 1990).
+
+-   Optimal pricing has a high informational requirements due mainly to uncertainty in the marginal social damage curve, while setting a rate that exactly compensates for those externalities can be difficult, so regulators therefore generally seek to achieve acceptable vs. optimal levels (Pearce and Turner 1990). 'Acceptable pricing' may be necessary when outside of the theoretic ideal of rational choice and maximizing frameworks, and rather being within a bounded rationality and satisfying framework. While still depending on the responsiveness of regulatees to a tax, this more pragmatic approach makes the level of acceptable pollution no longer a question purely within the domain of economics, but of environmental and social considerations too (Baumol and Oates,).
+
+-   Government - Exchequer impact including operational impacts
+
+    -   Reductions in the current tax regime such as on VAT, capital allowances and too subsidies are generally least preferred options by government tax authorities due to reductions in tax receipts and costs to government. Growing requests for VAT relief, and anticipate working through the VAT system might not work. Business rates reduction also not viewed as likely very effective of an approach for increasing repair activity by Treasury.
+
+    -   Carbon taxes in N. America seem most viable when a party leader is personally strongly committed, their party holds a majority in parliamentary system so it can't become a politically adversarial issue, the measures can be passed between elections and the party can deflect attention from the issue in the next election (Harrison, 2012).
+
+-   Tax more desirable than subsidies for not drawing on government budgets and rather raising revenues, while being less prescriptive technologically.
+
+-   Administrative costs - Enforcement and compliance, a potential advantage of permits is the increase of incentives for pollution sources to identify themselves in order to claim their permits.
+
+-   Lesser Regulatory Burden: PMBIs can generate administrative savings in time and money by devolving management decisions from regulators to private decision makers who are better aware of their own abatement costs (Baumol and Oates, 1971; Stavins, 1998). For permits, a benefit is that there is an increased incentive for pollution sources to identify themselves in order to claim their permits in the event of grandfathering.
+
+-   Governmental Benefits: 1) Revenue Generation: An environmental tax and auctioned permits not only has the effect of incentivizing less impactful behaviour, but also raises money that can be used in part to: 1) finance a clean-up of 'dirty' activities; or 2) offset distortionary taxes producing a first order efficiency gain, though this can be counteracted by the costs of policy shifting to consumers leading to price level rises, depressing factor supply and resulting efficiency losses) Without revenue recycling furthermore, cap-and-trade might be efficiency reducing. When people do not trust that a carbon price will be sufficient to reduce emissions, they prefer using the carbon price revenue to subsidise low-carbon technologies and research. The state doesn't collect as much revenue with markets as taxes, though you can auction permits, and do so annually to increase revenues - in practice very few revenues are kept as payments are used to incentivize behaviour and lessen costs of abatement typically; 2) Lesser Regulatory Burden: Market-based instruments can generate administrative savings in time and money by devolving management decisions from regulators to private decision makers and negating otherwise potentially high informational requirements, particularly given that environmental problems are usually characterized by information asymmetries, where agents are aware of their own abatement costs, but the regulator is not. Nevertheless administered markets are generally more resource-consuming than taxes, and both require monitoring which can alter the balance more heavily in favour of C&C. However, a price on emissions invariably affects the type of abatement technologies firms invest in, so that the technological side of emissions abatement must always be considered in tandem with the design of the market-based instrument itself (Calel, 2001). For permits, a benefit is that there is an increased incentive for pollution sources to identify themselves in order to claim their permits.
+
+-   The latest HMRC statistics show that the aggregate levy raised £407m in total receipts in the 2016/17 financial year (a proportion of this has funded the Aggregate Levy Sustainability Fund managed by Natural England). This has been the largest amount collected. Assuming no change in the amount of aggregates under the obligation, an increase to £2.5/tonne could raise the total HMRC revenue by up to 25% from the current base.
+
+-   Extending the use of raw material tax to other materials would significantly raise the tax revenue from the current base but the exact amount depends on the scope and level of the levy.
+
+-   Revenue Generation: Taxes and auctioned permits can raise a regular flow of money for the government that can be used to finance remediation of environmental damage, or offset distortionary taxes. Revenue recycliing can play an important role in defining the overall efficiency of PMBIs, including via reducing the cost-ramp of alternative technologies.
+
+-   Subsidies present a cost to the government which if funded through general taxation can be economically distortive.
+
+-   Information requirements: Knowledge of both the aggregate MAC and the aggregate MDC is needed for taxes to be set at an efficient level of environmental use, which can present high costs (Cole and Grossman, 2002; Ogus, 2004). Can be difficult to determine the right number of permits to allocate as an underallocation may lead to high costs, and an overallocation can limit the ability to reach a desired level of environmental use. Regulators can use best estimates but carries environmental (e.g. irreversible damage) and economic (e.g. locking firms into technological choices) risks.
+
+-   Implementation and monitoring costs: Can require administrative infrastructure for measurement and monitoring which may not be present or may be prohibitively costly. When so, may require proxy pricing. Tradable permits also associated with the costs of establishing a market.
+
+-   Regulatory burden: Taxes are more commonly used in governments than administered markets, so costs for this less, while monitoring and enforcement costs likely cheaper, however difficult to set correct tax rates due to high information requirement knowing how consumers/producers would respond to price signals based on their MAC function and price elasticity of demand. Regulators can use best estimates but carries environmental (e.g. irreversible damage) and economic (e.g. locking firms into technological choices) risks (Hanley et al. 1997).
+
+-   C&T system can involve greater regulatory burden because there are costs of setting up a market for auctioning and trading allowances and the regulator must not only keep track of emissions of facilities, but also establish a registry to record changes in ownership of allowances as a result of purchases or sales
+
+-   Public:
+
+    -   Can be politically undesirable - consumers often oppose eco-taxes e.g. in France due to increase in hydrocarbon component of sales tax of fuel in November 2018, which was later removed by Macron in December
+
+    -   Though taxation often disliked, not always the case. Almost half of respondents to a 2020 YouGov survey supported an increase in the charge on plastic bag from 5p to 10p, which was then subsquently implemened ([YouGov, 2020](https://yougov.co.uk/topics/politics/survey-results/daily/2020/09/02/18d46/1)).
+
+    -   Public resistance to taxes can be overcome by, for instance: earmarking proceeds for other desirable uses; compensating losers using lump-sum transfers; reducing impact to possible losers by using differentiated taxes or other social cushioning measures; using environmental taxes to cut other undesirable taxes; and improving communication and information sharing to make the public feel part of the process (Carattini, Carvalho and Fankhauser, 2018).
+
+-   Businesses:
+
+    -   Industry and trade-unions are likely to resist not only the achievement of the efficient outcome, but also using taxation as an instrument for doing so (because of the additional cost to them).
+
+    -   Markets are generally more politically desirable than taxes - less fear government will abuse the system for revenue generation ends, the polluter pays only for the non-optimal portion of total emissions (though not always) and can feel more in control of a permit system (Pearce and Barbier, 2000).
+:::
+
+## Long-run effects
+
+-   Long-term cost effectiveness of price vs quantity mechanisms are affected by their responsiveness to change. This can vary in three circumstances: 1) In the presence of rapid rates of economic growth, a fixed tax leads to an increase of aggregate emissions whereas permits can give no allowance to this, but the price of permits increases to account for the enhanced desire for them; 2) In the context of inflation, a unit tax decreases in real terms and so emissions levels increases, whereas with a permit system there is no change in the aggregate; and 3) In the presence of exogenous technological change, a tax system leads to increases in control levels and a decrease in aggregate emissions whilst a permit system maintains emissions with a fall in permit prices.
+
+-   Cost Certainty: Taxes increase costs of products and activities in a predictable manner, making it easier to judge first round financial impact to consumers and firms (OECD 2011). While traded permits are expected to create a price per-unit of emissions similar to a tax assuming an efficient market, there isn't so much certainty as to their cost when auctioned.
+
+-   The effectiveness of taxes are contingent on the prices of the taxed good or service (if traded) not going down which would otherwise lessen the effectiveness of prices in signaling change.
+
+-   Lack of immediacy possible due to complications in the mechanism, leading to stalling R&D in industries with high MACs (and in the long-run a less immediate transition to lower-pollution heavy productions). - Grubb paper
+
+-   For Dynamic Efficiency: Eco-taxes must be high enough and expected to remain in place given costs and uncertain returns of technological efforts.
+
+::: {.callout-tip collapse="true" appearance="minimal" icon="false"}
+## Read more
+
+-   Provide continuous incentives for further environmental harm reduction, stimulating technological change because the tax is avoided if pollution is reduced but will depend on the cost profiles of abatement options. Taxes provide an ongoing incentive to reduce pollution emissions/resource use through innovation, commercialization and adoption of technologies, which lower MAC because doing so saves tax expenditures. Administered markets are superior in this effect because of incentive to sell permits too. Calel and Dechezlepretre (2016) found that the EU ETS increased low-carbon innovation by as much as 10% (in the pollution-light firms).
+
+-   Administered markets are superior to taxes in providing ongoing incentives to lessen costs because of the ability to sell permits and not only reduce tax expenses. General economic instruments have been shown to have encouraged diffusion and incremental-type-innovation in the automotive and energy sectors (Bergek and Berggren, 2014).
+
+-   Though addressing the environmental externality, prices alone may not address the innovation market failures comprehensively as may pull through sub-optimal technologies, thereby necessitating supply-side technology instruments being introduced alongside (Goulder, 2013).
+
+-   Porter (1991) argues for the value of well-designed MBIs as a means of both increasing profit and improving environmental performance by shifting the cost-benefit of these actors, and harnessing competition (Borze and Risse, 2010).
+
+-   Though addressing the environmental externality, these do not address the innovation market failures comprehensively, where supply-side technology instruments are needed (Goulder, 2013).
+:::
+
+## Distributional effects
+
+-   Taxes can be regressive i.e. lower income groups may pay higher share of overall income to service them.
+
+-   Regressive: Taxes - Lower income groups may pay higher share of overall income on eco-taxes e.g. Grainger and Kolstad (2009) a Co2 tax would be 4x higher for the lower quintile of US population than upper quintile. However this wouldn't necessarily be the case for a tax such as on gasoline which would be progressive.
+
+-   Callan et al. (2009) found a carbon tax of 20 euros/tCO2 with revenue recycling in Ireland was marginally regressive, though if the tax revenue were used to increase social benefits and tax credits, households across the income distribution would be made better off without exhausting the total carbon tax.
+
+-   https://www.nber.org/papers/w31221
+
+-   A lot depends on how tax revenues are recycled. The MPA calling for the reinstatement of the Aggregates Levy Community Fund ([AggBusiness, 2021](https://www.aggbusiness.com/ab10/news/mpa-calls-reinstatement-aggregates-levy-community-fund)).
+
+-   PMBIs can also create hotspots of concentrated pollution which can disproportionately affect subpopulations, leading to spatially engendered inequity.
+
+::: {.callout-tip collapse="true" appearance="minimal" icon="false"}
+## Read more
+
+-   Using the OECD's ENV-Linkages model, Bibas, Chateau and Lanszi (2021) assessed the global economic and environmental impacts of fiscal reform consisting of taxes on primary metal and mineral resources and the circulation of revenues to finance subsidies to recycled goods and secondary metal production. They found this would deliver a relative decoupling of primary material use from economic growth to 2040, with a reduction of 7% in metallic and non-metallic minerals compared to the baseline scenario alongside negligible effect on global GDP (loss of 0.2% global GDP in 2040). Regional disparities were identified, depends on whether countries were net importers or exporters of raw materials, available production technologies and input costs of primary and secondary materials. Modelled tax rates are assumed to rise linearly to their target level between 2018-40.
+
+-   Chateau and Mavroeidi (2020) in the study 'The jobs potential of a transition towards a resource efficient and circular economy', examined the consequences of a policy-driven transition towards a more resource-efficient and circular economy on employment levels across countries and sectors between 2018-40 using the structural computable general equilibrium model ENV-Linkages. The reallocation of jobs due to a package of fiscal policies was found to be limited, with net job creation globally positive but marginally, at 1.8 million, with high variability between industries and countries. Countries with large extraction sectors were found to see net-job losses, as was the case in sectors depending heavily on primary materials such as construction and some manufacturing sectors, including production of machinery and electronic equipment. Secondary metals and recyclable sectors benefited from large increases in employment. In a scenario in which only OECD countries implemented these policies, employment losses were expected relative to the baseline due to a relative loss of competitiveness.
+
+-   Distributional impacts depend on how revenues are recycled e.g. regressive taxes (impacting the poor the hardest as a proportion of income) can be offset by payment to poorest households in the form of welfare receipts.
+
+-   some cross-border impacts have been noted across the Republic of Ireland and Northern Ireland border, due to the absence of an aggregates or primary materials tax in Ireland. This was partially addressed through the levy credit scheme (ACLS)
+
+-   Introducing a raw material tax might disproportionately affect those sectors that are not able to easily substitute raw materials for secondary materials.
+:::
+
+## Positive and negative spillovers
+
+-   Effectiveness of tradable permits can be compromised by interactions with other regulations. The Chicago VOC control programme (which sought to utilize a cap-and-trade scheme to make cost-effective reductions in ozone precursors) fell short in its effectiveness due to the continuation of centralized traditional emission C&C regulation which is more exacting and comprehensive (Kosobud et al. 2008).
+-   A study by the Environment Agency concluded that plastic bags for life needed to be used at least four times to ensure they contributed less to climate change than the lighter, single-use bags.
+-   A study of deposit-return systems in 12 cases found no correlation between the introduction of the charge-refund scheme and sales while simultaneously driving an improvement in the quality of recyclate ([Packaging Europe, 2023](https://packagingeurope.com/news/do-deposit-return-schemes-negatively-affect-beverage-sales/10097.article)).
+
+# Conditions for effectiveness
+
+<div>
+
+-   These instruments are based on the 'rational polluter hypothesis', assuming that regulatees are aware of their marginal costs and benefits and respond based on these
+
+-   MBIs are more cost effective in a context of high heterogeneity in MACs across firms, but to get that cost-effectiveness, additional assumptions must be met such as perfect competition and that emissions are not spatially specific e.g. SO2 permits in USA reduce emissions at 1/4 of cost of equivalent C&C approach (Harrington and Morgensten, 2004).
+
+-   Will depend on the price of substitutes and MAC curve for reducing inputs. If demand for the regulated environmental use is inelastic, then imposed price instruments are unlikely to change demand.
+
+-   Transaction costs (including search and information costs, bargaining and decision costs and policing and enforcing costs) can be prohibitive to the establishment/functioning of many of these instruments
+
+-   Charge-rebate systems - Most effective if applied to products with an existing distribution system and where reuse and recycling is technically and economically feasible.
+
+-   Depends on nature of environmental use being governed
+
+-   PMBIs are most effective for products whose demand or output is sensitive to price change.
+
+-   Different MBIs are suited to different uses e.g. biodiversity are more skewed towards subsidy models while pollution-reduction are more skewed towards taxes. Trading schemes may be more relevant for some environmental issues than others.
+
+-   Taxes and tradable permits most suitable where there is little variability in damage per unit of pollution. Taxes preferred of the two where there is high e.g. geographical variability in MDCs as these can be adjusted for different areas.
+
+-   Charge-rebates systems are most effective if applied to products with an existing distribution system and where reuse and recycling is technically and economically feasible.
+
+-   Depends on the steepness of MDC curve and uncertainty.
+
+-   Where regulation is so stringent all available abatement measures must be taken, market-based instruments aren't always significantly more cost-effective than standards.
+
+-   If uncertainty about MDC exist, quantity-based mechanism preferred so as to not under-regulate suffice its steeper than MAC. If uncertainty about MAC exist, price-based preferred suffice it's steeper than MDC, however if not, and there is uncertainty regarding MAC, price-based preferred.
+
+-   Rights-based instruments can be applied to directly control aggregate quantities of harmful activities and outputs, according them much greater appeal in situations where the dependability of environmental outcomes is paramount (e.g. in the management of toxic waste). In the absence of information about the aggregate marginal abatement cost function of agents, price-based instruments cannot deliver precise aggregate outcomes in first rounds of governance. Use quantity-based approaches when the MDC is steep because the optimal level of a pollution is very low and also when steeper than the MAC curve - while C&C as an outright ban may be cheaper here.
+
+-   Depends on number of governing subjects: Where there are many polluters, taxation is superior to cap-and-trade (Pizer 1997). Where there are a lesser number of regulated sources - mainly producers, and with highly variable MACs between them, cap-and-trade is preferable, though sufficient sources are needed for a market to be established.
+
+-   Depends on wider economic and technological context.
+
+    -   Choices about price- or quantity-based PMBIs approaches also depend on dynamic effects, including: 1) Economic growth - rapid economic growth will lead to an increase in use with an eco-tax, but not a TDP scheme if allowances are fixed; 2) Inflation - inflation may lead to an increase in emissions with a tax, but not a TDP scheme; 3) Technological change (which will lead to a decrease in emissions in the case of eco-taxes but not TDPs (Stavins, 2006).
+
+</div>
+
+De Camillis and Goralczyk (2013) discuss several methodologies capable of determining variable VAT rates depending on the environmental product performance based on LCA indicators. They simulate a case study that shows considerable potential to deliver significant impacts on unsustainable consumption and production patterns. Another proposal calls for a reform of the current VAT system by introducing differentiations between sectors, products and services, and product and service groups, which are identified as particularly resource and carbon intensive and sets out how a harmonisation of the overall system and an ecological differentiation in single consumption areas could contribute to support the transition to a low-carbon and resource-efficient economy (Bahn-Walkowiak and Wilts 2015).
+
+Oswald *et al* 2018 recommend the expanded use of economic policy instruments, including:
+
+-   Extent the Climate Change Levy Agreements to include embodied carbon of raw materials and waste;
+
+-   Modulated taxes on virgin materials, waste to better reflect environmental impact;
+
+-   Green public procurement;
+
+-   A preferential tax regime t encourage resource efficient businesses;
+
+-   Extension of the Landfill Tax to EfW
+
+Taxation of carbon embodied in traded products is more advanced that embodied materials (as captured by measures of raw material consumption), and has the potential to deliver reductions in resource use, material substitution and an increase in secondary material use, though depends on how taxes are responded to.
+
+-   Monopolistic or oligopolistic industries do not respond to economic incentives to the degree competitive firms do because demand is more inelastic, making technology and performance standards preferred (Panayotou, 1994).
+
+-   Markets have many pre-requisites for benefits to materialize (Cole & Grossman, 1999):
+
+    -   Monitoring and enforcement needs to be sound (Aakre and Hovi 2010, D'Amato and Valentini 2011, Brandt and Svendsen 2014). Monitoring MBIs may be more difficult, and if ineffective, price of emissions may be inefficiently low and not encourage the sought level of emissions. Monitoring prices likely to reduce with time though.
+
+    -   Requires competitive market: in order to fully exploit efficiency gains, however the permit market may not be perfectly competitive because of a small number of polluters or bigger firms manipulating prices. Price volatility may have negative consequences e.g. rendering investment decisions difficult as firms don't know if reductions will definitely pay off.
+
+    -   Assumes market participants have knowledge of their own MACs etc. and capabilities to engage in efficiency-enhancing trades.
+
+    -   Relies on an absence of corruption: Over-allocation of permits can be an issue, leading to low prices and low incentives. There is a higher susceptibility of fraud e.g. the PRN system in the UK.
+
+    -   Can be difficult to determine the right amount of permits to allocate - under allocate and the economy might be harmed, over allocate and emission levels won't be reached.
+
+    -   Difficult to get the price right for taxes. Knowledge of both the aggregate MAC and the aggregate MDC is needed for taxes to achieve the efficient level of pollution. Though less informationally taxing than C&C which requires knowledge of each firm's MAC, this information can still elude a regulation.
+
+    -   Volatility of allowance prices is a serious concern for cap & trade, affecting incentives for emission reductions if not stabilized - seen in the volatility of the EU ETS (not a bad thing during macroeconomic disruptions as counter-cyclical, with prices declining during recessions due to reduced demand). Volatility can be managed through price ceilings or floors and inter-temporal banking.
+
+    -   WQT in USA - The textbook vision of efficient emission trading assumes that emissions can be standardized into a homogeneous commodity that can be accurately metered for each regulated emitter and a under the control of the polluter, and that the spatial location of emissions within the market doesn't affect the environmental outcome. These assumptions often won't hold for water pollution control contexts (Shortle, 2013).
+
+# Design and implementation considerations
+
+Well-designed MBIs can exploit multiple abatement channels, including: a) switching to cleaner inputs; b) making use of process-integrated or end of pipe technologies; and 3) reducing the overall scale of consumption/production (Goulder and Parry 2007).
+
+The closer to the source of pollution, the better - allows more routes for abatement to be used.
+
+Cost-effectiveness can be undermined for cap & trade by the allocation system - Parry and Williams (2010) using general equilibrium models, find auctioning can reduce the costs of meeting a given target for emission reduction by 1/2 compared to a programme with free permits because the revenues can offset other distortionary taxes.
+
+suggested that the levy should be imposed alongside other regulatory instruments, including a landfill tax and constraints on mineral planning (EEA, 2008). Cross-border impacts should be considered.
+
+Interactions between a DRS and other mandatory EPR mechanisms are explored by the [OECD (2022)](https://www.oecd.org/environment/deposit-refund-systems-and-the-interplay-with-additional-mandatory-extended-producer-responsibility-policies-a80f4b26-en.htm). Potentially negative interactions have been highlighted by industry ([Packaging Portal, 2023](https://www.thepackagingportal.com/industry-news/drs-doesnt-fit-with-epr-or-consistency-of-collections-warns-the-recycling-association/)).
+
+For charge-rebate: should be implemented alongside demand-pull mechanisms for in-scope materials e.g. a mnimum recycled content requirement. Most effective if applied where a distribution system exists and recyclng/reuse is economically feasible.
+
+The environmental effectiveness and cost effectiveness of cap & trade can be compromised by interactions with other regulations. For instance in the UK, the tax brought in on emissions in addition to the EU ETS may lead to reductions in emissions in the UK, but by making the price of EU ETS permits even lower, can lead to expansion of emissions in Europe (Goulder, 2013).
+
+All PMBIs require: 1) trackable target populations influenced by cost and profit considerations and which can influence attainment of the resource management objective; and 2) a readily identifiable and homogenous metric that can be used as the focus of the instrument; 3) pre-existing market or capacity to create or award property rights.
+
+Instrument design/configuration must provide sufficient incentives - taxes must be set high enough and permits must not be over-allocated;
+
+Considered for nearly all environmental problems raised, however may not work well under every set of circumstances (Stavins, 2003).
+
+that should be paired with the removal of distortionary subsidies to ensure efficiency (Scott, 1997).
+
+Environmental Problem:
+
+For TEPs, effective monitoring must be in place for the policy to work (Goulder, 2013) e.g. difficulty of setting up TEP aimed at water pollution in USA and elsewhere (Borghesi, 2013), and issues of compliance undermining effectiveness of cap & trade under Kyoto. Work best when covering pollutants that can be monitored easily e.g. point source pollutants.
+
+Market Conditions:
+
+Efficient when the cost of abating pollution differs widely among sources, giving greater potential gains that C&C regulation.
+
+Permits better for certainty in the presence of rapid rates of economic growth, as a fixed tax leads to an increase in aggregate emissions whereas permits do not allow this, with prices just rising to account for this.
+
+Permits better for certainty in a context of price inflation, a unit tax decreases in real terms so emissions levels will increase whereas for permits, there is no change in the aggregate.
+
+Taxes better for long-term improvements in the presence of exogenous technological change, a tax system leads to increases in control levels and a decrease in aggregate emissions while a permit system maintains emissions, with a fall in permit prices.
+
+Governmental Conditions:
+
+If uncertainty about MAC is significant and if the MAC is flat, then a quantity instrument will be more efficient than a price instrument (Weitzman, 1974).
+
+When incomplete enforcement occurs in the presence of uncertainty, quantity instruments perform relatively better than equivalent price instruments.
+
+Though addressing the environmental externality, these do not address the innovation market failures comprehensively, where supply-side technology instruments are needed.
+
+-   Resource taxation - would also require calculating the amount of material content in imported semi-finished and finished goods.
+
+-   Subsidies can either take the form of lump sums for capital costs or marginal subsidies for desired results
+
+-   Before PMBIs are introduced, any fiscal privileges to damaging environmental uses should be removed as these can undermine policy effectiveness and lead to counterproductive transfers (Scott, 1997).
+
+-   The cost-effectiveness of tradable permits can be undermined by using a grandfathering permit allocation method versus auctioning as distortionary taxes can't then be offset (Parry and Williams, 2010).
+
+-   For many pollution problems, more than one market failure may be involved which may justify employing more than one instrument.
+
+-   To ensure administered markets work effectively and efficiently, government has to guarantee that permits can be traded freely and will not be over-allocated alongside sound monitoring and enforcement (Cole & Grossman, 1999), while to maintain dynamic efficiency, their numbers must be reduced over time.
+
+-   Price volatility may also have negative consequences e.g. rendering investment decisions difficult as firms don't know if reductions will definitely pay off. Volatility can be managed through price ceilings or floors and inter-temporal banking.
+
+-   For Static Efficiency: An initial carbon tax should be modest because it imposes a deadweight loss as it penalizes decisions made before there was a carbon tax (Wigley, Richels, and Edmonds 1996). Over time, the carbon tax should rise. Net present abatement costs are lowest if all emissions from all sectors and all countries are taxed equally and if the carbon tax rises at a modified Hotelling rate (Hotelling 1931, Van Der Ploeg and Withagen, 2014).
+
+-   For Dynamic Efficiency: Eco-taxes must be high enough and expected to remain in place given costs and uncertain returns of technological efforts.
+
+-   Simplicity - Rules should be defined without ambiguity. Simple, transparent formulae are difficult to contest or manipulate.
+
+-   Improvements in instrument design will not solve all problems. Sometimes firms are simply not equipped to make these decisions.\
+
+> **Case study:** UK and the EU ETS - Multi-level governance and Administered Market/Prices Hybrid: The UK has a target to reduce carbon emissions by 80% by 2050 compared with 1990 levels under the 2008 Climate Change Act. Currently, many large UK companies pay a price for the carbon they emit through the EU's emissions trading scheme (EU ETS). The carbon prices from the EU ETS collapsed during the economic recession, so that the price signal given to installations to reduce emissions was not strong enough. For the UK power sector, the government introduced the Carbon Price Support (CPS) to supplement the European carbon price, requiring UK power generators to pay a minimum carbon price, which is referred to as the Carbon Price Floor (CPF). The Carbon Price Floor was introduced in 2013 at a rate of £16 (€18.05) per tonne of carbon dioxide-equivalent (tCO2e), and was set to increase to £30 (€33.85) by 2020. However, the government more recently decided to cap the Carbon Price Floor at £18.08 (€20.40) till 2021. The price freeze and the low trading price of allowances within the EU emissions trading system have meant that in the UK the carbon price has remained lower than expected and is inconsistent with meeting the Paris Agreement and the UK's own targets. Multiple explicit and implicit carbon prices across the UK - CPF, EU ETS, Climate Change Levy implied carbon price, fuel duty. They are inconsistent, causing substitution effects, none are set in relation to the carbon budgets and none have an efficient adjustment mechanism. Helm recommends to harmonize carbon prices and move to a price reflecting the CCA target. To be more effective, it has been argued that the CPS rate could be modified to become an economy-wide carbon tax, reflecting the reduction targets of the Climate Change Act (Helm, 2017). CPF has encouraged a shift from coal to gas generation since 2013 but been criticised for tax receipts going to the treasury rather than renewable energy deployment.
+
+# Prospective applications in UK CE framework
+
+-   OECD: 2023 "Consider further use of economic instruments to promote waste management and circular economy goals, in particular introduction of incineration taxes to provide further incentives for recycling and avoid a"lock-in" of incineration capacity, plus an increase in aggregates tax to encourage further resource efficiency and recycling in construction. After monitoring the results of the plastics tax, to be introduced in 2022, consider the feasibility of increasing the minimum recycled content and of introducing taxes to promote recycled content in other products."
+-   Recycled content requirements vs. recycled content taxation
+-   Extend
+    -   Based on the experience of the aggregate levy and other countries, the UK could introduce a virgin material taxes across a selected number of raw materials.
+
+    -   For example, following Latvia's example of the Natural Resource Tax (since 1991, extended in 2014), the tax mandate could be extended to any commercial activity connected with extraction of natural resources, environmental pollution, goods and products that are harmful to the environment, packaging and disposable tableware. The rationale and size of each levy would need to be determined by the associated environmental impacts.
+
+    -   Greening fiscal frameworks and in particular, subsidies, has been called for in the UK.
+-   Change level
+    -   Eunomia propose a differential rate applied to extracted materials based on the nature of the materials and their environmental costs.
+
+    -   The UK's recover rate of construction and demolition waste was at 89.9% in 2014 so it is not certain whether a further increase in the aggregate levy might result in additional use of recycled aggregate. If there are no alternatives to the virgin products used in construction such as concrete, the rise in the levy would increase the construction project costs.
+
+    -   The potential negative impact of the tax economic growth would need to be considered. While a number of academic studies assessing the impact of material tax indicate a potential long-term increase in GDP this is often conditioned on increased support to R&D activities through the collected tax revenues.
+-   Reconfigure
+    -   Extended producer responsibility reform has potential incentivising similar activities while targeting the producers of sold products rather than the raw materials extraction sector.
+
+    -   Introduce a minimum level of secondary materials used across different products and sectors.
+-   Enforcement

@@ -1,0 +1,472 @@
+# 
+
+```{r include=FALSE}
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  cache = FALSE
+)
+
+# *******************************************************************************
+# Packages
+# *******************************************************************************
+# Package names
+packages <- c("magrittr", 
+              "writexl", 
+              "readxl", 
+              "dplyr", 
+              "tidyverse", 
+              "readODS", 
+              "data.table",
+              "janitor",
+              "plotly",
+              "ggplot2")
+
+# Install packages not yet installed
+installed_packages <- packages %in% rownames(installed.packages())
+if (any(installed_packages == FALSE)) {
+  install.packages(packages[!installed_packages])
+}
+
+# Packages loading
+invisible(lapply(packages, library, character.only = TRUE))
+
+# Turn off scientific notation
+options(scipen = 999)
+```
+
+```{css, echo=FALSE}
+.callout {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  style="column-gap: 0;"
+}
+```
+
+# Assessment approach
+
+> [We review policies against a set of key criteria by drawing on UK-specific evidence primarily as well as that from other countries. Outputs include a longlist appraisal scoring matrix, 'modelling blueprints' and recommendations for policy design and implementation.]{style="color: SteelBlue;"}
+
+## Scope
+
+### Focus
+
+While the term 'circular economy' (CE) has only appeared more recently in policy documents released by UK public bodies, policies whose objectives are congruent with the CE concept by delivering against one of its 'value drivers' (see ['leveraging CE value using policy'](https://policylab.quarto.pub/policy-tools-for-a-uk-circular-economy/value-drivers.html)), have been introduced in the UK since at least the 1970s.
+
+We therefore adopt a broad scope in our review of instruments in order to capture regulations that may not explicitly include reference to the CE, but can otherwise be recognised as relevant. Policies captured in our review therefore include those levied on:
+
+::: grid
+::: {.callout-note .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## M**aterial** flows
+
+Further subdivided into:
+
+1.  Policies levied on material flows **within** the economy such as mandated recycling rates or secondary material requirements as well as more widely relating to the quality, quantity or rate of materials, components or products;
+
+2.  those applied at the **technosphere-ecosphere boundary** such as relating to the use of the environment as a material source or sink as with the UK Landfill Tax or UK Aggregates Levy, or fish catch limits;
+:::
+:::
+
+::: grid
+::: {.callout-important .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## Wider effluents
+
+such as emissions, which can indirectly leverage CE value drivers or be relevant to objectives more broadly. For instance, fuel economy standards introduced primarily to reduce fuel use have been met to some extent through the lightweighting of vehicles. In other cases, such policies can appear to run counter to CE value drivers in the immediate term, such as increasing the turnover of capital stocks via scrappage schemes to reduce the emissions intensity of the in-use stock.[^about-1]
+:::
+:::
+
+[^about-1]: This can also be a pragmatic approach as in some cases, policy in linked areas such as covering emissions have greater political traction and can be extended to make them a further enabler of CE value drivers in an efficient way. In many cases, policies of interest may be under-developed in the UK relative to other countries.
+
+::: grid
+::: {.callout-tip .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## The natural capital stock
+
+such as tree-cover targets, which can also be relevant to CE value drivers and linked strategic objectives through routes like increasing the supply of sustainable feedstocks or indirectly driving reductions in the environmental intensity of economic activities; and
+:::
+:::
+
+\
+We use the following search terms.
+
+### Region
+
+We prioritise evidence collected on instruments which have been applied in the UK due to institutional and contextual specificities of countries making up the UK. As in some cases, other countries have applied instruments not (yet) used in the UK, evidence from other countries as well as more aggregated meta-evidence for regions including not only the UK are also considered.
+
+We identify relevant regulatory instruments from the government legislation portal, retained EU Law dashboard and OECD PINE Database for the period 1970-2022. To capture instruments being delivered outside regulatory systems, we extract information via the google search engine and engage directly with instrument developers such as Wrap.
+
+### Evidence sources
+
+Evidence regarding the characteristics and performance of instruments is drawn on from the extant literature, with sources including theoretical modelling studies, surveys, post-implementation reviews, consultations, single policy assessments in scientific papers and meta-analyses. These utilise a range of methods including those quantitative and qualitative methods such as cost-benefit analysis, cost-effectiveness analysis and multi-criteria analysis.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+## Methodological considerations
+
+-   ***Attribution*** - It is unlikely to be the case that all effects on outcomes such as pollution or resource use levels following the introduction of an instrument can be attributed to it. Attribution can be made difficult by the absence of a robust counterfactual i.e. what could have happened were the instrument not introduced. Comparisons of the performance of actors adopting an instrument versus those not can also be impacted by selection bias and other issues of representation. Policy instruments are also rarely used in isolation, such that it is often very difficult to separate individual contributions of policy measures while the joint effects on outcomes need to be recognised.
+-   ***Transboundary and cross-media effects*** - Instruments don't operate in a national vacuum, and spillover effects which might contribute to environmental degradation elsewhere and including in another environmental media, need to be considered.
+-   ***Availability & quality of information -*** Ideally our evaluation of instruments should include a comprehensive assessment against all critical success factors, but often due to data and resource constraints, this is not possible.
+:::
+
+\
+
+We [catalogue](https://docs.google.com/spreadsheets/d/1S4QOcgucAEt1h5LdaQ1bDbTweQwP-8QcO0yzfN5vog8/edit#gid=379393056){style="font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"} government plans, strategies, legislation, programmes and projects on which evidence is collected, with instruments coded based on their: **medium** of focus; **material or substance**(s) of focus; scale and **region** to which they are applied e.g. national-level and UK-wide or country region making up the UK; instrument **type** e.g. a ban or tax; applicable institutional sectors and where leived on industry, associated industry classification codes. Evidence is further flagged based on the region to which it relates.
+
+## Inputting to the policy cycle
+
+Outputs of the review are intended to input to the policy development cycle through supporting shortlist and longlist appraisal and informing policy design and implementation. To do so effectively, we translate collated evidence into:
+
+1.  A **scoring matrix** of policies against critical success factors to inform *longlist appraisal*;
+
+2.  A set of **modelling blueprints** to help provide transparency of assumptions and consistency in ex ante modelling of policy instruments such as takes place during *shortlist appraisal* (Donati *et al.* 2020); and
+
+3.  **Recommendations** for policy design and implementation, to effectively and efficiently leverage instruments.
+
+As the suitability of instruments will differ by product group and products, this is intended to be a first port of call in thinking systematically about which policy tools to use when trying to leverage CE value drivers to achieve social objectives.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+## Interactions with existing commitments
+
+In many cases, government has commitments in place to realise changes identified as necessary for more circular economies across the UK. For instance, following the 2017 Chief Scientific Advisors Office's report 'From Waste to Resource Productivity' which called for the development of a national strategy to deliver this transition, the Resources and Waste Strategy (RWS) for England published in 2018 by Defra sets out a strategic ambition to double resource productivity and eliminate avoidable waste of all kinds by 2050 in line with the direction of the 25 Year Environment Plan.
+
++-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Product group** | **Existing policy commitments**                                                                                                                                                                                  |
++===================+==================================================================================================================================================================================================================+
+| **Vehicles**      | -   Ecodesign principles for the UK automotive sector                                                                                                                                                            |
+|                   | -   Reform to the ELV Regulations                                                                                                                                                                                |
+|                   | -   Introduce an EPR schemes for Tyres                                                                                                                                                                           |
+|                   | -   Work with BSI to develop quality assurance mark designed to increase confidence in reuse, repaired and remanufactured parts                                                                                  |
+|                   | -   Support work of other government departments to capture data relating to the social and environmental benefits of car-sharing and leasing models                                                             |
+|                   | -   Work with industry, academia and OGDs to jointly plan for the transition from combustion engines to EVs and effective EV battery management                                                                  |
++-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Packaging**     | -   Ban unnecessary plastics (plastic straws, drink stirrers and cotton buds, single-use plates, cutlery and balloon sticks as well as packaging for takeaways);                                                 |
+|                   | -   Develop standards for bio-based and biodegradable plastics                                                                                                                                                   |
+|                   | -   Reform packaging waste regulations governing EPR so producers pay full end-of-life clean up cost and set further targets on businesses for packaging recycling                                               |
+|                   | -   Place charges on other single-use plastic items beyond plastic bags; Plastic packaging tax; Increase plastic bag charge to 10p and extend to all shops; Introduce a DRS for single use drinks containers     |
+|                   | -   Support campaigns to promote reusable alternatives                                                                                                                                                           |
+|                   | -   Deliver on the 'greening government' commitment by removing single-use packaging from government estates                                                                                                     |
+|                   | -   Fund the £20 million Plastics Innovation fund, the £20 million Plastic and Waste Investment Fund and R&D through Plastics Pact                                                                               |
++-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Construction**  | -   Ecodesign regulation for construction components and materials; Support to LAs to work through planning system to promote sustainable construction                                                           |
+|                   | -   EPR scheme on selection of construction wastes                                                                                                                                                               |
+|                   | -   Ecolabelling of construction components and materials                                                                                                                                                        |
+|                   | -   Work with industry to explore shift in design of construction products                                                                                                                                       |
+|                   | -   Work with GCB R&W Taskforce to produce roadmap to Zero Avoidable Waste                                                                                                                                       |
++-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Furniture**     | -   Set minimum standards for furniture on repairability, durability, reusability, recycled content                                                                                                              |
+|                   | -   EPR for bulky items                                                                                                                                                                                          |
+|                   | -   Set requirements for improved labelling and consumer information                                                                                                                                             |
+|                   | -   Foster industry action via trade associations, VAs and industry standards through encouraging sharing of best practices                                                                                      |
++-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Textiles**      | -   Set minimum ecodesign standards for clothing on durability, reusability, recyclability and recycled content                                                                                                  |
+|                   | -   Textiles EPR                                                                                                                                                                                                 |
+|                   | -   Working with WRAP through the next phase of the SCAP 2021-30 to galvanise voluntary actions across supply chains                                                                                             |
++-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Food**          | -   Get legal powers to introduce food waste reduction targets on businesses (if annual reporting insufficient to drive improvement); Get legal powers for surplus food redistribution obligations on businesses |
+|                   | -   Support cross-sector collaboration through the Courtauld 2025 agreement                                                                                                                                      |
+|                   | -   Fund food redistribution organisations                                                                                                                                                                       |
+|                   | -   Introduce mandatory annual reporting of food surplus and waste by food businesses of an appropriate size                                                                                                     |
+|                   | -   Producing and promoting sectoral food waste strategies for the: 1) hospitality sector; 2) public sector (updating Govt buying standards)                                                                     |
+|                   | -   Support citizen campaigns e.g. Food Waste Action Week, Love Food Hate Waste                                                                                                                                  |
++-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+While current policies as listed in government strategies may go some way to delivering improvements in resource efficiency and a UK CE, more stretching policies may need to be introduced to deliver greater levels of improvement both in the short-term (i.e. next 5 years) and beyond this, while the evidence-development process for many commitments may be relatively early and benefit from additional evidence-collection. The same may be said for other strategies across the countries making up the UK such as Wales' [Beyond Recycling](https://gov.wales/sites/default/files/publications/2021-03/beyond-recycling-strategy-document.pdf) (2021), Scotland's [Making Things Last](https://www.gov.scot/binaries/content/documents/govscot/publications/strategy-plan/2016/02/making-things-last-circular-economy-strategy-scotland/documents/00494471-pdf/00494471-pdf/govscot%3Adocument/00494471.pdf) (2016) and N. Ireland's [Circular Economy Strategy](https://www.economy-ni.gov.uk/consultations/circular-economy-strategy-northern-ireland#:~:text=The%20draft%20Circular%20Economy%20Strategy%20for%20Northern%20Ireland%20is%20a,across%20government%2C%20business%20and%20society.).
+:::
+
+### Assessment against critical success factors
+
+We assess key instruments making up the [policymakers' toolkit](https://policylab.quarto.pub/policy-tools-for-a-uk-circular-economy/instruments.html "policy tools") for delivering a more circular UK economy change against the following set of criteria or 'Critical Success Factors' (CSFs) - in the HM Treasury Green Book as '*attributes essential to the successful delivery of projects and programmes*' (HM Treasury, 2022).
+
+::: grid
+::: {.callout-note .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## Strategic fit
+
+How policy intervention supports 'national, regional, local or organisational policies, initiatives and targets', align with other projects and programmes and fits with wider business strategy of UK public bodies ([HM Treasury, 2018](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/749086/Project_Business_Case_2018.pdf)).
+:::
+:::
+
+::: grid
+::: {.callout-tip .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## Effectiveness and efficiency
+
+There is often a high level of uncertainty regarding the impacts of policy change, with this based on a range of factors. To assess *effectiveness*, we capture evidence on the effect of instruments in relation to objectives such as reducing (primary) resource use, waste generation, reducing leakage and improving waste treatment and including the *immediacy* (indicative time required to implement) with which these effects arise and certainty of meeting aims (*predictability*). We also consider evidence on how *efficiently* outcomes are delivered (value for money) and the role of instruments in moving the UK towards a more optimal distribution of goods, services and pollution (allocative efficiency). We include findings from both cost-effectiveness analysis[^about-2] and cost-benefit analysis[^about-3].
+:::
+:::
+
+[^about-2]: Cost-effectiveness analysis involves a monetary assessment of costs alone while not for benefits.
+
+[^about-3]: Cost-benefit analysis involves measuring net benefits or benefit-cost ratios through both costs and benefits being monetised.
+
+::: grid
+::: {.callout-important .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## Financial cost to the public sector
+
+A key part of moving from theoretical to actual benefits is political and administrative feasibility (the ability to put a policy into effect in a given context), with government affordability an important parts of this ([OECD, 1999](https://read.oecd-ilibrary.org/environment/policy-guidance-on-resource-efficiency_9789264257344-en#page3)). In addition to considering evidence on abatement and compliance costs from the perspective of the regulatee, we look for evidence on direct and indirect administrative costs to government (including at policy design and enforcement stages) of instruments, as well as evidence on revenues generated which can offset these (HMT, 2022).
+:::
+:::
+
+::: grid
+::: {.callout-caution .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## Long-run effects
+
+We look for evidence on the long-run effects of instruments and their ability to meet regulatory aims persistently into the future while providing incentives for continued improvements beyond the minimum. This includes their continued effectiveness under a variety of circumstances and resilience to external changes such as inflation, ability to be updated in response to new information and capacity to harness technological change through providing incentives for innovation over time so as to lower the costs of achieving goals over time (Fiorino, 2004).
+:::
+:::
+
+::: grid
+::: {.callout-warning .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## Distributional and equity effects
+
+Considering the net-effects of instruments on different people and groups, and how these may exacerbate pre-existing inequities (Bryant and Bailey, 1997). Evidence of regressive effects across income strata, geography concerning any of the groups identified by the Equality Act 2010 as well as disproportionate burdens on small and micro businesses are sought to be captured ([RPC, 2019](https://www.gov.uk/government/publications/small-and-micro-business-assessment-samba-guidance)).
+:::
+:::
+
+::: grid
+::: {.callout-note .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## Spillovers
+
+We look for evidence on spillovers, both positive and negative and including: 1) Soft effects such as impacts on attitudes, awareness and learning; 2) Wider economic impacts including on innovation and trade; and 3) Perverse incentives and any contribution to potentially unintended consequences such as negatively impacting competition or giving rise to cross-media impacts.[^about-4]
+:::
+:::
+
+[^about-4]: Such as the IMO's 2018 Ship Emissions Regulation leading to the installation of equipment helping meet atmospheric emissions regulations but by routing discharge into the ocean.
+
+### Modelling blueprints
+
+To inform the modelling of policy pathways in a consistent and transparent way, one output of the review is a set of '*modelling blueprints*' (Donati *et al.* 2020). These are a collection of assumptions informed by our evidence collection and structured in a way as to feed into core utilised appraisal frameworks. These are framed within a social accounting matrix (SAM) i.e. '*a comprehensive and economy-wide database recording data about all transactions between economic agents in a specific economy for a specific period of time*' ([Causapé, Ferrari and McDonald, 2018)](https://publications.jrc.ec.europa.eu/repository/bitstream/JRC112075/jrc_sams_manual-2018.pdf).
+
+The policy taxonomy modelling blueprints presented here link to the CE-Hub's agnostic value-chain taxonomy developed to provide a consistent representation of actors, activities and flows and stocks along a given value chain. These can be used together to identify the who and how of targetting interventions to drive change towards more circular and sustainable UK economies (IRP, 2021). The institutional and industrial sector classifications of the System of National Accounts can be superimposed on this 'ecosystem model' in the following ways... This links naturally also then to actors groups in multiregional input-output and macroeconomic analysis approaches.
+
+<center>
+
+![MacFeely (2011)](images/Balanced-Supply-Use-Framework_W640.jpg){width="400"}
+
+</center>
+
+End-points derived from our evidence review for use in modelling potential impacts of different policy types therefore include estimates for:
+
+1.  likely **penetration rates** - for instance, a voluntary approach could be expected to have a lesser participation rate than a mandatory approach, those even mandatory approaches may have freeriders where enforcement is low;
+
+2.  likely **scale of effect** per participant[^about-5];
+
+3.  the potential **immediacy** of an instrument's effects following introduction;
+
+4.  potential **costs** and long-run effects such as innovation that may serve to reduce these; and
+
+5.  **spillover** effects.
+
+[^about-5]: Assuming full compliance, very direct with prescriptive regulation which effectively prescribes the outcome, though this will be parameterized by what is technologically feasible in many cases (apart from if technology-forcing policies are sought to be introduced). More indirect policy interventions which don't prescribe outcomes e.g. labelling, EPR or fiscal mechanisms, requires informed assumptions regarding likely efficacy of impact depending on intermediating parameter
+
+These evidence-derived assumptions can be used alongside additional hypothetical policy assumptions including:
+
+1.  The **scope** of a lever e.g. whether a policy is applied to computers or all small appliances and institutional scope - i.e. to **whom** the lever would apply and any exemptions;
+
+2.  The **focus** of the instrument e.g. reducing production leakage, lightweighting and material substitution or lifespan extension;
+
+3.  At what **level** the lever is set e.g. the length of the mandatory minimum lifetime of product or rate of tax applied; and
+
+4.  **When** the lever is introduced, including accounting for sequencing and interaction effects
+
+to input to the modelling of policy impacts in a consistent way. We outline the input requirements of core appraisal methodologies below. These approaches are increasingly being used in conjunction with one another to answer stakeholder questions relating to the circular economy ([Hellweg *et al.* 2023](https://doi.org/10.1038/s43017-023-00449-2)).
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+## Cost-benefit analysis
+
+The general steps of CBA are (Boardman *et al.* ; Atkinson *et al.* 2018):
+
+1.  Selecting the portfolio of options for projects or policies;
+
+2.  Establishing a baseline for comparison to indicate the counterfactual;
+
+3.  Determine who has 'standing' and we are interested in the benefits and costs of counting i.e. the affected population for a study e.g. a watershed's population; 
+
+4.  Identify, list and quantify potential physical impacts for the life of the project or policy; 
+
+5.  Monetize impacts for each time period; 
+
+    1.  All goods and services for which individuals have preferences and therefore value having more of than current provisions & all the things people wants where provision has an opportunity cost.
+
+    2.  Calculating the net sum of all the relevant WTPs and WTAs for a project outcome or policy change defines the **total economic value (TEV)** of any change in wellbeing due to a project or policy. TEV can be characterised differently according to the type of economic value arising. Total Economic Value is the summation of use and non-use values. Use value is understood as welfare generated through the actual utilization of the environment and can be further categorized into two forms of actual use values - direct and indirect, in addition to an option value of later use (Pearce et al. 1989). Direct-use values refer to welfare that the current utilization of a resource confers such as water in a production process or for recreation. Direct use values will either be derived consumptively or non-consumptively depending on whether the utilization of those resource lead it to being rendered unusable to other potential beneficiaries. Indirect use-values are those indirect benefits of ecosystems which impact welfare through the services that ecosystems provide (Munasinghe and Schwab, 1993). 'Option use value' refers to the preferences people may have for utilizing a resource in the future. Non-use values are those non-instrumental benefits attributed to the environment and includes 'existence values' i.e. the preference a society has for knowing a particular resource exists in and of itself; 'altruistic value' i.e. the preferences a society may have for others within the current generation being able to use the resource in question; and 'bequest values' - the preferences societies have for passing on resources to future generations. 
+
+    3.  Benefits - Outputs of the project which increase human welfare, the value of which are assessed based on how much someone is willing to pay for that benefit, even for the likes of avoided costs. A benefit or gain in an individual's wellbeing (utility or welfare) can be measured by the maximum amount of goods or services -- or money income (or wealth) -- that he or she would be willing to give up or forego in order to obtain the change. Demand curves for environmental goods and amenities and therefore WTP can be affected  (moved out and slope changed) by: 1) recognition of the importance of a good (increased recognition of the value of clean water, clean air); 2) knowledge of an additional cost accrued through using a good (e.g. illness through GM crops).
+
+    4.  Costs = Outputs of a project that decrease human welfare, which include input costs. Taxonomy depends on kind of project e.g. conservation projects might be decomposed into acquisition, establishment, operations and maintenance costs, transaction and opportunity costs. Generally they are decomposed into: 1) Capital costs; 2) Operation Costs; 3) Externality Costs. In a more traditional economic sense, these are measured as the cost of producing a product (if produced via inputs on the free market then this can be valued easily) and the opportunity cost of using these inputs (consists of the maximum value of other outputs to which the resources used in one way could have been used in the second most efficient manner).
+
+    5.  Private and Social Costs: Private costs accrue to those making a product. Social costs accrue to the society surrounding that person making the product and is the summation of all costs (MSC + MPC).
+
+6.  Aggregation then involves all benefits and costs being summed to calculate net benefits while discounting for future benefits and costs depending on the social discount rate; 
+
+    1.  We discount future values into those that are present-day through the use of a discount rate to account for society's preferences for benefits now rather than later and its lesser concern for costs in the future versus those now on one hand, and the opportunity cost of capital given economic productivity on the other (Speer *et al.* 2015). The choice of discount rate embodies important normative assumptions regarding intergenerational equity and short-termism. Boardman *et al.* (2006) recommend a real social discount rate of 3.5% be used for studies 1-50 year into the future, with this increasing past a 50 year period. 
+    2.  Sensitivity analysis can then be used to test the sensitivity of the net benefit to changes in its determinants as an indication of uncertainty;
+        1.  *Risk and uncertainty:* Benefits and costs will not be known with certainty. While conventions vary, it seems fair to distinguish "risk" from "uncertainty" in clarifying what this means and its implications for CBA. A risk context is one where benefits and/or costs are not known with certainty, but a probability distribution is known. Sometimes these probability distributions can be very crude. On some occasions they can be sophisticated. A context of uncertainty is different. There is no known probability distribution. End points might be known, i.e. it is known or expected that the value cannot be less than a number, and that it cannot be more than another number. But, in other cases, there may be pure uncertainty in the sense that "anything may happen". 
+
+        2.  If the context is one of uncertainty, i.e. the distribution of benefits (costs) is not known, then, at the very least, CBA requires that a sensitivity analysis is performed. Sensitivity analysis requires that the CBA is computed using different values of the parameters about which there is uncertainty. Such procedures require some assumption about likely minima and maxima, but do not necessarily make assumptions about the distribution of values between these limits. For example, if a discount rate of 4% is chosen as the central case, then, say, 2 and 6% could also be chosen for a sensitivity analysis. One possible outcome is that the sign of the net benefits will be unaffected by these alternatives, in which case the analysis is said to be "robust" with respect to these assumptions. In other cases, changing assumptions may alter the CBA result. 
+
+7.  Results are presented either as a net benefit (B-C) or a benefit-cost ratio (B/C); 
+
+8.  Options are selected based on the following decision-rules:
+
+    1.  If options are mutually exclusive, choose X because it has the highest Net-Benefit. If options can be chosen independently, choose X,Y, or Z, because all have NB \> 0, and these can be ranked by their cost-benefit ratio. If options can be chosen independently, but money is limited (£100), then choose Y and Z because they provide the highest total NB before money runs out (Ranked by B/C). 
+
+-   Discounting is used to account for:
+
+    1)  *positive temporal preferences* of society for benefits now over benefits in the future, and lesser concern for costs arising in the future than those in the present. Simply put people consider £1 now to be more valuable than £1 in the next period, such that individuals would be indifferent between a £1 now and somewhat more than £1 next year. This can be due to impatience, survival risks and us being richer later on (so marginal value of the capital will then be less). This extra is called the *rate of time preference (RTP*); 
+    2)  *economic productivity* - rather have £1 now than later because of a positive rate of interest in the economy and opportunity costs being equal to returns on investment. This stems from the fact capital is productive and that by investing in capital now, we can ensure greater returns in the next period. Simply put, for every £1 we invest now, we get £1 plus some extra back in the next period. This extra is called the *opportunity cost rate* (OCR) since it is the opportunity cost (the consumption foregone in the next period) by consuming now and not investing in productive capital. Opportunity cost is equal to the potential return on investment of resources used to an alternate end. 
+:::
+
+::: {.callout-important collapse="true" appearance="minimal" icon="false"}
+## Risk-opportunity analysis
+
+When standard assumptions of welfare economics and CBA are met, optimisation models can play an important role in analysing the potential impact of policies or projects on the allocation of existing economic resources. Where assumptions for welfare economics CBA are not met however, models should be selected which don't impose the existence of economic equilibrium, that incoporate heterogeneous actors and that represent system dynamics rather than calculate outcomes at moments in time e.g. agent-based models, system dynamics models and non-equilibrium macro-econometric models.
+
+[Sharpe *et al.*](https://www.ucl.ac.uk/bartlett/public-purpose/sites/public-purpose/files/final_iipp_2021-03_roa_simon_sharpe_et_al_21_jan.pdf)([2021](https://www.ucl.ac.uk/bartlett/public-purpose/sites/public-purpose/files/final_iipp_2021-03_roa_simon_sharpe_et_al_21_jan.pdf)) also recommend the use of 'risk opportunity analysis' (ROA) which is a more general form of cost-benefit analysis. ROA steps involve:
+
+1.  System boundaries are delimited, and all relevant interactions and positive and negative feedbacks are identified; (suitable models, if required, are chosen or designed);
+
+2.  The potential effects (intended and unintended) of policy options in the economy are assessed, and uncertainty ranges estimated;
+
+    1.  Mapping the relationships between components of the economic system of concern, in terms of reinforcing and balancing feedbacks
+
+    2.  Identifying the likely effect of policy interventions on system behaviour, based on changes to the structure of relationships between components (including relationships created by other policies that already exist or are under consideration). This may be extended to include the creation of a range of scenarios and storylines of cumulative causation that result from policy action, where longer-term effects are likely to be important to policy objectives;
+
+    3.  Comparing likely effects in terms of:
+
+        i.  Direction of change (of any variables of policy interest)
+        ii. Magnitude of change (which may or may not be quantifiable)
+        iii. Pace of change
+        iv. Possible accumulation of risk and opportunity (option generation)
+        v.  Confidence, or range of uncertainty, in each of i to iv above.
+
+3.  The risks and opportunities of options (including most likely, best-case and worst-case outcomes) are compared along multiple relevant metrics and dimensions (where probabilities may be quantifiable or unquantifiable). This includes consideration of systemic risk (breakdown of an existing system), and systemic opportunity (where policy generates a whole new system, or set of opportunities);
+
+4.  The preferred option is determined by the decision-maker based on a qualitative judgment of the scale of the opportunities and risks, compared to the cost of the intervention. This will necessarily be a subjective judgment (since it incorporates a weighing of outcomes in different dimensions), informed by an objective assessment of likelihood and magnitude of possible outcomes in each of the relevant dimensions; and
+
+5.  A clear statement of the reasoning behind the decision is recorded including the decisionmaking body's assessment of the risks and opportunities in their various dimensions. (This can be helpful for transparency and for learning from experience).
+
+Key differences in ROA to CBA are that multiple metrics are used, the focus is on expected processes that drive change rather than outcomes, unquantified risks and opportunities are central to consideration so expected values are not used, policy should aim for maximum leverage in the desired direction of change and interventions should be enough to generate self-reinforcing change in desired direction.
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal" icon="false"}
+## Systems dynamics models
+:::
+
+::: {.callout-caution collapse="true" appearance="minimal" icon="false"}
+## Multiregional input-output analysis
+
+McCarthy, Dellink and Bibas (2018) identify two broad approaches in the literature for ex ante modelling of the potential economic implications of greater resource efficiency delivered through a more circular economy: 
+
+1.  'Accounting modelling' approaches: These generally involve developing scenarios in one or more sectors (with changes often modelled autonomously of policies) and drawing on expert opinion to estimate potential economic impacts in the form of costs savings or job creation. In some cases, input-output tables or multipliers are used to estimate indirect effects from changes in demand and production structures. A key benefit of this approach is the transparency of modelling, while a perceived drawback is not incorporating the influence of relative price changes and how households and firms may react to these through time nor the complexity of transitions around interactions between drivers as well as second-order feedback effects.
+2.  'Macroeconomic modelling' approaches: These approaches encompass economy-wide computable general equilibrium (CGE) or macroeconometric models. CGE models use mathematic equations to represent optimisation of households and firms in line with general equilibrium theory, while econometric time series models are based on econometrically estimated dynamics allowing disequilibrium effects and bounded rationality to be accounted for. A key benefit of CGE and macroeconometric models is their more explicit incorporation of the role that prices may play in determining supply and demand. A perceived weakness with CGE models is the restrictive assumptions which can underpin them, while for macroeconometric models, there is an argument that the assumption of historical behaviour guiding future economic interactions may be misplaced when dealing with 'out of sample' changes in the economy.
+
+### Input-output models
+
+#### Input-output tables
+
+Input-output economics was initially developed by the Russian-American economist Wassily Leontief ([1936](https://doi.org/10.2307/1927837)) building on earlier work by Walras and Quesnay. Input-Output Tables (IOTs) are published by a growing number of countries as part of their national economic accounts. IOTs, in an aggregated and monetary presentation, describe the structure of an economy in terms of the interdependencies between its sectors. National-level IOTs across countries have been compiled in Multiregional Input-Output (MRIO) databases to provide a picture of interdependencies between sectors in different countries.
+
+#### Environmentally-extended input-output analysis
+
+Economic data contained in (MR)IOTs can be combined with environmental data, such as on emissions or material extraction, to enable paired economic-environmental analysis. An Environmentally-Extended Multiregional Input-Output (EE-MRIO) table is an integrated dataset that combines a Monetary Input-Output table (MIOT) representing monetary inter-industry flows and final demand within and across regions, and an extension table in physical units depicting environmental flows associated with those economic activities ([Wiedland *et al.* 2019](https://www.researchgate.net/publication/337155929_Supply_versus_Use_Designs_of_Environmental_Extensions_in_Input-Output_Analysis_Conceptual_and_Empirical_Implications_for_the_Case_of_Energy)).
+
+To study the economy-wide implications of applying material efficiency on emissions, employment, domestic value added and resource use, input-output models have been used, either at the level of individual economies (Scott et al., 2019), or for the global economy (Donati et al., 2020; Wiebe et al., 2019). Input-output data is collected by countries in accordance with the System for National Accounts in a relatively consistent way and can therefore be compiled in databases called multi-regional input-output (MRIO) databases. Input-output models (IOMs) describe the structure of the economy and the interdependencies between sectors. For each economic sector, these models contain, in an aggregated and monetary presentation, goods that are needed (the inputs) across sectors and the goods that are produced (the outputs). By linking all in- and outputs to sectors or final demand, an economy-wide 'transaction' overview is provided. The models typically contain information about output, income of households, jobs and added value while environmental extensions can also be added.
+
+Aguilla-Hernandez et al. [(2018)](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjournalofeconomicstructures.springeropen.com%2Farticles%2F10.1186%2Fs40008-018-0113-3&data=04%7C01%7Coliver.lysaght%40defra.gov.uk%7C411bb775c63e4244f04b08d91475ef64%7C770a245002274c6290c74e38537f1102%7C1%7C0%7C637563320077216388%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=z%2FDMKW1Zi3TB%2BTtdYsgXe8TXf2saIxC%2FQimmWhHy44c%3D&reserved=0) in a review of publications analysing interventions associated with a more circular economy through Environmentally-Extended Input-Output Modelling (EE-IOMs), summarised:
+
+*'Our findings show that residual waste management can be modelled by increasing the amount of waste flows absorbed by the waste treatment sector. Closing supply chains can be modelled by adjusting input and output coefficients to reuse and recycling activities and specifying such actions in the EEIOA model if they are not explicitly presented. Product lifetime extension can be modelled by combining an adapted final demand with adjusted input coefficients in production. The impacts of resource efficiency can be modelled by lowering input coefficients for a given output'*
+
+IOMs can also be used to model the *economic* impacts of circular economy interventions. This can involve drawing on expert opinion to estimate the potential economic impacts of interventions in the form of cost savings or job creation in one or more sectors, with indirect impacts along supply-chains accounted for. To assess induced economic impacts of interventions beyond sectors immediately affected, multipliers can be used. The general limiting factor for IO approaches is that they don't have the capacity to account for changes in relative prices that interventions can stimulate and how firms and households react to these, which can have implications for both environmental and economic conclusions.
+
+To assess the wider economic impact of policies through IOMs beyond sectors immediately affected, IO multipliers can be used. Changes driven by policies may be associated with the creation of new jobs or revenues in one sector directly, but also induce additional jobs in sectors supply goods to that sector (indirect impact). These effects may serve to induce new final demand, further delivering economic growth/change to the economy (induced impact). Assumptions underpinning multipliers need to be accounted for: 1) Firms in an economic sector are often diverse and changes in the economy linked to resource efficiency interventions may result in new business models with different inputs and outputs. In such cases, available multipliers may misjudge the impact of activities; 2) input-output multipliers assume fixed input coefficients in production and therefore price changes of production inputs will not induce changes in the relative share of different inputs for production; 3) multipliers do not take factor markets into account such that a sector can grow without incorporating crowding-out effects of additional demand. For instance, additional jobs from new investment may lead to crowding-out effects resulting in higher wages throughout the economy which may restrain the initial economic impact. As a result, IO multipliers can overestimate impacts of changes. The general limiting factor for IO approaches is that they don't effectively account for changes in relative prices that interventions stimulate and how firms and households react to these. Applications include:
+
+-   Barrett et al. (2009) assessed the possible impacts of 13 resource efficiency strategies on reducing emission to 2020.
+
+-   Scott et al. (2019) analysed at the level of the UK using input-output models
+
+-   Norman et al. (2021)
+
+-   Wiebe et al. (2019) utilise MRIO analysis models for their ability to support analysis within a context of industry interdependencies, within and between countries, intermediate and final demand and producers and consumers. Project EXIOBASE at a global level to 2030 based on exogenous parameters included in the IEA Energy Technology Perspective's 6-degree scenario, comparing this reference scenario to a circular economy scenario associated with more recycling, material efficiency increases, repair and reuse and assessing impacts on material extraction, employment and value added per sector. Find global material extraction fell by about 10% compared to the baseline with a small positive impact on employment.
+
+#### Macroeconomic analysis
+
+Macroeconomic models are also built on IOTs, but seek to incorporate microeconomic theory and the role of prices within their dynamics. Macroeconomic models encompass both economy-wide computable general equilibrium (CGE) and macroeconometric models. CGE models use mathematic equations to represent optimisation of households and firms in line with microeconomic general equilibrium theory. Econometric time series models are based on econometrically estimated dynamics, which therefore allow disequilibrium effects and bounded rationality to be accounted for. 
+
+##### **Computable General Equilibrium Models**
+
+Computable general equilibrium (CGE) models are a class of economic models that combine use of input-output data with the application of microeconomic theory. CGE models can be statistic i.e. assuming changes happen instantly or dynamic through assuming some elements are sticky and take time to materialise. The mathematic approach of CGE models can allow flexibility in modelling production curves and consumption behaviour as the explicit incorporation of prices in determining demand and supply for products and materials is a key advantage over expert judgement and IO approaches. Grounded in general equilibrium theory, a limiting factor of CGE models is argued by some to be their assumptions of perfect competition in markets and that all markets clear, meaning for instance, that there is no unemployment. Applications include:
+
+-   Bohringer and Rutherford (2015) developed a multi-regional CGE model for the Ellen MacArthur foundation (Ellen MacArthur Foundation and McKinsey Center for Business and Environment, 2015) with a specific focus on the circular economy. They state the importance of a global model to ensure important spill-over and feedback effects are fully captured and the model of the world is split into 5 regions (EU, North America, Other OECD, China and ROW) which each having 16 economic sectors. The model focuses in detail on transport, energy, households and food, and therefore it omits some areas in more detail (e.g. electricity generation technologies) and specifically there is almost no representation of other minerals and materials except with the construction sector and motor vehicles. Analysis results show GDP could be 11% higher in 2030 and 20% higher in 2050 than the baseline development scenario in a move towards a more circular economy. 
+
+-   Using the OECD's ENV-Linkages model, Bibas, Chateau and Lanszi (2021) assessed the global economic and environmental impacts of fiscal reform consisting of taxes on primary metal and mineral resources and the circulation of revenues to finance subsidies to recycled goods and secondary metal production. They found this would deliver a relative decoupling of primary material use from economic growth to 2040, with a reduction of 7% in metallic and non-metallic minerals compared to the baseline scenario alongside negligible effect on global GDP (loss of 0.2% global GDP in 2040). Regional disparities were identified, depends on whether countries were net importers or exporters of raw materials, available production technologies and input costs of primary and secondary materials. Modelled tax rates are assumed to rise linearly to their target level between 2018-40.
+
+##### **Macro-Econometric Models**
+
+Econometric time series models are not based upon general equilibrium assumptions but instead consist of econometrically estimated behavioural relationships from outturn data which can consider short-and-medium-term economic impacts of various actors' decisions while capturing disequilibrium effects and bounded rationality as behaviour in the past was not necessarily rational. Time lags between changes in industrial activity and household activity can also be accounted for based on this approach.
+
+Econometric approaches are not robust to the Lucas critique that behaviour in the past may not be relevant for future behaviour because expectations of economic actors may change with the introduction of new policy as ex ante analysis of resource efficiency policies are effectively 'out of sample'. Transitions generally need structural changes in the incentives and behaviour of economic actors furthermore. Applications include:
+
+-   The E3ME model was used in the CE and BioIS (2014) analysis for the European Commission examining scenarios of different resource productivity improvements to show under which conditions resource productivity increases can be achieved in the EU with positive macroeconomic impacts. Improvements in RP under each scenario assumed to come a third each from publicly funded investments in capital stock, privately funded business measures and MBIs. Pre-analysis undertaken to calculate abatement cost for each 'user' of each material using each policy type (MBI, regulation and investment). Scenarios considered in terms of impact of GDP (net benefits or net costs) and jobs.
+
+-   The CCC's 6^th^ Carbon Budget focussed on measures while recognising Net Zero will be a policy-led transition. Initially undertook a microeconomic analyses stage estimating required capital investment for these measures based upon assumptions of costs for key technologies and how these might change into the future under different scenarios. Also accounted for operating costs, which represent the additional costs or savings of running the low-carbon solutions once they have been deployed relative to the cost of the high-carbon options they replace. Building on the estimates of annualised resource costs from the micro-level analysis, commissioned CE to analyse the macroeconomic implications of introducing recommended pathway against baseline using E3ME in terms of GDP change (relevant to this piece of legislation because under the original Climate Change Act, possibly a requirement that transition costs should not exceed a certain % of GDP).
+
+OECD identified the importance of good levels of sectoral disaggregation at the extraction stage. They identify a key issue in the social accounting matrixes underpinning ex ante macroeconomic analysis of the circular economy that there is generally no distinction made between facilities that use virgin natural resources and those using secondary raw materials in sectors that transform material inputs into outputs. While this is a lesser issue for materials that are not recycled or mostly recycled within the sector they are used in, it is more important for materials where secondary production utilises specific technologies and can be done through modelling different production technologies within one sector such that the same output is produced but using different input combinations. Other issues identified include that technological change[^about-6] is often modelled exogenously with assumptions made about achievable rates of technological improvement's effect on technical efficiency that arise at effectively no-cost and result from introduced policies.
+
+::: {.callout-note collapse="true" icon="false"}
+## {{< fa circle-right >}} Modelling use-phase optimisation in input-output tables
+
+A range of policy approaches might be introduced to extend the lifespans of products, each with different characteristics and varying in their potential applicability given circumstances. For instance, regulatory standards might be levied on producers which require minimum product lifespans (e.g. in terms of minimum number of cycles) or the use of components, materials or production techniques that could support more durable or repairable products. Alternatively, consumption-focussed approaches might involve providing information to consumers about product lifespans via eco-labels in order to overcome information asymmetries and enable more green consumption. Additional approaches might include alterations to the VAT system to attempt to further incentivise repair over replacement. The effectiveness of these policies in extending product lifetimes will depend on the characteristics of the policy, technological conditions, reasons for lifespans being shorter than otherwise possible for the products in scope and on mediating factors for some policies such as the responsiveness of consumers to labels or the degree to which incentivisation via charge or price instruments might alter the costs of one activity in relation to another.
+
+Approaches to model this value driver in input-output tables include:
+
+-   [McCarthy, Dellink and Bibas (2018)](https://www.oecd.org/officialdocuments/publicdisplaydocumentpdf/?cote=ENV/WKP(2018)4&docLanguage=En) set out two ways in which delayed product replacement is frequently modelled within macroeconomic assessments of the circular economy. The first is through decreasing the monetary volume of demand for the hypothetical longer-lived product, thereby lowering sale values and revenue to the producing sector. An alternative approach makes the assumption that products with longer lifespans are sold at higher prices by producers, such that the policy has no noticeable direct effect on the economy in monetary terms notwithstanding reduced material demand.
+
+-   [Donati *et al.* (2020)](https://www.sciencedirect.com/science/article/pii/S0921344919304148) set out approaches to simulating product lifetime extension in MRIO via two routes. For delayed product replacement, they suggest reducing transactions of new products (or components) and adjusting input coefficients in production to reflect increased product durability (also identified as an approach used in the literature by [Aguilla-Hernendez *et al.* (2018)](https://journalofeconomicstructures.springeropen.com/articles/10.1186/s40008-018-0113-3). For lifetime extension via greater reuse and remanufacturing, they alternatively propose modelling this as a reduction in transactions of new products alongside increased spending on ancillary activities related to maintenance and repair services (see diagram below for the associated modelling blueprints they use for these interventions and their paper for additional blueprints).
+
+-   Norman *et al.* (2021) model product lifetime extension through reducing expenditure by firms in relevant intermediate sectors alongside reductions in final expenditure by household and governments while addressing macro-economic rebounds by increasing the size of the domestic repair economy.
+:::
+:::
+
+[^about-6]: Technological change consists of innovation of new technologies that were not available thereby expanding the production-possibility frontier, and diffusion of existing technologies to new users, thereby reducing the gap between the average production techniques used and the frontier.
+
+### Policy recommendations
+
+How policy is designed and implemented is critical to reducing the economic burdens potentially posed by regulation such as increased barriers to market entry, reduced competition, transaction and administrative costs ([Berestycki and Dechezleprêtre, 2020](https://www.oecd-ilibrary.org/economics/assessing-the-efficiency-of-environmental-policy-design-and-evaluation-results-from-a-2018-cross-country-survey_482f8fbe-en)). Informed by the review undertaken and account for current commitments, recommendations for policy change are made grouped into the following categories, for which several may apply:
+
+::: grid
+::: {.callout-note .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## {{< fa sliders >}} **Adjust**
+
+Heightening or reducing the *level* of an existing lever e.g. increase the stringency of a tax
+:::
+:::
+
+::: grid
+::: {.callout-tip .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## {{< fa pen-ruler >}} **Reconfigure**
+
+Alter the design or implementation of a lever already in place beyond adjusting its level e.g. changing payment mechanisms for extended producer responsibility schemes
+:::
+:::
+
+::: grid
+::: {.callout-important .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## {{< fa arrows-left-right >}} **Extend**
+
+Levy existing regulation horizontally into *new areas* e.g. applying ecodesign regulations to other products or sectors
+:::
+:::
+
+::: grid
+::: {.callout-caution .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## {{< fa file-medical >}} **Introduce**
+
+Introduce a new lever where one is not currently in place with a specified level and design
+:::
+:::
+
+------------------------------------------------------------------------
+
+# About us
+
+The CE-Hub is the coordinating Hub for the NICER Programme, a four-year programme working to provide the evidence base needed to deliver a resilient and restorative Circular Economy for the UK. The Hub works with the five UKRI National Interdisciplinary Circular Economy Research Centres, and brings together academics, industry practitioners, policy makers and civic society to deliver CE research and innovation. Find out more information and sign up to updates here: https://ce-hub.org/
+
+Contact: oliverlysaght\@icloud.com

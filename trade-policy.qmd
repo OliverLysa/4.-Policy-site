@@ -1,0 +1,57 @@
+---
+title: "{{< fa globe >}} Trade policy and international governance"
+---
+
+# Summary
+
+::: {.callout-note collapse="false" appearance="simple" icon="false"}
+Humans, prior to trade, were forced to use only those resources surrounding them, leading them to forge place-specific innovations for different geographical conditions. Trade enabled place-specific environmental constraints to be alleviated, and gave rise to economic growth through specialized production based on competitive advantage (Smith, 1778).
+
+Notwithstanding some recent evidence of deglobalisation[^1], global trade as a proportion of global GDP has increased in the past 40 years - driven by revenue maximisation and cost minimisation motives and enabled by containerization and reduced shipping and transaction costs (Tsing, 2009).[^2] International trade policy have been recognised as having a role to play in solving global environmental problems ([Yamaguchi and Dellink, 2021](https://www.oecd.org/env/international-trade-and-circular-economy-policy-alignment-ae4a2176-en.htm); [Santana, 2023](https://unece.org/sites/default/files/2023-03/S3_5_Santana-Greening%20the%20HS%20v1.0.pdf)).[^3]
+:::
+
+[^1]: Globalisation refers to the increasing interconnectedness and interdependencies between countries, people and places.
+
+[^2]: Humans, prior to trade, were forced to use only those resources surrounding them, leading them to forge place-specific innovations for different geographical conditions. Trade enabled place-specific environmental constraints to be alleviated, giving rise to economic growth through specialized production based on competitive advantage (Smith, 1778).
+
+[^3]: There are different views on the relationship between trade and the environment. Ecological economics perspectives hold that growth driven by trade will lead to the greater consumption of resources and generation of waste, increased hotspots of pollution and inequalities (Daly, 1993). Neoclassical economic perspectives argues that the liberalisation of trade, investment and finance will increase global economic integration, increased productive efficiency and generate more wealth with which to protect the environment (Reppelin-Hill, 1999). Liberal institutionalist perspectives focus on the importance of global and national governance mechanisms to regulate the global economy, while recognising that outcomes will vary by country and depend on factors including comparative advantages, the resource and pollution-intensity of trade products and levels of development and policy (Neumayer, 2001).
+
+# How it works and current applications
+
+::: {.callout-note collapse="true" appearance="simple" icon="false"}
+## Tariff measures
+
+Tariff-based measures involve introducing custom duties on imports or exports ([WTO](https://www.wto.org/english/tratop_e/tariffs_e/tariffs_e.htm#:~:text=Customs%20duties%20on%20merchandise%20imports,they%20raise%20revenues%20for%20governments.)).
+:::
+
+::: {.callout-tip collapse="true" appearance="simple" icon="false"}
+## Non-tariff measures
+
+Non-tariff measures (NTMs) encompass 'policy measures other than tariffs that can potentially have an economic effect on international trade in goods' ([UNCTAD](https://unctad.org/topic/trade-analysis/non-tariff-measures); [UNCTAD, 2019](https://unctad.org/publication/international-classification-non-tariff-measures-2019-version#:~:text=Non%2Dtariff%20measures%20are%20generally,%2C%20or%20prices%20or%20both.%E2%80%9D)). These can be broadly divided into 'technical measures', including regulations[^4], standards, primarily sanitary and phytosanitary (SPS) and Technical Barriers to Trade (TBT) measures on one hand, and 'non-technical measures' which include quantitative restrictions such as quotas, price measures or mandated distributional channels ([OECD](https://www.oecd.org/trade/topics/non-tariff-measures/)). The compliance costs of such measures are increasingly higher than customs duties ([UNCTAD, 2022](https://unctad.org/publication/key-statistics-and-trends-trade-policy-2022)).
+:::
+
+[^4]: The International Waste Shipments (Amendment of Regulation (EC) No 1013/2006 and 1418/2007) Regulations 2021 or The Transfrontier Shipment of Radioactive Waste and Spent Fuel (Amendment) (EU Exit) Regulations 2020
+
+::: {.callout-important collapse="true" appearance="simple" icon="false"}
+## International agreements
+
+Having grown in coverage since the 1970s, there are now more than 180 international environmental agreements (IEAs) covering a range of environmental issues. These attempt to transform global open access public goods into common property resources through regulating use. Of those in existence, approximately 10% incorporate trade provisions such as the Cartagena Protocol, Kyoto Protocol, Montreal Protocol and Basel Convention which either directly regulate trade of in-scope materials or products or indirectly influence trade through routes such as technology transfer.
+:::
+
+# Performance
+
+## Effectiveness
+
+A 2022 [Chatham House review](https://www.chathamhouse.org/2022/10/role-international-trade-realizing-inclusive-circular-economy) undertaken of the 'role of international trade in realizing an inclusive circular economy' found...
+
+Increased trade has invoked the globalization or complex trans-localized linkages of supply chains of goods, services and wastes (Knowles, 2015), in addition to labour and people, capital, technology, information, regulation and invasive species on the environment. The net effects of trade liberalisation on resource use and waste production can be seen as a function of (Grossman and Krueger, 1993; Princen, 2002): 1) Scale effects - impacts due to growing scale of production and consumption; 2) Consumption effects - impacts of changes in the type and location of production and consumption; 3) Technique effects - impacts of changes in the environmental intensity of production; and 4) Governance effects - changes in governance associated with the trade liberalisation.
+
+Assessments of the impact of new trade agreements following the UK's EU exit anticipate increases in trade will have knock on effects for resources and waste. For instance, all modelled scenarios of the UK-Australia trade agreement signed in 2021 and to be effective from 2023, point to an increase in output for both countries along with increased resource use - water, land and raw materials, and production of waste ([DIT, 2021](https://www.gov.uk/government/publications/uks-approach-to-negotiating-a-free-trade-agreement-with-australia/uk-australia-free-trade-agreement-the-uks-strategic-approach)). Similar findings have been made for the UK-Japan trade agreement ([DIT, 2020](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/965154/UK-Japan-impact-assessment-comprehensive-economic-parternship.pdf)).
+
+# Prospective applications in UK policy pathways
+
+::: {.callout-tip .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## {{< fa pen-ruler >}} **Reconfigure - trade classifications**
+
+Trade classifications underpin both tariff and non-tariff measures including import/export licenses and other controls ([Santana, 2023](https://unece.org/sites/default/files/2023-03/S3_5_Santana-Greening%20the%20HS%20v1.0.pdf)). The 6 digit Harmonised Commodity Description and Coding System (HS) advised by the World Customs Organisation is used globally, and forms the basis of the 8 digit Combined Nomenclature (CN) used by Eurostat and in the UK to classify traded goods. While recognising the extensive time it can take for new classification systems to be developed, a coordinated effort across relevant bodies to better capture dynamics of relevance to the circular economy in statistical classifications for trade (both goods and services) should be a priority, and builds off previous developments such as to better classify e-waste. Difficulties for classifying secondary or remanufactured goods, for example include an absence of internationally agreed standards and definitions on environmentally friendly goods ([Santana, 2023](https://unece.org/sites/default/files/2023-03/S3_5_Santana-Greening%20the%20HS%20v1.0.pdf)).
+:::

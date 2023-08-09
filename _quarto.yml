@@ -1,0 +1,140 @@
+project:
+  type: website
+
+website:
+  title: "Public Policy Tools for a UK Circular Economy"
+  
+  page-footer:
+    left: 
+      - text: "UKRI NICER Programme"
+        href: nicer.qmd
+    right: 
+      - icon: info
+        text: "About"
+        href: about.qmd
+    border: false
+  back-to-top-navigation: true
+  reader-mode: true
+  sidebar:
+    style: "docked"
+    search: true
+    pinned: true
+    contents:
+      - index.qmd
+      - section: "**Policy taxonomy**"
+        contents:
+         - actors.qmd
+         - instruments.qmd         
+         - value-drivers.qmd
+         - change.qmd
+      - section: "**Policy tool profiles**"
+        contents:
+          - no-intervention.qmd
+          - voluntary-cooperative.qmd
+          - information-based.qmd
+          - procurement-requirements.qmd
+          - consumer-rights.qmd
+          - extended-producer-responsibility.qmd
+          - taxes-subsidies.qmd
+          - trade-policy.qmd
+          - procedural.qmd
+          - target-setting.qmd
+          - bans-standards.qmd
+          - project-level-interventions.qmd
+    tools:
+      - icon: github
+        href: https://github.com
+      - icon: house
+        href: https://ce-hub.org/collections/
+
+
+#  navbar:
+#    background: "#fcfcfc"
+#    search: true
+#    right:
+#      - text: "Contents"
+#        file: index.qmd
+#      - sidebar:Taxonomy
+#      - sidebar:Tools
+#      - sidebar:Briefs
+
+#  sidebar:
+#    - id: Taxonomy 
+#      title: "Policy taxonomy"
+#      style: "docked"
+#      background: "white"
+#      border: false
+#      contents:
+#          - actors.qmd
+#          - instruments.qmd         
+#          - value-drivers.qmd
+#          - change.qmd
+
+#    - id: Tools
+#      title: "Policy tool profiles"
+#      style: "docked"
+#      background: "white"
+#      border: false
+#      contents:
+#          - no-intervention.qmd
+#          - voluntary-cooperative.qmd
+#          - information-based.qmd
+#          - procurement-requirements.qmd
+#          - consumer-rights.qmd
+#          - extended-producer-responsibility.qmd
+#          - taxes-subsidies.qmd
+#          - trade-policy.qmd
+#          - procedural.qmd
+#          - target-setting.qmd
+#          - bans-standards.qmd
+#          - project-level-interventions.qmd
+          
+#    - id: Briefs
+#      title: "Briefs"
+#      style: "docked"
+#      background: "white"
+#      contents:
+#          - case-reuse-repair.qmd
+#          - case-recycling.qmd
+#          - case-innovation.qmd
+#          - case-green-finance.qmd
+#          - case-community-level-support.qmd
+
+  comments: 
+    hypothesis:
+      theme: clean
+      openSidebar: false
+  favicon: fav.png
+  open-graph: true
+  page-navigation: true
+  google-analytics: 
+    tracking-id: "G-XHGKD5ES2C"
+    anonymize-ip: true
+  cookie-consent:
+    type: express
+    style: headline
+    palette: dark
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-icon: false
+    link-external-newwindow: false
+    footnotes-hover: true
+    grid:
+      sidebar-width: 250px
+      body-width: 800px
+      margin-width: 220px
+      gutter-width: 5rem
+
+editor: visual
+
+margin-footer: |
+  ![](/logo.png)
+  
+body-footer: | 
+  This page brought to you by <https://ce-hub.org/>  

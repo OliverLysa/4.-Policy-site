@@ -1,0 +1,78 @@
+---
+title: "{{< fa list-check >}} Planning and permitting requirements"
+---
+
+# Summary
+
+::: {.callout-note collapse="false" appearance="simple" icon="false"}
+We look particularly at planning law and policy; permitting regulations; and permitting processes for chemicals.
+:::
+
+# How it works and current applications
+
+Environmental policy integration (EPI) refers to the process of reframing sectoral objectives, strategies and decision-making processes towards environmental objectives into non-environmental policy sectors,such as energy, agriculture and transport, rather than leaving them to be pursued solely by purely environmentally-specific actors (Runhaar, Driessen and Uittenbroek, 2014). Some typologies of integration separate these into different levels such as: first-order processes of change e.g. co-ordination, second order change e.g. harmonization and third-order change e.g. prioritisation (Lafferty and Hovden, 2003; Wiering and Crabbé, 2006).
+
+::: {.callout-note collapse="true" appearance="simple" icon="false"}
+## Planning law and policy
+
+Planning is anything that relates to the character and use of land. Whilst not specifically design to pursue environmental protection, planning - by merit of its influence over the spatial distribution of activities, nevertheless has far reaching ramifications for the environment. Environmental protection and sustainable development concerns have been given heightened primacy in planning in the UK through substantive and procedural changes (Jones, 2012). Substantively, at the level of plans through broadening the range of material considerations that decision makers must take into account as a matter of law at both the plans and planning level. Procedurally, through reducing the discretion of local decision makers through increasing reliance on central government guidance.
+
+Major planning statutes: 1947 Town and Country Planning Act, updated in 1990. The Localism Act of 2011 made major changes to law at the regional level in the hope of placing greater emphasis on decision making.
+
+Development plans guide development in the areas they cover, laying down policies, aims, objectives and goals.
+
+Environmental Impact Assessments (EIAs) are a formal information gathering procedure through which decision makers gather environmental information, inclusive of public participation, about projects in order to take account of this information in decision making. Their use is mandated under the Town and Country Act 2011, which transposed the EU EIA Directive into UK Planning Law.
+
+The Greater London Authority is introducing mandatory circular economy statements into its planning policy, whereby developers must specify how materials will be minimised, how secondary materials can be used, how materials can be reused, and how waste will be minimised (London Assembly, 2020).
+
+-   WPP: Support to LAs to work through planning system to promote sustainable construction
+    -   Explored in Defra RP scenarios - amending planning policy with mandatory CE statements and pre-demolition audits alongsde mandatory minimum re-used materials, material passports and construction and demolition waste consolidation hubs to increase reuse.
+
+The Town and Country Planning Act 1947 was introduced as a means of controlling the post- WW2 rebuilding process, with local authorities detailing local plans, and planning permission being required from local authorities for developments to ensure they accorded with local plans or any other material considerations. Planning at this time was an unprecedented step in control over private property, ensuring their alignment with public health and conducive urban development. Whilst not originally environmentally focussed, it has allowed for increasingly considered, proactive responses to environmental impacts and a more public law perspective on law which has afforded a more intrusive approach to resolving environmental issues. Whilst planning remains biased towards development, it nevertheless provided means to constrain environmental impacts of development.
+:::
+
+::: {.callout-tip collapse="true" appearance="simple" icon="false"}
+## Permitting regulations
+
+The Environmental Protection Act 1990 - Introduced new controls aimed at limiting and preventing pollution from a wide range of industries on the basis of the Best Practical Environmental Options (BPEOs) but also deals with issues that relate to waste, defines waste management and its associated aspects, and enforces a duty of care on UK businesses handling waste.
+
+The IPPC regime arose out of a desire to regulate installations with a high pollution potential in a cross media pollution approach. The IPPC regime seeks to limit effluents into all mediums, bypassing the issue of pollution displacement in an efficient way through reducing the administrative t-costs and compliance t-costs associated with multiple permits. It takes a permitting approach, requiring each installation to have a permit containing emission limit values and other conditions based on the application of Best Available Techniques covering all effluents. The Waste and Environmental Permitting etc. (Legislative Functions and Amendment etc.) (EU Exit) Regulations 2020
+
+BAT: https://www.gov.uk/guidance/best-available-techniques-environmental-permits BAT covering resource efficiency criteria is desirable, including based on an analysis of full environmental costs ([Marshall, Velenturf and Jopson, 2018](https://www.researchgate.net/publication/325416048_Making_the_most_of_industrial_wastes_strengthening_resource_security_of_valuable_metals_for_clean_growth_in_the_UK)).
+
+Other examples include required disclosure of convictions for those seeking to apply for a permit for waste activities or installations ([Environment Agency, 2023](https://www.gov.uk/government/publications/relevant-conviction-guidance-for-permit-applications-for-waste-activities-and-installations-only)).
+
+Enforcement aspects. Increase in the up to £250,000 variable monetary penalties that could previously be issued by the Environment Agency in England to operators for polluting the environment and including now as a civil sanction under the Environmental Permitting (England and Wales) Regulations 2016 ([Defra, 2023](https://www.gov.uk/government/news/polluters-must-pay-says-environment-secretary-as-unlimited-penalties-unveiled)).
+:::
+
+::: {.callout-important collapse="true" appearance="simple" icon="false"}
+## REACH Regulations
+
+REACH is the Regulation on Registration, Evaluation, Authorisation and Restriction of Chemicals, entering into force in 2007 and aimed at streamlining the former legislative framework on chemicals. REACH seeks to adequately control risk through registration and by identifying SVHCs (Substances of Very High Concern).
+:::
+
+# Performance
+
+## Strategic fit
+
+## Effectiveness and efficiency
+
+"the IEA estimates that updating building codes coupled with education and training for key actors---such as architects, engineers and contractors---could reduce demand for both cement and steel by up to a quarter".
+
+Targeted public spending can play a key role in galvanising public investment in areas of necessary infrastructure.
+
+## Affordability
+
+## Long-run effects
+
+## Distributional effects
+
+## Positive and negative spillovers
+
+# Conditions for effectiveness
+
+## Design and implementation considerations
+
+# Future applications in UK CE framework
+
+Planning policy could mandate end-of life plans being drawn up for buildings and provide reasoning if any demolition taking place.
