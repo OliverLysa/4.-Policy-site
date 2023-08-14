@@ -19,15 +19,6 @@ library(DT)
 
 rm(list = ls())
 options(scipen=999)
-
-```
-
-```{css, echo=FALSE}
-.callout {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-right: 1em;
-}
 ```
 
 # Summary
@@ -167,15 +158,13 @@ Reductions in the current tax regime such as on VAT, capital allowances and too 
 Our review found environmental effectiveness differed by PMBI.
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
-## Material input taxation and charges
+## Material inflow taxation and charges
 
-In theory, increased primary resource prices may reduce the environmental pressures associated with primary resource consumption by: 1) reducing the use of resource inputs into production and consumption activities; and 2) driving input substitution away from primary materials and towards secondary raw materials (Government Office for Science, 2014). Blueprint for a green economy (Pearce et al., 1989)
+In theory, increasing the price of primary resources can be expected to reduce the environmental pressures associated with their consumption. This can occur through: 1) reducing the use of resource inputs into production and consumption processes; and 2) driving input substitution away from primary materials towards those secondary (Government Office for Science, 2014).
 
-While the Levy has been associated with increased secondary aggregates use in the UK, this has also been attributed to sink tax Landfill Tax.
+The UK Aggregates Levy introduced in 2002 had the dual aim of reducing the negative environmental impacts of quarrying and increasing the recycling rate of construction materials by making the costs of virgin material inputs more costly and tax-free recycled aggregates more financially attractive ([Ettlinger, 2022](https://ieep.eu/wp-content/uploads/2022/12/UK-Aggregates-Levy-final.pdf)).[^8] Between 2002 and 2018, total aggregation consumption has fallen while the share of aggregates from secondary sources increased (MPA, 2019). An absolute decoupling of industry output from material input has been seen. However, these impacts are difficult to attribute to the levy alone ([Ettlinger 2022](https://ieep.eu/wp-content/uploads/2022/12/UK-Aggregates-Levy-final.pdf)), with secondary aggregate consumption on an upward trend prior to the introduction of the Levy, and potentially also linked to the Landfill Tax (introduced in 1996) which encouraged the creation of secondary markets.
 
-In a meta-study of virgin material taxation schemes, Söderholm (2011) concludes, ''Experiences of taxing virgin materials are mixed and show efficacy in reducing the supply of virgin materials and increasing the demand for recycled products but often only lead to a limited use of recycled materials since virgin materials may be sourced through imports instead'.
-
-The UK Aggregates Levy also had the dual aim of reducing the negative environmental impacts of quarrying and increasing the recycling rate of construction materials by making tax-free recycled aggregates more financially attactive and reducing the rate of primary material extraction (ECOTEC et al., 2001 in [Ettlinger, 2022](https://ieep.eu/wp-content/uploads/2022/12/UK-Aggregates-Levy-final.pdf)). As an instrument, was anticipated to be more effective than voluntary measures when these were proposed by the aggregates industry at the time. In relation to objectives, 'the environmental impacts of the levy are difficult to attribute specifically to the levy itself' ([Ettlinger 2022](https://ieep.eu/wp-content/uploads/2022/12/UK-Aggregates-Levy-final.pdf)). Use of primary aggregates was largely constant between 2000 and 2018 (MPA, ), though per unit of output has fallen - a trend emerging before 2000 and potentially linked to the Landfill Tax which incentivised the creation of secondary markets ([Ettlinger 2022](https://ieep.eu/wp-content/uploads/2022/12/UK-Aggregates-Levy-final.pdf)).
+More widely, a 2011 meta-study of virgin material taxation schemes found these reduced the domestic supply of virgin materials and increased demand for recycled products, but often only led to limited use of recycled materials as virgin materials could be sourced overseas (Söderholm, 2011).
 
 **Recycled and secondary materials in total aggregates sales in Great Britain (Million tonnes) (MPA, 20 )**
 
@@ -208,7 +197,11 @@ ggplotly(Aggregates_plot, tooltip = c("Value")) %>%
 
 ```
 
-The area, as a percentage, of the UK for which there is planing permission for mineral development is approximately 0.35% and includes extraction sites, processing plants, minerals waste tips and landscaping schemes ( ). Emissions and pollutants by sector have... (BEIS, ).
+Approximately 0.35% of the UK's landmass is covered by planing permission for mineral development - including extraction sites, processing plants, minerals waste tips and landscaping schemes. Emissions and pollutants by the sector have... (BEIS, ).
+
+Plastic packaging taxation
+
+Plastic bag charge
 
 **Bags issued by reportees in England, by bag type (million) (Defra (2022)**
 
@@ -246,10 +239,12 @@ ggplotly(SUCBplot, tooltip = c("Value")) %>%
 ```
 :::
 
+[^8]: The tax was introduced with the expectation of being more effective than voluntary measures called for by the aggregates industry at the time.
+
 ::: {.callout-tip collapse="true" appearance="minimal" icon="false"}
 ## End-of-life taxation and charges
 
-The landfill tax introduced in the United Kingdom in 1996 to reduce GHG emissions and waste generation.
+The Landfill Tax was introduced in the United Kingdom in 1996 to reduce GHG emissions and waste generation.
 
 Landfill Tax Review [Summary of Responses](https://www.gov.uk/government/consultations/landfill-tax-review-call-for-evidence)
 
@@ -296,11 +291,9 @@ Anticipated benefits include reducing volume of waste/pollution, encouraging saf
 Subsidies for not undertaking environmental bads can crowd in negative behaviour and may lead to increased environmental impact.
 :::
 
-One issue with price-based approaches is that without precise information about the aggregate marginal abatement cost curve or the price elasticity of regulated agents, the aggregate environmental outcome of a given tax rate can be difficult to know. The associated trial-and-error of these methods can delay specific environmental improvement targets (Pearce and Barbier, 2000). Conversely, tradable permits provide more certainty of the outcome envirnmental use through setting a hard cap, and suffice monitoring and enforcement are robust (Vivanco, Kemp and Voet 2016).
+One issue with price-based instrument is that without precise information about the aggregate marginal abatement cost curve or the price elasticity of regulated agents, the aggregate environmental outcome of a given tax rate can be difficult to predict while the associated trial-and-error of these methods can delay environmental improvements (Pearce and Barbier, 2000). Cap-and-trade tradable permit approaches provide more certainty for outcomes (Vivanco, Kemp and Voet 2016).
 
 ## Efficiency
-
-In theory, market-based instruments can cost-efficiently tackle negative environmental externalities (static efficiency) while maintaining incentives for innovation and cost-reduction over time (dynamic efficiency).
 
 If properly designed and implemented, market based instruments can theoretically help achieve a desired level of environmental use at the lowest overall cost to society and with dynamic incentives to bring down abatement costs over time (Pearce, 2002; Johnson, 1999). Based on the rational polluter hypothesis, PMBIs work by eliminating the difference between private and socially efficient prices thereby inducing polluters to behave as if pollution costs entered their private cost functions and encouraging movement towards a more socially efficient aggregate level of environmental use. This is done through polluters with lower MACs undertaking more abatement than those with higher MACs (Goulder and Parry 2008).
 
@@ -635,22 +628,52 @@ Though addressing the environmental externality, these do not address the innova
 
 # Prospective applications in UK CE framework
 
--   OECD: 2023 "Consider further use of economic instruments to promote waste management and circular economy goals, in particular introduction of incineration taxes to provide further incentives for recycling and avoid a"lock-in" of incineration capacity, plus an increase in aggregates tax to encourage further resource efficiency and recycling in construction. After monitoring the results of the plastics tax, to be introduced in 2022, consider the feasibility of increasing the minimum recycled content and of introducing taxes to promote recycled content in other products."
--   Recycled content requirements vs. recycled content taxation
--   Extend
-    -   Based on the experience of the aggregate levy and other countries, the UK could introduce a virgin material taxes across a selected number of raw materials.
+Despite their theoretical and proven benefits in some cases, the tax burden in the UK is project to rise to 37.1% of GDP by 2027-28 (OBR, 2022).
 
-    -   For example, following Latvia's example of the Natural Resource Tax (since 1991, extended in 2014), the tax mandate could be extended to any commercial activity connected with extraction of natural resources, environmental pollution, goods and products that are harmful to the environment, packaging and disposable tableware. The rationale and size of each levy would need to be determined by the associated environmental impacts.
+::: grid
+::: {.callout-note .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## {{< fa sliders >}} **Adjust**
 
-    -   Greening fiscal frameworks and in particular, subsidies, has been called for in the UK.
--   Change level
-    -   Eunomia propose a differential rate applied to extracted materials based on the nature of the materials and their environmental costs.
+A 2023 OECD review recommend exploring an "increase in aggregates tax to encourage further resource efficiency and recycling in construction." However "The UK's recover rate of construction and demolition waste was at 89.9% in 2014 so it is not certain whether a further increase in the aggregate levy might result in additional use of recycled aggregate. If there are no alternatives to the virgin products used in construction such as concrete, the rise in the levy would increase the construction project costs."
 
-    -   The UK's recover rate of construction and demolition waste was at 89.9% in 2014 so it is not certain whether a further increase in the aggregate levy might result in additional use of recycled aggregate. If there are no alternatives to the virgin products used in construction such as concrete, the rise in the levy would increase the construction project costs.
+Possible changes to the higher-rate landfill tax
+:::
+:::
 
-    -   The potential negative impact of the tax economic growth would need to be considered. While a number of academic studies assessing the impact of material tax indicate a potential long-term increase in GDP this is often conditioned on increased support to R&D activities through the collected tax revenues.
--   Reconfigure
-    -   Extended producer responsibility reform has potential incentivising similar activities while targeting the producers of sold products rather than the raw materials extraction sector.
+::: grid
+::: {.callout-tip .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## {{< fa pen-ruler >}} **Reconfigure**
 
-    -   Introduce a minimum level of secondary materials used across different products and sectors.
--   Enforcement
+A 2023 OECD review recommend introducing taxes to promote recycled content in other products." Also a consideration of alternatives e.g. recycled content requirements
+
+Adjustment to the two-tier landfill tax
+
+Greening fiscal frameworks and in particular, subsidies, has been called for in the UK.
+:::
+:::
+
+::: grid
+::: {.callout-important .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## {{< fa arrows-left-right >}} **Extend**
+
+A 2023 OECD review recommend "introducing taxes to promote recycled content in other products."
+:::
+:::
+
+::: grid
+::: {.callout-caution .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## {{< fa trash >}} **Remove**
+:::
+:::
+
+::: grid
+::: {.callout-warning .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## {{< fa file-medical >}} **Introduce**
+
+A 2023 OECD review recommend "considering...the introduction of incineration taxes to provide further incentives for recycling and avoid a"lock-in" of incineration capacity".
+
+Based on the experience of the aggregate levy and other countries, the UK could introduce a virgin material taxes across a selected number of raw materials. "For example, following Latvia's example of the Natural Resource Tax (since 1991, extended in 2014), the tax mandate could be extended to any commercial activity connected with extraction of natural resources, environmental pollution, goods and products that are harmful to the environment, packaging and disposable tableware. The rationale and size of each levy would need to be determined by the associated environmental impacts." Practical complexities of introducing material taxation beyond primary material inputs.
+
+The potential negative impact of the tax on economic growth would need to be considered. While a number of academic studies assessing the impact of material tax indicate a potential long-term increase in GDP this is often conditioned on increased support to R&D activities through the collected tax revenues.
+:::
+:::

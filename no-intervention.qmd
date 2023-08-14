@@ -52,8 +52,6 @@ There is increasing evidence of CE activities being undertaken in areas where re
 
 When looking at the UK today, many indicators point to the high degree of linearity in its economy and natural capital loss and depletion given the scale of material throughput. In 2018, the mass of materials directly entering the UK economy to meet domestic demand stood at more than 500 million tonnes (ONS, 2021), for instance, while when accounting for the full upstream material extraction along international supply chains, this figure and for primary raw materials specifically, was only slightly short of 1 billion tonnes (ONS, 2021). In the same year, over 220 million tonnes of waste were estimated to have been generated in the UK, almost 10% more than in 2010 (Defra, 2021). 70 million tonnes of this came from construction and demolition activities, 10 million tonnes was food waste (Wrap, 2021) and 2 million tonnes, textiles (Wrap, 2019). Of the waste generated in the UK today, a significant quantity is lost from the economy each year, with roughly a third entering landfills or incineration and an appreciate amount entering the natural environment via fly-tipping and littering (Defra, 2022; EA; 2022 KBT, 2020).
 
-Private environmental governance refers to governance where the state is not the predominant form of political authority in the regulation of behaviour (Levy and Newell, 2005), and is an umbrella term including non state market-driven governance and civil regulation and liability. We consider the potential contribution of different actors to CE related objectives in the absence of further regulation and the potential impacts of this 'business as usual' strategy across the UK.
-
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ## Looking backwards to look forwards
 
@@ -156,6 +154,8 @@ Assuming that current systems of production and consumption remain unchanged, ex
 :::
 
 ## Business
+
+Private environmental governance refers to governance where the state is not the predominant form of political authority in the regulation of behaviour (Levy and Newell, 2005), and is an umbrella term including non state market-driven governance and civil regulation and liability. We consider the potential contribution of different actors to CE related objectives in the absence of further regulation and the potential impacts of this 'business as usual' strategy across the UK.
 
 The private sector can in some contexts be a potentially proactive actor in improving environmental performance. There are normative and instrumental reasons why firms might seek to improve their environmental performance without government regulation requiring them to do so. Stakeholder theory (Freeman, 1984) holds that firms have a range of stakeholders including but not limited to, its shareholders, with stakeholders understood broadly as individuals or groups affected by, or affecting firms purpose and activities. Under this theory, firm managers having a duty to not only create value for shareholders, but also to account for, and balance the interests of other stakeholders.
 
