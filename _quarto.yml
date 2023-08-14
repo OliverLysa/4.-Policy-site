@@ -3,7 +3,9 @@ project:
 
 website:
   title: "Public Policy Tools for a UK Circular Economy"
-  
+  repo-url: https://github.com/OliverLysa/ce-policy
+  repo-actions: [edit, issue]
+    
   page-footer:
     left: 
       - text: "UKRI NICER Programme"
@@ -15,10 +17,14 @@ website:
     border: false
   back-to-top-navigation: true
   reader-mode: true
+  search:
+    type: textbox
+    copy-button: true
+    collapse-after: 2
   sidebar:
     style: "docked"
-    search: true
-    pinned: true
+    background: "light"
+    border: false
     contents:
       - index.qmd
       - section: "**Policy taxonomy**"
@@ -42,11 +48,12 @@ website:
           - bans-standards.qmd
           - project-level-interventions.qmd
     tools:
-      - icon: github
-        href: https://github.com
       - icon: house
-        href: https://ce-hub.org/collections/
-
+        menu:
+          - text: CE-Hub Home Page
+            url:  https://ce-hub.org/
+          - text: CE-Hub Knowledge Hub
+            url:  https://ce-hub.org/collections/
 
 #  navbar:
 #    background: "#fcfcfc"
@@ -107,17 +114,19 @@ website:
   favicon: fav.png
   open-graph: true
   page-navigation: true
+  cookie-consent:
+    type: implied
+    style: simple
+    palette: light
   google-analytics: 
     tracking-id: "G-XHGKD5ES2C"
-    anonymize-ip: true
-  cookie-consent:
-    type: express
-    style: headline
-    palette: dark
+    anonymize-ip: true  
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: cosmo
+      dark: darkly
     css: styles.css
     toc: true
     anchor-sections: true
@@ -126,15 +135,15 @@ format:
     link-external-newwindow: false
     footnotes-hover: true
     grid:
-      sidebar-width: 250px
+      sidebar-width: 220px
       body-width: 800px
-      margin-width: 220px
-      gutter-width: 5rem
+      margin-width: 200px
+      gutter-width: 6rem
 
 editor: visual
 
-margin-footer: |
-  ![](/logo.png)
+margin-header: |
+  ![](/logo.svg)
   
 body-footer: | 
   This page brought to you by <https://ce-hub.org/>  

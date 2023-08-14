@@ -24,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -39,16 +40,18 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
-  "copy-button": false,
-  "collapse-after": 3,
+  "copy-button": true,
+  "collapse-after": 2,
   "panel-placement": "start",
   "type": "textbox",
   "limit": 20,
@@ -78,11 +81,11 @@ gtag('config', 'G-XHGKD5ES2C', { 'anonymize_ip': true});
 <script type="text/javascript" charset="UTF-8">
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
-  "notice_banner_type":"headline",
-  "consent_type":"express",
-  "palette":"dark",
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary"],
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -135,8 +138,22 @@ cookieconsent.run({
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Public Policy Tools for a UK Circular Economy</a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="https://github.com" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://ce-hub.org/collections/" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-house"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-house"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://ce-hub.org/">
+            CE-Hub Home Page
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://ce-hub.org/collections/">
+            CE-Hub Knowledge Hub
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
@@ -281,22 +298,28 @@ cookieconsent.run({
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
+<p><img src="./logo.svg" class="img-fluid"></p>
+</div></div>
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#policy-toolinstrument-types" id="toc-policy-toolinstrument-types" class="nav-link active" data-scroll-target="#policy-toolinstrument-types">Policy tool/instrument types</a></li>
+  <li><a href="#policy-tools" id="toc-policy-tools" class="nav-link active" data-scroll-target="#policy-tools">Policy tools</a></li>
+  <li><a href="#selection-criteria" id="toc-selection-criteria" class="nav-link" data-scroll-target="#selection-criteria">Selection criteria</a>
+  <ul class="collapse">
+  <li><a href="#assessment-against-critical-success-factors" id="toc-assessment-against-critical-success-factors" class="nav-link" data-scroll-target="#assessment-against-critical-success-factors">Assessment against critical success factors</a></li>
+  <li><a href="#strategic-fit" id="toc-strategic-fit" class="nav-link" data-scroll-target="#strategic-fit">Strategic fit</a></li>
+  <li><a href="#spillovers" id="toc-spillovers" class="nav-link" data-scroll-target="#spillovers">Spillovers</a></li>
+  </ul></li>
   <li><a href="#policy-mixes" id="toc-policy-mixes" class="nav-link" data-scroll-target="#policy-mixes">Policy mixes</a>
   <ul class="collapse">
-  <li><a href="#policy-interactions" id="toc-policy-interactions" class="nav-link" data-scroll-target="#policy-interactions">Policy interactions</a></li>
+  <li><a href="#policy-complementarities-and-tradeoffs" id="toc-policy-complementarities-and-tradeoffs" class="nav-link" data-scroll-target="#policy-complementarities-and-tradeoffs">Policy complementarities and tradeoffs</a></li>
   <li><a href="#sequencing" id="toc-sequencing" class="nav-link" data-scroll-target="#sequencing">Sequencing</a></li>
   </ul></li>
   </ul>
-</nav>
-    <div class="quarto-margin-footer"><div class="margin-footer-item">
-<p><img src="./logo.png" class="img-fluid"></p>
-</div></div></div>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/OliverLysa/ce-policy/edit/main/instruments.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/OliverLysa/ce-policy/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -329,16 +352,16 @@ cookieconsent.run({
 <blockquote class="blockquote">
 <p><span style="color: SteelBlue;">A range of instruments are available to government actors to help implement CE measures across the UK economy, which can in turn, support of societal objectives</span></p>
 </blockquote>
-<section id="policy-toolinstrument-types" class="level1">
-<h1>Policy tool/instrument types</h1>
+<section id="policy-tools" class="level1">
+<h1>Policy tools</h1>
 <p>Policy at its broadest refers to a decision by a policy-producing entity to do something or nothing on an issue that has risen to the decisional agenda (Dye 1972, see <a href="https://policylab.quarto.pub/policy-tools-for-a-uk-circular-economy/change.html">Policy change</a>). It establishes a course of action implemented through a procedure or protocol to achieve certain objectives and can involve the use of various tools or instruments (<a href="https://www.britishecologicalsociety.org/wp-content/uploads/2017/05/An-introduction-to-policymaking-in-the-UK.pdf" style="text-decoration: underline; color: rgb(0, 0, 255) !important; font-family: &quot;Lucida Grande&quot;, serif; font-size: 13.3333px; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: break-spaces; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; caret-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">British Ecological Society, 2017</a>; HMT, 2022).</p>
 <p>Tools or instruments refer to the specific means by which actors exert influence and attempt to drive improvement. Policy tools available to central governments to realise objectives include:</p>
 <ol type="1">
 <li><p>The creation of <strong>plans</strong> (such as the 25 Year Environment Plan) that outline strategic objectives and <strong>strategies</strong> (such as the Resources and Waste Strategy or Critical Minerals Strategy) that further detail how these objectives will be met;</p></li>
 <li><p>The introduction of <strong>legislative instruments</strong>, including primary legislation (i.e.&nbsp;the main laws passed by legislative bodies of the UK), and secondary legislation (i.e.&nbsp;delegated legislation including Statutory Instruments, Statutory Rules and Orders) made by a person or body under authority contained in primary legislation (<a href="https://www.legislation.gov.uk/understanding-legislation">Gov.uk</a>);</p></li>
-<li><p>The ability to distribute and redistribute financial resources via <strong>fiscal and monetary policy</strong> and wider <strong>economic tools</strong> designed to raise revenues but increasingly too incentivise actor behaviour and including taxes, subsidies, grants or public procurement;</p></li>
-<li><p><strong>Soft tools</strong> or non-regulatory options such as voluntary approaches, information-based tools and participatory mechanisms; and</p></li>
-<li><p>The allocation of <strong>organisational resources</strong> to conduct particular activities.</p></li>
+<li><p>The ability to distribute and redistribute financial resources across the economy via <strong>fiscal and monetary policy</strong> and wider <strong>economic tools</strong> designed to raise revenues but increasingly too incentivise actor behaviour and including taxes, subsidies, grants or public procurement;</p></li>
+<li><p><strong>Soft tools</strong> or non-regulatory options such as voluntary approaches, advice-oriented information-based tools and participatory mechanisms; and</p></li>
+<li><p>The allocation of <strong>organisational/administrative resources</strong> to conduct particular activities.</p></li>
 </ol>
 <p><br>
 </p>
@@ -360,7 +383,7 @@ New environmental policy instruments
 </div>
 <p><br>
 </p>
-<p>One way to categorise policy instruments is in terms of the level of coercion or regulatory intensity, bindingness and formalisation used in an attempt to bring about change (<a href="https://www.nao.org.uk/wp-content/uploads/2014/06/Using-alternatives-to-regulation-to-achieve-policy-objectives1.pdf">NAO, 2014</a>; Hepburn, 2016). This continuum is evident across as well as within the different instrument groups outlined below.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> The HMT Green Book<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> also recommends appraising groupings of policy options incremental in their ambition.</p>
+<p>One way to categorise policy instruments is in terms of the level of coercion or regulatory intensity, bindingness and formalisation used in an attempt to bring about change (<a href="https://www.nao.org.uk/wp-content/uploads/2014/06/Using-alternatives-to-regulation-to-achieve-policy-objectives1.pdf">NAO, 2014</a>; Hepburn, 2016). This continuum is evident across as well as within the different instrument groups outlined below.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> The HMT Green Book<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> also recommends appraising groupings of policy options incremental in their ambition. Another is in terms of point of introduction along the value chain.</p>
 <p><br>
 </p>
 <div class="columns">
@@ -391,12 +414,7 @@ New environmental policy instruments
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Voluntary and cooperative instruments broadly involve action towards a desired outcome in the absence of legal mandate (i.e.&nbsp;non-regulatory options). Voluntary approaches are diverse, ranging from private-sector unilateral action through to consumers voluntarily purchasing products with improved environmental performance. Voluntary instruments either brokered by the government or supported, recognised and/or resourced in some way can include (OECD, 2003):</p>
-<ol type="1">
-<li><p><strong>Industry codes of conduct</strong> such as the ISO-14000 family;</p></li>
-<li><p><strong>Public voluntary challenges</strong> which aim to encourage firms to improve performance such as through target-setting; and</p></li>
-<li><p><strong>Negotiate agreements</strong> between firms and government/voluntary organisations through dialogue. An example is the EU negotiated commitments with the car industry, later superseded by prescriptive regulation.</p></li>
-</ol>
+<p>Voluntary and cooperative instruments broadly involve action towards a desired outcome in the absence of legal mandate (i.e.&nbsp;non-regulatory options). Voluntary approaches are diverse, ranging from private-sector unilateral action through to consumers voluntarily purchasing products with improved environmental performance. Voluntary instruments either brokered by the government or supported, recognised and/or resourced in some way can include (OECD, 2003): 1) Industry codes of conduct such as the ISO-14000 family; 2) Public voluntary challenges which aim to encourage firms to improve performance such as through target-setting; and 3) Negotiated agreements between firms and government/voluntary organisations through dialogue.</p>
 </div>
 </div>
 </div>
@@ -414,13 +432,7 @@ New environmental policy instruments
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Information-based approaches seek to tackle information asymmetries and gaps and include:</p>
-<ol type="1">
-<li><p>The provision of information such as to producers via guidance or information tools which can be voluntarily taken up;</p></li>
-<li><p>Reducing transaction costs and other barriers to information flows such as through developing platforms or data sharing protocols;</p></li>
-<li><p>Regulation of information otherwise being produced by others e.g.&nbsp;the UK’s Competition and Markets Authority (CMA) <a href="https://www.gov.uk/government/publications/green-claims-code-making-environmental-claims">guidance</a> on misleading green claims to ensure the accurate provision of information;</p></li>
-<li><p>Mandated information disclosure involving the regular collection and dissemination of information about environmental performance e.g.&nbsp;via product labels or registers.</p></li>
-</ol>
+<p>Information-based approaches seek to tackle information asymmetries and gaps and include 1) the provision of information such as to producers via guidance or information tools which can be voluntarily taken up; 2) reducing transaction costs and other barriers to information flows such as through developing platforms or data sharing protocols; 3) regulation of information otherwise being produced by others e.g.&nbsp;the UK’s Competition and Markets Authority (CMA) <a href="https://www.gov.uk/government/publications/green-claims-code-making-environmental-claims">guidance</a> on misleading green claims to ensure the accurate provision of information; and 4) mandated information disclosure involving the regular collection and dissemination of information about environmental performance e.g.&nbsp;via product labels or registers.</p>
 </div>
 </div>
 </div><div class="column callout callout-style-simple callout-tip no-icon callout-titled" style="width:50%;">
@@ -486,12 +498,7 @@ New environmental policy instruments
 </div>
 <div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Market-based instruments seek to harness market dynamics and influence behaviour through:</p>
-<ol type="1">
-<li><p><strong>Administered prices</strong> - Assigning prices to environmental use and externalities where one did not exist previously/modifying an existing price such as via taxes or charges to penalise problematic behaviour;</p></li>
-<li><p><strong>Administered markets</strong> - Assigning property rights over an allowable quantity of an environmental use or externality and creating (the mandate or conditions for) a market to trade in these rights where there was previously not one.</p></li>
-<li><p>Various forms of <strong>market-friction reductions</strong> such as state-based development of trading platforms can also be classified as market-based instruments.</p></li>
-</ol>
+<p>Market-based instruments seek to harness market dynamics and influence behaviour through: 1) <strong>administered prices</strong> - Assigning prices to environmental use and externalities where one did not exist previously/modifying an existing price such as via taxes or charges to penalise problematic behaviour; 2) <strong>administered markets</strong> - Assigning property rights over an allowable quantity of an environmental use or externality and creating (the mandate or conditions for) a market to trade in these rights where there was previously not one; and 3) various forms of <strong>market-friction reductions</strong> such as state-based development of trading platforms can also be classified as market-based instruments.</p>
 </div>
 </div>
 </div><div class="column callout callout-style-simple callout-tip no-icon callout-titled" style="width:50%;">
@@ -506,7 +513,7 @@ New environmental policy instruments
 </div>
 <div id="callout-9" class="callout-9-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-
+<p>A key question exists regarding whether sustainability is being looked at from a production (accounting for resources depleted or carbon emitted in a national economy) or consumption perspective (resources depleted and emissions emitted in consumption that satisfies an economy’s final demand) to assess virtual sustainability of a nation. The international nature of trade makes governments e.g.&nbsp;that of the UK able to say they have cut their emissions by 44% since 2019, which in reality and when accounting for emissions embodied in trade, emissions have actually only marginally decreased.</p>
 </div>
 </div>
 </div>
@@ -524,7 +531,7 @@ New environmental policy instruments
 </div>
 <div id="callout-10" class="callout-10-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Procedural requirements can be introduced in a variety of areas, including impact assessments, audits and planning policy. For instance, the 1947 Town and Country Planning Act, updated firstly in 1990 and then further under the 2011 Localism Act allows for a two-tier determination of planning outcomes - with local authorities detailing plans and granting planning permission for private developments and ensuring they accord with local plans and material considerations. Heightened integration of environmental concerns have resulted from top-down requirements for local plans to be aligned with sustainable development as required under the National Planning Policy Framework (2012, updated 2021). The <em>National Model Design Code</em> published in 2021 provides tools and guidance for LAs to align local design codes with low carbon and circular economy principles. Changes to waste exemptions - https://www.mrw.co.uk/news/defra-scraps-waste-exemptions-that-cost-economy-87m-06-02-2023/ Environmental Permitting Regulations to include raw material and waste impacts;</p>
+<p>Procedural requirements can be introduced in a variety of areas, including impact assessments, audits, permitting and planning policy. For instance, the 1947 Town and Country Planning Act, updated firstly in 1990 and then further under the 2011 Localism Act allows for a two-tier determination of planning outcomes - with local authorities detailing plans and granting planning permission for private developments and ensuring they accord with local plans and material considerations. Heightened integration of environmental concerns have resulted from top-down requirements for local plans to be aligned with sustainable development as required under the National Planning Policy Framework (2012, updated 2021). The <em>National Model Design Code</em> published in 2021 provides tools and guidance for LAs to align local design codes with low carbon and circular economy principles.</p>
 </div>
 </div>
 </div><div class="column callout callout-style-simple callout-tip no-icon callout-titled" style="width:50%;">
@@ -557,11 +564,7 @@ New environmental policy instruments
 </div>
 <div id="callout-12" class="callout-12-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Standards specify a particular condition to be attained, and can be further subdivided into:</p>
-<ol type="1">
-<li><p><strong>Performance standards</strong> – specify a minimum level of performance such as at the level of inputs or outputs of a process, characteristics of a product or environment (ambient standards) while leaving flexibility as to how this is achieved; and</p></li>
-<li><p><strong>Technology standards</strong> mandating the use of specific technologies or production methods e.g.&nbsp;‘Best Available Techniques’.</p></li>
-</ol>
+<p>Standards specify a particular condition to be attained, and can be further subdivided into: 1) performance standards – specify a minimum level of performance such as at the level of inputs or outputs of a process, characteristics of a product or environment (ambient standards) while leaving flexibility as to how this is achieved; and 2) technology standards mandating the use of specific technologies or production methods e.g.&nbsp;‘Best Available Techniques’.</p>
 </div>
 </div>
 </div><div class="column callout callout-style-simple callout-tip no-icon callout-titled" style="width:50%;">
@@ -629,16 +632,103 @@ New environmental policy instruments
 <p>A 2022 OECD review of UK CE policy recommends to “<em>strengthen formal and informal mechanisms for co-ordination, peer learning and policy development among environmental authorities of the four UK nations in setting, implementing and evaluating waste management and circular economy policies</em>.”</p>
 </blockquote>
 </section>
+<section id="selection-criteria" class="level1">
+<h1>Selection criteria</h1>
+<section id="assessment-against-critical-success-factors" class="level3">
+<h3 class="anchored" data-anchor-id="assessment-against-critical-success-factors">Assessment against critical success factors</h3>
+<p>We assess key instruments making up the <a href="https://policylab.quarto.pub/policy-tools-for-a-uk-circular-economy/instruments.html" title="policy tools">policymakers’ toolkit</a> for delivering a more circular UK economy change against the following set of criteria or ‘Critical Success Factors’ (CSFs) - in the HM Treasury Green Book as ‘<em>attributes essential to the successful delivery of projects and programmes</em>’ (HM Treasury, 2022).</p>
+</section>
+<section id="strategic-fit" class="level2 grid">
+<h2 class="anchored" data-anchor-id="strategic-fit">Strategic fit</h2>
+<p>How policy intervention supports ‘national, regional, local or organisational policies, initiatives and targets’, align with other projects and programmes and fits with wider business strategy of UK public bodies (<a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/749086/Project_Business_Case_2018.pdf">HM Treasury, 2018</a>). This can differ by application to value driver. For example, choice of instrument can be influenced by marginal damage curves. If very steep to the point of efficient level of pollutant being 0, then prescriptive approaches are most effective. If the MDC is steep but so is the MAC due to the benefits of the environmental use being high, using a quota or quantity-based approach may be more efficient to allow a small amount dedicated to highest benefit uses.</p>
+</section>
+<div class="grid">
+<div class="g-col-10 callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Effectiveness and efficiency
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-16" class="callout-16-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>There is often a high level of uncertainty regarding the impacts of policy change, with this based on a range of factors. To assess <em>effectiveness</em>, we capture evidence on the effect of instruments in relation to objectives such as reducing (primary) resource use, waste generation, reducing leakage and improving waste treatment and including the <em>immediacy</em> (indicative time required to implement) with which these effects arise and certainty of meeting aims (<em>predictability</em>). We also consider evidence on how <em>efficiently</em> outcomes are delivered (value for money) and the role of instruments in moving the UK towards a more optimal distribution of goods, services and pollution (allocative efficiency). We include findings from both cost-effectiveness analysis<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> and cost-benefit analysis<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="grid">
+<div class="g-col-10 callout callout-style-simple callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Financial cost to the public sector
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-17" class="callout-17-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>A key part of moving from theoretical to actual benefits is political and administrative feasibility (the ability to put a policy into effect in a given context), with government affordability an important parts of this (<a href="https://read.oecd-ilibrary.org/environment/policy-guidance-on-resource-efficiency_9789264257344-en#page3">OECD, 1999</a>). In addition to considering evidence on abatement and compliance costs from the perspective of the regulatee, we look for evidence on direct and indirect administrative costs to government (including at policy design and enforcement stages) of instruments, as well as evidence on revenues generated which can offset these (HMT, 2022).</p>
+</div>
+</div>
+</div>
+</div>
+<div class="grid">
+<div class="g-col-10 callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Long-run effects
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-18" class="callout-18-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>We look for evidence on the long-run effects of instruments and their ability to meet regulatory aims persistently into the future while providing incentives for continued improvements beyond the minimum. This includes their continued effectiveness under a variety of circumstances and resilience to external changes such as inflation, ability to be updated in response to new information and capacity to harness technological change through providing incentives for innovation over time so as to lower the costs of achieving goals over time (Fiorino, 2004).</p>
+</div>
+</div>
+</div>
+</div>
+<div class="grid">
+<div class="g-col-10 callout callout-style-simple callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Distributional and equity effects
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-19" class="callout-19-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Considering the net-effects of instruments on different people and groups, and how these may exacerbate pre-existing inequities (Bryant and Bailey, 1997). Evidence of regressive effects across income strata, geography concerning any of the groups identified by the Equality Act 2010 as well as disproportionate burdens on small and micro businesses are sought to be captured (<a href="https://www.gov.uk/government/publications/small-and-micro-business-assessment-samba-guidance">RPC, 2019</a>).</p>
+</div>
+</div>
+</div>
+</div>
+<section id="spillovers" class="level2 grid">
+<h2 class="anchored" data-anchor-id="spillovers">Spillovers</h2>
+<p>We look for evidence on spillovers, both positive and negative and including: 1) Soft effects such as impacts on attitudes, awareness and learning; 2) Wider economic impacts including on innovation and trade; and 3) Perverse incentives and any contribution to potentially unintended consequences such as negatively impacting competition or giving rise to cross-media impacts.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
+</section>
+</section>
 <section id="policy-mixes" class="level1">
 <h1>Policy mixes</h1>
-<section id="policy-interactions" class="level2">
-<h2 class="anchored" data-anchor-id="policy-interactions">Policy interactions</h2>
+<section id="policy-complementarities-and-tradeoffs" class="level2">
+<h2 class="anchored" data-anchor-id="policy-complementarities-and-tradeoffs">Policy complementarities and tradeoffs</h2>
 <p>All policy instruments have strengths and weaknesses and differ in their suitability to leveraging different value drivers across different institutional and industrial groups, while none have the ability to address every aspect of developing a more circular economy on their own. While supply-side measures are important to improve circularity, there is also significant room for demand-side measures. This is often the case even for individual product groups (<a href="https://wrap.org.uk/resources/report/textiles-policy-options-and-cost-benefit-analysis">Wrap, 2023</a>).</p>
 <p>This implies that policies to support a circular economy are likely to need to be introduced as a mix, levied also at different scales (del Rio and Howlett, 2013; O’Brien and Wilts, 2019). New policies are also not introduced in a vacuum and will interact with existing legislative and regulatory requirements.</p>
 <p><em>“A resource efficiency policy mix may be developed at the sectoral, sub-sectoral or municipal level in order to address a specific challenge or target, in the context of overarching goals”</em> (O’Brien and Wilts, 2019).<br>
 </p>
 <div class="callout callout-style-simple callout-important no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -647,7 +737,7 @@ Policy combinations - packaging case example
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-16" class="callout-16-contents callout-collapse collapse">
+<div id="callout-20" class="callout-20-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>In the case of packaging, while the Landfill Tax provides a financial incentive to keep packaging waste out of landfill and an incineration tax could do the same to discourage its incineration, it doesn’t guide waste to any specific alternative treatment. This means that in the absence of additional policy instruments, market conditions including collection costs, material value on the market and treatment costs will otherwise define final treatment routes. On this basis, having in place recycling targets for preferred treatment as part of e.g.&nbsp;the cross-UK packaging extended producer responsibility system can be a helpful counterpart (<a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/69500/pb13548-economic-principles-wr110613.pdf">Defra, 2011</a>), alongside other supply and demand-side measures.</p>
 </div>
@@ -658,7 +748,7 @@ At the same time, when developing a policy response, diversity for diversity’s
 <p>Where there is a sound basis to introduce policies alongside one another, these will need to be leveraged within a coherent framework across the lifecycle of materials, products and services in addition to the system in which those materials and products operate. Certain instrument mixes may offer greater complementaries than others, such as EPR and taxes, which can be additive in nature. Other examples of complimentary bundles include environmental tax and subsidy reform as well as voluntarism and command and control mechanisms (Gunningham and Sinclair, 1998). Compliance costs in money and time value also need to be kept in mind, with Valpak esimating that the time requirements on firms for reporting under the UK’s plastic packaging tax, EPR and forthcoming deposit return schemes will rise by around 350% compared with current reporting.</p>
 <p>Coherence with the wider policy landscape is also key, particularly with those for delivering ‘net zero’ and industrial strategy (OECD, 2022). This can help maximise regulatory efficiency. Complementarities and conflicts between instruments and broader considerations such as performance against critical success factors and alignment with existing domestic cultural, legal, technological and policy arrangements can be considered to ensure policies do not combine to be less than the sum of their parts (Howlett 2004).</p>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-21-contents" aria-controls="callout-21" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -667,7 +757,7 @@ The COM-B framework
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-17" class="callout-17-contents callout-collapse collapse">
+<div id="callout-21" class="callout-21-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Pro-environmental behaviour can be understood as environmentally-significant choices and actions which, directly (goal-directed) or indirectly (incidental), contribute to reductions in environmental impact or enhance the quality of the environment.</p>
 <p>The COM-B model of behaviour identifies three factors that need to be present for any behaviour to occur: capability, opportunity and motivation (<a href="https://discovery.ucl.ac.uk/id/eprint/10095640/">West and Michie, 2020</a>). Drawing on this framing, the tools available to government to drive change can be classified into those that are (<a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/765915/rws-evidence-annex.pdf">Defra, 2018</a>):</p>
@@ -699,6 +789,9 @@ The COM-B framework
 <ol>
 <li id="fn1"><p>e.g., information-based approaches ranging from mandatory information-reporting requirements by the state (hierarchy); to data-sharing agreements (network); and scraping (less interventionist)<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>Which guides Government’s approach to ex ante policy appraisal by setting out steps to systematically compare social costs and benefits of proposals based on the welfare changes they may bring about<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Cost-effectiveness analysis involves a monetary assessment of costs alone while not for benefits.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Cost-benefit analysis involves measuring net benefits or benefit-cost ratios through both costs and benefits being monetised.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Such as the IMO’s 2018 Ship Emissions Regulation leading to the installation of equipment helping meet atmospheric emissions regulations but by routing discharge into the ocean.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -721,6 +814,121 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {

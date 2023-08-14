@@ -39,11 +39,9 @@ options(scipen = 999)
 
 Actors internal and external to government play a role in bringing attention to issues for potential response by policy-makers. This is done via routes including improving the evidence base and disseminating results, building coalitions of support for a particular position, direct engagement with policy-makers, legal measures and other forms of pressure.[^2] For instance, the Ellen MacArthur Foundation through the production of several foundational reports over the last decade have highlighted the potential of CE strategies to tackle complex societal issues.
 
-How problems or solutions are framed by stakeholders (including in terms of their magnitude and causes) can be consequential for determining their perceived legitimacy for policy response and which policy responses might be considered (Dryzek, 1997; Knill and Tosun, 2012).
+How problems or solutions are framed by stakeholders (including in terms of their magnitude and causes) can be consequential for determining their perceived legitimacy for policy response and which policy responses might be considered (Dryzek, 1997; Knill and Tosun, 2012). A 'punctuated equilibrium' model emphasises relatively stable periods in the policy-making process followed by more rapid change (Baumgartner and Jones, 1993). Windows in which policy-making occurs come about when a compelling problem sees a viable solution exist for which there is political receptivity (Kingdon, 1984).
 
-A 'punctuated equilibrium' model emphasises relatively stable periods in the policy-making process followed by more rapid change (Baumgartner and Jones, 1993). Windows in which policy-making occurs come about when a compelling problem sees a viable solution exist for which there is political receptivity (Kingdon, 1984).
-
-From a broad number of issues and potential solutions existing at a 'systemic agenda' level, those with sufficient backing and which also align with institutional objectives or mandates of policy-making departments may rise to an 'institutional agenda' (Cobb and Elder, 1983). Influenced by the discretion of officials including based on risk appetite and personal preferences, these may then come onto the 'decisional agenda' wherein a policy or legal position is formulated.
+From a broad number of issues and potential solutions existing at a 'systemic agenda' level, those with sufficient backing and which align with institutional objectives or mandates of policy-making departments may rise to an 'institutional agenda' (Cobb and Elder, 1983). Influenced by the discretion of officials including based on risk appetite and personal preferences, these may then come onto the 'decisional agenda' wherein a policy or legal position is formulated.
 
 ## 2. Policy formulation
 

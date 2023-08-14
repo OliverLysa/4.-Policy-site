@@ -59,7 +59,7 @@ We therefore adopt a broad scope in our review of instruments in order to captur
 
 ::: grid
 ::: {.callout-note .g-col-10 collapse="true" appearance="minimal" icon="false"}
-## M**aterial** flows
+## Material flows
 
 Further subdivided into:
 
@@ -255,7 +255,7 @@ End-points derived from our evidence review for use in modelling potential impac
 
 5.  **spillover** effects.
 
-[^about-5]: Assuming full compliance, very direct with prescriptive regulation which effectively prescribes the outcome, though this will be parameterized by what is technologically feasible in many cases (apart from if technology-forcing policies are sought to be introduced). More indirect policy interventions which don't prescribe outcomes e.g. labelling, EPR or fiscal mechanisms, requires informed assumptions regarding likely efficacy of impact depending on intermediating parameter
+[^about-5]: Assuming full compliance, very direct with prescriptive regulation which effectively prescribes the outcome. More indirect policy interventions which don't prescribe outcomes e.g. labelling, EPR or fiscal mechanisms, requires informed assumptions regarding likely efficacy of impact depending on intermediating parameters.
 
 These evidence-derived assumptions can be used alongside additional hypothetical policy assumptions including:
 
@@ -443,7 +443,7 @@ Heightening or reducing the *level* of an existing lever e.g. increase the strin
 ::: {.callout-tip .g-col-10 collapse="true" appearance="minimal" icon="false"}
 ## {{< fa pen-ruler >}} **Reconfigure**
 
-Alter the design or implementation of a lever already in place beyond adjusting its level e.g. changing payment mechanisms for extended producer responsibility schemes
+Alter the design or implementation of a lever already in place beyond adjusting its level e.g. changing payment mechanisms or fee structures for extended producer responsibility schemes
 :::
 :::
 
@@ -457,6 +457,14 @@ Levy existing regulation horizontally into *new areas* e.g. applying ecodesign r
 
 ::: grid
 ::: {.callout-caution .g-col-10 collapse="true" appearance="minimal" icon="false"}
+## {{< fa trash >}} **Remove**
+
+Remove an existing regulation
+:::
+:::
+
+::: grid
+::: {.callout-warning .g-col-10 collapse="true" appearance="minimal" icon="false"}
 ## {{< fa file-medical >}} **Introduce**
 
 Introduce a new lever where one is not currently in place with a specified level and design

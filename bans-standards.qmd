@@ -6,6 +6,8 @@ title: "{{< fa circle-exclamation >}} Bans and standards"
 
 ::: {.callout-note collapse="false" appearance="simple" icon="false"}
 Bans and standards - which together are sometimes referred to as regulatory instruments or 'command and control' approaches, involve government issuing a prohibitive or prescriptive rule to be achieved by regulatees alongside penalties/sanctions for non-compliance and enforcement.
+
+Standards have a proven track record of effectiveness, are predictable, can be cost efficient and induce innovation under some conditions. On the other hand, their effectiveness can be limited by encouraging behaviour change in only the regulated sector, can be inefficient through imposing abatement requirements non-equimarginally, and can provide few incentives for innovation beyond meeting standards.
 :::
 
 # How it works and current applications
