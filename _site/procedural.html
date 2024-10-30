@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.502">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Public Policy Tools for a UK Circular Economy -  Planning and permitting requirements</title>
+<title>Public Policy Tools for a UK Circular Economy -  Planning policy, building regs and permitting requirements</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./target-setting.html" rel="next">
-<link href="./trade-policy.html" rel="prev">
 <link href="./fav.png" rel="icon" type="image/png">
 <script src="site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
@@ -54,7 +52,10 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 2,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    null
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -89,6 +90,8 @@ cookieconsent.run({
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
+  ,
+"language":"en"
   });
 });
 </script> 
@@ -101,12 +104,13 @@ cookieconsent.run({
 }
 </script>
 <script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
 
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Public Policy Tools for a UK Circular Economy -  Planning and permitting requirements">
-<meta property="og:description" content="">
-<meta property="og:site-name" content="Public Policy Tools for a UK Circular Economy">
 </head>
 
 <body class="nav-sidebar docked">
@@ -115,12 +119,14 @@ cookieconsent.run({
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./no-intervention.html"><strong>Policy tool profiles</strong></a></li><li class="breadcrumb-item"><a href="./procedural.html"><i class="fa-solid fa-list-check" aria-label="list-check"></i> Planning and permitting requirements</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Public Policy Tools for a UK Circular Economy
+      </li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -130,7 +136,7 @@ cookieconsent.run({
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Public Policy Tools for a UK Circular Economy</a> 
@@ -169,7 +175,7 @@ cookieconsent.run({
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-signs-post" aria-label="signs-post"></i> <strong>Contents</strong></span></a>
+ <span class="menu-text"><i class="fa-solid fa-signs-post" aria-label="signs-post"></i> <strong>Site overview</strong></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -183,26 +189,38 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./actors.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-people-arrows" aria-label="people-arrows"></i> Actors</span></a>
+  <a href="./prologue.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-timeline" aria-label="timeline"></i> Prologue</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./instruments.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-toolbox" aria-label="toolbox"></i> Policy instruments</span></a>
+  <a href="./taxonomic_approach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-folder-tree" aria-label="folder-tree"></i> A taxonomic approach</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./value-drivers.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-circle-nodes" aria-label="circle-nodes"></i> Linking CE value drivers to policy objectives</span></a>
+ <span class="menu-text"><i class="fa-solid fa-circle-nodes" aria-label="circle-nodes"></i> The circular economy as way to deliver societal objectives</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./change.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-road" aria-label="road"></i> Policy change</span></a>
+  <a href="./actors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-people-arrows" aria-label="people-arrows"></i> Value chain actors and activities</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./instruments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-toolbox" aria-label="toolbox"></i> Public policy tools</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./instrument_selection.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-check-double" aria-label="check-double"></i> Policy tool selection</span></a>
   </div>
 </li>
       </ul>
@@ -218,8 +236,8 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./no-intervention.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-circle-arrow-right" aria-label="circle-arrow-right"></i> No intervention</span></a>
+  <a href="./bans-standards.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-circle-exclamation" aria-label="circle-exclamation"></i> Bans and standards</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -230,74 +248,24 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./information-based.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-circle-info" aria-label="circle-info"></i> Information-based tools</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./procurement-requirements.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-basket-shopping" aria-label="basket-shopping"></i> Procurement</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./consumer-rights.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-gavel" aria-label="gavel"></i> Consumer rights</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./extended-producer-responsibility.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-reply" aria-label="reply"></i> Responsibility-based approaches</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./taxes-subsidies.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><i class="fa-solid fa-sterling-sign" aria-label="sterling-sign"></i> Price and market-based instruments</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./trade-policy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-globe" aria-label="globe"></i> Trade policy and international governance</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./procedural.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><i class="fa-solid fa-list-check" aria-label="list-check"></i> Planning and permitting requirements</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./target-setting.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-arrow-up" aria-label="arrow-up"></i> Direction-setting</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./bans-standards.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-circle-exclamation" aria-label="circle-exclamation"></i> Bans and standards</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./project-level-interventions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-building" aria-label="building"></i> Project-level &amp; public sector delivery</span></a>
-  </div>
-</li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>References</strong></span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<p><img src="./logo.svg" class="img-fluid"></p>
-</div></div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
@@ -307,7 +275,8 @@ cookieconsent.run({
   <li><a href="#performance" id="toc-performance" class="nav-link" data-scroll-target="#performance">Performance</a>
   <ul class="collapse">
   <li><a href="#strategic-fit" id="toc-strategic-fit" class="nav-link" data-scroll-target="#strategic-fit">Strategic fit</a></li>
-  <li><a href="#effectiveness-and-efficiency" id="toc-effectiveness-and-efficiency" class="nav-link" data-scroll-target="#effectiveness-and-efficiency">Effectiveness and efficiency</a></li>
+  <li><a href="#effectiveness" id="toc-effectiveness" class="nav-link" data-scroll-target="#effectiveness">Effectiveness</a></li>
+  <li><a href="#eficiency" id="toc-eficiency" class="nav-link" data-scroll-target="#eficiency">Eficiency</a></li>
   <li><a href="#affordability" id="toc-affordability" class="nav-link" data-scroll-target="#affordability">Affordability</a></li>
   <li><a href="#long-run-effects" id="toc-long-run-effects" class="nav-link" data-scroll-target="#long-run-effects">Long-run effects</a></li>
   <li><a href="#distributional-effects" id="toc-distributional-effects" class="nav-link" data-scroll-target="#distributional-effects">Distributional effects</a></li>
@@ -319,14 +288,14 @@ cookieconsent.run({
   </ul></li>
   <li><a href="#future-applications-in-uk-ce-framework" id="toc-future-applications-in-uk-ce-framework" class="nav-link" data-scroll-target="#future-applications-in-uk-ce-framework">Future applications in UK CE framework</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/OliverLysa/ce-policy/edit/main/procedural.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/OliverLysa/ce-policy/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/OliverLysa/ce-policy/edit/main/procedural.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OliverLysa/ce-policy/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><i class="fa-solid fa-list-check" aria-label="list-check"></i> Planning and permitting requirements</h1>
+<h1 class="title"><i class="fa-solid fa-list-check" aria-label="list-check"></i> Planning policy, building regs and permitting requirements</h1>
 </div>
 
 
@@ -339,7 +308,9 @@ cookieconsent.run({
   </div>
   
 
+
 </header>
+
 
 <section id="summary" class="level1">
 <h1>Summary</h1>
@@ -369,10 +340,70 @@ Planning law and policy
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Planning is anything that relates to the character and use of land. Whilst not specifically design to pursue environmental protection, planning - by merit of its influence over the spatial distribution of activities, nevertheless has far reaching ramifications for the environment. Environmental protection and sustainable development concerns have been given heightened primacy in planning in the UK through substantive and procedural changes (Jones, 2012). Substantively, at the level of plans through broadening the range of material considerations that decision makers must take into account as a matter of law at both the plans and planning level. Procedurally, through reducing the discretion of local decision makers through increasing reliance on central government guidance.</p>
+<p>Planning is anything that relates to the character and use of land. Whilst not specifically design to pursue environmental protection, planning - by merit of its influence over the spatial distribution and intensity of activities, nevertheless has far reaching ramifications for the environment.</p>
+<p>Process: Application Submitted &gt; Consultation with Designated Authorities &gt; Publication of Planning Application &gt; Substantive Assessment of Environmental and Social Considerations taken &gt; Permission or called in by the SoS. If refused can appeal, or permission can be given with obligations.</p>
+<p>Law acts in a supervisory capacity to ensure that correct procedures are adhered to within the planning process. It influences 3 primary areas of the planning regime:</p>
+<p>Ensuring that environmental protection is considered at the level of policy-making</p>
+<p>Imposing conditions related to environmental protection on a grant of planning permission</p>
+<p>An anticipatory control over many developments before they begin.</p>
+<p>Environmental protection and sustainable development concerns have been given heightened primacy in planning in the UK through substantive and procedural changes (Jones, 2012). Substantively, at the level of plans (development plans guide development in the areas they cover, laying down policies, aims, objectives and goals) through broadening the range of material considerations that decision makers must take into account as a matter of law at both the plans and planning level. Procedurally, through reducing the discretion of local decision makers through increasing reliance on central government guidance.</p>
+<ul>
+<li><p>Environmental protection and sustainable development concerns have been given heightened primacy in planning in the UK in recent years through two major processes - a broadening of perceptions and procedural changes (Jones, 2012):</p>
+<ul>
+<li><ul>
+<li><p><strong>Substantively,</strong> the corpus of environmental legislation has influenced the level of plans and planning through:</p>
+<ol type="1">
+<li><p>Broadening the range of material considerations that decision makers must take into account as a matter of law at both the plans and planning level. These include at the planning level environmental considerations such as noise, odour, nature conservation, flooding and the potential effects of pollution on heath, the natural environment or general amenity and at the plan level more thematic aims such as sustainable development.&nbsp;</p></li>
+<li><p>Under the influence of principles expressed in international conventions, the preoccupations of the planning system have grown wider, with principles and concerns such as sustainable development and biodiversity required to be incorporated into decision making.</p>
+<ol type="1">
+<li><p>The National Planning Framework outline the requirement to align all plans created by plan making bodies with sustainability principles to ensure its incorporation at a strategic level of governance.</p></li>
+<li><p>The expectation to factor in plans biodiversity conservation concerns, with statutory limits in relation to habitats and species necessary. If significant harm cannot be avoided, adequate mitigation is required, if not possible, compensation is required and if this is not available, planning permission should be refused (Jones, 2012).&nbsp;</p></li>
+</ol></li>
+<li><p><strong>International Soft Law influence</strong></p>
+<ul>
+<li><p><em>Sustainable Development:</em> Planning authorities expected to enhance the environment as part of development proposals.&nbsp;</p></li>
+<li><p><em>Convention on Biodiversity:</em> Parties expected to integrate biodiversity concerns into national decision making. Since 2006 every public authority has been required to regard conservation biodiversity aims.</p></li>
+<li><p><em>Aarhus:</em> Enhanced public involvement manifested in the Town and Country Order of 2010 requiring notification of tenants of land individually about local changes (Sanford principle, 1974).&nbsp;</p></li>
+<li><p><em>Protected Areas:</em> SSSIs required recognition, and national parks beauty have priority over development within their spaces. Outside of parks, economic development cannot be so stringently restricted.</p></li>
+</ul></li>
+</ol></li>
+<li><p><strong>Procedurally</strong> greater environmental concern has arisen through 1) curtailing the discretion of decision makers who provide planning permission through increasing the required reliance on central government guidance although nevertheless substantial discretion lies with local authorities which have increasingly relied on the influence of the market in determining planning outcomes, seen to be serving the public interest and 2) Through structural impositions on authorities such as the requirement for increased public participation in environmental matters, which both the Rio Declaration (1992) and Aarhus Convention (2001) emphasise.</p></li>
+</ul></li>
+</ul></li>
+</ul>
 <p>Major planning statutes: 1947 Town and Country Planning Act, updated in 1990. The Localism Act of 2011 made major changes to law at the regional level in the hope of placing greater emphasis on decision making.</p>
-<p>Development plans guide development in the areas they cover, laying down policies, aims, objectives and goals.</p>
+<p>The heightened integration of environmental concerns in the planning regime have resulted from top-down requirements for plans to be aligned with sustainable development aims, with all plan making bodies needing to exercise their functions with the aim of contributing to the achievement of sustainable development.</p>
+<p>Link to permitting requirements:</p>
+<p>R (On the application of Cox Skips Ltd) v 1st SoS</p>
+<p>Planning law looked at the broader environmental implications of traffic congestion from allowing a waste management facility to have a licence to process new kinds and resultantly more waste. Concern for safeguarding the amenities of locals led to the revocation of a further permit.</p>
+<p>Gateshead MBC v SoS for the Environment</p>
+<p>The QC ruled that health risks are a material consideration and the SoS could not ignore them and place them into the EPA’s regime (V Important as highlights ex ante need for environmental integration). Argued that when statutory controls overlap it is unhelpful to define where one control ends and the other begins and rather is down to the SoS to take as a matter of planning judgement where one begin and ends. Planning authorities should thus deal with the existence of other systems of control by having regard to the other system’s police and principles and affording regulators a degree of deference.</p>
+<p>Conclusion</p>
+<p>There has been incorporation of environmental considerations into UK planning law however the reforms have been piecemeal and there is good cause to doubt the overall environmental impacts of new legal requirements having a positive effect. Positive effects more continent on the inculcation of environmental values than on the precise content of binding rules imposed from above. The greatest impact has been in the conceptualisation and content of policy and the statutory development plan with the incorporation of SD as an organising principle of the system, but its translation into concrete outcomes is questionable.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Environmental impact assessments
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p>Environmental Impact Assessments (EIAs) are a formal information gathering procedure through which decision makers gather environmental information, inclusive of public participation, about projects in order to take account of this information in decision making. Their use is mandated under the Town and Country Act 2011, which transposed the EU EIA Directive into UK Planning Law.</p>
+<p>EIA produced information is used in planning processes to ensure that when planning authorities grant permission, they do so in the full knowledge of potential environmental risks which may arise. EIAs have two broad aims (Holder, 2004):</p>
+<p>Information Theory: To provide more and better information to decision makers and the public.</p>
+<p>Culture Theory: To induce broader changes in decision making practices by elevating the importance of environmental issues in decision making.</p>
+<p>Two separate regimes:</p>
+<p>EIAs = Projects (Transposed 2011) [2011/92/EC] - projects covered is written in the Directive</p>
+<p>SEAs = Plans (2001 EC Directive, Transposed 2004) - applies significance threshold</p>
+<p>EIAs [2011/92/EC] and SEAs are procedural mechanisms which the SoS or local planning authorities needn’t necessarily act upon. Whilst procedurally exacting, the substantial discretion offered to planners has lead to a formal lack of stipulation regarding how to respond to informational outcomes.</p>
+<p>Planning authority screens to establish whether an EIA is necessary (Depending on whether a project is Schedule 1 or 2 - with some projects mandated for an EIA whilst others are discretionary). The onus is then placed on the developer to scope for the potential environmental impacts of a project, which are formalised in an Environmental Statement (Or Report under the SEA) in which potential harms, and where necessary mitigation and compensatory measures are laid out.</p>
 <p>The Greater London Authority is introducing mandatory circular economy statements into its planning policy, whereby developers must specify how materials will be minimised, how secondary materials can be used, how materials can be reused, and how waste will be minimised (London Assembly, 2020).</p>
 <ul>
 <li>WPP: Support to LAs to work through planning system to promote sustainable construction
@@ -385,7 +416,7 @@ Planning law and policy
 </div>
 </div>
 <div class="callout callout-style-simple callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -394,18 +425,41 @@ Permitting regulations
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
+<p>The 2010 Environmental Permitting Regulations sought to provide a unified permitting system covering a number of areas in which EU environmental law must regulate. Permitting is widespread as an approach as it is easier to be strategic, guarantees a levels of pollution, allows revision of prospects.</p>
+<p>The UK did have a precursor to such an integrated approach enshrined in the Environmental Protection Act (1990), which introduced new controls aimed at limiting and preventing pollution from a wide range of industries on the basis of the Best Practical Environmental Options (BPEOs).</p>
+<p>Environmental Permitting Regulations (EPR) to identify which installations require a permit; what the requirements are for obtaining a permit; which procedural steps need to be taken before a permit can be issued; and when a permit should be renewed or surrendered.</p>
+<p>Installations with a high potential pollution impact, as outlined in Annex 1 are covered by the IPPC regime.</p>
+<p>These installations are mandated to comply and are only to receive a permit if they adopt the BAT and meet obligations of:</p>
+<pre><code>•   preventive measures are taken against pollution;
+
+•   the best available techniques (BAT) are applied;
+
+•   no significant pollution is caused;
+
+•   waste is reduced, recycled or disposed of in the manner which creates least pollution;
+
+•   energy efficiency is maximised;
+
+•   accidents are prevented and their impact limited;
+
+•   sites are remediated when the activities come to an end.</code></pre>
 <p>The Environmental Protection Act 1990 - Introduced new controls aimed at limiting and preventing pollution from a wide range of industries on the basis of the Best Practical Environmental Options (BPEOs) but also deals with issues that relate to waste, defines waste management and its associated aspects, and enforces a duty of care on UK businesses handling waste.</p>
+<p>The IPPC regime arose out of a desire to regulate installations with a high pollution potential in a cross media pollution approach. A strong case has been made for decades for a more flexible and integrated environmental protection strategy in light of the increasingly perceived failure of the singular media regulatory approach in terms of effectiveness in eliminating effluents to all mediums whilst doing so at least administration cost. The IPPC regime sought to resolve through substantive and procedural integration issues plaguing the prior regime restricting industrial pollutants.</p>
 <p>The IPPC regime arose out of a desire to regulate installations with a high pollution potential in a cross media pollution approach. The IPPC regime seeks to limit effluents into all mediums, bypassing the issue of pollution displacement in an efficient way through reducing the administrative t-costs and compliance t-costs associated with multiple permits. It takes a permitting approach, requiring each installation to have a permit containing emission limit values and other conditions based on the application of Best Available Techniques covering all effluents. The Waste and Environmental Permitting etc. (Legislative Functions and Amendment etc.) (EU Exit) Regulations 2020</p>
 <p>BAT: https://www.gov.uk/guidance/best-available-techniques-environmental-permits BAT covering resource efficiency criteria is desirable, including based on an analysis of full environmental costs (<a href="https://www.researchgate.net/publication/325416048_Making_the_most_of_industrial_wastes_strengthening_resource_security_of_valuable_metals_for_clean_growth_in_the_UK">Marshall, Velenturf and Jopson, 2018</a>).</p>
 <p>Other examples include required disclosure of convictions for those seeking to apply for a permit for waste activities or installations (<a href="https://www.gov.uk/government/publications/relevant-conviction-guidance-for-permit-applications-for-waste-activities-and-installations-only">Environment Agency, 2023</a>).</p>
 <p>Enforcement aspects. Increase in the up to £250,000 variable monetary penalties that could previously be issued by the Environment Agency in England to operators for polluting the environment and including now as a civil sanction under the Environmental Permitting (England and Wales) Regulations 2016 (<a href="https://www.gov.uk/government/news/polluters-must-pay-says-environment-secretary-as-unlimited-penalties-unveiled">Defra, 2023</a>).</p>
+<p>BAT process: Best Available Techniques are listed in Annex 3. They are decided upon at the EU level by the IPPC Bureau through the involvement of 40-200 experts and are selected on the basis of that which can prevent pollution within economic constraints under the ‘Sevilla process’. The European IPPC Bureau was set up to organise an exchange of information between Member States and the industries concerned, on the dynamic concept of best available techniques (BAT) associated monitoring and developments in them as required by Article 17(2) of the IPPC Directive (2008/1/EC). The objective of the information exchange exercise is to assist the efficient implementation of the Directive across the European Union. The process to elaborate and review Best Available Techniques (BAT) Reference documents, the BREFs, has been enshrined into law with the adoption on 8 November 2010 of the new Industrial Emissions Directive (IED), 2010/75/EU, which replaces the Integrated Pollution Prevention and Control (IPPC) Directive (2008/1/EC) and related legislation on industrial emissions. BREFs are the main output of the Sevilla process through which best available techniques are determined in a transparent manner, based on sound techno-economic information. A BREF gives predictability to the process of determining conclusions on BAT and provides confidence in the quality of the end result. These BATs are outlined in BREFS, which are EU level technological documentation of BATs for industrial pollution prevention. (There is national discretion in determining the BAT to be enlisted. An issue has arisen as a result of member states interpreting BAT in a manner not intended, leading Germany to call for the need for Emission Quality Standards too). The public must be afforded an awareness of to whom permits are granted for new installations or those substantially changed.</p>
+<p>BREFS are deemed to be efficient as without this centralised information all member states would have to produce such information themselves.</p>
+<p>The Environmental permit basle upon IPPC utilises the BAT standard, which balances costs against environmental benefit seeking to eliminate pollution production and where this is not practicable for reasons of cost reduce them adequately. Emission Limit Values are set by reference to the BAT for a particular installation, with Environmental Quality Standards taken into account when setting ELV above those related to BAT.</p>
+<p>The IPPC takes a risk based approach to pollution regulation, being concerned with future risk, balancing costs and benefits through the BAT process.</p>
 </div>
 </div>
 </div>
 <div class="callout callout-style-simple callout-important no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -414,9 +468,17 @@ REACH Regulations
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>REACH is the Regulation on Registration, Evaluation, Authorisation and Restriction of Chemicals, entering into force in 2007 and aimed at streamlining the former legislative framework on chemicals. REACH seeks to adequately control risk through registration and by identifying SVHCs (Substances of Very High Concern).</p>
+<p>REACH is the Regulation on Registration, Evaluation, Authorisation and Restriction of Chemicals, entering into force in 2007 and aimed at streamlining the former legislative framework on chemicals. REACH seeks to adequately control risk through registration and by identifying SVHCs (Substances of Very High Concern). It was intended to provide an all-encompassing regulatory framework as administered by the European Chemicals Agency enabling information production and decision making relating to all chemicals produced and circulating in the EU market, thereby homogenising the requirement of chemicals regulations between member states. Following EU Exit,</p>
+<p>Law seeks to reduce the likelihood of environmental harm occurring or seeks redress for harm that has been caused. In the past, an experience of harm and an illustration of causality of that harm was typically required to assign liability and bring an end to the impetus of harm. As environmental law has sought to deepen its mandate to prevent harm, it has increasingly incorporated a risk management approach as a forward looking means of safeguarding against risk. We no longer seek to be protected against harms but also protected against the potential for future harm - a more ambitious mandate. Risk is a function of the potential magnitude of a harm times by its likelihood of occurrence. Risks translation into harm arises through its relationship with vulnerability.</p>
+<p>Due to the multifarious and multimedia influences chemicals may have, they cannot be assessed in terms of one measure of risk and rather a ‘risk profile’ incorporating these numerous risks is required for each chemical. The Hazard classification of a chemical is defined on the grounds of these risks, and leads to a chemical being put on the candidate list if exhibiting these risks, an approach deemed more precautionary that a risk assessment.</p>
+<p>Registration: All chemicals imported or manufactured in quantities of 1 tonne or more per year must be registered and for chemicals above a 10 tonne threshold (prioritisation on volume - potential extent of harm), a risk assessment is a precondition for registration, with chemicals created prior to the regime needing to be registered (limiting the innovation restriction that came with the old regime, where old chemicals were used as they didn’t require an assessment). Registration can be useful for firms to recognise the potential harm of chemicals and self-regulate. Industries (manufacturers and importers) must submit a registration form to the ECHA for all substances in quantities of over 1 tonne and there is a strict ‘no data, no market’ clause. Technical dossiers include information on toxicology, environmental pathways, safe use guidance. The burden of this information previously lay with the public body, however the EU turned this over to firms under REACH so that firms offered their views on their own chemicals. Of the dossiers sent to the ECHA only a random sample will be reviewed.</p>
+<p>Evaluation: Two processes exist within the evaluation stage - substance and dossier evaluation. Dossier evaluation is a compliance check to ensure that a registration form has been filled out correctly. Substance evaluations clarify the risks to human health and the environment associated with specific chemicals. The outcome is whether the chemical is fast-tracked to authorisation or put on the Candidate List. The ECHA and Member States evaluate the information submitted by companies for compliance and to examine the quality of the registration dossiers and the testing proposals and to clarify if a given substance constitutes a risk to human health or the environment. 80% of substances require no further action after registration. After the submitted registers have been checked over, the evaluation process decides (STEP 1) what substances might be designated as SVHC’s and put on the Candidate list, (STEP 2) which will then be evaluated again and designated into Annex XIV (going on to authorisation). A member state or the EC makes proposals for a substance to be included here based on a hazard classification (A Precautionary approach). It is eligible if it is: carcinogenic, PBT, vPvB, etc. Being on the candidate list there are only some light obligations (mainly for information disclosure), until it gets added to Annex XIV. It will be added to Annex XIV on the basis of a subsequent technical report.</p>
+<p>Authorisation: This stage seeks to facilitate the substitution of SVHC with suitable, safer alternatives (Outlined in Article 57). SVHC are placed on a candidate list, denoting that the substance can be placed on a later Authorisation list if its impacts are deemed to be benign. Once placed on the authorisation list, a chemical must be phased out unless it is authorised for a particular use and the use of the candidate list i the operationalisation of the precautionary principle and the substitution principle. Substances of very high concern are subject to an authorisation procedure. Companies who apply for authorisation need to show that the risks posed by those substances are adequately controlled or that the socio-economic benefits from their use outweigh the risks. The aim is to give industry the incentive to progressively substitute these substances with safer alternatives when technically and economically feasible. Purpose: ‘ensure the good functioning of the internal market while assuring that the risks from substances of very high concern are properly controlled or that these substances are replaced by suitable alternative substances or technologies’. If a substance is added to Annex XIV it will be subject to authorisation – this means that (after the ‘sunset date’) it cannot be brought to market without going through the authorisation process. There are basically 3 stages to this process (At each stage if the answer is YES the substances is permitted on the market). 1) Are there adequate controls of risk - determined based on the manufacturers own uses and downstream uses. 2) Is there an alternative? In accordance with the substitution principle, if the risks of an SVHC cannot be adequately controlled it will be replaced with a less hazardous substance. Lofsteda (2013) conducts interviews with 90 leading policy-makers in the European Commission to critique the substitution principle. His main recommendation is that it should be based upon a full risk-analysis (which incorporates risk trade-offs) as opposed to a hazard classifications. However, none of Lofsteda’s examples are from the principles implemented under REACH and while his recommendations are valid a more focussed examination of its employment under REACH is required before recommending reforms. 3) Do the socio-economic benefits outweigh the risks? If there is no alternative substance to use in place of an SVHC, its use may be permitted if the socio-economic benefits outweigh the environmental and human health risks. This is the first point at which contextual, socioeconomic information can be taken into account in the REACH process.</p>
+<p>Annex XIV of REACH (The Authorisation List) – substances put on this after they are evaluated and deemed to require further authorization.</p>
+<p>Restriction: A carry forward risk-management approach that carries forward from the prior chemicals regime. It is a safety net to address risks not adequately safeguarded against in the prior three stages. When the EC restricts a chemical, the analytical burden resides with the EC. A member state or the ECHA can begin the restriction procedure when they have a concern that a certain substance poses an unacceptable risk to human health or the environment. Substances under Annex XIV can be subject to restrictions under REACH. It submits a dossier to the ECHA, which will then take a balanced view of the risks and of the costs and benefits. The final decision will be made by the European Commission, as informed by the ECHA Committees who just looked at it.</p>
+<p>Risk is analysed through:</p>
 </div>
 </div>
 </div>
@@ -425,20 +487,37 @@ REACH Regulations
 <h1>Performance</h1>
 <section id="strategic-fit" class="level2">
 <h2 class="anchored" data-anchor-id="strategic-fit">Strategic fit</h2>
+<p>The precautionary principle holds that ‘When there are threats of serious or irreversible damage, lack of full scientific certainty shall not be used as a reason for preventing cost effective measures to prevent environmental degradation’ (EC, 2000).</p>
+<p>Has been seen as an important means of improving the environmental performance of industry, helping companies identify pollution prevention opportunities in a contiguous manner through the use of BREFs.</p>
+<p>IPPC is useful in promoting technological innovation in an economically efficient manner, encouraging the regulation of industrial sources by considering all environmental impacts and shifting the focus from end of the pipe solutions to ex ante pollution reduction approaches.</p>
 </section>
-<section id="effectiveness-and-efficiency" class="level2">
-<h2 class="anchored" data-anchor-id="effectiveness-and-efficiency">Effectiveness and efficiency</h2>
+<section id="effectiveness" class="level2">
+<h2 class="anchored" data-anchor-id="effectiveness">Effectiveness</h2>
 <p>“the IEA estimates that updating building codes coupled with education and training for key actors—such as architects, engineers and contractors—could reduce demand for both cement and steel by up to a quarter”.</p>
 <p>Targeted public spending can play a key role in galvanising public investment in areas of necessary infrastructure.</p>
+<p>Issues of IPPC</p>
+<p>Whilst focussing on the most environmentally deleterious installations, it still has a relatively small scope of application (in number of installations, what about as share of pollutants?) and too by political manoeuvring that excludes public participation.</p>
+<p>The IPPC recommendations are not dynamically efficient, resulting in them being problematic when circumstances change and we are left with static recommendations (Not the case in price-based instruments).</p>
+<p>The Conveyor belt approach: Nations simply operationalising EU Directives without influencing decision making results in a vacuum in national law, with general provisions but not specific regulations outlined, resulting in a loss of national discretion and flexibility in the regime.</p>
+<p>There is a balance between regulation and acceptance of chemical production as chemicals provide benefits to people but also present risks. In our industrialised societies, the increasing extent of chemical gives cause for concern regarding their potentially unintended impacts, or risk, to human health and the environment. Given that chemicals prove beneficial to society and the EU are the 2nd largest exporter of them, their regulation is not sought to limit their use entirely. Rather regulation dealing with their risks is sought. REACH seeks to increase environmental and human health protection resultantly through the regulation of chemicals, whilst improving transparency between all actors, whilst maintaining the competitiveness of the European chemicals industry.</p>
+</section>
+<section id="eficiency" class="level2">
+<h2 class="anchored" data-anchor-id="eficiency">Eficiency</h2>
+<p>REACH has been designed to facilitate assessment and voluntary management by industry in an efficient manner (a cost which can be reduced through conglomerates reducing per firm research costs).</p>
 </section>
 <section id="affordability" class="level2">
 <h2 class="anchored" data-anchor-id="affordability">Affordability</h2>
+<p>It spreads regulatory resources towards dealing with the highest risk by adopting a prioritisation process. Whilst all chemicals are registered, not all will be examined.</p>
 </section>
 <section id="long-run-effects" class="level2">
 <h2 class="anchored" data-anchor-id="long-run-effects">Long-run effects</h2>
 </section>
 <section id="distributional-effects" class="level2">
 <h2 class="anchored" data-anchor-id="distributional-effects">Distributional effects</h2>
+<p>Several challenges exist for chemical regulation. The variations in risk profile of chemicals, with benefits from some riskier chemicals outweighing the costs require a risk based approach to regulation. Scientific and technological complexity requires specialist knowledge of how to deal with chemical risk, bringing a danger of an exclusionary and elitist regime. Establishing risk proves difficult even with specialist knowledge due to their low visibility, latency variations in dose-response relations and potentially synergistic impacts.</p>
+<p>Potential for participation: Chemical use in the EU is managed under the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) regulations. Heyvaert (2008)’s investigation of REACH’s engagement of the publics finds that although the regulation improves on prior control frameworks in terms of transparency and information access, providing more formal opportunities for public participation in giving feedback on chemical safety, as well as opportunities for consultation and checking throughout the process, these increased opportunities for involvement haven’t necessarily translated into increased opportunities for influence given the terms of debate in chemical approval deliberations almost always favour private economic interests over health and environmental considerations that are voiced (Pesendorfer, 2006; Lindgren and Persson, 2011). The opportunities which the regulation provides for consultation are furthermore seen to be eroded by institutional and functional contexts that cause its participatory and integrative arrangements to remain brittle due to factors including a lack of support and funding for NGOs to participate in the process (Heyvaert, 2008). Interestingly, on the other hand, despite NGO involvement actually being critical in ensuring effective risk-control is undertaken through the regulation, such involvement has lagged as for instance, the World Wide Fund for Nature (WWF) considered the establishment of REACH as an end to a chemical-safety era, subsequently redirecting its resources to other environmental issues with growing public interest (Downs, 1974).</p>
+<p>Heyvaert (2008) investigates to which extent REACH responds to demands for inclusive governance. Whilst finding that formal opportunities for public involvement do exist, their significance is seen to be eroded by the institutional and functional context in which they take place. The most commonly understood version of inclusive governance focusses on how, and to what extent, different stakeholders get to represent their interests in the process of law. Finds that whilst the process seeks to be inclusive, equal access doesn’t imply equal opportunities for influence. Taking a systematic analysis aligned with the process - in the registration stage, non-scientific inputs have some place. At the evaluation stage, public input can arise through inputs on chemical danger. At the review stage the ECHA is the dominant player, however checks and balances are built into the authorisation process in which registrants are invited to comment on chemical reviews. At the output stage, there is procedural inclusiveness for NGOs - satisfying Aarhus requirements (2001) however they lag in their involvement in the output process. This is evidence of opportunity not being taken up. WWF dropping its chemical regulation is indicative of a wider disinterest in relation to other environmental issues of chemicals, however the real impact of substantive risk regulation hinges on their interpretation and thus it is crucial for NGOs to be involved here.</p>
+<p>Development in the UK has substantial environmental impacts for the national environment that are mediated by planning regulations. Opportunities for the public, understood as those having a ‘sufficient interest’ in a planning matter, for participating in planning-permission processes have been structurally integrated into the planning regime, with the Conservative government’s post-2010 commitment to localism and decentralization reflecting many of the aims of the participative turn (Connelly, n.d.). Regarding transparency and access to information, the Town and Country Order of 2010 asserts that planning applicants must provide individualized, timely and adequate information to potentially impacted individuals, giving a chance to prepare for, and participate in, submitting responses to the application, though local authorities are only required to publish the existence of the application on site, on their website, and through local newspaper adverts. Opportunities for procedural deliberation, particularly at the more structural level of plan-making fall short in the U.K’s planning regime in relation to ideals such as ‘collaborative planning’ (Healey, 2005), with little progress in engaging the public and even less in engaging marginalized groups (Connelly, n.d.). In too few instances are public hearings for projects with substantial environmental effects (as called for in the Aarhus Convention) reflexive in relation to participatory inputs, while rarely are environmental factors a sufficient material cause to perturb planning approval anyhow. Despite verbalized democratic aspirations of the Conservative government akin to a ‘participative turn’, tensions between speed and meaningful public participation, or between the ‘better regulation’ and ‘participative’ agendas, have led to recent legislation primarily supporting the former, while the judicial system has been increasingly relied on to support the latter, with lackluster deliberative participation arising on balance (Kirk and Blackstock, 2011; Connelly, n.d.).</p>
 </section>
 <section id="positive-and-negative-spillovers" class="level2">
 <h2 class="anchored" data-anchor-id="positive-and-negative-spillovers">Positive and negative spillovers</h2>
@@ -499,6 +578,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -567,13 +673,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -652,10 +760,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -665,8 +772,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -679,6 +795,135 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        typesetMath(container);
+        return container.innerHTML
+      } else {
+        typesetMath(note);
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      typesetMath(note);
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -722,6 +967,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -747,6 +993,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -806,38 +1078,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./trade-policy.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><i class="fa-solid fa-globe" aria-label="globe"></i> Trade policy and international governance</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./target-setting.html" class="pagination-link">
-        <span class="nav-page-text"><i class="fa-solid fa-arrow-up" aria-label="arrow-up"></i> Direction-setting</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./nicer.html">UKRI NICER Programme</a>
+    <a class="nav-link" href="./nicer.html">
+<p>About NICER</p>
+</a>
   </li>  
 </ul>
     </div>   
-    <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-center">
+
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
-  </li>  
-</ul>
+      &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 

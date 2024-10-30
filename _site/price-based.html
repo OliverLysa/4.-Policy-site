@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.550">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Data Observatory Policy Assumptions - Price-based instruments - charges</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./assumption-log.html" rel="next">
+<link href="./bans-standards.html" rel="prev">
+<link href="./fav.png" rel="icon" type="image/png">
+<script src="site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": true,
+  "collapse-after": 2,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XHGKD5ES2C"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-XHGKD5ES2C', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  ,
+"language":"en"
+  });
+});
+</script> 
+  
+<style>html{ scroll-behavior: smooth; }</style>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "theme": "clean",
+  "openSidebar": false
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/plotly-binding-4.10.4/plotly.js"></script>
+<script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
+<script src="site_libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+<link href="site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
+
+
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bans-standards.html"><strong>Policy tool profiles</strong></a></li><li class="breadcrumb-item"><a href="./price-based.html">Price-based instruments - charges</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Data Observatory Policy Assumptions</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text"><strong>Assumption development method</strong></span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./instruments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Taxonomy of public policy tools</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./instrument_selection.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Selection criteria for policy tools</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./method.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Assumption development protocol</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text"><strong>Policy tool profiles</strong></span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bans-standards.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bans</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./price-based.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Price-based instruments - charges</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./assumption-log.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Assumption log</strong></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Catalogue of evidence sources</strong></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#how-the-tool-works-and-current-applications-in-the-uk" id="toc-how-the-tool-works-and-current-applications-in-the-uk" class="nav-link active" data-scroll-target="#how-the-tool-works-and-current-applications-in-the-uk">How the tool works and current applications in the UK</a></li>
+  <li><a href="#performance-assessment" id="toc-performance-assessment" class="nav-link" data-scroll-target="#performance-assessment">Performance assessment</a>
+  <ul class="collapse">
+  <li><a href="#environmental-effectiveness" id="toc-environmental-effectiveness" class="nav-link" data-scroll-target="#environmental-effectiveness">Environmental effectiveness</a></li>
+  <li><a href="#efficiency" id="toc-efficiency" class="nav-link" data-scroll-target="#efficiency">Efficiency</a></li>
+  <li><a href="#affordability" id="toc-affordability" class="nav-link" data-scroll-target="#affordability">Affordability</a></li>
+  <li><a href="#long-run-effects" id="toc-long-run-effects" class="nav-link" data-scroll-target="#long-run-effects">Long-run effects</a></li>
+  <li><a href="#distributional-effects" id="toc-distributional-effects" class="nav-link" data-scroll-target="#distributional-effects">Distributional effects</a></li>
+  <li><a href="#positive-and-negative-spillovers" id="toc-positive-and-negative-spillovers" class="nav-link" data-scroll-target="#positive-and-negative-spillovers">Positive and negative spillovers</a></li>
+  <li><a href="#strategic-fit" id="toc-strategic-fit" class="nav-link" data-scroll-target="#strategic-fit">Strategic fit</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/OliverLysa/ce-policy/edit/main/price-based.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OliverLysa/ce-policy/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bans-standards.html"><strong>Policy tool profiles</strong></a></li><li class="breadcrumb-item"><a href="./price-based.html">Price-based instruments - charges</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Price-based instruments - charges</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="cell">
+<style type="text/css">
+.callout {
+  margin-top: 0.2em;
+  margin-bottom: 1em;
+  style="column-gap: 0;"
+}
+</style>
+</div>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Prices for resources and waste management which don’t reflect associated negative externalities can therefore incentivise the over-consumption of resources and over-production of waste (Bleischwitz, 2010; Defra, 2011). Price and market-based instruments (PMBIs) seek to correct this and incentivise outcomes by directly affecting payoff structures via the price system (Stavins, 2001). This is often framed in terms of internalising ‘externalities’ i.e.&nbsp;costs to society not already captured in market prices (Pigou, 1920; Coase, 1960).</p>
+<p>Several PMBIs levied on material flows have been applied across UK value chains to date, including on: the extraction of certain non-metallic minerals (Aggregates Levy); plastic packaging not meeting a 30% recycled content threshold (Packaging Tax); the consumption of single use carrier bags (SUCBs); and certain waste disposal routes (Landfill Tax). PMBIs are considered for nearly all environmental problems raised, however they may not work well under every set of circumstances (Stavins, 2003).</p>
+<p>The effectiveness and efficiency of PMBIs are based on the ‘rational polluter hypothesis’, assuming that regulatees are aware of their marginal costs and benefits and that in response to the instrument, regulatees will switch to less environmentally-intensive production or consumption. Before PMBIs are introduced, any fiscal privileges to damaging environmental uses should be removed as these can undermine policy effectiveness and lead to counterproductive transfers (Scott, 1997).</p>
+</div>
+</div>
+</div>
+<section id="how-the-tool-works-and-current-applications-in-the-uk" class="level1">
+<h1>How the tool works and current applications in the UK</h1>
+<p>Administered prices (sometimes referred to as ‘non-market-based economic and fiscal instruments’ <a href="https://unfccc.int/resource/docs/2014/tp/10.pdf">UNFCCC, 2014</a>) involve introducing a price where one did not previously exist or modifying an existing price on goods or services to better reflect otherwise externalised social costs in market prices and in doing so, alter behaviour (Pigou, 1920). Sub-types include:</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Taxes
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Taxes<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> relevant to the CE include those levied: on (characteristics of) materials or products within the economy; and on the use of the environment as a <em>source</em> (such as a tax on primary material extraction or transformed inputs such as energy) or <em>sink</em>, whether for solid waste (such as a tax on landfilling activities) or gaseous wastes (such as levied on greenhouse gas emissions). In addition, the tax regime covering relevant factor markets such as labour or capital can be altered such as via relief schemes to incentivise activities which indirectly impact environmental use such as a reduction in VAT charged on repair services.</p>
+<p>Current applications in the UK include the:</p>
+<ul>
+<li><p><em>Aggregates Levy</em> - Introduced in the UK in 2002, a tax levied on the commercial exploitation of rock, sand and gravel in the UK (<a href="https://ieep.eu/wp-content/uploads/2022/12/UK-Aggregates-Levy-final.pdf">Ettlinger, 2022</a>). Current rates are £2.03 per tonne, with proposals for separate systems in some DAs e.g.&nbsp;the proposed Scottish <a href="https://www.gov.scot/publications/breaking-new-ground-developing-scottish-tax-replace-uk-aggregates-levy-consultation/">Aggregates Levy</a>;</p></li>
+<li><p><em>Plastic Packaging Tax</em> - Introduced in the UK in 2022, a tax on plastic packaging with less than 30% recycled content. Current rates are £210.82 per tonne;</p></li>
+<li><p><em>Landfill Tax</em> - Introduced in the UK in 1996, a two-tiered tax on the treatment of waste by landfill. Current rates are £102.10 per tonne for the ‘standard rate’ (including municipal waste) and £3.25 per tonne for the lower rate covering inert materials;</p></li>
+<li><p><em>Climate Change Levy</em> - Introduced in the UK in 2001, a tax on energy delivered to non-domestic users. Current rates are £0.00775 per kWh electricity, £0.00672 per KwH gas and £0.02175 per kg LPG.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Charges/fees
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Sometimes distinguished from taxes on the basis of being a ‘requited’ payment i.e.&nbsp;a good or service is received in exchange (ONS, 2019), fees levied on the use of the environment or a proxy of it and whether as a flat fee or payment per unit. Current applications in the UK include the:</p>
+<ul>
+<li><p><em>Plastic Bag Charge</em> - Introduced in the UK in October 2015, a charge levied on single-use carrier bags sold at the level of 10p per bag since 2021, up from 5p when first introduced (2015);</p></li>
+<li><p>A range of <a href="https://www.gov.uk/guidance/environment-agency-fees-and-charges#waste-charges--non-epr">additional charges</a> levied by the Environment Agency; and</p></li>
+<li><p><em>Congestion and emissions charges</em> - <a href="https://www.gov.uk/guidance/driving-in-a-clean-air-zone">Charges</a> to enter ‘clean air zones’ with an emissions generating vehicle throughout the UK.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Charge-rebate systems
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Front end fees added to a transaction, combined with a rebate conditional upon a sought action being undertaken. Prospective applications in the UK include the:</p>
+<ul>
+<li><em>Deposit-Return Schemes</em> – Planned for introduction in Scotland in 2023 and in 2025 in England, Wales &amp; N. Ireland, a charge-rebate system consisting of front-end charges on single-use drinks containers combined with a rebate upon their disposal at collection points. This is intended to incentivise correct end-of-life treatment.</li>
+</ul>
+<p>Can extend to the scale of environmental impact bonds paid by companies prior e.g.&nbsp;to non-renewable resource extraction, rebated minus any damages once cleaned up (Costanza and Perring, 1990).</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<strong>Tax relief and subsidies</strong>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Tax relief involves adjusting existing taxes to reduce disincentives to particular behaviours. Applications in the UK include the:</p>
+<ul>
+<li><em>Enhanced Capital Allowances for water and energy-saving technologies</em> - A form of tax relief, currently used in the UK to incentivise the use of water-saving and energy-saving technologies in the past</li>
+</ul>
+<p>Subsidies are a payments to an actor either to not undertake environmental bads or to subsidize the provision of environmental goods. These can take the form of lump sums e.g.&nbsp;for capital costs or per unit subsidies for desired results. Subsidies differ from grants which are generally issued for specific purposes. Applications in the UK include:</p>
+<ul>
+<li><p><em>Boiler Scrappage Scheme</em> - Introduced in 2010, the scheme aimed to encourage the replacement of old boilers with newer more energy efficient ones</p></li>
+<li><p><em>Feed-in tariff scheme for renewable energy sources</em> - Introduced by Department of Energy and Climate Change and Ofgem from 2010 to stimulate the uptake of renewable energy sources in order to combat climate change and improve energy security.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<p><img src="images/image-279302335.png" class="img-fluid"></p>
+<p>Figure 1. Example of current, historic and prospective UK price and market-based instruments placed in relation to point of introduction along the value-chain.</p>
+</section>
+<section id="performance-assessment" class="level1">
+<h1>Performance assessment</h1>
+<section id="environmental-effectiveness" class="level2">
+<h2 class="anchored" data-anchor-id="environmental-effectiveness">Environmental effectiveness</h2>
+<p>The effectiveness of PMBIs depends on their ability to alter the economics of production, purchasing and use choices. PMBIs are most effective for products whose demand or output is sensitive to price change i.e.&nbsp;demand is elastic.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Read more
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<section id="material-inflow-taxation-and-charges" class="level3">
+<h3 class="anchored" data-anchor-id="material-inflow-taxation-and-charges">Material inflow taxation and charges</h3>
+<p>In theory, increasing the price of primary resources can be expected to reduce the environmental pressures associated with their consumption. This can occur through: 1) reducing the use of resource inputs into production and consumption processes; and 2) driving input substitution away from primary materials towards those secondary (Government Office for Science, 2014).</p>
+<p>The UK Aggregates Levy introduced in 2002 had the dual aim of reducing the negative environmental impacts of quarrying and increasing the recycling rate of construction materials by making the costs of virgin material inputs more costly (<a href="https://ieep.eu/wp-content/uploads/2022/12/UK-Aggregates-Levy-final.pdf">Ettlinger, 2022</a>).<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Between 2002 and 2018, total aggregation consumption has fallen while the share of aggregates from secondary sources increased (MPA, 2019) - implying also an absolute decoupling of construction industry output from primary material input. However, these impacts are difficult to attribute to the levy alone (<a href="https://ieep.eu/wp-content/uploads/2022/12/UK-Aggregates-Levy-final.pdf">Ettlinger 2022</a>), with secondary aggregate consumption on an upward trend prior to the introduction of the Levy, and potentially also linked to the Landfill Tax (introduced in 1996) which encouraged the creation of secondary markets.</p>
+<p>A 2011 meta-study of virgin material taxation schemes found these reduced the domestic supply of virgin materials when in place, but often only led to limited increase in the use of recycled materials as virgin materials could be sourced overseas (Söderholm, 2011).</p>
+<p><strong>Recycled and secondary materials in total aggregates sales in Great Britain (Million tonnes) (MPA, 20 )</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-8a5f16421d550d6df644" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-8a5f16421d550d6df644">{"x":{"data":[{"orientation":"v","width":[0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181],"base":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"x":[1954.7750000000001,1955.7750000000001,1956.7750000000001,1957.7750000000001,1958.7750000000001,1959.7750000000001,1960.7750000000001,1961.7750000000001,1962.7750000000001,1963.7750000000001,1964.7750000000001,1965.7750000000001,1966.7750000000001,1967.7750000000001,1968.7750000000001,1969.7750000000001,1970.7750000000001,1971.7750000000001,1972.7750000000001,1973.7750000000001,1974.7750000000001,1975.7750000000001,1976.7750000000001,1977.7750000000001,1978.7750000000001,1979.7750000000001,1980.7750000000001,1981.7750000000001,1982.7750000000001,1983.7750000000001,1984.7750000000001,1985.7750000000001,1986.7750000000001,1987.7750000000001,1988.7750000000001,1989.7750000000001,1990.7750000000001,1991.7750000000001,1992.7750000000001,1993.7750000000001,1994.7750000000001,1995.7750000000001,1996.7750000000001,1997.7750000000001,1998.7750000000001,1999.7750000000001,2000.7750000000001,2001.7750000000001,2002.7750000000001,2003.7750000000001,2004.7750000000001,2005.7750000000001,2006.7750000000001,2007.7750000000001,2008.7750000000001,2009.7750000000001,2010.7750000000001,2011.7750000000001,2012.7750000000001,2013.7750000000001,2014.7750000000001,2015.7750000000001,2016.7750000000001,2017.7750000000001],"y":[8.8000000000000007,9.1999999999999993,9,9.4000000000000004,10.199999999999999,11.300000000000001,12.5,12.6,13.300000000000001,16,16.100000000000001,17.399999999999999,19.199999999999999,20.300000000000001,20.600000000000001,20.800000000000001,21.199999999999999,22.100000000000001,25.600000000000001,23.100000000000001,22.699999999999999,20.800000000000001,19.300000000000001,20.100000000000001,20.699999999999999,19.899999999999999,18.199999999999999,19.399999999999999,21.300000000000001,21.100000000000001,21.699999999999999,22.800000000000001,25.399999999999999,29.100000000000001,32,33,34,35,37,39,42,45,48,51,54,57,60,62,64.480000000000004,67,68.079999999999998,68.599999999999994,70.090000000000003,67.819999999999993,57.829999999999998,61.210000000000001,62.100000000000001,57.770000000000003,59.75,64.609999999999999,66.049999999999997,68.189999999999998,70.689999999999998,71.040000000000006],"text":["Value:   8.80","Value:   9.20","Value:   9.00","Value:   9.40","Value:  10.20","Value:  11.30","Value:  12.50","Value:  12.60","Value:  13.30","Value:  16.00","Value:  16.10","Value:  17.40","Value:  19.20","Value:  20.30","Value:  20.60","Value:  20.80","Value:  21.20","Value:  22.10","Value:  25.60","Value:  23.10","Value:  22.70","Value:  20.80","Value:  19.30","Value:  20.10","Value:  20.70","Value:  19.90","Value:  18.20","Value:  19.40","Value:  21.30","Value:  21.10","Value:  21.70","Value:  22.80","Value:  25.40","Value:  29.10","Value:  32.00","Value:  33.00","Value:  34.00","Value:  35.00","Value:  37.00","Value:  39.00","Value:  42.00","Value:  45.00","Value:  48.00","Value:  51.00","Value:  54.00","Value:  57.00","Value:  60.00","Value:  62.00","Value:  64.48","Value:  67.00","Value:  68.08","Value:  68.60","Value:  70.09","Value:  67.82","Value:  57.83","Value:  61.21","Value:  62.10","Value:  57.77","Value:  59.75","Value:  64.61","Value:  66.05","Value:  68.19","Value:  70.69","Value:  71.04"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(248,118,109,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"Recycled & Secondary","legendgroup":"Recycled & Secondary","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181,0.4499999999998181],"base":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"x":[1955.2249999999999,1956.2249999999999,1957.2249999999999,1958.2249999999999,1959.2249999999999,1960.2249999999999,1961.2249999999999,1962.2249999999999,1963.2249999999999,1964.2249999999999,1965.2249999999999,1966.2249999999999,1967.2249999999999,1968.2249999999999,1969.2249999999999,1970.2249999999999,1971.2249999999999,1972.2249999999999,1973.2249999999999,1974.2249999999999,1975.2249999999999,1976.2249999999999,1977.2249999999999,1978.2249999999999,1979.2249999999999,1980.2249999999999,1981.2249999999999,1982.2249999999999,1983.2249999999999,1984.2249999999999,1985.2249999999999,1986.2249999999999,1987.2249999999999,1988.2249999999999,1989.2249999999999,1990.2249999999999,1991.2249999999999,1992.2249999999999,1993.2249999999999,1994.2249999999999,1995.2249999999999,1996.2249999999999,1997.2249999999999,1998.2249999999999,1999.2249999999999,2000.2249999999999,2001.2249999999999,2002.2249999999999,2003.2249999999999,2004.2249999999999,2005.2249999999999,2006.2249999999999,2007.2249999999999,2008.2249999999999,2009.2249999999999,2010.2249999999999,2011.2249999999999,2012.2249999999999,2013.2249999999999,2014.2249999999999,2015.2249999999999,2016.2249999999999,2017.2249999999999,2018.2249999999999],"y":[96.799999999999997,101.2,99,103.40000000000001,112.2,124.3,137.5,138.59999999999999,146.30000000000001,176,177.09999999999999,191.40000000000001,211.19999999999999,223.30000000000001,226.59999999999999,228.80000000000001,233.19999999999999,243.09999999999999,281.60000000000002,254.09999999999999,249.69999999999999,228.69,212.31,221.46000000000001,227.44999999999999,218.59,198.99000000000001,213.44999999999999,234.18000000000001,231.44999999999999,238.30000000000001,250.66,279.26999999999998,320.26999999999998,332.02999999999997,310.79000000000002,279.92000000000002,267.86000000000001,276.05000000000001,298.43000000000001,282.49000000000001,259.88999999999999,268.14999999999998,268.68000000000001,274.81,276.54000000000002,281.97000000000003,271.29000000000002,267.58999999999997,280.73000000000002,272.32999999999998,275.74000000000001,278.16000000000003,255.02000000000001,204.63999999999999,197.84999999999999,208.03999999999999,190.69999999999999,194.11000000000001,219.16,236.00999999999999,245.03999999999999,246.97,250.97],"text":["Value:  96.80","Value: 101.20","Value:  99.00","Value: 103.40","Value: 112.20","Value: 124.30","Value: 137.50","Value: 138.60","Value: 146.30","Value: 176.00","Value: 177.10","Value: 191.40","Value: 211.20","Value: 223.30","Value: 226.60","Value: 228.80","Value: 233.20","Value: 243.10","Value: 281.60","Value: 254.10","Value: 249.70","Value: 228.69","Value: 212.31","Value: 221.46","Value: 227.45","Value: 218.59","Value: 198.99","Value: 213.45","Value: 234.18","Value: 231.45","Value: 238.30","Value: 250.66","Value: 279.27","Value: 320.27","Value: 332.03","Value: 310.79","Value: 279.92","Value: 267.86","Value: 276.05","Value: 298.43","Value: 282.49","Value: 259.89","Value: 268.15","Value: 268.68","Value: 274.81","Value: 276.54","Value: 281.97","Value: 271.29","Value: 267.59","Value: 280.73","Value: 272.33","Value: 275.74","Value: 278.16","Value: 255.02","Value: 204.64","Value: 197.85","Value: 208.04","Value: 190.70","Value: 194.11","Value: 219.16","Value: 236.01","Value: 245.04","Value: 246.97","Value: 250.97"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(0,191,196,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"Total Aggregates","legendgroup":"Total Aggregates","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2000,2000],"y":[-16.601499999999998,348.63149999999996],"text":"","type":"scatter","mode":"lines","line":{"width":1.8897637795275593,"color":"rgba(255,0,0,1)","dash":"dot"},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":26.228310502283108,"r":7.3059360730593621,"b":25.57077625570777,"l":28.493150684931514},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[1951.3550000000002,2021.6449999999998],"tickmode":"array","ticktext":["1960","1980","2000","2020"],"tickvals":[1960,1980,2000,2020],"categoryorder":"array","categoryarray":["1960","1980","2000","2020"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"","font":{"color":null,"family":null,"size":0}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-16.601499999999998,348.63149999999996],"tickmode":"array","ticktext":["0","100","200","300"],"tickvals":[0,100,200,300],"categoryorder":"array","categoryarray":["0","100","200","300"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"","font":{"color":null,"family":null,"size":0}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":true,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498},"title":{"text":"Variables","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"orientation":"h","x":0,"y":-0.10000000000000001},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"11d9338c593c":{"x":{},"y":{},"fill":{},"type":"bar"},"11d943368c94":{"xintercept":{}}},"cur_data":"11d9338c593c","visdat":{"11d9338c593c":["function (y) ","x"],"11d943368c94":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<p>Data published by Wrap showed 12.2 billion single-use carrier bags (SUCB) were used by customers across UK supermarkets in 2006. Wales introduced a 5p charge per SUCB in 2011, followed by N. Ireland in 2013, Scotland in 2014 and in 2015 in England through the statutory instrument Single Use Carrier Bags Charges (England) Order 2015 No.&nbsp;776. At the time of introduction, the charge in England was expected to save GBP60m savings in litter clean-up costs and GBP13m in carbon savings (<a href="https://www.centreforpublicimpact.org/case-study/plastic-bag-charge-in-the-uk">Centre for Public Impact, 2016</a>).</p>
+<p>The charge on single use carrier bags in England - initially introduced at 5p and since 2021 increased to 10p while being extended to all shops, has seen a significant decrease in the number of single use bags issued by retailers of approximately 80% (Defra, 2022).</p>
+<p><strong>Bags issued by reportees in England, by bag type (million) (Defra (2022)</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-df40dfbf16f27d4ae70f" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-df40dfbf16f27d4ae70f">{"x":{"data":[{"orientation":"v","width":[0.89999999999999991,0.90000000000000013,0.90000000000000036,0.90000000000000036,0.90000000000000036,0.90000000000000036],"base":[2136.7000000000003,1756.1200000000001,1131.0999999999999,630.70000000000005,491.08999999999997,490.90000000000003],"x":[1,2,3,4,5,6],"y":[70.019999999999982,39.869999999999891,114.21000000000004,132.45000000000005,33.229999999999961,42.630000000000052],"text":["Value:   70.02<br />Variables: Number of bags for life issued","Value:   39.87<br />Variables: Number of bags for life issued","Value:  114.21<br />Variables: Number of bags for life issued","Value:  132.45<br />Variables: Number of bags for life issued","Value:   33.23<br />Variables: Number of bags for life issued","Value:   42.63<br />Variables: Number of bags for life issued"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(248,118,109,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"Number of bags for life issued","legendgroup":"Number of bags for life issued","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000000036,0.90000000000000036,0.90000000000000036],"base":[630.10000000000002,490.59999999999997,489.29000000000002],"x":[4,5,6],"y":[0.60000000000002274,0.49000000000000909,1.6100000000000136],"text":["Value:    0.60<br />Variables: Number of fabric bags issued","Value:    0.49<br />Variables: Number of fabric bags issued","Value:    1.61<br />Variables: Number of fabric bags issued"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(163,165,0,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"Number of fabric bags issued","legendgroup":"Number of fabric bags issued","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":0.90000000000000036,"base":489.38999999999999,"x":[5],"y":[1.2099999999999795],"text":"Value:    1.21<br />Variables: Number of other bags issued","type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(0,191,125,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"Number of other bags issued","legendgroup":"Number of other bags issued","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.89999999999999991,0.90000000000000013,0.90000000000000036,0.90000000000000036,0.90000000000000036,0.90000000000000036],"base":[2116.0500000000002,1754.1300000000001,1126.77,627.33000000000004,488.55000000000001,488.98000000000002],"x":[1,2,3,4,5,6],"y":[20.650000000000091,1.9900000000000091,4.3299999999999272,2.7699999999999818,0.83999999999997499,0.31000000000000227],"text":["Value:   20.65<br />Variables: Number of paper bags issued","Value:    1.99<br />Variables: Number of paper bags issued","Value:    4.33<br />Variables: Number of paper bags issued","Value:    2.77<br />Variables: Number of paper bags issued","Value:    0.84<br />Variables: Number of paper bags issued","Value:    0.31<br />Variables: Number of paper bags issued"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(0,176,246,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"Number of paper bags issued","legendgroup":"Number of paper bags issued","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.89999999999999991,0.90000000000000013,0.90000000000000036,0.90000000000000036,0.90000000000000036,0.90000000000000036],"base":[0,0,0,0,0,0],"x":[1,2,3,4,5,6],"y":[2116.0500000000002,1754.1300000000001,1126.77,627.33000000000004,488.55000000000001,488.98000000000002],"text":["Value: 2116.05<br />Variables: Number of single use plastic bags issued","Value: 1754.13<br />Variables: Number of single use plastic bags issued","Value: 1126.77<br />Variables: Number of single use plastic bags issued","Value:  627.33<br />Variables: Number of single use plastic bags issued","Value:  488.55<br />Variables: Number of single use plastic bags issued","Value:  488.98<br />Variables: Number of single use plastic bags issued"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(231,107,243,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"Number of single use plastic bags issued","legendgroup":"Number of single use plastic bags issued","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":26.228310502283108,"r":7.3059360730593621,"b":25.57077625570777,"l":34.337899543379002},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.40000000000000002,6.5999999999999996],"tickmode":"array","ticktext":["2016-17","2017-18","2018-19","2019-20","2020-21","2021-22"],"tickvals":[1,2,3,3.9999999999999996,5,6],"categoryorder":"array","categoryarray":["2016-17","2017-18","2018-19","2019-20","2020-21","2021-22"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"","font":{"color":null,"family":null,"size":0}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-110.33600000000001,2317.0560000000005],"tickmode":"array","ticktext":["0","500","1000","1500","2000"],"tickvals":[0,500,1000,1500,2000.0000000000002],"categoryorder":"array","categoryarray":["0","500","1000","1500","2000"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"","font":{"color":null,"family":null,"size":0}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":true,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498},"title":{"text":"Variables","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"11d97c544514":{"x":{},"y":{},"fill":{},"type":"bar"}},"cur_data":"11d97c544514","visdat":{"11d97c544514":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="end-of-life-taxation-and-charges" class="level3">
+<h3 class="anchored" data-anchor-id="end-of-life-taxation-and-charges">End-of-life taxation and charges</h3>
+<p>The Landfill Tax was introduced in the United Kingdom in 1996 and applied to all waste disposed of at a licensed landfill site in an attempt to better reflect environmental costs of landfilling in its price, and in doing so, reduce waste entering landfill and associated environmental impact. The tax has since been devolved to Scotland and Wales (<a href="https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/devolved-landfill-taxes/">OBR, 2023</a>).</p>
+<p>A review shortly after the introduction of the tax found it had led to a modest reduction in waste to landfill from industry, but not by households (Morris, Phillips and Read, 1998) and that quantities of waste landfilled remained relatively stable between 1996 and 2003 (<a href="https://ieep.eu/wp-content/uploads/2022/12/UK-Landfill-Tax-final.pdf">Elliot,</a> 2016). With annual rate increases, LACW sent to landfill in England fell by an estimated 90% between 2000 and 2021, while total waste landfill (including non-household waste), has also fallen albeit at a slower pace.</p>
+<p>A 2021 study by <a href="https://pubmed.ncbi.nlm.nih.gov/34051583/">Panzone <em>et al.</em></a>using a ridge-regression approach, found the tax has been effective in shifting waste generated to alternative end-destinations than landfill - although to a large extent, this has been incineration.</p>
+<p><strong>Landfilled waste by EWC Chapter, England &amp; England and Wales (million tonnes) (Environment Agency, )</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-3bbe1df62452e01e3e29" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-3bbe1df62452e01e3e29">{"x":{"data":[{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[59.810000000000002,59.640000000000008,55.969999999999985,46.380000000000003,45.689999999999998,44.459999999999994,41.610000000000007,40.900000000000006,41.170000000000002,43.759999999999998,44.620000000000005,45.350000000000001,43.670000000000002,45.609999999999999],"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[0.77000000000000313,0.39000000000000057,0.28000000000000114,0.10999999999999943,0.11999999999999744,0.14000000000000057,0.10000000000000142,0.17999999999999972,0.11999999999999744,0.17000000000000171,0.070000000000000284,0.079999999999998295,0.40999999999999659,0.24000000000000199],"text":["Value:  0.77","Value:  0.39","Value:  0.28","Value:  0.11","Value:  0.12","Value:  0.14","Value:  0.10","Value:  0.18","Value:  0.12","Value:  0.17","Value:  0.07","Value:  0.08","Value:  0.41","Value:  0.24"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(248,118,109,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"01 - MINE AND QUARRY WASTES","legendgroup":"01 - MINE AND QUARRY WASTES","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[59.510000000000005,59.550000000000004,55.889999999999986,46.310000000000002,45.609999999999999,44.419999999999995,41.520000000000003,40.780000000000008,41.079999999999998,43.649999999999999,44.490000000000002,45.270000000000003,43.590000000000003,45.530000000000001],"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[0.29999999999999716,0.090000000000003411,0.079999999999998295,0.070000000000000284,0.079999999999998295,0.039999999999999147,0.090000000000003411,0.11999999999999744,0.090000000000003411,0.10999999999999943,0.13000000000000256,0.079999999999998295,0.079999999999998295,0.079999999999998295],"text":["Value:  0.30","Value:  0.09","Value:  0.08","Value:  0.07","Value:  0.08","Value:  0.04","Value:  0.09","Value:  0.12","Value:  0.09","Value:  0.11","Value:  0.13","Value:  0.08","Value:  0.08","Value:  0.08"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(234,131,49,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"02 - AGRICULTURE AND FOOD PROCESSING WASTES","legendgroup":"02 - AGRICULTURE AND FOOD PROCESSING WASTES","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[59.340000000000003,59.430000000000007,55.739999999999988,46.170000000000002,45.460000000000001,44.299999999999997,41.400000000000006,40.650000000000006,40.979999999999997,43.57,44.420000000000002,45.170000000000002,43.470000000000006,45.399999999999999],"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[0.17000000000000171,0.11999999999999744,0.14999999999999858,0.14000000000000057,0.14999999999999858,0.11999999999999744,0.11999999999999744,0.13000000000000256,0.10000000000000142,0.079999999999998295,0.070000000000000284,0.10000000000000142,0.11999999999999744,0.13000000000000256],"text":["Value:  0.17","Value:  0.12","Value:  0.15","Value:  0.14","Value:  0.15","Value:  0.12","Value:  0.12","Value:  0.13","Value:  0.10","Value:  0.08","Value:  0.07","Value:  0.10","Value:  0.12","Value:  0.13"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(216,144,0,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"03 - FURNITURE, PAPER AND CARDBOARD MANUFACTURING WASTES","legendgroup":"03 - FURNITURE, PAPER AND CARDBOARD MANUFACTURING WASTES","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[59.330000000000005,59.420000000000009,55.72999999999999,46.170000000000002,45.460000000000001,44.299999999999997,41.400000000000006,40.650000000000006,40.979999999999997,43.57,44.420000000000002,45.170000000000002,43.470000000000006,45.399999999999999],"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[0.0099999999999980105,0.0099999999999980105,0.0099999999999980105,0,0,0,0,0,0,0,0,0,0,0],"text":["Value:  0.01","Value:  0.01","Value:  0.01","Value:  0.00","Value:  0.00","Value:  0.00","Value:  0.00","Value:  0.00","Value:  0.00","Value:  0.00","Value:  0.00","Value:  0.00","Value:  0.00","Value:  0.00"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(192,155,0,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"04 - LEATHER, FUR AND TEXTILE INDUSTRY WASTES","legendgroup":"04 - LEATHER, FUR AND TEXTILE INDUSTRY WASTES","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[59.330000000000005,59.420000000000009,55.72999999999999,46.170000000000002,45.460000000000001,44.299999999999997,41.400000000000006,40.650000000000006,40.979999999999997,43.57,44.420000000000002,45.170000000000002,43.470000000000006,45.369999999999997],"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[0,0,0,0,0,0,0,0,0,0,0,0,0,0.030000000000001137],"text":["Value:  0.00","Value:  0.00","Value:  0.00","Value:  0.00","Value:  0.00","Value:  0.00","Value:  0.00","Value:  0.00","Value:  0.00","Value:  0.00","Value:  0.00","Value:  0.00","Value:  0.00","Value:  0.03"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(163,165,0,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"05 - PETROLEUM, GAS AND COAL PROCESSING WASTES","legendgroup":"05 - PETROLEUM, GAS AND COAL PROCESSING WASTES","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[59.250000000000007,59.110000000000007,55.439999999999991,45.910000000000004,45.18,43.989999999999995,41.140000000000008,40.380000000000003,40.75,43.350000000000001,44.18,44.920000000000002,43.290000000000006,45.189999999999998],"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[0.079999999999998295,0.31000000000000227,0.28999999999999915,0.25999999999999801,0.28000000000000114,0.31000000000000227,0.25999999999999801,0.27000000000000313,0.22999999999999687,0.21999999999999886,0.24000000000000199,0.25,0.17999999999999972,0.17999999999999972],"text":["Value:  0.08","Value:  0.31","Value:  0.29","Value:  0.26","Value:  0.28","Value:  0.31","Value:  0.26","Value:  0.27","Value:  0.23","Value:  0.22","Value:  0.24","Value:  0.25","Value:  0.18","Value:  0.18"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(124,174,0,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"06 - INORGANIC CHEMICAL PROCESS WASTE","legendgroup":"06 - INORGANIC CHEMICAL PROCESS WASTE","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[59.190000000000005,59.050000000000004,55.379999999999988,45.880000000000003,45.130000000000003,43.979999999999997,41.120000000000005,40.370000000000005,40.740000000000002,43.340000000000003,44.170000000000002,44.910000000000004,43.280000000000008,45.18],"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[0.060000000000002274,0.060000000000002274,0.060000000000002274,0.030000000000001137,0.049999999999997158,0.0099999999999980105,0.020000000000003126,0.0099999999999980105,0.0099999999999980105,0.0099999999999980105,0.0099999999999980105,0.0099999999999980105,0.0099999999999980105,0.0099999999999980105],"text":["Value:  0.06","Value:  0.06","Value:  0.06","Value:  0.03","Value:  0.05","Value:  0.01","Value:  0.02","Value:  0.01","Value:  0.01","Value:  0.01","Value:  0.01","Value:  0.01","Value:  0.01","Value:  0.01"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(57,182,0,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"07 - ORGANIC CHEMICAL PROCESS WASTE","legendgroup":"07 - ORGANIC CHEMICAL PROCESS WASTE","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[59.180000000000007,59.040000000000006,55.36999999999999,45.870000000000005,45.120000000000005,43.969999999999999,41.110000000000007,40.360000000000007,40.730000000000004,43.330000000000005,44.160000000000004,44.900000000000006,43.27000000000001,45.18],"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[0.0099999999999980105,0.0099999999999980105,0.0099999999999980105,0.0099999999999980105,0.0099999999999980105,0.0099999999999980105,0.0099999999999980105,0.0099999999999980105,0.0099999999999980105,0.0099999999999980105,0.0099999999999980105,0.0099999999999980105,0.0099999999999980105,0],"text":["Value:  0.01","Value:  0.01","Value:  0.01","Value:  0.01","Value:  0.01","Value:  0.01","Value:  0.01","Value:  0.01","Value:  0.01","Value:  0.01","Value:  0.01","Value:  0.01","Value:  0.01","Value:  0.00"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(0,187,78,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"08 - PAINT, ADHESIVE, SEALANT AND INK MANUFACTURING WASTE","legendgroup":"08 - PAINT, ADHESIVE, SEALANT AND INK MANUFACTURING WASTE","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[59.180000000000007,59.040000000000006,55.36999999999999,43.969999999999999,41.110000000000007,40.360000000000007,40.730000000000004,43.330000000000005,44.160000000000004,44.900000000000006,43.27000000000001,45.18],"x":[2006,2007,2008,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[0,0,0,0,0,0,0,0,0,0,0,0],"text":"Value:  0.00","type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(0,191,125,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"09 - PHOTOGRAPHIC INDUSTRY WASTES","legendgroup":"09 - PHOTOGRAPHIC INDUSTRY WASTES","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[56.930000000000007,56.38000000000001,51.789999999999992,42.540000000000006,42.460000000000001,41.18,37.660000000000004,37.690000000000005,38.830000000000005,41.970000000000006,43.590000000000003,44.360000000000007,42.680000000000007,44.600000000000001],"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[2.25,2.6599999999999966,3.5799999999999983,3.3299999999999983,2.6600000000000037,2.7899999999999991,3.4500000000000028,2.6700000000000017,1.8999999999999986,1.3599999999999994,0.57000000000000028,0.53999999999999915,0.59000000000000341,0.57999999999999829],"text":["Value:  2.25","Value:  2.66","Value:  3.58","Value:  3.33","Value:  2.66","Value:  2.79","Value:  3.45","Value:  2.67","Value:  1.90","Value:  1.36","Value:  0.57","Value:  0.54","Value:  0.59","Value:  0.58"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(0,193,163,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"10 - THERMAL PROCESSES WASTE","legendgroup":"10 - THERMAL PROCESSES WASTE","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[56.88000000000001,56.350000000000009,51.749999999999993,42.530000000000008,42.43,41.159999999999997,37.640000000000001,37.680000000000007,38.810000000000002,41.950000000000003,43.57,44.340000000000003,42.670000000000009,44.590000000000003],"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[0.049999999999997158,0.030000000000001137,0.039999999999999147,0.0099999999999980105,0.030000000000001137,0.020000000000003126,0.020000000000003126,0.0099999999999980105,0.020000000000003126,0.020000000000003126,0.020000000000003126,0.020000000000003126,0.0099999999999980105,0.0099999999999980105],"text":["Value:  0.05","Value:  0.03","Value:  0.04","Value:  0.01","Value:  0.03","Value:  0.02","Value:  0.02","Value:  0.01","Value:  0.02","Value:  0.02","Value:  0.02","Value:  0.02","Value:  0.01","Value:  0.01"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(0,191,196,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"11 - CHEMICAL SURFACE TREATMENT AND METAL COATING WASTES","legendgroup":"11 - CHEMICAL SURFACE TREATMENT AND METAL COATING WASTES","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[56.860000000000007,56.330000000000005,51.739999999999995,42.52000000000001,42.420000000000002,41.149999999999999,37.630000000000003,37.660000000000004,38.789999999999999,41.93,43.560000000000002,44.32,42.650000000000006,44.57],"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[0.020000000000003126,0.020000000000003126,0.0099999999999980105,0.0099999999999980105,0.0099999999999980105,0.0099999999999980105,0.0099999999999980105,0.020000000000003126,0.020000000000003126,0.020000000000003126,0.0099999999999980105,0.020000000000003126,0.020000000000003126,0.020000000000003126],"text":["Value:  0.02","Value:  0.02","Value:  0.01","Value:  0.01","Value:  0.01","Value:  0.01","Value:  0.01","Value:  0.02","Value:  0.02","Value:  0.02","Value:  0.01","Value:  0.02","Value:  0.02","Value:  0.02"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(0,186,224,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"12 - SHAPING AND PHYSICAL TREATMENT OF METALS AND PLASTICS","legendgroup":"12 - SHAPING AND PHYSICAL TREATMENT OF METALS AND PLASTICS","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[56.860000000000007,56.330000000000005,51.739999999999995,42.52000000000001,42.420000000000002,41.149999999999999,37.630000000000003,37.660000000000004,38.789999999999999,41.93,43.560000000000002,44.32,42.650000000000006,44.57],"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],"text":"Value:  0.00","type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(0,176,246,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"13 - OIL WASTES AND WASTES OF LIQUID FUELS","legendgroup":"13 - OIL WASTES AND WASTES OF LIQUID FUELS","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095],"base":[56.330000000000005,42.52000000000001],"x":[2007,2009],"y":[0,0],"text":"Value:  0.00","type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(53,162,255,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"14 - ORGANIC SOLVENT, REFRIGERANT AND PROPELLANT WASTE","legendgroup":"14 - ORGANIC SOLVENT, REFRIGERANT AND PROPELLANT WASTE","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[56.760000000000005,56.280000000000008,51.699999999999996,42.500000000000007,42.390000000000001,41.109999999999999,37.57,37.630000000000003,38.75,41.899999999999999,43.530000000000001,44.280000000000001,42.620000000000005,44.549999999999997],"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[0.10000000000000142,0.049999999999997158,0.039999999999999147,0.020000000000003126,0.030000000000001137,0.039999999999999147,0.060000000000002274,0.030000000000001137,0.039999999999999147,0.030000000000001137,0.030000000000001137,0.039999999999999147,0.030000000000001137,0.020000000000003126],"text":["Value:  0.10","Value:  0.05","Value:  0.04","Value:  0.02","Value:  0.03","Value:  0.04","Value:  0.06","Value:  0.03","Value:  0.04","Value:  0.03","Value:  0.03","Value:  0.04","Value:  0.03","Value:  0.02"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(149,144,255,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"15 - PACKAGING, ABSORBENTS , WIPING CLOTHS ETC N.O.S.","legendgroup":"15 - PACKAGING, ABSORBENTS , WIPING CLOTHS ETC N.O.S.","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[56.560000000000002,56.010000000000005,51.519999999999996,42.410000000000004,42.350000000000001,41.060000000000002,37.530000000000001,37.600000000000001,38.719999999999999,41.869999999999997,43.490000000000002,44.25,42.590000000000003,44.519999999999996],"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[0.20000000000000284,0.27000000000000313,0.17999999999999972,0.090000000000003411,0.039999999999999147,0.049999999999997158,0.039999999999999147,0.030000000000001137,0.030000000000001137,0.030000000000001137,0.039999999999999147,0.030000000000001137,0.030000000000001137,0.030000000000001137],"text":["Value:  0.20","Value:  0.27","Value:  0.18","Value:  0.09","Value:  0.04","Value:  0.05","Value:  0.04","Value:  0.03","Value:  0.03","Value:  0.03","Value:  0.04","Value:  0.03","Value:  0.03","Value:  0.03"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(199,124,255,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"16 - WASTES NOT OTHERWISE SPECIFIED IN THE LIST","legendgroup":"16 - WASTES NOT OTHERWISE SPECIFIED IN THE LIST","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[32.950000000000003,33.020000000000003,30.809999999999999,26.510000000000002,24.91,21.460000000000001,18.980000000000004,18.07,16.75,15.74,15.290000000000001,14.570000000000002,14.539999999999999,14.5],"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[23.609999999999999,22.990000000000002,20.709999999999997,15.900000000000002,17.440000000000001,19.600000000000001,18.549999999999997,19.530000000000001,21.969999999999999,26.129999999999995,28.200000000000003,29.68,28.050000000000004,30.019999999999996],"text":["Value: 23.61","Value: 22.99","Value: 20.71","Value: 15.90","Value: 17.44","Value: 19.60","Value: 18.55","Value: 19.53","Value: 21.97","Value: 26.13","Value: 28.20","Value: 29.68","Value: 28.05","Value: 30.02"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(231,107,243,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"17 - CONSTRUCTION AND DEMOLITION WASTES","legendgroup":"17 - CONSTRUCTION AND DEMOLITION WASTES","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[32.859999999999999,32.920000000000002,30.719999999999999,26.420000000000002,24.809999999999999,21.359999999999999,18.880000000000003,17.960000000000001,16.629999999999999,15.620000000000001,15.170000000000002,14.440000000000001,14.44,14.41],"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[0.090000000000003411,0.10000000000000142,0.089999999999999858,0.089999999999999858,0.10000000000000142,0.10000000000000142,0.10000000000000142,0.10999999999999943,0.12000000000000099,0.11999999999999922,0.11999999999999922,0.13000000000000078,0.099999999999999645,0.089999999999999858],"text":["Value:  0.09","Value:  0.10","Value:  0.09","Value:  0.09","Value:  0.10","Value:  0.10","Value:  0.10","Value:  0.11","Value:  0.12","Value:  0.12","Value:  0.12","Value:  0.13","Value:  0.10","Value:  0.09"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(250,98,219,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"18 - HUMAN AND ANIMAL HEALTH CARE WASTE","legendgroup":"18 - HUMAN AND ANIMAL HEALTH CARE WASTE","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[21.27,19.32,16.18,13.68,12.279999999999999,9.7799999999999994,8.5,7.3399999999999999,6.2999999999999998,5.3899999999999997,4.4400000000000004,3.8100000000000001,3.6600000000000001,3.0299999999999998],"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[11.59,13.600000000000001,14.539999999999999,12.740000000000002,12.529999999999999,11.58,10.380000000000003,10.620000000000001,10.329999999999998,10.23,10.73,10.630000000000001,10.779999999999999,11.380000000000001],"text":["Value: 11.59","Value: 13.60","Value: 14.54","Value: 12.74","Value: 12.53","Value: 11.58","Value: 10.38","Value: 10.62","Value: 10.33","Value: 10.23","Value: 10.73","Value: 10.63","Value: 10.78","Value: 11.38"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(255,98,188,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"19 - WASTE AND WATER TREATMENT WASTES","legendgroup":"19 - WASTE AND WATER TREATMENT WASTES","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[21.27,19.32,16.18,13.68,12.279999999999999,9.7799999999999994,8.5,7.3399999999999999,6.2999999999999998,5.3899999999999997,4.4400000000000004,3.8100000000000001,3.6600000000000001,3.0299999999999998],"text":["Value: 21.27","Value: 19.32","Value: 16.18","Value: 13.68","Value: 12.28","Value:  9.78","Value:  8.50","Value:  7.34","Value:  6.30","Value:  5.39","Value:  4.44","Value:  3.81","Value:  3.66","Value:  3.03"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(255,106,152,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"20 - MUNICIPAL WASTES","legendgroup":"20 - MUNICIPAL WASTES","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":26.228310502283108,"r":7.3059360730593621,"b":25.57077625570777,"l":22.648401826484022},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[2004.855,2020.145],"tickmode":"array","ticktext":["2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"],"tickvals":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"categoryorder":"array","categoryarray":["2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"","font":{"color":null,"family":null,"size":0}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-3.0290000000000004,63.609000000000009],"tickmode":"array","ticktext":["0","20","40","60"],"tickvals":[0,20,40,60],"categoryorder":"array","categoryarray":["0","20","40","60"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"","font":{"color":null,"family":null,"size":0}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":true,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498},"title":{"text":"EWC_Chapter","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"11d92b3d6f5c":{"x":{},"y":{},"fill":{},"type":"bar"}},"cur_data":"11d92b3d6f5c","visdat":{"11d92b3d6f5c":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<p>Due to the simultaneous effects of other policy instruments, it is difficult to attribute this reduction to the Landfill Tax. A <a href="https://pubmed.ncbi.nlm.nih.gov/34051583/">2023 review</a> of the Landfill Disposal Tax (LDT) in Wales found that increases in recycling since devolution of the tax to Wales in 2017 via the Landfill Disposals Tax (Wales) Act 2017, couldn’t be attributed to the LDT and that other factors including recycling targets had a greater effect on increasing recycling and reuse, while other factors such as zero waste to landfill requirements have been more impactful in driving uptake of alternative technologies.</p>
+<p><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1142781/_FINAL_-_FORMATTED__LfTR_SOR_.pdf">Summary of responses</a> to a <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1037307/LfT_review_CfE.pdf">review</a> of the Landfill Tax commissioned by HMT in 2021 found…</p>
+<p>A key issue with price-based instrument is that without precise information about the aggregate marginal abatement cost curve or the price elasticity of those subject to a tax, the aggregate environmental outcome of a given tax rate can be difficult to predict and necessitate a trial-and-error approach which can delay environmental improvements (Pearce and Barbier, 2000).</p>
+</section>
+</div>
+</div>
+</div>
+</section>
+<section id="efficiency" class="level2">
+<h2 class="anchored" data-anchor-id="efficiency">Efficiency</h2>
+<p>A key proposed benefit of PMBIs is that they can help achieve a particular level of environmental use at the lowest overall cost to society (i.e.&nbsp;are most statically efficient) while providing ongoing incentives to bring down abatement costs over time (Pearce, 2002; Johnson, 1999).</p>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Read more
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The assumed efficiency benefits of PMBIs are attributed to the rationale that if a price is introduced or adjusted to account for environmental impacts, market participants can be incentivised to reduce their environmental use until the cost of abating a further unit of use equals the marginal benefit of reducing that use in terms of avoided tax payments. Across the sector or the economy regulated, this would translate to environmental users with the least abatement costs reducing use more than those facing steeper abatement costs, thereby helping a given level of use be achieved at least cost in line with the equimarginal principle which assumes that societal welfare is maximised when the net present value of marginal abatement benefits equal that of marginal abatement costs (Baumol &amp; Oates, 1971). These cost reductions have been shown in a variety of cases e.g.&nbsp;SO2 trading scheme under the USA Clean Air Act (Goulder, 2013).</p>
+<p>In addition, it is said that if tax revenue accrued by instruments are used by the government to offset distortionary taxes such as those on labour thereby contributing to change in relative factor prices, it can help further improve market efficiency (Vence and Pérez, 2021). The Ex’tax Project argues that “High taxes on labour encourage businesses to minimise their number of employees. Resources, however, tend to be untaxed; they are used unrestrained. This system causes unemployment, overconsumption and pollution”.</p>
+<p>The aggregate costs to society (including industry, LAs and the public) of abatement, compliance and administration (<a href="https://dynamix-project.eu/sites/default/files/Aggregates_UK.pdf">Bicket and Salmons, 2013</a>). There has been the following effect on the mining and quarrying sector in the UK, with the following effects on competitiveness… The quarrying of aggregates such as sand, gravel and crushed rock remains the most common type of mineral operation in England ().</p>
+<p>Charge-rebate schemes are cited as having potentially high transaction costs.</p>
+<p>Where regulation is so stringent all available abatement measures must be taken, market-based instruments aren’t always significantly more cost-effective than standards.</p>
+<p>The EU has put into practice the trading theory through the ETS through the Emissions Trading Directive, adopted in 2003 and amended in 2009, which applies to large installations throughout Europe and seeks to reduce their GHG emissions by 40% compared to the baseline by 2030. The EU ETS has been seen as a resounding failure due to several issues: 1) Technical - Overall cap being too generous resulting in the price of permits being too low and leaving little incentive for further reduction through the sale of permits 2) Principled - with issues of fairness related to the permit dissemination approach of grandfathering being questioned and 3) Foundation - with the commodification of environmental quality.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="affordability" class="level2">
+<h2 class="anchored" data-anchor-id="affordability">Affordability</h2>
+<p>The UK government raises over £820 billion a year in receipts, primarily through The income tax, National Insurance contributions (NICs) and value added tax (VAT) which together raise over £470 billion. Environmental taxes make up a relatively small share of this revenue, though nevertheless appear to generate net-revenues for government.</p>
+<div class="callout callout-style-simple callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Read more
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>In theory, PMBIs can generate administrative savings in time and money by devolving management decisions from regulators to private decision makers who are better aware of their own abatement costs (Baumol and Oates, 1971; Stavins, 1998).</p>
+<p>Revenue generating instruments preferred from an affordability perspective than subsidies. Where subsidies are offered, these need to be financed. For example, a €154 million fund announced in 2023 and set up to cover payments to citizens in France, who will be able to claim €7 for mending a heel and €10-€25 for clothing repairs between 2023-2028. Subsidies present a cost to the government which if funded through general taxation can also be economically distortive.</p>
+<p>‘The latest HMRC statistics show that the aggregate levy raised £407m in total receipts in the 2016/17 financial year (a proportion of this has funded the Aggregate Levy Sustainability Fund managed by Natural England). This has been the largest amount collected.’ Resource-related taxation makes up a relatively small share of total environmental taxes in the UK (ONS, 2023).</p>
+<p>A 2023 FOI revealed that the PPT has generated over 200 million GBP in the first three quarters following its introduction, with ring-fencing of revenues called for (<a href="https://www.ciwm.co.uk/ciwm/news-and-insight/poltech_blog_pages/reflections_on_the_uk_plastic_packaging_tax.aspx">CIWM, 2023</a>).</p>
+<p><strong>Government revenue from environmental taxes in the UK, 1997 to 2021 (<a href="https://www.ons.gov.uk/economy/environmentalaccounts/datasets/ukenvironmentalaccountsenvironmentaltaxes">ONS, 2022</a>)</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-c61ee460411468a5c8af" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-c61ee460411468a5c8af">{"x":{"data":[{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[5277,5940,6350,6183,5673,6221,6834,7059,7048,7444,8969,9229,9307,10358,11074,11564,12120,12452,12348,12510,12591,12829,13588,9537,9334],"x":[1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021],"y":[18988,21241,22530,23139,22763,23179,23730,24685,24666,24859,26035,26503,27731,29114,29336,29795,31130,32519,34010,35255,36345,37367,39028,34186,36373],"text":["Year: 1997<br />Value: 18988<br />Type: Energy taxes","Year: 1998<br />Value: 21241<br />Type: Energy taxes","Year: 1999<br />Value: 22530<br />Type: Energy taxes","Year: 2000<br />Value: 23139<br />Type: Energy taxes","Year: 2001<br />Value: 22763<br />Type: Energy taxes","Year: 2002<br />Value: 23179<br />Type: Energy taxes","Year: 2003<br />Value: 23730<br />Type: Energy taxes","Year: 2004<br />Value: 24685<br />Type: Energy taxes","Year: 2005<br />Value: 24666<br />Type: Energy taxes","Year: 2006<br />Value: 24859<br />Type: Energy taxes","Year: 2007<br />Value: 26035<br />Type: Energy taxes","Year: 2008<br />Value: 26503<br />Type: Energy taxes","Year: 2009<br />Value: 27731<br />Type: Energy taxes","Year: 2010<br />Value: 29114<br />Type: Energy taxes","Year: 2011<br />Value: 29336<br />Type: Energy taxes","Year: 2012<br />Value: 29795<br />Type: Energy taxes","Year: 2013<br />Value: 31130<br />Type: Energy taxes","Year: 2014<br />Value: 32519<br />Type: Energy taxes","Year: 2015<br />Value: 34010<br />Type: Energy taxes","Year: 2016<br />Value: 35255<br />Type: Energy taxes","Year: 2017<br />Value: 36345<br />Type: Energy taxes","Year: 2018<br />Value: 37367<br />Type: Energy taxes","Year: 2019<br />Value: 39028<br />Type: Energy taxes","Year: 2020<br />Value: 34186<br />Type: Energy taxes","Year: 2021<br />Value: 36373<br />Type: Energy taxes"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(248,118,109,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"Energy taxes","legendgroup":"Energy taxes","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[4904,5594,5905,5709,5156,5451,5870,6040,5968,6299,7733,7921,8170,8983,9671,10185,10626,10946,10945,11092,11291,11600,12381,8455,8134],"x":[1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021],"y":[373,346,445,474,517,770,964,1019,1080,1145,1236,1308,1137,1375,1403,1379,1494,1506,1403,1418,1300,1229,1207,1082,1200],"text":["Year: 1997<br />Value:   373<br />Type: Pollution/Resources taxes","Year: 1998<br />Value:   346<br />Type: Pollution/Resources taxes","Year: 1999<br />Value:   445<br />Type: Pollution/Resources taxes","Year: 2000<br />Value:   474<br />Type: Pollution/Resources taxes","Year: 2001<br />Value:   517<br />Type: Pollution/Resources taxes","Year: 2002<br />Value:   770<br />Type: Pollution/Resources taxes","Year: 2003<br />Value:   964<br />Type: Pollution/Resources taxes","Year: 2004<br />Value:  1019<br />Type: Pollution/Resources taxes","Year: 2005<br />Value:  1080<br />Type: Pollution/Resources taxes","Year: 2006<br />Value:  1145<br />Type: Pollution/Resources taxes","Year: 2007<br />Value:  1236<br />Type: Pollution/Resources taxes","Year: 2008<br />Value:  1308<br />Type: Pollution/Resources taxes","Year: 2009<br />Value:  1137<br />Type: Pollution/Resources taxes","Year: 2010<br />Value:  1375<br />Type: Pollution/Resources taxes","Year: 2011<br />Value:  1403<br />Type: Pollution/Resources taxes","Year: 2012<br />Value:  1379<br />Type: Pollution/Resources taxes","Year: 2013<br />Value:  1494<br />Type: Pollution/Resources taxes","Year: 2014<br />Value:  1506<br />Type: Pollution/Resources taxes","Year: 2015<br />Value:  1403<br />Type: Pollution/Resources taxes","Year: 2016<br />Value:  1418<br />Type: Pollution/Resources taxes","Year: 2017<br />Value:  1300<br />Type: Pollution/Resources taxes","Year: 2018<br />Value:  1229<br />Type: Pollution/Resources taxes","Year: 2019<br />Value:  1207<br />Type: Pollution/Resources taxes","Year: 2020<br />Value:  1082<br />Type: Pollution/Resources taxes","Year: 2021<br />Value:  1200<br />Type: Pollution/Resources taxes"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(0,186,56,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"Pollution/Resources taxes","legendgroup":"Pollution/Resources taxes","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"x":[1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021],"y":[4904,5594,5905,5709,5156,5451,5870,6040,5968,6299,7733,7921,8170,8983,9671,10185,10626,10946,10945,11092,11291,11600,12381,8455,8134],"text":["Year: 1997<br />Value:  4904<br />Type: Transport taxes","Year: 1998<br />Value:  5594<br />Type: Transport taxes","Year: 1999<br />Value:  5905<br />Type: Transport taxes","Year: 2000<br />Value:  5709<br />Type: Transport taxes","Year: 2001<br />Value:  5156<br />Type: Transport taxes","Year: 2002<br />Value:  5451<br />Type: Transport taxes","Year: 2003<br />Value:  5870<br />Type: Transport taxes","Year: 2004<br />Value:  6040<br />Type: Transport taxes","Year: 2005<br />Value:  5968<br />Type: Transport taxes","Year: 2006<br />Value:  6299<br />Type: Transport taxes","Year: 2007<br />Value:  7733<br />Type: Transport taxes","Year: 2008<br />Value:  7921<br />Type: Transport taxes","Year: 2009<br />Value:  8170<br />Type: Transport taxes","Year: 2010<br />Value:  8983<br />Type: Transport taxes","Year: 2011<br />Value:  9671<br />Type: Transport taxes","Year: 2012<br />Value: 10185<br />Type: Transport taxes","Year: 2013<br />Value: 10626<br />Type: Transport taxes","Year: 2014<br />Value: 10946<br />Type: Transport taxes","Year: 2015<br />Value: 10945<br />Type: Transport taxes","Year: 2016<br />Value: 11092<br />Type: Transport taxes","Year: 2017<br />Value: 11291<br />Type: Transport taxes","Year: 2018<br />Value: 11600<br />Type: Transport taxes","Year: 2019<br />Value: 12381<br />Type: Transport taxes","Year: 2020<br />Value:  8455<br />Type: Transport taxes","Year: 2021<br />Value:  8134<br />Type: Transport taxes"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(97,156,255,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"Transport taxes","legendgroup":"Transport taxes","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":26.228310502283108,"r":7.3059360730593621,"b":40.182648401826498,"l":54.794520547945211},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[1995.3049999999998,2022.6950000000002],"tickmode":"array","ticktext":["1997","2002","2007","2012","2017"],"tickvals":[1997,2002,2007,2012,2017],"categoryorder":"array","categoryarray":["1997","2002","2007","2012","2017"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"Year","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-2630.8000000000002,55246.800000000003],"tickmode":"array","ticktext":["0","10000","20000","30000","40000","50000"],"tickvals":[0,10000,20000,30000,40000,50000],"categoryorder":"array","categoryarray":["0","10000","20000","30000","40000","50000"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"Value","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498},"title":{"text":"Type","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"11d93772bf63":{"x":{},"y":{},"fill":{},"type":"bar"}},"cur_data":"11d93772bf63","visdat":{"11d93772bf63":["function (y) ","x"]},".hideLegend":true,"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<p>Assumed benefits of optimal pricing scenarios in rational choice and welfare maximising frameworks imply likely high information requirements for both the MDC and MAC, which leads regulators to general seek acceptable or improved rather than optimal levels (Pearca and Turner, 1990).</p>
+<p>Taxes increase costs of products and activities in a predictable manner, making it easier to judge first round financial impact on consumers and firms (OECD 2011) in comparison to permits, for which the future price can be difficult to predict. Can be difficult to determine the right number of permits to allocate as an underallocation may lead to high costs, and an overallocation can limit the ability to reach a desired level of environmental use. Regulators can use best estimates but carries environmental (e.g.&nbsp;irreversible damage) and economic (e.g.&nbsp;locking firms into technological choices) risks (Hanley et al.&nbsp;1997).</p>
+<p>On the flip side, some of these instruments (taxes, charges and auctioned permits) can generate tax revenues which can offset administrative costs, be ringfenced to finance further improvements in a target industry and potentially more distortionary taxes if used for this purpose. Revenue recycliing can play an important role in defining the overall efficiency of PMBIs, including via reducing the cost-ramp of alternative technologies. When people do not trust that a carbon price will be sufficient to reduce emissions, they prefer using the carbon price revenue to subsidise low-carbon technologies and research. The state doesn’t collect as much revenue with markets as taxes, though you can auction permits, and do so annually to increase revenues. Administered markets are generally more resource-consuming than non-market fiscal instruments, and both require monitoring.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="long-run-effects" class="level2">
+<h2 class="anchored" data-anchor-id="long-run-effects">Long-run effects</h2>
+<p>In theory and where relevant, PMBIs provide continuous incentives for further environmental harm reduction through innovation, commercialization and adoption of technologies which lower aggregate costs, because doing so saves tax expenditures.</p>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Read more
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The effectiveness of taxes are contingent on the prices of the taxed good or service (if traded) not going down which would otherwise lessen the effectiveness of prices in signaling change. Long-term cost effectiveness of price vs quantity mechanisms are affected by their responsiveness to change. This can vary in three circumstances: 1) In the presence of rapid rates of economic growth, a fixed tax leads to an increase of aggregate emissions whereas permits can give no allowance to this, but the price of permits increases to account for the enhanced desire for them; 2) In the context of inflation, a unit tax decreases in real terms and so emissions levels increases, whereas with a permit system there is no change in the aggregate; and 3) In the presence of exogenous technological change, a tax system leads to increases in control levels and a decrease in aggregate emissions whilst a permit system maintains emissions with a fall in permit prices (Stavins, 2006).</p>
+<p>Though addressing the environmental externality, prices alone may not address the innovation market failures comprehensively as may pull through sub-optimal technologies, thereby necessitating supply-side technology instruments being introduced alongside (Goulder, 2013).</p>
+</div>
+</div>
+</div>
+</section>
+<section id="distributional-effects" class="level2">
+<h2 class="anchored" data-anchor-id="distributional-effects">Distributional effects</h2>
+<p>Taxes can be regressive i.e.&nbsp;lower income groups may pay higher share of overall income to service them, though depending on revenue recycling models. Callan et al.&nbsp;(2009) found a carbon tax of 20 euros/tCO2 with revenue recycling in Ireland was marginally regressive, though if the tax revenue were used to increase social benefits and tax credits, households across the income distribution would be made better off without exhausting the total carbon tax. Grainger and Kolstad (2009) a Co2 tax would be 4x higher for the lower quintile of US population than upper quintile. However, design is also important. They found this wouldn’t necessarily be the case for a tax such as on gasoline which would be progressive.</p>
+<div class="callout callout-style-simple callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Read more
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>PMBIs can also create hotspots of concentrated pollution which can disproportionately affect subpopulations, leading to spatially engendered inequity.</p>
+<p>Regressive effects may not be solely restricted to households. Introducing a raw material tax might disproportionately affect those sectors that are not able to easily substitute raw materials for secondary materials. Using the OECD’s ENV-Linkages model, Bibas, Chateau and Lanszi (2021) assessed the global economic and environmental impacts of fiscal reform consisting of taxes on primary metal and mineral resources and the circulation of revenues to finance subsidies to recycled goods and secondary metal production. They found this would deliver a relative decoupling of primary material use from economic growth to 2040, with a reduction of 7% in metallic and non-metallic minerals compared to the baseline scenario alongside negligible effect on global GDP (loss of 0.2% global GDP in 2040). Regional disparities were identified, depends on whether countries were net importers or exporters of raw materials, available production technologies and input costs of primary and secondary materials.</p>
+<p>Chateau and Mavroeidi (2020) in the study ‘The jobs potential of a transition towards a resource efficient and circular economy’, examined the consequences of a policy-driven transition towards a more resource-efficient and circular economy on employment levels across countries and sectors between 2018-40 using the structural computable general equilibrium model ENV-Linkages. The reallocation of jobs due to a package of fiscal policies was found to be limited, with net job creation globally positive but marginally, at 1.8 million, with high variability between industries and countries. Countries with large extraction sectors were found to see net-job losses, as was the case in sectors depending heavily on primary materials such as construction and some manufacturing sectors, including production of machinery and electronic equipment. Secondary metals and recyclable sectors benefited from large increases in employment. In a scenario in which only OECD countries implemented these policies, employment losses were expected relative to the baseline due to a relative loss of competitiveness.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="positive-and-negative-spillovers" class="level2">
+<h2 class="anchored" data-anchor-id="positive-and-negative-spillovers">Positive and negative spillovers</h2>
+<p>Spillovers can occur across various materials, regions, and activities.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Read more
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>For example, in the UK, the shift towards using “bags for life” highlights this phenomenon. A study by the Environment Agency revealed that these bags must be used at least four times to make them less impactful on climate change compared to single-use plastic bags (<a href="https://www.bbc.com/news/science-environment-62350235">BBC, 2022</a>). Similarly, the Aggregates Levy has had cross-border effects between the Republic of Ireland and Northern Ireland due to the lack of a tax on aggregates or primary materials in Ireland (EEA, 2008), although this was somewhat mitigated by the levy credit scheme (ACLS). A 2021 report by the National Audit Office found that the Landfill Tax might have led to an increase in fly-tipping rates. In Wales, the 2016 post-implementation review of the single-use carrier bag charge found that only 13% of eligible firms reported a negative impact on their business. A study of deposit-return systems in 12 cases found no correlation between the introduction of the charge-refund scheme and sales while simultaneously driving an improvement in the quality of recyclate (<a href="https://packagingeurope.com/news/do-deposit-return-schemes-negatively-affect-beverage-sales/10097.article">Packaging Europe, 2023</a>). The OECD (2022) has explored interactions between deposit-return systems and other extended producer responsibility (EPR) mechanisms, noting some potentially negative interactions highlighted by the industry (Packaging Portal, 2023). The MPA has also advocated for the reinstatement of the Aggregates Levy Community Fund (<a href="https://www.aggbusiness.com/ab10/news/mpa-calls-reinstatement-aggregates-levy-community-fund">AggBusiness, 2021</a>).</p>
+</div>
+</div>
+</div>
+</section>
+<section id="strategic-fit" class="level2">
+<h2 class="anchored" data-anchor-id="strategic-fit">Strategic fit</h2>
+<p>Tax and charge-based approaches generally have low levels of strategic fit among households. The results of the third OECD Survey on Environmental Policies and Individual Behaviour Change (EPIC) published in the 2023 OECD report ‘How Green is Household Behaviour’ (<a href="https://www.oecd-ilibrary.org/sites/2bbbb663-en/1/3/1/index.html?itemId=/content/publication/2bbbb663-en&amp;_csp_=3837f5bbbb774a9988d38f9b7b30111f&amp;itemIGO=oecd&amp;itemContentType=book#section-d1e316-43ad546dea">OECD, 2023</a>) found tax and charge-based approaches were the least supported policy measure by household respondents across domains including food and transport. Conversely, almost half of respondents to a 2020 YouGov survey supported an increase in the charge on plastic bag from 5p to 10p, which was then subsquently implemened (<a href="https://yougov.co.uk/topics/politics/survey-results/daily/2020/09/02/18d46/1">YouGov, 2020</a>).</p>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Read more
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Public resistance to taxes can be overcome by, for instance: earmarking proceeds for other desirable uses; compensating losers using lump-sum transfers; reducing impact to possible losers by using differentiated taxes or other social cushioning measures; using environmental taxes to cut other undesirable taxes; and improving communication and information sharing to make the public feel part of the process (Carattini, Carvalho and Fankhauser, 2018).</p>
+<p>For business, taxes may be opposed as these can cost more to regultees than prescriptive regulatory approaches. Markets are generally more politically desirable than taxes - with there less fear that government will abuse the system for revenue generation ends, the polluter pays only for the non-optimal portion of total emissions (though not always) and can feel more in control of a permit system (Pearce and Barbier, 2000).</p>
+<p>Reductions in the current tax regime such as on VAT, capital allowances and too subsidies are least preferred options by government authorities due to reductions in tax receipts and exchequer costs.</p>
+</div>
+</div>
+</div>
+
+
+</section>
+</section>
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Differs from fines which are generally applied to uses above or outside that mandated/permitted by regulatory instruments<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>The tax was introduced with the expectation of being more effective than voluntary measures called for by the aggregates industry at the time.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./bans-standards.html" class="pagination-link" aria-label="Bans">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Bans</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./assumption-log.html" class="pagination-link" aria-label="**Assumption log**">
+        <span class="nav-page-text"><strong>Assumption log</strong></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/OliverLysa/ce-policy/edit/main/price-based.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OliverLysa/ce-policy/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

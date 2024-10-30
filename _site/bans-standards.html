@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Public Policy Tools for a UK Circular Economy -  Bans and standards</title>
+<title>Data Observatory Policy Assumptions - Bans</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./project-level-interventions.html" rel="next">
-<link href="./target-setting.html" rel="prev">
+<link href="./price-based.html" rel="next">
+<link href="./method.html" rel="prev">
 <link href="./fav.png" rel="icon" type="image/png">
 <script src="site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
@@ -46,15 +46,18 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": true,
   "collapse-after": 2,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -63,6 +66,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -89,6 +93,8 @@ cookieconsent.run({
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
+  ,
+"language":"en"
   });
 });
 </script> 
@@ -101,15 +107,13 @@ cookieconsent.run({
 }
 </script>
 <script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
 
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Public Policy Tools for a UK Circular Economy -  Bans and standards">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://policylab.quarto.pub/public-policy-tools-for-a-uk-circular-economy/images/image-1108693645.png">
-<meta property="og:site-name" content="Public Policy Tools for a UK Circular Economy">
-<meta property="og:image:height" content="1030">
-<meta property="og:image:width" content="2270">
 </head>
 
 <body class="nav-sidebar docked">
@@ -118,12 +122,12 @@ cookieconsent.run({
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./no-intervention.html"><strong>Policy tool profiles</strong></a></li><li class="breadcrumb-item"><a href="./bans-standards.html"><i class="fa-solid fa-circle-exclamation" aria-label="circle-exclamation"></i> Bans and standards</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bans-standards.html"><strong>Policy tool profiles</strong></a></li><li class="breadcrumb-item"><a href="./bans-standards.html">Bans</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -133,26 +137,11 @@ cookieconsent.run({
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Public Policy Tools for a UK Circular Economy</a> 
-        <div class="sidebar-tools-main tools-wide">
-    <div class="dropdown">
-      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-house"></i></a>
-      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="https://ce-hub.org/">
-            CE-Hub Home Page
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="https://ce-hub.org/collections/">
-            CE-Hub Knowledge Hub
-            </a>
-          </li>
-      </ul>
-    </div>
+      <a href="./">Data Observatory Policy Assumptions</a> 
+        <div class="sidebar-tools-main">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
@@ -169,16 +158,10 @@ cookieconsent.run({
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-signs-post" aria-label="signs-post"></i> <strong>Contents</strong></span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text"><strong>Policy taxonomy</strong></span></a>
+ <span class="menu-text"><strong>Assumption development method</strong></span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -186,26 +169,20 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./actors.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-people-arrows" aria-label="people-arrows"></i> Actors</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./instruments.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-toolbox" aria-label="toolbox"></i> Policy instruments</span></a>
+ <span class="menu-text">Taxonomy of public policy tools</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./value-drivers.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-circle-nodes" aria-label="circle-nodes"></i> Linking CE value drivers to policy objectives</span></a>
+  <a href="./instrument_selection.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Selection criteria for policy tools</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./change.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-road" aria-label="road"></i> Policy change</span></a>
+  <a href="./method.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Assumption development protocol</span></a>
   </div>
 </li>
       </ul>
@@ -221,117 +198,58 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./no-intervention.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-circle-arrow-right" aria-label="circle-arrow-right"></i> No intervention</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./voluntary-cooperative.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-handshake-angle" aria-label="handshake-angle"></i> Voluntary instruments</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./information-based.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-circle-info" aria-label="circle-info"></i> Information-based tools</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./procurement-requirements.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-basket-shopping" aria-label="basket-shopping"></i> Procurement</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./consumer-rights.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-gavel" aria-label="gavel"></i> Consumer rights</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./extended-producer-responsibility.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-reply" aria-label="reply"></i> Responsibility-based approaches</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./taxes-subsidies.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-sterling-sign" aria-label="sterling-sign"></i> Price and market-based instruments</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./trade-policy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-globe" aria-label="globe"></i> Trade policy and international governance</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./procedural.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-list-check" aria-label="list-check"></i> Planning and permitting requirements</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./target-setting.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-arrow-up" aria-label="arrow-up"></i> Direction-setting</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./bans-standards.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><i class="fa-solid fa-circle-exclamation" aria-label="circle-exclamation"></i> Bans and standards</span></a>
+ <span class="menu-text">Bans</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./project-level-interventions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-building" aria-label="building"></i> Project-level &amp; public sector delivery</span></a>
+  <a href="./price-based.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Price-based instruments - charges</span></a>
   </div>
 </li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./assumption-log.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Assumption log</strong></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Catalogue of evidence sources</strong></span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<p><img src="./logo.svg" class="img-fluid"></p>
-</div></div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
-  <li><a href="#how-it-works-and-current-applications" id="toc-how-it-works-and-current-applications" class="nav-link" data-scroll-target="#how-it-works-and-current-applications">How it works and current applications</a></li>
-  <li><a href="#performance" id="toc-performance" class="nav-link" data-scroll-target="#performance">Performance</a>
+  <li><a href="#how-the-tool-works-and-current-applications-in-the-uk" id="toc-how-the-tool-works-and-current-applications-in-the-uk" class="nav-link active" data-scroll-target="#how-the-tool-works-and-current-applications-in-the-uk">How the tool works and current applications in the UK</a></li>
+  <li><a href="#performance-assessment" id="toc-performance-assessment" class="nav-link" data-scroll-target="#performance-assessment">Performance assessment</a>
   <ul class="collapse">
   <li><a href="#environmental-effectiveness" id="toc-environmental-effectiveness" class="nav-link" data-scroll-target="#environmental-effectiveness">Environmental effectiveness</a></li>
-  <li><a href="#predictability-and-resilience-to-external-changes" id="toc-predictability-and-resilience-to-external-changes" class="nav-link" data-scroll-target="#predictability-and-resilience-to-external-changes">Predictability and resilience to external changes</a></li>
-  <li><a href="#acceptability" id="toc-acceptability" class="nav-link" data-scroll-target="#acceptability">Acceptability</a></li>
   <li><a href="#allocativecost-efficiency" id="toc-allocativecost-efficiency" class="nav-link" data-scroll-target="#allocativecost-efficiency">Allocative/cost-efficiency</a></li>
-  <li><a href="#administrative-costsaffordability" id="toc-administrative-costsaffordability" class="nav-link" data-scroll-target="#administrative-costsaffordability">Administrative costs/affordability</a></li>
-  <li><a href="#dynamic-efficiency-innovation" id="toc-dynamic-efficiency-innovation" class="nav-link" data-scroll-target="#dynamic-efficiency-innovation">Dynamic efficiency / Innovation</a></li>
-  <li><a href="#distributional-effects" id="toc-distributional-effects" class="nav-link" data-scroll-target="#distributional-effects">Distributional effects</a></li>
-  <li><a href="#positive-and-negative-spillovers" id="toc-positive-and-negative-spillovers" class="nav-link" data-scroll-target="#positive-and-negative-spillovers">Positive and negative spillovers</a></li>
+  <li><a href="#long-run-effects" id="toc-long-run-effects" class="nav-link" data-scroll-target="#long-run-effects">Long-run effects</a></li>
+  <li><a href="#distributional-and-equity-effects" id="toc-distributional-and-equity-effects" class="nav-link" data-scroll-target="#distributional-and-equity-effects">Distributional and equity effects</a></li>
+  <li><a href="#spillover-and-interaction-effects" id="toc-spillover-and-interaction-effects" class="nav-link" data-scroll-target="#spillover-and-interaction-effects">Spillover and interaction effects</a></li>
   </ul></li>
-  <li><a href="#conditions-for-effectiveness" id="toc-conditions-for-effectiveness" class="nav-link" data-scroll-target="#conditions-for-effectiveness">Conditions for effectiveness</a>
-  <ul class="collapse">
-  <li><a href="#design-and-implementation-considerations" id="toc-design-and-implementation-considerations" class="nav-link" data-scroll-target="#design-and-implementation-considerations">Design and implementation considerations</a></li>
-  </ul></li>
-  <li><a href="#future-applications-in-uk-ce-framework" id="toc-future-applications-in-uk-ce-framework" class="nav-link" data-scroll-target="#future-applications-in-uk-ce-framework">Future applications in UK CE framework</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/OliverLysa/ce-policy/edit/main/bans-standards.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/OliverLysa/ce-policy/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/OliverLysa/ce-policy/edit/main/bans-standards.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OliverLysa/ce-policy/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bans-standards.html"><strong>Policy tool profiles</strong></a></li><li class="breadcrumb-item"><a href="./bans-standards.html">Bans</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><i class="fa-solid fa-circle-exclamation" aria-label="circle-exclamation"></i> Bans and standards</h1>
+<h1 class="title">Bans</h1>
 </div>
 
 
@@ -344,189 +262,157 @@ cookieconsent.run({
   </div>
   
 
+
 </header>
 
-<section id="summary" class="level1">
-<h1>Summary</h1>
+
+<div class="cell">
+<style type="text/css">
+.callout {
+  margin-top: 0.2em;
+  margin-bottom: 1em;
+  style="column-gap: 0;"
+}
+</style>
+</div>
 <div class="callout callout-style-simple callout-note no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>Bans and standards - which together are sometimes referred to as regulatory instruments or ‘command and control’ approaches, involve government issuing a prohibitive or prescriptive rule to be achieved by regulatees alongside penalties/sanctions for non-compliance and enforcement.</p>
-<p>Standards have a proven track record of effectiveness, are predictable, can be cost efficient and induce innovation under some conditions. On the other hand, their effectiveness can be limited by encouraging behaviour change in only the regulated sector, can be inefficient through imposing abatement requirements non-equimarginally, and can provide few incentives for innovation beyond meeting standards.</p>
+<p>Bans involve the outright prohibition of inputs, processes, products or outputs. Bans have been shown to be effective when the objective of regulation is for an activity to cease altogether, with a key advantage being that their predictability (<a href="https://obr.uk/fiscal-risks-report-2021-2/">OBR, 2021</a>). In addition, regulatory instruments can be as efficient as alternatives like price-based instruments under conditions including total abatement costs being low or similar between those subject to the regulation. Evidence suggests that bans can encourage innovation over time. At the same time, the effectiveness of bans can be limited by encouraging change in relatively narrow areas. A lack of flexibility can also lead to high costs of abatement, and substitution and unintended effects.</p>
 </div>
 </div>
 </div>
-</section>
-<section id="how-it-works-and-current-applications" class="level1">
-<h1>How it works and current applications</h1>
+<section id="how-the-tool-works-and-current-applications-in-the-uk" class="level1">
+<h1>How the tool works and current applications in the UK</h1>
+<p>Bans work as an outright prohibition on inputs, processes, products, outputs. Examples of bans introduced across the UK include:</p>
+<ul>
+<li><p>the 1999 ban on the import, supply and use of asbestos in the UK;</p></li>
+<li><p>2020 ban on single-use plastic straws, drinks stirrers and cotton buds in England and consultation on banning single-use plastic plates, cutlery, balloon sticks and expanded and extruded polystyrene cups and food and beverage containers. Call for evidence on tobacco filters, wet wipes, single-use plastic sachets and plastic cups</p></li>
+<li><p>Ban on biodegradable municipal waste going to landfill by 2025 in Scotland;</p></li>
+<li><p>UK-wide ban on the disposal of untreated industrial and automotive batteries to landfill under the Batteries and Accumulators and Waste Batteries and Accumulators Directive; and</p></li>
+<li><p>The ban called for by the environment, food and rural affairs (EFRA) committee on the export of all plastic waste from the UK by 2027.</p></li>
+<li><p>Workplace Recycling Regulations Wales - include a ban on food waste disposal to sewer, and landfill and incineration bans on selected materials.</p></li>
+</ul>
 <p><img src="images/image-1108693645.png" class="img-fluid"></p>
-<p>Fig. Examples of current bans and standards in the UK applied across different product groups</p>
+<p>Fig. Examples of bans applied in the UK</p>
+</section>
+<section id="performance-assessment" class="level1">
+<h1>Performance assessment</h1>
+<section id="environmental-effectiveness" class="level2">
+<h2 class="anchored" data-anchor-id="environmental-effectiveness">Environmental effectiveness</h2>
+<p>Bans can be efficient when MACs are low e.g.&nbsp;through substitution or production/consumption abatement. In addition, regulatory approaches can be statically efficient when all abatement channels need to be engaged as relative cost differences between MBIs and performance standards may decline significantly as abatement levels approach 100% (Goulder and Parry, 2008).</p>
 <div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Bans
+Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Prohibit outright the manufacture, distribution, use or disposal of specific products, activities and/or substances such as the:</p>
-<ul>
-<li><p>2020 ban on single-use plastic straws, drinks stirrers and cotton buds in England and consultation on banning single-use plastic plates, cutlery, balloon sticks and expanded and extruded polystyrene cups and food and beverage containers. Call for evidence on tobacco filters, wet wipes, single-use plastic sachets and plastic cups</p></li>
-<li><p>Ban on biodegradable municipal waste going to landfill by 2025 in Scotland;</p></li>
-<li><p>UK-wide ban on the disposal of untreated industrial and automotive batteries to landfill under the Batteries and Accumulators and Waste Batteries and Accumulators Directive; and</p></li>
-<li><p>The ban called for by the environment, food and rural affairs (EFRA) committee on the export of all plastic waste from the UK by 2027.</p></li>
-</ul>
+<p>Effectiveness in attaining outcomes aided by 1) predictability - Critical when dealing with environmental pollutants and management whose optimal level of pollution is extremely low if not 0, due to human health and ecosystem risks. C&amp;C is the best tool when efficient levels of emissions are at or near zero, or cannot go above efficient levels e.g.&nbsp;in cases of emergencies and certainty of outcome is most important (Perman, 2011). Previously a downside with price-based instruments was the lack of certainty, undermining the use of MBIs, though quantity-based instruments now provide the same assurance. Familiarity stems from regulators and regulates knowing what is required and what outcomes are likely to be Technology and performance standards will be more predictable than price-based instruments in a context of uncertainty over abatement costs (Bergquist et al.&nbsp;2013). In a context of inflation, technology and performance standards can also more robustly generate environmental impact than price-based instruments without the need for updates (Bye and Klemetsen, 2016).; 2) immediacy - &nbsp;argued that by imposing fixed standards with the force of law behind them, CAC can respond more quickly to activities which do not abide by the set standards (Baldwin, Cave and Lodge, 2011) though timeliness may be offset by resistance from regulatory targets and hasn’t been seen by some researchers e.g.&nbsp;Harrington (Perman, 2011) Regulatory approaches have also been often preferred for their ability to deliver desired outcomes quickly (following point of regulatory introduction). In phasing out leaded gasoline in Europe for instance, progress would have been slowed without mandating the use of catalytic converters and maximum lead content in fuel, as well as tax differentials. At the same time, Stricter standards create incentive for polluters to seek relief from authorities by delaying their application date.; and 3) familiarity and political willingness - Can be more palatable for industry because total costs from C&amp;C can be lower than taxes for instance as price up to the efficient level doesn’t have to be paid.</p>
+<p>C&amp;C seen early on as way to achieve desired outcomes quickly. In phasing out leaded gasoline in Europe, progress would have been slowed without mandating catalytic converters, maxim lead content and tax differentials for instance. Evidence for swiftness being better under C&amp;C than MBIs is mixed, with evidence supporting C&amp;C e.g.&nbsp;the phase out of TCE by the EPA, with limits proving effect, while MBIs in other contexts e.g.&nbsp;effluent fees on organic waste-loads in Netherlands produced swift results.</p>
+<p>As regulations often need to be highly specific in their terminology, this can limit their impacts to specified sectors (Anderson et al.&nbsp;2011).</p>
 </div>
 </div>
 </div>
+</section>
+<section id="allocativecost-efficiency" class="level2">
+<h2 class="anchored" data-anchor-id="allocativecost-efficiency">Allocative/cost-efficiency</h2>
+<p>According to the standard economic account, C&amp;C tools such as bans are inefficient and should grow increasingly inefficient as additional pollution controls become more costly.</p>
+<p>(Cole &amp; Grossman, 1999) argues C&amp;C can be efficient, producing social benefits in excess of costs and can be more efficient that alternative economic approaches. Because of the environmental costs they help avoid, even if they are not welfare maximizing due to inefficiencies, they still generally are welfare improving (Anderson et al.&nbsp;2011). They create stable environment for the development and adoption of fuel-saving technologies.</p>
 <div class="callout callout-style-simple callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Standards
+Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Prescribe dimensions to be met and include: 1) technology-based standards mandating the use of specific technologies e.g., catalytic converters; and 2) performance-basd standards prescribing a minimum quality or outcome to be met without requiring any specific way for these to be achieved.</p>
-<p>These can be in relation to: 1) input standards e.g., on fuel efficiency; and 2) output standards e.g., maximum emissions per unit of fuel used. Performance standards can also be specified in relation to ambient environmental quality e.g., maximum NOx levels. Examples in the UK include:</p>
-<ul>
-<li><p><strong>Ecodesign standards</strong> work by limiting entry onto the market of the worst performing products and have a proven track record in driving improvements in energy efficiency across the EU (<a href="https://ideas.repec.org/a/eee/enepol/v30y2002i4p327-332.html">Schiellerup, 2002)</a>. After 2019, the Ecodesign of Energy-Using Products Regulations were extended to require that appliances be longer-lasting in some cases and spare parts be available for up to 10 years alongside repair instructions. Transposed into UK law since, these changes have been referred to as the ‘Right to Repair’ (<a href="https://www.gov.uk/government/news/electrical-appliances-to-be-cheaper-to-run-and-last-longer-with-new-standards">BEIS, 2021</a>). These do not yet cover small electronics such as laptops, tablets and smartphones (<a href="https://www.computerweekly.com/blog/Green-Tech/Eradicating-e-waste-Why-the-UKs-right-to-repair-laws-are-in-urgent-need-of-an-upgrade">Computer Weekly, 2022</a>), though product prioritisation studies have highlighted their importance (<a href="https://etl.beis.gov.uk/shared-files/3316/3713/8281/UK_ErP_Policy_Study_final_v4-stc_2_11_21.pdf">ICF, 2021</a>). The Eco-design of Energy-Using Products Directive [2009/125/EC] which allows performance standards to be set on energy-using products. These have historically coverd energy efficiency aspects, but since expanded to resource efficiency aspects such as the availability of spare parts.</p></li>
-<li><p>The Restriction on Hazardous Substances Regulations [2002/95/EC] which prohibit electrical and electronic equipment containing more than specified levels of lead, cadmium, mercury, hexavalent chromium, polybrominated biphenyl (PBB) and polybrominated diphenyl ether (PBDE) flame retardants from being placed on the market.</p></li>
-<li><p>Performance standards levied on the government itself, such as targets introduced on reducing landfilling and increasing recycling via the Landfill Directive [99/31/EC])</p></li>
-<li><p>UK Waste Regulation (2015) -require businesses and households to fully segregate their waste into general and recyclables</p></li>
-<li><p>Improved consistency of recycling collections – providing the powers to ensure all LAs collect a consistent, minimum core set of dry recycling and organic recycling materials. Also to give the power to require businesses and public-sector organisations to segregate a core set of dry materials from their waste;</p></li>
-<li><p>Food waste measures - creating an obligation to redistribute food surplus and provide the power to impose mandatory food-waste reduction targets on businesses;</p></li>
-<li><p>Eco-design measures allowing the SoS to have powers to set product standards relating to resource efficiency dimensions of non-energy related products such as repairability, durability and recycled content.</p>
-<ul>
-<li>Furniture: Set minimum standards for furniture on repairability, durability, reusability, recycled content</li>
-</ul></li>
-<li><p>Mandatory embodied carbon standards</p></li>
-<li><p>RWS: Develop standards for bio-based and biodegradable plastics</p></li>
-<li><p>Mandatory standards for reusability, repairability, recyclability and disassemblability to be met through circular-design (this would provide a more stable footing for re-processing and the secondary materials market and would also allow supply chain auditing and monitoring);</p></li>
-</ul>
+<p>Where regulation is so stringent that all available abatement measures must be taken and there is little scope for choosing the most cost-effective ones, MBIs aren’t significantly more cost-effective (kemp and Pontoglio, 2011). Cost efficiency to regulator - monitoring requirements of MBIs not found to be more demanding than C&amp;C because they require credible and quantitative emission estimates which are exacting.</p>
+<p>Abatement and compliance costs to industry - total cost to industry can be lower with CC than MBIs because no taxes for emissions up to efficient pollution level have to be paid.</p>
 </div>
 </div>
 </div>
 </section>
-<section id="performance" class="level1">
-<h1>Performance</h1>
-<section id="environmental-effectiveness" class="level2">
-<h2 class="anchored" data-anchor-id="environmental-effectiveness">Environmental effectiveness</h2>
-<p>Minimum eco-design standards can be used to eliminate the worst products from the market and can be ratcheted up over time to drive improvements.</p>
-<ul>
-<li>Generally good evidence these can drive change in environmental performance, though market-based mechanisms might be able to do so more effectively.</li>
-</ul>
-<p>Standards have a proven track record of delivering environmental improvements across a range of contexts (Fiorino, 2006). For instance, the Ecodesign Directive has been one of the most effective tools at the level of the EU for delivering per-product energy efficiency improvements and more effective than labels (Schiellerup, 2002 ; Ecofys 2012).</p>
-<p>• The EU Ecodesign Directive (2009/125/EC) which applies ecodesign requirements to approximately 40 energy-using and energy-related product categories, have primarily focused on energy efficiency in the past. It has been shown to be a highly effective tool for delivering cost-effective energy savings across the EU. In a 2002 study, Schiellerup found minimum efficiency performance standards introduced in 1999 contributed to a jump in efficiency of cold appliances in the UK greater than would have been expected without regulation being put in place. The majority of the reduction in average energy consumption between 1992 and 1999 (between 20-33%), occurred after the introduction of standards in 1999. Ecofys (2012) – The Ecodesign Directive which focusses on mandating energy performance standards for 40 product categories, has been one of the most effective tools at the level of the EU for delivering cost-effective energy savings. Correctly implemented, anticipated to save 400 Mtonnes of CO2 emissions annually, save households 280 euros per year, boost jobs and lessen dependence on energy imports. The success of energy efficiency standards could be replicated through minimum eco-design standards for resource efficiency.</p>
-<p>• As regulations may need to be highly specific, this may limit the impact to the sectors they are specified to (Anderson et al.&nbsp;2011). Because command-based regulations are sector-specific ,they encourage behaviour change only in the regulated sector, thereby limiting the extent of their impact.</p>
-<p>• Performance standards e.g.&nbsp;on fuel economy can lead to price reductions causing consumption-based rebound effects.</p>
-<p>• The effectiveness of performance standards is contingent on monitoring accuracy, perceptions of significant consequences for not meeting standards and congruence between regulatory and environmental outcomes (Coglianese &amp; Nash, 2017; Skeete, 2017).</p>
-<ul>
-<li>Propinquity: C&amp;C seen early on as way to achieve desired outcomes quickly. In phasing out leaded gasoline in Europe, progress would have been slowed without mandating catalytic converters, maxim lead content and tax differentials for instance.</li>
-</ul>
-<p>The UNEP (2021) study identified fuel economy measures through the G7 as indirectly driving material light-weighting and substitution. Taxes on CO2 intensity would deliver the same outcomes and charge-based systems such as tiered parking permits levied by local councils are examples of additional measures currently being used. Risk with indirect approach is that if the indirect route of influence is disrupted, then the policy measure may no longer be effective e.g.&nbsp;move to electrical vehicles. Regarding more intensive use, High occupancy vehicle (HOV) lanes as used in the USA are an example of a relevant policy measure, while other measures such as preferential parking has been introduced e.g.&nbsp;in Seattle, Washington.</p>
+<section id="long-run-effects" class="level2">
+<h2 class="anchored" data-anchor-id="long-run-effects">Long-run effects</h2>
+<p>Bans and standards have historically been critiqued for providing limited incentive to innovate. For instance, Jaffe and Stavins (1994) suggest that technology standards may give poor incentives for technical or managerial innovation as there is no financial incentive to go beyond the standard, and there may even be a non-compliance penalty to doing so (van den Bergh, 2011; Requate, 2005). Performance standards perform better, particularly if compliance charges can be lessened through innovation.</p>
+<p>However, Begquist et al.&nbsp;(2013) find C&amp;C can be flexible and effective when well implemented inc. with dynamic efficiency benefits in the form of innovation, though they are generally less statically efficient than MBIs.</p>
+<p>Costly regulation generally does provide a spur to find less costly ways of complying generally but technology standards can discourage research.</p>
+<p>Measuring persistent environmental performance in terms of emission intensity across range of pollutants in Norway using panel data, find positive and significant effects of non-tradable emission quotas and technology standards much like with taxes. However, the persistence of effects come as standard with C&amp;C while taxes need to be continually increased (Bye and Klemetsen, 2016). Even if a quota is fixed, non-tradable quotas can create an incentive for a firm to reach this level at the lowest cost by reorganize the production process or investing in new technologies.</p>
+<div class="callout callout-style-simple callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Read more
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Weiss and Anisimova (2018) found Swedish environmental regulation aimed at pulp &amp; paper mills based on flexible prescriptive regulation e.g.&nbsp;the use of extended compliance periods induced long-term process-based innovation offsets to compliance costs. Putting in place stretching standards far in advance of implementation can encourage firms to make long-term investments for transforming a sector via innovation.</p>
+<p>Has been shown that performance and technology standards can pressure firms to develop products and processes to meet requirements (Grubb and Ulph, 2002).</p>
+<p>A 2014 study by Ecofys found innovation effects of EU Ecodesign Directive varies with sectors – some have responded with innovation while others have been more defensive (Ecofys 2014).</p>
+<p>In circumstances of firms being reluctant or unable to innovate, technology-based can subsidise R&amp;D that may not otherwise happen (Perman et al.&nbsp;2011; Dasgupta, ). Technology standards effectively subsidise firm-level R&amp;D, helping overcome a lack of information which can have catalytic effects for innovation (Perman et al.&nbsp;2011).</p>
+</div>
+</div>
+</div>
 </section>
-<section id="predictability-and-resilience-to-external-changes" class="level2">
-<h2 class="anchored" data-anchor-id="predictability-and-resilience-to-external-changes">Predictability and resilience to external changes</h2>
-<p>Are predictable</p>
-<p>• Bans are highly effective when the optimal level of a pollutant or behaviour is near to 0 as the risks of its continuation is high due to critical thresholds e.g.&nbsp;for human health or the environment (Howlett, 2004; Perman, 2011; OBR, 2021). Though predictable in their effective at the level of individual regulatees, technology and performance standards work slightly less effectively here due to uncertainty about new market entrants.</p>
-<p>• Technology and performance standards will be more predictable than price-based instruments in a context of uncertainty over abatement costs which is typical (Bergquist et al.&nbsp;2013).</p>
-<p>• Assuming no subsequent updates, technology and performance standards will be more robust in generating their environmental impact than market-based instruments in contexts of inflation (Bye and Klemetsen, 2016).</p>
+<section id="distributional-and-equity-effects" class="level2">
+<h2 class="anchored" data-anchor-id="distributional-and-equity-effects">Distributional and equity effects</h2>
+<p>Bans and standards subject regulated parties to the same substantive requirements, helping avoid e.g.&nbsp;spatial reallocation of environmental loading. At the same this, these can be economically regressive. Bans and standards can be introduced with certain compensatory measures. For example, the mayor of London’s office has a £23m scrappage scheme for “microbusinesses” and charities, while a separate £25m scheme for low-income Londoners will open later this year in order to compensate for deadweight losses to low-incomes.</p>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Read more
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Evenhandedness - all regulated parties are subject to the same substantive or procedural requirements, useful for avoiding reallocation of environmental loading to pollution hotspots and on the basis of justice. Issue with evenhandedness however is that the effects can still be regressive. In addition, MBIs can create geographical pollution hotspots more easily.</p>
+</div>
+</div>
+</div>
 </section>
-<section id="acceptability" class="level2">
-<h2 class="anchored" data-anchor-id="acceptability">Acceptability</h2>
-<p>• Bans and standards have a high level of acceptability among policy-makers. This can be due to their: predictability if policy makers are risk-averse or optimal levels of a substance or activity are low; varying departmental control over different instruments e.g.&nbsp;HMRC and HMT reluctance to introduce further environmental taxes; standards obfuscating the costs of pollution control (Cole, 2017).</p>
-<p>• For Firms and organized labour: 1) because standards can improve competitiveness; 2) can cost a firm less than market-based instruments e.g.&nbsp;pollution taxes or permits without grandfathering, which may also be treated with suspicion of becoming a general revenue-raising tax; 3) may allow firms to protect or expand market dominance (Cole, 2017) e.g.&nbsp;technology standards can allow incumbent technologies to remain cost-competitive.</p>
-<p>• Advocacy groups may prefer regulatory instruments as MBIs viewed as providing a license to pollute, placing a value on the environment.</p>
-</section>
-<section id="allocativecost-efficiency" class="level2">
-<h2 class="anchored" data-anchor-id="allocativecost-efficiency">Allocative/cost-efficiency</h2>
-<p>• Total costs to firms can be lower than price-based instruments due to there not being a tax burden.</p>
-<p>• Technology standards don’t give the flexibility to regulatees to utilise all least-cost abatement channels, and may not for performance standards depending on how they are applied (Parry, Evans and Oates, 2010).</p>
-<p>• Standards can be statically efficient when all abatement channels need to be engaged or alternatively, aggregate abatement costs are likely to be low (Kemp and Pontaglio, 2011).</p>
-<p>• Abatement costs are imposed evenly by standards so if there is high marginal abatement cost heterogeneity between regulatory subjects, unlikely to be as efficient (Newell and Stavins, 2003).</p>
-<p>For command-based regulation to be cost-efficient, regulators must know each polluter’s marginal abatement cost curve based on the equimarginal principle (Baumol and Oates, 1988). In contexts of high abatement-cost heterogeneity, it is unlikely regulators would have enough information to set standards maximising cost-effectiveness (Newell and Stavins, 2003).</p>
-<p>Technology and process-standards are unlikely to encourage least-cost abatement as they don’t give the flexibility and agency to regulatees to identify this e.g.&nbsp;fuel taxes may reduce use through both improvements in fuel efficiency or reductions in distance driven (Parry, Evans and Oates, 2010).</p>
-</section>
-<section id="administrative-costsaffordability" class="level2">
-<h2 class="anchored" data-anchor-id="administrative-costsaffordability">Administrative costs/affordability</h2>
-<p>• To the state, the administrative costs of establishing a market can be avoided.</p>
-<p>• Monitoring cost can be lower by avoiding the need for continuity monitoring for technology standards.</p>
-<p>• Can be high as a result of piecemeal regulatory developments with associated regulation costs and can have high information requirements around priority products, best available techniques and technologies (Harrington, 2003).</p>
-<p>• Can create opposition governance relationships crowding out responsibility while with high legal costs (Eisner, 2004).</p>
-<p>• No revenues are generating from the instrument.</p>
-</section>
-<section id="dynamic-efficiency-innovation" class="level2">
-<h2 class="anchored" data-anchor-id="dynamic-efficiency-innovation">Dynamic efficiency / Innovation</h2>
-<p>Can induce innovation under some conditions</p>
-<p>• Technology standards may give poor incentives for technical or managerial innovation (Jaffe and Stavins, 1994) as there is no financial incentive to go beyond the standard, and there may even be a non-compliance penalty to doing so (van den Bergh, 2011; Requate, 2005). Performance standards perform slightly better than technology standards here only if compliance charges can be lessened through R&amp;D.</p>
-<p>• Putting in place stretching standards far in advance of implementation can encourage firms to make long-term investments for transforming a sector via innovation.</p>
-<p>• Some evidence of technology standards leading to the development of radically new technologies (Bergek and Berggren, 2014), though risk around picking winners. Technology standards effectively subsidise firm-level R&amp;D, helping overcome a lack of information which can have catalytic effects for innovation (Perman et al.&nbsp;2011).</p>
-<p>• There is evidence of performance standards driving long-term technological innovation i.e.&nbsp;being technology-forcing (Bergqvist et al.&nbsp;2013; Bergek and Berggren, 2014) including through process-based improvement (Weiss and Anisimova, 2018) and the development of new products (Grubb and Ulph, 2002; Gerard and Lave, 2005) when well designed (predictable, coordinated and flexible) by creating a stable environment for the adoption and development of technologies, and can also be technology forcing. Weiss and Anisimova (2018) also found Swedish environmental regulation aimed at pulp &amp; paper mills based on flexible prescriptive regulation e.g.&nbsp;the use of extended compliance periods induced long-term process-based innovation offsets to compliance costs.</p>
-<p>– Innovation effects of EU Ecodesign Directive varies with sectors – some have responded with innovation while others have been more defensive (Ecofys 2014).</p>
-<p>• In circumstances of firms being reluctant or unable to innovate, technology-based can subsidise R&amp;D that may not otherwise happen (Perman et al.&nbsp;2011).</p>
-<p>Command-based regulations can negatively interact with other policy interventions e.g.&nbsp;in the transport sector of the USA, where tax credits for hybrid cards leading to increased market-penetration has led to firms having a lesser incentive to reduce emissions in fossil-fuel vehicles as average fuel consumption across vehicle fleet is already met (McConnell and Turrentine, 2010).</p>
-</section>
-<section id="distributional-effects" class="level2">
-<h2 class="anchored" data-anchor-id="distributional-effects">Distributional effects</h2>
-<p>• Bans and standards subject regulated parties to the same substantive requirements, helping avoid e.g.&nbsp;spatial reallocation of environmental loading, though effects can remain socially regressive.</p>
-</section>
-<section id="positive-and-negative-spillovers" class="level2">
-<h2 class="anchored" data-anchor-id="positive-and-negative-spillovers">Positive and negative spillovers</h2>
-<p>• Negative interactions with other policy instruments are possible depending on design. For instance, tax credits for hybrid vehicles increasing their market penetration in the US has lessened incentives to improve fuel efficiency in ICE vehicles as fuel consumption reductions already met (McConnell and Turrentine, 2010).</p>
-<p>• https://zerowasteeurope.eu/press-release/press-release-landfill-ban-a-false-path-to-a-circular-economy/</p>
-</section>
-</section>
-<section id="conditions-for-effectiveness" class="level1">
-<h1>Conditions for effectiveness</h1>
-<p>Regulatory instruments constitute an important part of a circular economy policy framework by removing the most environmentally problematic product characteristics from the market and are particularly important where price-based approaches are difficult to apply or may not have direct or sufficient effects on desired product characteristics such as reparability. While often critiqued in terms of allocative and dynamic efficiency, regulatory instruments, which include bans , performance standards and technology standards are particularly effective when the desired outcome is for an activity to cease altogether or an optimal level is low (OBR, 2021), have a proven track record of effectiveness in the UK in delivering per-product energy savings under the Ecodesign Directive (Fiorino, 2006) and have the benefit of being predictable in their effect. Regulatory instruments can also be as allocatively efficient as price-based instruments where aggregate abatement costs are likely to be low and marginal abatement costs are relatively homogeneous between firms. Performance standards have superior characteristics over technology standards in encouraging least-cost abatement and innovation.</p>
-<p>The focus of the EU Ecodesign Directive has increasingly shifted towards mandating performance criteria for resource efficiency, such as the newly introduced rules in 2019 for select product groups requiring the availability of spare parts for a minimum period and the requirements for these to be able to be fitted with widely available tools and without damage to products, as well as minimum product lifespans in some cases. Under the Environment Bill, new powers are being sought to extend ecodesign regulations to non-energy-using products, including relating to reparability, durability and recycled content. Prioritisation exercises to define where to focus regulation on energy-using products are already undertaken by the government, while those for non-energy using products can be expected. Defining precisely how these standards might most effectively be levied, including alongside other policy instruments making up the framework, is key. The information-requirements for standards can be significant due to the need for policy-makers to define and update the scope and level of the standard, including in a context of technological change which can serve to render regulations obsolete over time. While bans can be particularly effective in delivering a sought outcome, substitution and unintended effects need to be carefully considered.</p>
-<p>Bans and standards are particularly effective under the following conditions:</p>
-<p>• Bans are most effective when the optimal level of a pollutant or behaviour is near to 0 as the risks of its continuation is high due to critical thresholds e.g.&nbsp;for human health or the environment (Howlett, 2004; Perman, 2011; OBR, 2021).</p>
-<p>Bans effective when MACs are low e.g.&nbsp;through substitution or not consuming the product.</p>
-<p>• In circumstances where policymakers have a good knowledge of opportunities for abatement, it is feasible to make regulatory decisions on behalf of a broad population at a relatively low cost.</p>
-<p>In circumstances of firms being reluctant or unable to innovate, technology-based controls may have superior long-run properties than process-based-standards (Perman et al.&nbsp;2011).</p>
-<p>• When there is uncertainty about abatement costs, quantitative performance standards are likely to be more efficient than tax policies due to avoiding the potential for under or overshooting (Weitzman, 1974).</p>
-<p>• Can be statically efficient when all abatement channels need to be engaged as relative cost differences between MBIs and performance standards may decline significantly as abatement levels approach 100% (Goulder and Parry, 2008). At the same time, when aggregate abatement costs are low and monitoring costs are relatively high, C&amp;C is likely to at least as efficient and effective as effluent taxes or a tradable emissions programme.</p>
-<p>• In contexts of high monitoring costs, command-based regulation might be preferred (Cole &amp; Grossman, 1999).</p>
-<p>Command-based regulation is particularly effective/efficiency under the following conditions:</p>
-<p>Market structure</p>
-<p>When there are few polluters as a thin market would undermine other instruments e.g.&nbsp;tradable permits and where aggregate abatement costs are likely to be low.</p>
-<p>When average firm size is small, so &amp;D capacity is low and few resources are available (Dasgupta, 2000).</p>
-<p>Cost curve structure</p>
-<p>Where marginal abatement cost (MAC) curves are relatively homogeneous between firms</p>
-<p>Where there are low costs of aggregate abatement or all current abatement channels must be actioned, given cost efficiency benefits of MBIs decline as abatement levels approach 100% from the perspective of static efficiency (Goulder and Parry, 2008).</p>
-<p>Monitoring costs: In contexts of high monitoring costs, command-based regulation might be preferred (Cole &amp; Grossman, 1999) as administrative costs of MBIs might outweigh benefits.</p>
-<p>Where there is high uncertainty about abatement costs and MAC thought to be relatively flat vs.&nbsp;marginal damage curve (MDC), performance standards might be more efficient because of the possible under or over-reaction to taxes (Weitzman, 1974).</p>
-<p>Where the MDC is steep relative to MAC i.e.&nbsp;efficient levels of pollution are low or in presence of high MDC uncertainty alongside possible environmental thresholds, command-based regulation is likely more desirable given the higher certainty of outcome (Howlett, 2004).</p>
-<section id="design-and-implementation-considerations" class="level2">
-<h2 class="anchored" data-anchor-id="design-and-implementation-considerations">Design and implementation considerations</h2>
-<p>• Monitoring, particularly for performance standards is key e.g.&nbsp;cheating by VW of diesel emissions (Skeete, 2017; Coglianese and Nash, 2017). Effectiveness depends on accuracy of assessment methods, sufficient consequences for non-compliance and congruence between regulatory and environmental outcomes.</p>
-<p>• Ecofys (2012) recommend that to increase innovation and R&amp;D, regulatory stringency could be increased, market surveillance heightened and supported by increased communication to consumers.</p>
-<p>• In a context of sequencing considerations between soft instruments and standards, Menanteau (2000) recommends introducing labels initially to induce manufacturers to adapt and lessen the disruption associated with the subsequent introduction of performance standards to instigate a step change in removing the most inefficient policies.</p>
-<p>– However, when eco-design performance requirements were introduced in 1999 in the EU, this weakened consumer comprehension of labels as, for instance, now the worst refrigerators were rated A+ rather than G. Resolved by adding categories first and then scheme rescaled later. The need for rescaling should be anticipated to ensure salience and also to increase their innovatory effect.</p>
-<p>• Can be ratcheted up over time to drive improvements.</p>
-</section>
-</section>
-<section id="future-applications-in-uk-ce-framework" class="level1">
-<h1>Future applications in UK CE framework</h1>
-<p>WWF is calling on governments to support global bans and phase outs of the ‘most high-risk and unnecessary’ single-use plastic products (<a href="https://www.worldwildlife.org/press-releases/wwf-calls-for-a-global-ban-on-harmful-and-unnecessary-single-use-plastic-items-such-as-vapes-cutlery-and-cosmetic-microplastics-ahead-of-key-un-plastic-pollution-treaty-talks">WWF, 2023</a>).</p>
-<p>Regulatory instruments constitute an important part of a circular economy policy framework by removing the most environmentally problematic product characteristics from the market and are particularly important where price-based approaches are difficult to apply or may not have direct or sufficient effects on desired product characteristics such as reparability. While often critiqued in terms of allocative and dynamic efficiency, regulatory instruments, which include bans, performance standards and technology standards are particularly effective when the desired outcome is for an activity to cease altogether or an optimal level is low (<a href="https://obr.uk/fiscal-risks-report-2021-2/">OBR, 2021</a>), have a proven track record of effectiveness in the UK in delivering per-product energy savings under the Ecodesign Directive (Fiorino, 2006) and have the benefit of being predictable in their effect. Regulatory instruments can also be as allocatively efficient as price-based instruments where aggregate abatement costs are likely to be low and marginal abatement costs are relatively homogeneous between firms. Performance standards have superior characteristics over technology standards in encouraging least-cost abatement and innovation. &nbsp;</p>
-<p>The focus of the EU Ecodesign Directive has increasingly shifted towards mandating performance criteria for resource efficiency, such as the newly introduced rules in 2019 for select product groups requiring the availability of spare parts for a minimum period and the requirements for these to be able to be fitted with widely available tools and without damage to products, as well as minimum product lifespans in some cases. Under the Environment Bill, new powers are being sought to extend ecodesign regulations to non-energy-using products, including relating to reparability, durability and recycled content. Prioritisation exercises to define where to focus regulation on energy-using products are already undertaken by the government, while those for non-energy using products can be expected. Defining precisely how these standards might most effectively be levied, including alongside other policy instruments making up the framework, is key.&nbsp; The information-requirements for standards can be significant due to the need for policy-makers to define and update the scope and level of the standard, including in a context of technological change which can serve to render regulations obsolete over time. While bans can be particularly effective in delivering a sought outcome, substitution and unintended effects need to be carefully considered.</p>
-<p>Mandating the removal of e-drive motors and selected electrical components by authorised treatment facilities (ATFs) has been assessed as ways to improve the circularity of critical raw materials in passenger vehicles alongside design and labelling measures (<a href="https://publications.jrc.ec.europa.eu/repository/handle/JRC132821">Tazi <em>et al.</em> 2023</a>).</p>
+<section id="spillover-and-interaction-effects" class="level2">
+<h2 class="anchored" data-anchor-id="spillover-and-interaction-effects">Spillover and interaction effects</h2>
+<p>While bans can be particularly effective in delivering a sought outcome, substitution and unintended effects need to be carefully considered. A <a href="https://zerowasteeurope.eu/press-release/press-release-landfill-ban-a-false-path-to-a-circular-economy/">2015 study</a> by Zero Waste Europe warns against the use of landfill bans due to their potential negative spillover effects through significant increases in treatment approaches such as waste to energy which offer only marginal environmental benefits.</p>
+<div class="callout callout-style-simple callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Read more
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Depending on design of regulatory and adjacent measures, negative interactions with other policy instruments are possible. For example, in the US, when tax credits for hybrid vehicles increased their market penetration, incentives to improve fuel efficiency in ICE vehicles decreased due to fuel consumption reductions being met through growth in hybrids (McConnell and Turrentine, 2010).</p>
+</div>
+</div>
+</div>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
@@ -571,6 +457,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -639,13 +552,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -724,10 +639,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -737,8 +651,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -751,6 +674,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -794,6 +836,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -819,6 +862,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -880,13 +949,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./target-setting.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><i class="fa-solid fa-arrow-up" aria-label="arrow-up"></i> Direction-setting</span>
+      <a href="./method.html" class="pagination-link" aria-label="Assumption development protocol">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Assumption development protocol</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./project-level-interventions.html" class="pagination-link">
-        <span class="nav-page-text"><i class="fa-solid fa-building" aria-label="building"></i> Project-level &amp; public sector delivery</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./price-based.html" class="pagination-link" aria-label="Price-based instruments - charges">
+        <span class="nav-page-text">Price-based instruments - charges</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -894,22 +963,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item">
-    <a class="nav-link" href="./nicer.html">UKRI NICER Programme</a>
-  </li>  
-</ul>
+      &nbsp;
     </div>   
-    <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-center">
+
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/OliverLysa/ce-policy/edit/main/bans-standards.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OliverLysa/ce-policy/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
-  </li>  
-</ul>
+      &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 

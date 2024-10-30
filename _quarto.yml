@@ -2,20 +2,18 @@ project:
   type: website
 
 website:
-  title: "Public Policy Tools for a UK Circular Economy"
+  title: "Data Observatory Policy Assumptions"
+  description: "Site on UK public policy tools for a circular economy"
   repo-url: https://github.com/OliverLysa/ce-policy
   repo-actions: [edit, issue]
     
-  page-footer:
-    left: 
-      - text: "UKRI NICER Programme"
-        href: nicer.qmd
-    right: 
-      - icon: info
-        text: "About"
-        href: about.qmd
-    border: false
+  # page-footer:
+  #   left: 
+  #     - text: "About NICER"
+  #       href: nicer.qmd
+#    border: false
   back-to-top-navigation: true
+  page-navigation: true
   reader-mode: true
   search:
     type: textbox
@@ -25,35 +23,42 @@ website:
     style: "docked"
     background: "light"
     border: false
+    pinned: false
     contents:
-      - index.qmd
-      - section: "**Policy taxonomy**"
+#       - index.qmd
+      - section: "**Assumption development method**"
         contents:
-         - actors.qmd
-         - instruments.qmd         
-         - value-drivers.qmd
-         - change.qmd
+#          - prologue.qmd
+         # - taxonomic_approach.qmd
+         # - value-drivers.qmd
+         # - actors.qmd
+         - instruments.qmd
+         - instrument_selection.qmd
+         # - change.qmd
+         - method.qmd
       - section: "**Policy tool profiles**"
         contents:
-          - no-intervention.qmd
-          - voluntary-cooperative.qmd
-          - information-based.qmd
-          - procurement-requirements.qmd
-          - consumer-rights.qmd
-          - extended-producer-responsibility.qmd
-          - taxes-subsidies.qmd
-          - trade-policy.qmd
-          - procedural.qmd
-          - target-setting.qmd
           - bans-standards.qmd
-          - project-level-interventions.qmd
-    tools:
-      - icon: house
-        menu:
-          - text: CE-Hub Home Page
-            url:  https://ce-hub.org/
-          - text: CE-Hub Knowledge Hub
-            url:  https://ce-hub.org/collections/
+#         - no-intervention.qmd
+#         - voluntary-cooperative.qmd
+#         - information-based.qmd
+#         - procurement-requirements.qmd
+#         - consumer-rights.qmd
+#          - extended-producer-responsibility.qmd
+          - price-based.qmd
+#         - trade-policy.qmd
+#         - procedural.qmd
+#         - target-setting.qmd
+#         - project-level-interventions.qmd
+      - assumption-log.qmd
+      - references.qmd
+    # tools:
+    #   - icon: house
+    #     menu:
+    #       - text: CE-Hub Home Page
+    #         url:  https://ce-hub.org/
+    #       - text: CE-Hub Knowledge Hub
+    #         url:  https://ce-hub.org/collections/
 
 #  navbar:
 #    background: "#fcfcfc"
@@ -64,7 +69,6 @@ website:
 #      - sidebar:Taxonomy
 #      - sidebar:Tools
 #      - sidebar:Briefs
-
 #  sidebar:
 #    - id: Taxonomy 
 #      title: "Policy taxonomy"
@@ -112,8 +116,7 @@ website:
       theme: clean
       openSidebar: false
   favicon: fav.png
-  open-graph: true
-  page-navigation: true
+  open-graph: false
   cookie-consent:
     type: implied
     style: simple
@@ -127,7 +130,6 @@ format:
     theme:
       light: cosmo
       dark: darkly
-    css: styles.css
     toc: true
     anchor-sections: true
     smooth-scroll: true
@@ -135,15 +137,15 @@ format:
     link-external-newwindow: false
     footnotes-hover: true
     grid:
-      sidebar-width: 220px
-      body-width: 800px
-      margin-width: 200px
-      gutter-width: 6rem
+      sidebar-width: 275px
+      body-width: 1000px
+      margin-width: 175px
+      gutter-width: 5rem
 
 editor: visual
 
-margin-header: |
-  ![](/logo.svg)
+#margin-header: |
+#  ![](/logo.svg)
   
-body-footer: | 
-  This page brought to you by <https://ce-hub.org/>  
+#body-footer: | 
+#  This page brought to you by <https://ce-hub.org/>  

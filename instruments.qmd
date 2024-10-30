@@ -1,5 +1,5 @@
 ---
-title: "{{< fa toolbox >}} Policy instruments"
+title: "Taxonomy of public policy tools"
 ---
 
 ```{r, include = FALSE}
@@ -22,89 +22,143 @@ library(plotly)
 options(scipen = 999)
 ```
 
-```{css, echo=FALSE}
+```{css}
 .callout {
   margin-top: 0.2em;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.6em;
   padding-right: 0.3em;
 }
 ```
 
-> [A range of instruments are available to government actors to help implement CE measures across the UK economy, which can in turn, support of societal objectives]{style="color: SteelBlue;"}
+> [This page outlines environmental policy tools available to UK government and gives examples of how these have been applied to date]{style="color: SteelBlue;"}.
 
-# Policy tools
+# Policy tools overview
 
-Policy at its broadest refers to a decision by a policy-producing entity to do something or nothing on an issue that has risen to the decisional agenda (Dye 1972, see [Policy change](https://policylab.quarto.pub/policy-tools-for-a-uk-circular-economy/change.html)). It establishes a course of action implemented through a procedure or protocol to achieve certain objectives and can involve the use of various tools or instruments ([British Ecological Society, 2017](https://www.britishecologicalsociety.org/wp-content/uploads/2017/05/An-introduction-to-policymaking-in-the-UK.pdf){style="text-decoration: underline; color: rgb(0, 0, 255) !important; font-family: \"Lucida Grande\", serif; font-size: 13.3333px; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: break-spaces; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; caret-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"}; HMT, 2022).
+Policy at its broadest refers to a course of action taken by a policy-producing entity on an issue at the decisional agenda, implemented through procedures or protocols in order to achieve certain objectives (British Ecological Society, 2017). Tools or instruments are the specific means by which government actors seek to drive change. In the area of environmental policy, these can include:
 
-Tools or instruments refer to the specific means by which actors exert influence and attempt to drive improvement. Policy tools available to central governments to realise objectives include:
+1.  The creation of plans (such as the 25 Year Environment Plan) that outline strategic objectives, and strategies (e.g. the Resources and Waste Strategy or Critical Minerals Strategy) which further detail how these objectives will be met;
 
-1.  The creation of **plans** (such as the 25 Year Environment Plan) that outline strategic objectives and **strategies** (such as the Resources and Waste Strategy or Critical Minerals Strategy) that further detail how these objectives will be met;
+2.  The introduction of legislative instruments, including primary legislation (i.e. the main laws passed by legislative bodies of the UK), and secondary legislation (i.e. delegated legislation including Statutory Instruments, Statutory Rules and Orders) made by a person or body under authority contained in primary legislation;
 
-2.  The introduction of **legislative instruments**, including primary legislation (i.e. the main laws passed by legislative bodies of the UK), and secondary legislation (i.e. delegated legislation including Statutory Instruments, Statutory Rules and Orders) made by a person or body under authority contained in primary legislation ([Gov.uk](https://www.legislation.gov.uk/understanding-legislation));
+3.  The distribution and redistribution of financial resources across the economy via fiscal and monetary policy and wider economic tools designed to raise revenues and increasingly also incentivise behaviour such as taxes, subsidies, grants or public procurement;
 
-3.  The ability to distribute and redistribute financial resources across the economy via **fiscal and monetary policy** and wider **economic tools** designed to raise revenues but increasingly too incentivise actor behaviour and including taxes, subsidies, grants or public procurement;
+4.  Soft tools such as voluntary approaches, advice-oriented information-based tools and participatory mechanisms; and
 
-4.  **Soft tools** or non-regulatory options such as voluntary approaches, advice-oriented information-based tools and participatory mechanisms; and
+5.  The allocation of organisational/administrative resources to conduct particular activities such as greater enforcement.
 
-5.  The allocation of **organisational/administrative resources** to conduct particular activities.
+<!-- # Regulatory modes (and links to actors) -->
 
-\
+<!-- Over the last few decades, instruments employed by government actors in the area of the environment in the UK have expanded beyond conventional 'hierarchical' regulatory instruments such as standards, bans, statutory targets and mandatory permitting procedures to include new environmental policy instruments (NEPIs). Hysing (2009) distinguishes between government as an actor and government as a form of steering therefore, recognising this growing number of ways governments seeks to bring about change - including as a purchaser, delegator, convener and promoter across market and network modes (Sørensen and Torfing, 2007). Government actors hold unique resources in the regulatory landscape in that they can regulate via hierarchical, market and network modes[^1] (Kooiman, 1993): -->
 
-::: {.callout-note collapse="true" appearance="simple"}
-## New environmental policy instruments
+<!-- [^1]: Regulatory 'modes' refer to 'bundles of rules guiding interactions based on general principles about how actors are best motivated' (Evans, 2012, p.34) or expected and resourced to behave (Steurer, 2013). -->
 
-Over the last few decades, instruments employed in the area of the environment in the UK have expanded beyond conventional **regulatory instruments** such as standards, bans, statutory targets and mandatory permitting procedures to include new environmental policy instruments (NEPIs). NEPIs can be further separated into **economic instruments** such as taxes, subsidies and public procurement on one hand which seek to harness market dynamics to influence behaviour and **soft instruments** such as information-disclosure and voluntary agreements on the other, which seek to create boundary conditions to deliver change through influencing knowledge levels and network and governance structures (Evans, 2012; Circle Economy, 2021).
-:::
+<!-- ::: {.callout-important collapse="true" icon="false"} -->
 
-\
+<!-- ## {{< fa circle-exclamation >}} **Hierarchical** -->
 
-One way to categorise policy instruments is in terms of the level of coercion or regulatory intensity, bindingness and formalisation used in an attempt to bring about change ([NAO, 2014](https://www.nao.org.uk/wp-content/uploads/2014/06/Using-alternatives-to-regulation-to-achieve-policy-objectives1.pdf); Hepburn, 2016). This continuum is evident across as well as within the different instrument groups outlined below.[^1] The HMT Green Book[^2] also recommends appraising groupings of policy options incremental in their ambition. Another is in terms of point of introduction along the value chain.
+<!-- Involving a pyramid of control with actors bound by a central authority as with traditional government. Instruments impose explicit obligations such as the exercise of formal laws and regulations. -->
 
-[^1]: e.g., information-based approaches ranging from mandatory information-reporting requirements by the state (hierarchy); to data-sharing agreements (network); and scraping (less interventionist)
+<!-- ::: -->
 
-[^2]: Which guides Government's approach to ex ante policy appraisal by setting out steps to systematically compare social costs and benefits of proposals based on the welfare changes they may bring about
+<!-- ::: {.callout-warning collapse="true" icon="false"} -->
 
-\
+<!-- ## {{< fa money-bill-transfer >}} **Market** -->
+
+<!-- Involving actors interacting as producers and consumers, communicating via prices and enabled by institutions such as property rights. -->
+
+<!-- ::: -->
+
+<!-- ::: {.callout-tip collapse="true" icon="false"} -->
+
+<!-- ## {{< fa circle-nodes >}} **Network** -->
+
+<!-- Involving actors voluntarily coming together to achieve common goals through negotiation and connections. -->
+
+<!-- ::: -->
+
+<!-- NEPIs encompass economic and market-based instruments such as taxes, subsidies and public procurement on one hand (which seek to harness market dynamics to influence behaviour) and soft instruments such as information-disclosure, voluntary agreements and other network modes on the other - which seek to create boundary conditions to deliver change on a more discretionary basis through influencing knowledge levels and network and governance structures (Evans, 2012; Circle Economy, 2019; Nachtigall *et al.* 2022). -->
+
+<!-- As well as changes in the regulatory modes leveraged by government, there has also been shifts in which actors are involved in regulation leading, in turn, to further reconfiguration of the regulation landscape. Although governments have traditionally been the locus of regulatory authority, they are not the only actor with regulatory capacity today. The past several decades have seen a growth in non-state market-driven approaches such as certification schemes which are often led independently by private sector actors as well as industry self-regulation initiatives. This includes to fill gaps in the regulatory landscape arising through an increasingly globalized world, with firms able to transmit regulatory objectives upstream and downstream across geographies beyond where national governments have authority. The influence of organised and non-organised citizens to environmental objectives via network forms can also be seen in a wide number of cases. In addition, various forms of 'co-regulation' have emerged, when actors from different societal domains achieve objectives jointly (Steurer, 2013; Abbott and Snidal, 2009). An example is the industry-led,[ ](https://www.unepfi.org/net-zero-banking/)UN-convened, Net-Zero Banking Alliance or the EMF's Global Plastics Pact.[^2][^3] -->
+
+<!-- [^2]: The Plastics Pact Network by the Ellen MacArthur Foundation links global national and regional initiatives, working collaboratively to enact solutions that drive the transition towards a circular economy for plastic. See: <https://www.ellenmacarthurfoundation.org/the-plastics-pact-network> -->
+
+<!-- [^3]: Co-regulation doesn't always have to be explicitly coordinated between actors e.g. rating agencies have increased the competitiveness of corporate environmental performance by making raw data more legible to investors. -->
+
+<!-- While network forms of regulation benefit from being flexible and responsive to emerging needs, they can nevertheless be susceptible to break-ups due to their voluntary nature. In addition, market-driven forms of regulation that take place at the level of individual firms or industries such as the use of codes of conducts, customer charters, standards, accreditation or offsets, can be limited in their effect by being contingent on market conditions. Firms may also try to derive the benefits of a 'greener' image without actually doing so given the potential economic benefits. In a more polycentric and varied regulation we see today, national and local governments therefore remains key actors in driving change, including as they are subject to public democratic oversight and accountability while having many difficult, if not impossible, to replicate functions (Scharpf, 1997; Abbott, 2012). -->
+
+# Policy tool types
+
+Policy instruments available to public sector actors can be categorised in different ways. Most broadly, into mandatory regulation[^1] on one hand and voluntary regulation[^2] on the other. At a more detailed level, into hierarchical, market and network forms. We define key policy instruments available to government below.
+
+[^1]: Government bodies defining binding rules enforced by executive and judicial branches
+
+[^2]: More suggestive or facilitative approaches without legal mandate
 
 ::: columns
 ::: {.callout-tip .column width="50%" collapse="true" appearance="minimal" icon="false"}
 ## {{< fa hand >}} No intervention
 
-One option available to policy-makers is to simply let otherwise uninterrupted market and societal dynamics define outcomes while engaging in little to no proactive intervention to go beyond this. The Green Book recommends a 'do-nothing' option is explored in ex ante appraisal. The NAO (2014) list: making use of existing regulation or simplifying and clarifying these; improving enforcement of existing regulation; and making legal remedies more accessible as options available under a 'do-nothing' scenario.
+One option available to policy-makers is to simply let otherwise uninterrupted market and societal dynamics alongside existing regulations define outcomes, while engaging in little to no proactive intervention to go beyond these. The Green Book recommends a 'do-nothing' option is explored in policy appraisal. The NAO (2014) include making use of existing regulation or simplifying and clarifying these as well as improving enforcement and making legal remedies more accessible as options which can be captured under a 'do-nothing' scenario.
 :::
 
 ::: {.callout-tip .column width="50%" collapse="true" appearance="minimal" icon="false"}
 ## {{< fa handshake-angle >}} Voluntary instruments
 
-Voluntary and cooperative instruments broadly involve action towards a desired outcome in the absence of legal mandate (i.e. non-regulatory options). Voluntary approaches are diverse, ranging from private-sector unilateral action through to consumers voluntarily purchasing products with improved environmental performance. Voluntary instruments either brokered by the government or supported, recognised and/or resourced in some way can include (OECD, 2003): 1) Industry codes of conduct such as the ISO-14000 family; 2) Public voluntary challenges which aim to encourage firms to improve performance such as through target-setting; and 3) Negotiated agreements between firms and government/voluntary organisations through dialogue.
+Voluntary and cooperative instruments broadly involve action towards a desired outcome in the absence of a legal mandate. Voluntary environmental instruments have been used increasingly in the UK since the 1990s, including as part of a wider trend towards 'better regulation' (NAO, 2014). Voluntary approaches are diverse, ranging from private-sector unilateral action through to voluntary purchases by consumers of products with improved environmental performance. Voluntary instruments can be either brokered by the government or where developed by a non-state actor, supported, recognised and/or resourced by government actors in some way. Voluntary instruments include (OECD, 2003):[^3]
+
+1.  **Voluntary industry standards** - private codes of conduct to improve organisational performance promoted often by standardisation bodies, non-governmental organisations or governments. For example, the ISO 14000 environmental management system series, the European-level Eco-Management and Audit Scheme (EMAS) and the EU Taxonomy (Bauer, Busch and Tuncer, 2023).
+2.  **Public voluntary challenges** - programmes promoted or supported by public authorities which encourage firms, households or other institutional actors to improve environmental performance. For example, the London Food Purchasing Commitment developed by the NGOs ReLondon and Sustain alongside the London borough of Hackney.
+3.  **Voluntary agreements** - contractual or non-binding agreements with the aim of achieving certain objectives, developed through dialogue between public authorities or voluntary groups on one hand, and industry on the other (Defra, 2018b). Examples include the UK Plastics Pact and Textiles 2030 brokered by WRAP, as well as 'climate change agreements' made between industry and the Environment Agency to reduce energy use and CO2 emissions.
 :::
 :::
+
+[^3]: There are several examples of voluntary approaches achieving positive change in the UK in relation to CE objectives and those wider, suggesting these can be made to work when well-designed and targeted (OECD, 2000). From the perspective of government but too other actors, a key motivation for the use of voluntary instruments is being able to achieve sought outcomes without the need for additional regulation. This can lessen costs for government and the private sector, while in some cases sidestepping the inertia that can be associated with the policy-making process.
 
 ::: columns
 ::: {.callout-tip .column width="50%" collapse="true" appearance="minimal" icon="false"}
 ## {{< fa circle-info >}} Information-based approaches
 
-Information-based approaches seek to tackle information asymmetries and gaps and include 1) the provision of information such as to producers via guidance or information tools which can be voluntarily taken up; 2) reducing transaction costs and other barriers to information flows such as through developing platforms or data sharing protocols; 3) regulation of information otherwise being produced by others e.g. the UK's Competition and Markets Authority (CMA) [guidance](https://www.gov.uk/government/publications/green-claims-code-making-environmental-claims) on misleading green claims to ensure the accurate provision of information; and 4) mandated information disclosure involving the regular collection and dissemination of information about environmental performance e.g. via product labels or registers.
+Government actors can play an import role in filling data gaps and resolving information asymmetries (Hood, 1983). Information-based approaches can include:
+
+1.  The provision of information such as to producers in the form of guidance/guidelines on resource efficiency;
+2.  Reducing transaction costs and other barriers to information flows such as through developing platforms, standardizing language or data sharing protocols;
+3.  The regulation of information flows between private actors e.g. the UK's Competition and Markets Authority (CMA) guidance on misleading green claims published in 2021; and
+4.  Mandated information disclosure, involving government mandating the reporting and public disclosure of information regarding the environmental performance of specific activities, products or an organisation (Blackman, Afsah and Ratunanda, 2004). Key routes for information to be made available include via labels, marking and information registers.
 :::
 
 ::: {.callout-tip .column width="50%" collapse="true" appearance="minimal" icon="false"}
 ## {{< fa basket-shopping >}} Procurement requirements
 
-With approximately £290 billion spent by the UK government each year, the UK government can exercise significant demand-side leverage on the market through its purchasing decisions, providing a direct but voluntary financial incentive to firms to develop products satisfying these requirements.
+'Green public procurement' (GPP) is 'a process whereby public authorities seek to procure goods, services and works with a reduced environmental impact throughout their life-cycle when compared to goods, services and works with the same primary function that would otherwise be procured' (EC, 2008, pg. 1).[^4] It is an economic-based consumption-side approach providing a direct but voluntary financial incentive to firms to develop products satisfying these requirements (Nemet, 2009). While relatively uncoordinated, there are a range of sustainable procurement applications already in use across government bodies in the UK, which include:
+
+-   The Public Services (Social Value) Act 2012 (the 'Social Value Act', or SVA) which requires consideration of how procurement might improve economic, social and environmental wellbeing;
+-   The 'Greening Government Commitments' to buy more sustainable and efficient products and services across the government estate; and
+-   The 'Procuring for Growth Balanced Scorecard' permitting non-financial considerations in major project procurements.
+
+'Circular procurement', as part of a wider GPP, involves public authorities intentionally procuring goods and services aligned with circular economy principles and with a reduced environmental impact relative to alternatives. Procurement changes to support the CE can be implemented in a variety of ways. Sweden, for instance, have put in place public procurement requirements for refurbished ICT equipment across its municipalities (Crafoord, Dalhammar and Milios, 2018).
 :::
 :::
+
+[^4]: Approximately £400 billion is spent each year in the UK on public procurement suggesting that the UK government can exercise significant demand-side leverage through its purchasing decisions (HM Treasury, 2023b). Government consumption expenditure furthermore accounted for approximately 20% of England's material footprint (155 Mt) in 2020 (Defra, 2023b), and likely a similar percentage for the UK as a whole.
 
 ::: columns
 ::: {.callout-tip .column width="50%" collapse="true" appearance="minimal" icon="false"}
 ## {{< fa gavel >}} Consumer rights
 
-Environmentally significant behaviour includes: environmental activism; non-activist behaviour in the public sphere such as supporting environmental policies; private environmentalism through the purchase , use and disposal of products; and other behaviours such as eco-innovation (Stern, 2000). To change relevant behaviours, information-based approaches rationalise by linear information-deficit models (Burgess et al. 1998) can be supplemented by approaches to altering behaviour more subtly such as via choice architecture (Thaler and Sunstein, 2003) and framed through models such as COM-B ([Michie, van Stralen and West, 2011](https://implementationscience.biomedcentral.com/articles/10.1186/1748-5908-6-42)).
+Strengthening consumer rights and protection laws to support actions aligned with CE principles such as repair, may help consumers further wield a demand-side lever for driving change. Consumer-rights approaches indirectly place a responsibility on firms, but one which only comes into play if exercised by the consumer. An example of a potential consumer-rights approach is the introduction of mandatory guarantees on product lifespans (Keirsbilck, Terryn and Alogna, 2020).
 :::
 
 ::: {.callout-tip .column width="50%" collapse="true" appearance="minimal" icon="false"}
 ## {{< fa reply >}} Responsibility-based approaches
 
-Extended producer responsibility (EPR) is an environmental policy approach in which a producer's responsibility for a product or asset/liability is extended to post-consumption stages of its lifecycle (OECD, 2001).
+Extended producer responsibility' (EPR) schemes - as well as the assignment of a 'duty of care' are two examples of responsibility-based approaches. EPR involves assigning to a producer responsibility, whether financial or physical, for a product or asset following end of life (OECD, 2001). This can reduce financial burdens on the public sector for waste management and potentially incentivize firms to innovate and pursue more sustainable design through mandating the internalisation of costs (OECD, 2020b). Several UK-wide producer responsibility schemes have already been introduced via:
+
+-   Producer Responsibility Obligations, which place requirements on eligible businesses to recover a portion of the packaging they placed on the market;
+-   The End-of-Life-Vehicles regulations, requiring producers introduce a take-back network for vehicles while meeting targets for reuse, recycling and recovery;
+-   The Waste Electrical and Electronic Equipment regulations, requiring producers of electronics and electrical equipment (EEE) register with an approved compliance scheme and pay for the costs associated with end-of-life treatment; and
+-   Regulations introducing producer responsibility requirements for batteries and accumulators.
+
+Reforms to several these schemes are planned across the UK, while Defra have committed to consulting on the introduction of the EPR policy approach for five new additional product groups in England: textiles; bulky waste such as mattresses and furniture; vehicle tyres; fishing gear and certain materials used in the construction and demolition sector (Defra, 2018a).
 :::
 :::
 
@@ -112,13 +166,29 @@ Extended producer responsibility (EPR) is an environmental policy approach in wh
 ::: {.callout-tip .column width="50%" collapse="true" appearance="minimal" icon="false"}
 ## {{< fa sterling-sign >}} Price & market-based instruments
 
-Market-based instruments seek to harness market dynamics and influence behaviour through: 1) **administered prices** - Assigning prices to environmental use and externalities where one did not exist previously/modifying an existing price such as via taxes or charges to penalise problematic behaviour; 2) **administered markets** - Assigning property rights over an allowable quantity of an environmental use or externality and creating (the mandate or conditions for) a market to trade in these rights where there was previously not one; and 3) various forms of **market-friction reductions** such as state-based development of trading platforms can also be classified as market-based instruments.
+Prices for resources and waste management which do not reflect their associated negative externalities can incentivise the over-consumption of resources and over-production of waste (Bleischwitz, 2010). Price and market-based instruments therefore seek to harness market dynamics to influence behaviour and can take the form of:
+
+-   **Administered prices** - where a price is introduced in the absence of one or an existing price on goods or services is modified to better reflect otherwise externalised social costs in market prices (Pigou, 1920). Sub-types include:
+
+    1.  **Taxes** -- a price per-unit levied on e.g. flows or stocks within the economy such as tonnes of packaging placed on the market with a less than 30% recycled content; as well as on the use of the environment as a source (such as a tax on primary material extraction); or a sink, whether for solid or gaseous wastes.
+    2.  **Charges/fees** - distinguished from taxes on the basis of being a 'requited' payment i.e. a good or service is received in exchange (ONS, 2019).
+    3.  **Charge-rebate systems** - Front end fees added to a transaction, combined with a rebate conditional upon sought action being undertaken
+    4.  **Subsidies** -- Subsidies can take indirect forms such as tax relief, which involves adjusting existing taxes to reduce disincentives/distortions to particular behaviours. An example of a historic application in the UK is the Enhanced Capital Allowances for water and energy-saving technologies. Subsidies can also take more direct forms of a payment to an actor, either to not undertake environmental 'bads' or to subsidize the provision of environmental 'goods'. Linked, grants are generally issued for specific purposes and offer a further potential means to support private demand/ supply for e.g. new technologies.
+
+-   **Administered markets** -- work by assigning property rights over an allowable quantity of an environmental use or externality and creating (the mandate or conditions for) a market to trade in these (Coase, 1960). Sub-types include:
+
+    1.  **Cap and trade schemes** - A maximum level of environmental use is set, split into individual units to be allocated by auction or grandfathering. Under these schemes, actors who reduce environmental use below the level of permits they hold can sell their surplus.
+    2.  **Credit trading** - Credits are assigned when an environmental good or service is produced, which can then be traded with those required to hold credits. While also incorporating trading, these do not necessarily set a cap. Applications in the UK to date includes the 'Packaging Waste Recovery Note System' developed as part of the UK implementation of the Packaging Directive.
+
+-   **Market-friction reducing and market ordering instruments** -- these include antitrust/competition enhancing laws and wider routes to reduce market transaction costs. An application in the UK is the Supply of Extended Warranties on Domestic Electrical Goods Order 2005, which sought to improve competition in the extended product warranty markets.
 :::
 
 ::: {.callout-tip .column width="50%" collapse="true" appearance="minimal" icon="false"}
-## {{< fa globe >}} Trade policy and international governance
+## {{< fa globe >}} Trade policy/ international governance
 
-A key question exists regarding whether sustainability is being looked at from a production (accounting for resources depleted or carbon emitted in a national economy) or consumption perspective (resources depleted and emissions emitted in consumption that satisfies an economy's final demand) to assess virtual sustainability of a nation. The international nature of trade makes governments e.g. that of the UK able to say they have cut their emissions by 44% since 2019, which in reality and when accounting for emissions embodied in trade, emissions have actually only marginally decreased.
+The potential role of trade policy in regulating global environmental problems includes through both tariff- and non-tariff measures (Yamaguchi, 2021; Santana, 2023). Tariff-based measures involve introducing custom duties on imports or exports. Non-tariff measures encompass 'policy measures other than tariffs that can potentially have an economic effect on international trade in goods' (UNCTAD, 2019). These can be broadly divided into 'technical measures', including regulations, standards, sanitary and phytosanitary (SPS) and Technical Barriers to Trade (TBT) measures on one hand, and 'non-technical measures' (NTMs) which include quantitative restrictions such as quotas, price measures or mandated distributional channels on the other. The compliance costs of NTMs are increasingly greater than customs duties (UNCTAD, 2023).
+
+There are now more than 180 international environmental agreements (IEAs) covering a range of environmental issues and players. These broadly attempt to transform global public goods into common property resources and regulate the use of these resources in line with more sustainable levels. IEAs can sometimes have a cross-over with trade policy, with approximately 10% incorporating trade provisions. These include the Cartagena Protocol, Kyoto Protocol, Montreal Protocol and Basel Convention, which either directly regulate trade of in-scope materials or products or indirectly influence trade through routes such as technology transfers. Most recently and in response to the global plastic pollution issue, over 175 nations have agreed to develop a legally binding agreement on plastic pollution by 2024.
 :::
 :::
 
@@ -126,13 +196,17 @@ A key question exists regarding whether sustainability is being looked at from a
 ::: {.callout-tip .column width="50%" collapse="true" appearance="minimal" icon="false"}
 ## {{< fa list-check >}} Planning and permitting requirements
 
-Procedural requirements can be introduced in a variety of areas, including impact assessments, audits, permitting and planning policy. For instance, the 1947 Town and Country Planning Act, updated firstly in 1990 and then further under the 2011 Localism Act allows for a two-tier determination of planning outcomes - with local authorities detailing plans and granting planning permission for private developments and ensuring they accord with local plans and material considerations. Heightened integration of environmental concerns have resulted from top-down requirements for local plans to be aligned with sustainable development as required under the National Planning Policy Framework (2012, updated 2021). The *National Model Design Code* published in 2021 provides tools and guidance for LAs to align local design codes with low carbon and circular economy principles.
+Procedural requirements relevant to the CE can be introduced in a variety of areas, including for planning policy, codes and audits, impact assessments and wider permitting processes. Environmental protection and sustainable development concerns have been given heightened primacy in planning in the UK through substantive and procedural changes in recent decades (Jones, 2012). Substantively, through broadening the range of material considerations that relevant decision makers must take into account at both the strategic plans and planning permission level and procedurally, through reducing the discretion of local decision makers. For example, heightened integration of environmental concerns in the planning system have resulted from the requirement of local plans to be aligned with sustainable development objectives such as is required under the National Planning Policy Framework (2012, updated 2021). The 2021 update -- the National Model Design Code also provides tools and guidance for LAs to align local design codes with low carbon and circular economy principles.
+
+Linked to the planning regime, the UK Integrated Pollution Prevention and Control regime was developed to regulate industrial installation in a cross-media pollution approach. Under the Environmental Protection Act 1990, since updated by the 2010 Environmental Permitting Regulations, permits are required for regulated activities which prescribe limit value and other conditions based on the application of Best Available Techniques (BATs) and Best Practical Environmental Options (BPEOs). Expanding these to further cover resource efficiency dimensions could support a more circular UK economy (Marshall, Velenturf and Jopson, 2018). Another example of relevant tools linked to permitting requirements is that requiring disclosure of convictions when applying for a permit for waste activities or installations (Environment Agency, 2023).
 :::
 
 ::: {.callout-tip .column width="50%" collapse="true" appearance="minimal" icon="false"}
 ## {{< fa arrow-up >}} Direction setting
 
-Designing and introducing targets which effectively drive society towards sought outcomes in the circular economy can fall under delivering 'strategic vision'. For instance and in the 25 Year Environment Plan, the UK Government committed to improving the environment within a generation. Reducing the pressures that UK consumption of resources and production of wastes places on the natural capital is a crucial way towards doing so. Globally, attention is increasingly turning towards the importance of targets related to resource use (WEF, 2020).
+Defining and introducing plans, strategies and targets which effectively drive society towards a CE can help deliver 'strategic vision'. Key recent country-level plans and strategies across the four nations in the area of the CE include Scotland's Making Things Last (2016) and Circular Economy Bill (2023), England's Resources and Waste Strategy (2018), Wales' Beyond Recycling (2021) and the Draft Circular Economy Strategy for N. Ireland (2023). In addition, several plans targetting objectives associated with the CE, predate the use of the term. These include the 2003 UK-level Sustainable Consumption and Production (SCP) framework 'Changing Patterns', its general action plan in the 2005 UK Sustainable Development Strategy and Waste Prevention Programmes, introduced since 2013 across the four UK nations and which were intended to deliver preventive and integrated approaches to tackling waste.
+
+In the UK, mandatory targets have been used to target the movement of waste from the lowest rungs of the waste hierarchy e.g. landfill diversion targets, household waste recycling targets and as part of EPR regulations on end-of-life-vehicles, packaging, batteries and WEEE, requiring producers to meet targets for reuse, recycling or recovery. Globally, attention has increasingly turned towards the importance of targets related to upstream resource use (WEF, 2019). The first wave of national-level targets across the EU and further afield relating to resource use largely targeted improvements in resource efficiency, however issues have been highlighted with these relative measures, including permitting absolute material demand to increase alongside (EEA, 2018). England considered a long-term target on resource productivity as part of the Environment Act. Across the UK, there has been a growth in applications and interest in targets (mandatory and non-) relating to resource use and set in absolute terms such as the Welsh Government's ambition to achieve 'one planet resource use' by 2050 (based on an ecological footprint calculation approach), the proposed target outlined in N. Irelands' Draft Circular Economy Strategy to reduce per capita material footprint to 8 tonnes per person and England's long-term target in law to reduce per-capita residual waste generation. Targets across the four nations in linked areas such as emissions are also drivers of change relevant to the CE.
 :::
 :::
 
@@ -140,13 +214,28 @@ Designing and introducing targets which effectively drive society towards sought
 ::: {.callout-tip .column width="50%" collapse="true" appearance="minimal" icon="false"}
 ## {{< fa percent >}} Standards
 
-Standards specify a particular condition to be attained, and can be further subdivided into: 1) performance standards -- specify a minimum level of performance such as at the level of inputs or outputs of a process, characteristics of a product or environment (ambient standards) while leaving flexibility as to how this is achieved; and 2) technology standards mandating the use of specific technologies or production methods e.g. 'Best Available Techniques'.
+Standards specify a particular process to use or condition to be attained and include:
+
+-   Technology-or means-based standards, which mandate the use of specific technologies such as catalytic converters or activities and approaches such as waste segregation; and
+-   Performance-based standards, which prescribe a minimum quality or outcome to be met without requiring any specific way to achieve it. Outcomes can be set in relation to inputs (such as fuel efficiency) or outputs (such as maximum emissions per unit of fuel used). Performance standards may also be specified in relation to ambient environmental quality, such as maximum NOx levels, which can be technology forcing and have implications for the CE.
+
+Examples of relevant standards applied in the UK include:
+
+1.  Ecodesign standards, which work by limiting entry onto the market of the worst performing products for energy efficiency and now in some cases, covering resource efficiency dimensions;
+2.  The Restriction on Hazardous Substances Regulations which prohibited electrical and electronic equipment containing more than specified levels of lead, cadmium, mercury, hexavalent chromium, polybrominated biphenyl (PBB) and polybrominated diphenyl ether (PBDE) flame retardants from being placed on the market;
+3.  Performance standards levied on the government itself, such as targets introduced to reduce landfilling via the Landfill Directive; and
+4.  Technology standards such as part of the UK Waste Regulations (2015), which require businesses and households to fully segregate their waste into general and recyclables.
 :::
 
 ::: {.callout-tip .column width="50%" collapse="true" appearance="minimal" icon="false"}
 ## {{< fa exclamation >}} Bans
 
-Bans are a strong prohibitory instrument used to outright restrict the manufacture, distribution, use or disposal of defined products, services or substances viewed to present an unacceptable risk to society or the environment. The use of bans is particularly relevant in cases where inaction bares a high level of associated risk, when the desired outcome is for an activity to cease altogether or an optimal level is low and to present clear and concrete expectations to the market ([OBR, 2021](https://obr.uk/fiscal-risks-report-2021-2/)).
+Bans are a strong prohibitory instrument used to restrict outright, products, services or substances. The use of bans is particularly relevant in cases where inaction creates a high level of risk and the desired outcome is for an activity to cease altogether (OBR, 2021). Examples of bans applied or called for in the UK include the:
+
+1.  2020 ban on single-use plastic straws, drinks stirrers and cotton buds in England and subsequent related bans and consultations;
+2.  The ban on biodegradable municipal waste going to landfill by 2025 in Scotland;
+3.  A UK-wide ban on the disposal of untreated industrial and automotive batteries to landfill under the Batteries and Accumulators and Waste Batteries and Accumulators Directive; and
+4.  The ban called for by the environment, food and rural affairs (EFRA) committee on the export of all plastic waste from the UK by 2027.
 :::
 :::
 
@@ -154,135 +243,28 @@ Bans are a strong prohibitory instrument used to outright restrict the manufactu
 ::: {.callout-tip .column width="50%" collapse="true" appearance="minimal" icon="false"}
 ## {{< fa diagram-project >}} Project-level support
 
-Project-level interventions can occur across project-lifecycles and include the use of targeted public finance and other instruments to de-risk private investment such as in areas of remanufacture or reuse ([Chatham House, 2021](https://www.chathamhouse.org/2021/07/financing-inclusive-circular-economy)).
+Project- and programme-level support involves the government funding specific activities out of its budget. Project-level interventions can occur across technology-lifecycles, from initial R&D to commercialization pilots, and can be introduced alongside other instruments to de-risk private investment (Schröder and Raes, 2021). The use of targeted public financing has been highlighted as a potental way through which to attract private investment in infrastructure to the support of circular economy activities such as recycling and repair, for example (Aldersgate, 2021). Examples of this instrument applied in the UK to date include: a £4 million project funded by UKRI to develop an automated sorting and recycling demonstrator plant in textiles for the UK and the £20 million Plastics Innovation Fund.
 :::
 
 ::: {.callout-tip .column width="50%" collapse="true" appearance="minimal" icon="false"}
 ## {{< fa building >}} Public sector delivery
 
-Government finances and delivers on environmental protection directly through government departments e.g. bring banks or HWRCs funded and ran by public authorities. While governments across the UK generally no longer hold the same means of production via state enterprises as they did in the past, project-level and national delivery remain tools for influence in some areas. Still relevant for some sectors of the economy in which direct government delivery is appropriate e.g. waste management. Where services are provided by LAs, pulling back on localised discretion and enforcing harmonised practices e.g. waste collection or treatment, are relevant.
+Public sector delivery involves the Government financing and delivering on environmental protection directly. While governments across the UK no longer hold the same role in production via state enterprises as they did in the past, the public sector retains an important indirect role in supporting the market and innovation (Castree, 2008), and continues to directly finance collective consumption in areas relevant to the use of resources such as waste management, public infrastructure and government operations. This is made possible through revenues generated by the government, which primarily comes from taxes paid in the UK alongside a small percentage (\~10%) from non-tax sources (IFS, 2023).
 :::
 :::
 
-\
+## Wider forms of influence: Enabling, promoting and facilitating
 
-The '[OECD Checklist for Action for the Circular Economy](https://www.oecd-ilibrary.org/sites/724e5c45-en/index.html?itemId=/content/component/724e5c45-en#:~:text=The%20Checklist%20for%20Action%20is,condition%20is%20planned%20or%20in)' extends the instruments outlined to further detail the forms of soft influence governments can have, including through promotion and facilitation:
+The '[OECD Checklist for Action for the Circular Economy](https://www.oecd-ilibrary.org/sites/724e5c45-en/index.html?itemId=/content/component/724e5c45-en#:~:text=The%20Checklist%20for%20Action%20is,condition%20is%20planned%20or%20in)' extends the policy tools outlined to further detail some of the forms of 'soft' influence that governments can have.
+
+For example, as promoters of the CE, cities, local authorities and other levels of government can define responsibilities in implementation processes, act as role models in their operational activity and support campaigns to promote reusable alternatives. As facilitators, those bodies can support system thinking to ensure coherence across sectors, enable collaboration and dialogue and work with industry and other actors to develop, for example, industry roadmaps. They can also provide enabling functions such as allocating financial stimulus to support the innovation process, capacity building across the public and private sector and introducing publicly accessible information, monitoring and evaluation systems based on robust data and incisive metrics (OECD, 2021b).
 
 <center>
 
 ![](images/image-623710100.png){width="650"}
 
-**Figure 5. The governance of the circular economy in cities and regions (OECD, )**
+**Figure 5. The governance of the CE in cities and regions (OECD, 2020)**
 
 </center>
 
-\
-
-For instance, the [Resources and Waste Provisional Common Framework Framework Outline Agreement and Concordat](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1125015/Resources_and_Waste_Provisional_Common_Framework_Command_Paper.pdf) published in 2022 sets out the UK-wide Resources and Waste Common Framework intended to facilitate multilateral policy development across the UK countries in coordination with one another.\
-
-> A 2022 OECD review of UK CE policy recommends to "*strengthen formal and informal mechanisms for co-ordination, peer learning and policy development among environmental authorities of the four UK nations in setting, implementing and evaluating waste management and circular economy policies*."
-
-# Selection criteria
-
-### Assessment against critical success factors
-
-We assess key instruments making up the [policymakers' toolkit](https://policylab.quarto.pub/policy-tools-for-a-uk-circular-economy/instruments.html "policy tools") for delivering a more circular UK economy change against the following set of criteria or 'Critical Success Factors' (CSFs) - in the HM Treasury Green Book as '*attributes essential to the successful delivery of projects and programmes*' (HM Treasury, 2022).
-
-::: grid
-## Strategic fit
-
-How policy intervention supports 'national, regional, local or organisational policies, initiatives and targets', align with other projects and programmes and fits with wider business strategy of UK public bodies ([HM Treasury, 2018](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/749086/Project_Business_Case_2018.pdf)). This can differ by application to value driver. For example, choice of instrument can be influenced by marginal damage curves. If very steep to the point of efficient level of pollutant being 0, then prescriptive approaches are most effective. If the MDC is steep but so is the MAC due to the benefits of the environmental use being high, using a quota or quantity-based approach may be more efficient to allow a small amount dedicated to highest benefit uses.
-:::
-
-::: grid
-::: {.callout-tip .g-col-10 collapse="true" appearance="minimal" icon="false"}
-## Effectiveness and efficiency
-
-There is often a high level of uncertainty regarding the impacts of policy change, with this based on a range of factors. To assess *effectiveness*, we capture evidence on the effect of instruments in relation to objectives such as reducing (primary) resource use, waste generation, reducing leakage and improving waste treatment and including the *immediacy* (indicative time required to implement) with which these effects arise and certainty of meeting aims (*predictability*). We also consider evidence on how *efficiently* outcomes are delivered (value for money) and the role of instruments in moving the UK towards a more optimal distribution of goods, services and pollution (allocative efficiency). We include findings from both cost-effectiveness analysis[^3] and cost-benefit analysis[^4].
-:::
-:::
-
-[^3]: Cost-effectiveness analysis involves a monetary assessment of costs alone while not for benefits.
-
-[^4]: Cost-benefit analysis involves measuring net benefits or benefit-cost ratios through both costs and benefits being monetised.
-
-::: grid
-::: {.callout-important .g-col-10 collapse="true" appearance="minimal" icon="false"}
-## Financial cost to the public sector
-
-A key part of moving from theoretical to actual benefits is political and administrative feasibility (the ability to put a policy into effect in a given context), with government affordability an important parts of this ([OECD, 1999](https://read.oecd-ilibrary.org/environment/policy-guidance-on-resource-efficiency_9789264257344-en#page3)). In addition to considering evidence on abatement and compliance costs from the perspective of the regulatee, we look for evidence on direct and indirect administrative costs to government (including at policy design and enforcement stages) of instruments, as well as evidence on revenues generated which can offset these (HMT, 2022).
-:::
-:::
-
-::: grid
-::: {.callout-caution .g-col-10 collapse="true" appearance="minimal" icon="false"}
-## Long-run effects
-
-We look for evidence on the long-run effects of instruments and their ability to meet regulatory aims persistently into the future while providing incentives for continued improvements beyond the minimum. This includes their continued effectiveness under a variety of circumstances and resilience to external changes such as inflation, ability to be updated in response to new information and capacity to harness technological change through providing incentives for innovation over time so as to lower the costs of achieving goals over time (Fiorino, 2004).
-:::
-:::
-
-::: grid
-::: {.callout-warning .g-col-10 collapse="true" appearance="minimal" icon="false"}
-## Distributional and equity effects
-
-Considering the net-effects of instruments on different people and groups, and how these may exacerbate pre-existing inequities (Bryant and Bailey, 1997). Evidence of regressive effects across income strata, geography concerning any of the groups identified by the Equality Act 2010 as well as disproportionate burdens on small and micro businesses are sought to be captured ([RPC, 2019](https://www.gov.uk/government/publications/small-and-micro-business-assessment-samba-guidance)).
-:::
-:::
-
-::: grid
-## Spillovers
-
-We look for evidence on spillovers, both positive and negative and including: 1) Soft effects such as impacts on attitudes, awareness and learning; 2) Wider economic impacts including on innovation and trade; and 3) Perverse incentives and any contribution to potentially unintended consequences such as negatively impacting competition or giving rise to cross-media impacts.[^5]
-:::
-
-[^5]: Such as the IMO's 2018 Ship Emissions Regulation leading to the installation of equipment helping meet atmospheric emissions regulations but by routing discharge into the ocean.
-
-# Policy mixes
-
-## Policy complementarities and tradeoffs
-
-All policy instruments have strengths and weaknesses and differ in their suitability to leveraging different value drivers across different institutional and industrial groups, while none have the ability to address every aspect of developing a more circular economy on their own. While supply-side measures are important to improve circularity, there is also significant room for demand-side measures. This is often the case even for individual product groups ([Wrap, 2023](https://wrap.org.uk/resources/report/textiles-policy-options-and-cost-benefit-analysis)).
-
-This implies that policies to support a circular economy are likely to need to be introduced as a mix, levied also at different scales (del Rio and Howlett, 2013; O'Brien and Wilts, 2019). New policies are also not introduced in a vacuum and will interact with existing legislative and regulatory requirements.
-
-*"A resource efficiency policy mix may be developed at the sectoral, sub-sectoral or municipal level in order to address a specific challenge or target, in the context of overarching goals"* (O'Brien and Wilts, 2019).\
-
-::: {.callout-important collapse="true" appearance="minimal"}
-## Policy combinations - packaging case example
-
-In the case of packaging, while the Landfill Tax provides a financial incentive to keep packaging waste out of landfill and an incineration tax could do the same to discourage its incineration, it doesn't guide waste to any specific alternative treatment. This means that in the absence of additional policy instruments, market conditions including collection costs, material value on the market and treatment costs will otherwise define final treatment routes. On this basis, having in place recycling targets for preferred treatment as part of e.g. the cross-UK packaging extended producer responsibility system can be a helpful counterpart ([Defra, 2011](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/69500/pb13548-economic-principles-wr110613.pdf)), alongside other supply and demand-side measures.
-:::
-
-\
-At the same time, when developing a policy response, diversity for diversity's in instrument sake should be avoided (Gunningham and Graborsky 1998; Gunningham 2009). For instance, a [2007 OECD](https://www.oecd.org/env/tools-evaluation/mixesofpolicyinstruments.htm) study found a mix of instruments were not always better than a single one for delivering environmental outcomes efficiently.
-
-Where there is a sound basis to introduce policies alongside one another, these will need to be leveraged within a coherent framework across the lifecycle of materials, products and services in addition to the system in which those materials and products operate. Certain instrument mixes may offer greater complementaries than others, such as EPR and taxes, which can be additive in nature. Other examples of complimentary bundles include environmental tax and subsidy reform as well as voluntarism and command and control mechanisms (Gunningham and Sinclair, 1998). Compliance costs in money and time value also need to be kept in mind, with Valpak esimating that the time requirements on firms for reporting under the UK's plastic packaging tax, EPR and forthcoming deposit return schemes will rise by around 350% compared with current reporting.
-
-Coherence with the wider policy landscape is also key, particularly with those for delivering 'net zero' and industrial strategy (OECD, 2022). This can help maximise regulatory efficiency. Complementarities and conflicts between instruments and broader considerations such as performance against critical success factors and alignment with existing domestic cultural, legal, technological and policy arrangements can be considered to ensure policies do not combine to be less than the sum of their parts (Howlett 2004).
-
-::: {.callout-caution collapse="true" appearance="minimal"}
-## The COM-B framework
-
-Pro-environmental behaviour can be understood as environmentally-significant choices and actions which, directly (goal-directed) or indirectly (incidental), contribute to reductions in environmental impact or enhance the quality of the environment.
-
-The COM-B model of behaviour identifies three factors that need to be present for any behaviour to occur: capability, opportunity and motivation ([West and Michie, 2020](https://discovery.ucl.ac.uk/id/eprint/10095640/)). Drawing on this framing, the tools available to government to drive change can be classified into those that are ([Defra, 2018](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/765915/rws-evidence-annex.pdf)):
-
-1.  Aimed at increasing **capability** to act in the desired way such as through skill or knowledge building;
-
-2.  Aimed at increasing **opportunity** to act in a desired way e.g. infrastructure provision and grants and loans; and
-
-3.  Tools aimed at increasing **motivation** to act in desired ways.
-
-Alongside deliberative-engagement approaches based on information provision and more overt attempts to influence behaviour based on formal compulsion and penalties, approaches to altering behaviour, particularly that of citizens and consumers, more subtly through nudging and libertarian paternalism (Thaler and Sunstein, 2003) have become of increasing interest to governments as a means of potentially achieving sought environmental outcomes with lesser levels of required intervention.
-
-The COM-B framework is useful for considering how policies may need to be introduced alongside one another to provide all required conditions for change, with the following example provided in the Defra Resoures and Waste Strategy Evidence Annex: "*An effective policy will likely include a judicious mix of instruments to create the right set of conditions for desired actions. For example, for businesses to recycle, they must be capable (staff must have the right knowledge, skills and abilities), have the opportunity (have bins and collection systems) and be motivated to do so (have the right incentives in place -- financial, regulatory or value-based)*."
-:::
-
-\
-
-## Sequencing
-
-The sequence in which instruments are introduced as part of a policy pathway can have implications for aggregate costs and benefits given the potential for interactions. For instance, while certain instruments such as taxes might help reach near-term objectives, technology-push policies might need to be introduced concurrently to bring new technologies to the shelf without which more ambitious long-term objectives may not easily be met (Sandén and Azar, 2005).
-
-Different schools of thought exist on best sequencing approaches. 'Smart regulation principles' recommend a responsive approach, whereby instrument choice is escalated from combinations including least interventionist approaches to those which involve a higher degree of coercion based on responsiveness of regulatees (Gunningham, 2009). Marginal abatement cost-curve (MACC) approaches also propose starting with policies with least net cost and expanding these out. Criticisms of MACC-based approaches relate primarily to overlooking temporal interdependence between policies. For instance, Grubb and Wieners (2020) illustrate a slow carbon price ramp approach is likely inefficient in the case when carbon abatement costs are shaped by innovation.
+These wider forms of influence can be seen at work in many cases in the UK. As one example, the Resources and Waste Provisional Common Framework Outline Agreement and Concordat (HM Government, 2022) sets out the UK-wide Resources and Waste Common Framework intended to facilitate multilateral policy development across the UK countries in coordination with one another.

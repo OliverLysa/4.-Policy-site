@@ -1,5 +1,5 @@
 ---
-title: "{{< fa signs-post >}} **Contents**"
+title: "Data Observatory Policy Assumptions"
 ---
 
 ```{r, include = FALSE}
@@ -31,48 +31,3 @@ options(scipen = 999)
 
 ```
 
-::: {.callout-note collapse="false" icon="false"}
-## Policy taxonomy
-
-A taxonomy classifies an area on the basis of measurable characteristics ([Smith, 2005](https://onlinelibrary.wiley.com/doi/10.1111/j.1541-0072.2002.tb02153.x); [Hodgson, 2018](https://www.cambridge.org/core/journals/journal-of-institutional-economics/article/taxonomic-definitions-in-social-science-with-firms-markets-and-institutions-as-case-studies/6372514DD31945C1F489FAC0D0FE49C8)). In the area of the circular economy (CE), taxonomies have been developed to classify activities, biophysical flows and indicators for a variety of purposes. As one example, the European Commission (EC) has developed a taxonomy setting out inclusion criteria to help guide investments into circular economy activities ([Hirsch and Schempp, 2020](https://circulareconomy.europa.eu/platform/sites/default/files/categorisation_system_for_the_ce.pdf)).
-
-We add to these by presenting a framework and classification of **regulatory** **interventions to drive change towards more circular economies**, focussing initially on legal and policy tools available to central and local government actors in the UK. **This is intended to help:**
-
-1.  Give a **structure** for **building evidence** on the current UK and wider policy landscape as it relates to the CE, to examine the **effectiveness of already deployed tools** through case studies, identify **gaps** and build an **assumption bank** for forward-looking modelling of policy impacts; and
-
-2.  Provide a framework for making consistent **recommendations** for pathways of interventions to effectively and efficiently move the UK towards a more circular economy.
-
-<center>[Explore more](actors.qmd){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Actors" style="font-size: 12px"}</center>
-:::
-
-::: {.callout-warning collapse="true" icon="false"}
-## Policy tool profiles
-
-The **policy tool profiles** build off the taxonomy to:
-
-1.  Provide detailed **case studies** of how policy tools are **currently being used in the UK** and further afield in support of CE and linked objectives;
-
-2.  **Assess** policy tools against a set of criteria or **'critical success factors'** to synthesise findings regarding tool performance from a range of studies in a **structured** and **consistent** way;
-
-3.  Outline in which **contexts** and under which **conditions** tools are likely to be most effective (including accounting for policy interactions);
-
-4.  Provide **guidelines** for the **ex ante assessment** of policy impacts in core **appraisal frameworks**; and
-
-5.  Make **recommendations** for the **design** and **implementation** of policy tools.
-
-This site adds to other reviews of policy instruments available to central and local government actors undertaken by the [Ellen MacArthur Foundation (2015)](https://ellenmacarthurfoundation.org/a-toolkit-for-policymakers) and [Circle Economy (2021)](https://assets.website-files.com/5d26d80e8836af2d12ed1269/600827c817e477f84617d9b4_20210120%20-%20frameworks%20-%20national%20policy%20-%20A4.pdf) to help explore the most effective and efficient policies and policy packaging for delivery a more circular economy, while providing a UK focus.
-
-<center>[Explore more](assessment-criteria.qmd){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Assessment criteria" style="font-size: 12px"}</center>
-:::
-
-::: {.callout-tip collapse="true" icon="false"}
-## Policy briefs
-
-Applying the taxonomy as a diagnostic tool and the policy tool profiles to aid longlist and shortlist instrument appraisal, the '**policy briefs**':
-
-1.  Look at **barriers** and **enablers** to circular value creation in specific areas in greater depth; and
-
-2.  Provide **recommendations** for the **adjustment**, **extension** or **introduction** of policy tools beyond those currently in use to enable the changes/measures identified as necessary by NICER programme centres to realise the benefits of greater circularity across the UK.
-
-<center>[Explore more](case-reuse-repair.qmd){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Reuse and repair" style="font-size: 12px"}</center>
-:::
