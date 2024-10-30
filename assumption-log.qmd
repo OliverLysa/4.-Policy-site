@@ -1,0 +1,19 @@
+---
+title: "**Assumption log**"
+---
+
+```{r}
+# df<- read_sheet("https://docs.google.com/spreadsheets/d/1S4QOcgucAEt1h5LdaQ1bDbTweQwP-8QcO0yzfN5vog8/edit?usp=sharing",sheet = 2)
+# 
+# datatable(df,
+#   options = list(paging = TRUE,
+#                  paging = TRUE,
+#                  scrollX = TRUE,
+#                  scrollY = TRUE,
+#                  autoWidth = TRUE,
+#                  server = FALSE,
+#                  dom = 'Bfrtip'),
+#   extensions = 'Buttons',
+#   filter = 'top'
+# )
+```

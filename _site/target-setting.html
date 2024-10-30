@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.502">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./bans-standards.html" rel="next">
-<link href="./procedural.html" rel="prev">
 <link href="./fav.png" rel="icon" type="image/png">
 <script src="site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
@@ -54,7 +52,10 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 2,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    null
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -89,6 +90,8 @@ cookieconsent.run({
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
+  ,
+"language":"en"
   });
 });
 </script> 
@@ -101,11 +104,13 @@ cookieconsent.run({
 }
 </script>
 <script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
 
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Public Policy Tools for a UK Circular Economy -  Direction-setting">
-<meta property="og:site-name" content="Public Policy Tools for a UK Circular Economy">
 </head>
 
 <body class="nav-sidebar docked">
@@ -114,12 +119,14 @@ cookieconsent.run({
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./no-intervention.html"><strong>Policy tool profiles</strong></a></li><li class="breadcrumb-item"><a href="./target-setting.html"><i class="fa-solid fa-arrow-up" aria-label="arrow-up"></i> Direction-setting</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Public Policy Tools for a UK Circular Economy
+      </li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -129,7 +136,7 @@ cookieconsent.run({
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Public Policy Tools for a UK Circular Economy</a> 
@@ -168,7 +175,7 @@ cookieconsent.run({
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-signs-post" aria-label="signs-post"></i> <strong>Contents</strong></span></a>
+ <span class="menu-text"><i class="fa-solid fa-signs-post" aria-label="signs-post"></i> <strong>Site overview</strong></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -182,26 +189,38 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./actors.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-people-arrows" aria-label="people-arrows"></i> Actors</span></a>
+  <a href="./prologue.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-timeline" aria-label="timeline"></i> Prologue</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./instruments.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-toolbox" aria-label="toolbox"></i> Policy instruments</span></a>
+  <a href="./taxonomic_approach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-folder-tree" aria-label="folder-tree"></i> A taxonomic approach</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./value-drivers.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-circle-nodes" aria-label="circle-nodes"></i> Linking CE value drivers to policy objectives</span></a>
+ <span class="menu-text"><i class="fa-solid fa-circle-nodes" aria-label="circle-nodes"></i> The circular economy as way to deliver societal objectives</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./change.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-road" aria-label="road"></i> Policy change</span></a>
+  <a href="./actors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-people-arrows" aria-label="people-arrows"></i> Value chain actors and activities</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./instruments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-toolbox" aria-label="toolbox"></i> Public policy tools</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./instrument_selection.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-check-double" aria-label="check-double"></i> Policy tool selection</span></a>
   </div>
 </li>
       </ul>
@@ -217,8 +236,8 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./no-intervention.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-circle-arrow-right" aria-label="circle-arrow-right"></i> No intervention</span></a>
+  <a href="./bans-standards.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-circle-exclamation" aria-label="circle-exclamation"></i> Bans and standards</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -229,74 +248,24 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./information-based.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-circle-info" aria-label="circle-info"></i> Information-based tools</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./procurement-requirements.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-basket-shopping" aria-label="basket-shopping"></i> Procurement</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./consumer-rights.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-gavel" aria-label="gavel"></i> Consumer rights</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./extended-producer-responsibility.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-reply" aria-label="reply"></i> Responsibility-based approaches</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./taxes-subsidies.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><i class="fa-solid fa-sterling-sign" aria-label="sterling-sign"></i> Price and market-based instruments</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./trade-policy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-globe" aria-label="globe"></i> Trade policy and international governance</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./procedural.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-list-check" aria-label="list-check"></i> Planning and permitting requirements</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./target-setting.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><i class="fa-solid fa-arrow-up" aria-label="arrow-up"></i> Direction-setting</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./bans-standards.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-circle-exclamation" aria-label="circle-exclamation"></i> Bans and standards</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./project-level-interventions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-building" aria-label="building"></i> Project-level &amp; public sector delivery</span></a>
-  </div>
-</li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>References</strong></span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<p><img src="./logo.svg" class="img-fluid"></p>
-</div></div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
@@ -321,7 +290,7 @@ cookieconsent.run({
   <li><a href="#design-and-implementation-considerations" id="toc-design-and-implementation-considerations" class="nav-link" data-scroll-target="#design-and-implementation-considerations">Design and implementation considerations</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/OliverLysa/ce-policy/edit/main/target-setting.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/OliverLysa/ce-policy/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/OliverLysa/ce-policy/edit/main/target-setting.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OliverLysa/ce-policy/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -341,7 +310,9 @@ cookieconsent.run({
   </div>
   
 
+
 </header>
+
 
 <section id="summary" class="level1">
 <h1>Summary</h1>
@@ -537,7 +508,8 @@ Read more
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Productive capacity is generally defined under this framing as a portfolio of capital assets e.g.&nbsp;built, human, social, financial and natural capital. While the constructed perspective of nature as an asset to be managed within a capital accounting framework may improve on more nebulous concepts of sustainability as a basis for measuring progress towards that aim (Barbier, 2010), natural capital differs from other types of capital assets on at least three important counts: 1) depreciation of NC is often irreversible once certain thresholds are passed, with limited opportunities for effective restoration (Benayas et al.&nbsp;2013); 2) except in a limited sense, it isn’t possible to replace a depleted ecosystem with a new one, or even its components (Fritter, 2013); and 3) ecosystems can collapse abruptly (Dasgupta, 2008). Not only this, but natural capital remains the fundamental building block for all other forms of man-made capital and economic activity and underpins the survival of humans and other animals.</p>
+<p>Desirable development is ‘change that can lead to betterment of people and places’ (Potter et al 2009). Development manifested in: Economic progress- narrowly construed in terms of GDP growth. Human development- Broader aspects of human wellbeing. Human Development is the expansion of human capabilities (Amartya Sen); freedom to have choice and exercise personal reason, social freedoms of escaping hunger and political oppression. Distribution- How incomes are distributed within a population (Gini coefficient).</p>
+<p>Productive capacity is generally defined under the capital framing of sustainability as a portfolio of capital assets e.g.&nbsp;built, human, social, financial and natural capital. While the constructed perspective of nature as an asset to be managed within a capital accounting framework may improve on more nebulous concepts of sustainability as a basis for measuring progress towards that aim (Barbier, 2010), natural capital differs from other types of capital assets on at least three important counts: 1) depreciation of NC is often irreversible once certain thresholds are passed, with limited opportunities for effective restoration (Benayas et al.&nbsp;2013); 2) except in a limited sense, it isn’t possible to replace a depleted ecosystem with a new one, or even its components (Fritter, 2013); and 3) ecosystems can collapse abruptly (Dasgupta, 2008). Not only this, but natural capital remains the fundamental building block for all other forms of man-made capital and economic activity and underpins the survival of humans and other animals.</p>
 <p>Hicks (1946) defined sustainable use as&nbsp;<em>‘the maximum amount that a community can consume over a given time period and still be as well off at the end of the period as at the beginning’</em>. By ‘well off’, Hicks implied having the same capacity to produce income in a future year as in a year past, premised on maintaining a constant stock of capital capable of yielding goods and services valued by people. There exists significant debate as to the necessary composition of the portfolio of capital assets each generation should hand down to ensure futurity have the same opportunities for welfare as current generations have. In the presence of ecological thresholds, discontinuities, interlinkages, non-linearities, non-convexities and possible regime shifts driven by the likes of climate change, as well as some level of concern for non-human species, the optimal path of consumption of, and investment in, natural capital derived within a dynamic welfare maximizing framework is likely to mimic as close to a strong sustainability rule as possible i.e.&nbsp;the value of our natural capital should be maintained, if not enhanced (Irwin, Gopalakrishnan and Randall, 2016), with this particularly the case for industrialized nations that are often relatively ecologically denuded (Helm, ). While it might be seen that in an ‘empty world’ where levels of human-made capital was a limiting factor to development and natural capital is superabundant, substitution of natural for human capital was likely to bring additional human welfare benefits, in a ‘fuller world’ (particularly for industrialized countries) associated with greater quantities of human capital but relatively less natural capital, this limit has increasingly become a limiting factor (Daly, 1995).</p>
 <p>Overuse might be written as E&gt;A (where r is emissions of residuals and a is the assimilative/regenerative/absorptive capacity of the receiving environment). Overuse will depend on the nature of the pollutant e.g.&nbsp;CO2 as a stock pollutant residuals in the atmosphere for ~60 years, makinf assimilative capacity lower across a human lifetime and therefore optimal pollution rate per annum lower too). Given sink functions are amost always unpriced, over-use is almost always the likely outcome, necessitating governance and policy oversight.</p>
 <p>In light of recognition of the non-substitutability between diferent types of natural capital, SS proponents e.g.&nbsp;Costanza and Daly (1992) have dropped aggregate natural capital rule and argue instead that minimum stocks of all natural resources should be maintained (Faucheux and O’Connor, 1995).</p>
@@ -561,6 +533,8 @@ Read more
 <p>Where <em>E</em> is emissions of waste residuals and <em>A</em> is the assimilative capacity of the receiving environment.</p>
 <p>Beyond the general prescription that current levels of primary material use in industrialised countries is likely greater than a sustainable level (Bleischwitz, ), quantifying more precisely what a ‘sustainable’ level of resource use might look like has proven difficult. The environmental science around resource use is currently far weaker than that associated with the climate specifically. It therefore remains difficult to say with any degree of certainty, what might constitute a ‘sustainable level of resource use’ (Bleischwitz, ), least not due to differing interpretations of sustainability. Complicating the matter is the fact that environmental impacts vary by material type, and thus not only overall tonnages but also the composition of material use must be considered (unlike for globally intermixing gasses such as carbon dioxide), while in addition, the environmental intensity of resource use can be moderated by technologies of extraction and production which may improve with time. Notwithstanding the significant uncertainty associated with such estimates, several authors have sought to estimate what an acceptable level of material extraction globally might be, variously accounting for the potential resource and waste-related environmental limits. Dittrich et al.&nbsp;(2012), for instance, suggest that global material extraction should not exceed 50 Gt y-1, about half the level evident today and equating to a global per capita limit of 8 tonnes y-1 by 2030. This level was echoed in a separate analysis by Hoekstra and Wiedmann (2014) and Mont et al.&nbsp;(2013) in O’Neill et al.&nbsp;2018. UNEP’s International Resource Panel (IRP) recommends a per capita target of between 6 and 8 tonnes y-1 by 2050 (2014). Bringenzu (2015) based on a higher population growth projection than that used in the IRP study, suggests a per capita target value of 5 tonnes for the year 2050, with a range of 3-6 tonnes (based on returning to year 2000 material use of 50.8 Gt).</p>
 <p>Bringezu (2019) – it has been suggested to limit the cropland required for final consumption of agricultural goods to 0.20 ha/person in 2030, corresponding to 0.16 ha/person in 2050 in order to halt the loss of global biodiversity by land use change.</p>
+<p>What is Green Growth?</p>
+<p>‘Economic progress that fosters environmentally sustainable, low carbon and socially inclusive development’ (UN-ESCAP 2012). About making growth processes resource efficient, cleaner and more resilient without necessarily slowing them’ (Hellegatte et al.&nbsp;2011). ‘Growth that is efficient in its use of natural resources, clean in that it minimises pollution and environmental impacts and resilient in that it account for…the role of environmental management and natural capital in preventing physical disasters’ (World Bank 2012).</p>
 <section id="gross-domestic-product" class="level2">
 <h2 class="anchored" data-anchor-id="gross-domestic-product">Gross Domestic Product</h2>
 <p>The historical roots of national accounting span back to determining the tax base of nations in the times of the Domesday Book (1085-86) and possibly earlier. Petty (1665) and King (1695) produced some of the first estimates of national income in Europe (<a href="http://www.ggdc.net/maddison/articles/colin_clark.pdf">Maddison, 2003</a>; <a href="https://ec.europa.eu/eurostat/cros/system/files/p1-national_accounting_at_the_beginning_of_the_21st_century.pdf">Vanoli, 2016</a>). However, such estimates were produced intermittently and in a largely unstandardised way. National accounting in its modern-day form was introduced from the 1920s, pioneered by Kuznets in the USA and Clark in the UK to support macroeconomic policy aimed at mobilizing economic resources following the Great Depression and leading into World War 2. The System of National Accounts (SNA) - an internationally agreed standard set of recommendations on how to compile measures of economic activity - was introduced by the United Nations (UN) in the 1950s to support international comparability of the statistics countries were collecting. Most countries now compile statistics about their economy in accordance with the UN-SNA which represents a rigorous accounting framework (Malinvaud, 1973).</p>
@@ -583,6 +557,8 @@ Read more
 <p>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Incorporate a measure of income distribution e.g.&nbsp;using median rather than mean incomes; and</p>
 <p>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Measure change in underpinning capital stocks e.g.&nbsp;natural, built and human capital on which welfare is reliant.</p>
 <p>We outline just a few of the many alternative measures to GDP which have been proposed below. These are broadly arranged into those seeking to alter or augment the SNA and its headline measures in some way, and those proposed largely outside of the SNA.</p>
+<p>Established economic indicators have failed to correctly guide policy, and necessitate the creation of alternate welfare measures.</p>
+<p>Paul Hawken – we are stealing the future to make profit in the present and then calling it GDP, one indicator of economic prosperity is not enough, need to widen our understanding.</p>
 <section id="developments-within-the-system-for-national-accounts" class="level3">
 <h3 class="anchored" data-anchor-id="developments-within-the-system-for-national-accounts">Developments within the System for National Accounts</h3>
 <p>Incorporating information on natural assets into standard accounting frameworks is argued to be essential by some in order to mainstream environmental information and broaden the evidence base for economic decisions (Obst and Vardon, 2014; Solow, 1993). Since the 1980s, the SNA has been augmented in two main ways to attempt to account for sustainability concerns (<a href="https://www.clivespash.org/eve/PRB9-edu.pdf">Spash, 2000</a>):</p>
@@ -873,6 +849,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
   }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
   const toggleColorMode = (alternate) => {
     // Switch the stylesheets
     const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
@@ -939,13 +942,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -1024,10 +1029,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1037,8 +1041,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1051,6 +1064,135 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        typesetMath(container);
+        return container.innerHTML
+      } else {
+        typesetMath(note);
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      typesetMath(note);
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1094,6 +1236,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1119,6 +1262,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1178,38 +1347,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./procedural.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><i class="fa-solid fa-list-check" aria-label="list-check"></i> Planning and permitting requirements</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./bans-standards.html" class="pagination-link">
-        <span class="nav-page-text"><i class="fa-solid fa-circle-exclamation" aria-label="circle-exclamation"></i> Bans and standards</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./nicer.html">UKRI NICER Programme</a>
+    <a class="nav-link" href="./nicer.html">
+<p>About NICER</p>
+</a>
   </li>  
 </ul>
     </div>   
-    <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-center">
+
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
-  </li>  
-</ul>
+      &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 

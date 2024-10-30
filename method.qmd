@@ -1,0 +1,224 @@
+---
+title: "Assumption development protocol"
+---
+
+```{r include=FALSE}
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  cache = FALSE
+)
+
+```
+
+```{css, echo=FALSE}
+.callout {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  style="column-gap: 0;"
+}
+```
+
+> [To develop assumptions for modelling policies in the Data Observatory, evidence from across academic studies, government and industry reports and public data are synthesised.]{style="color: SteelBlue;"}
+
+# Appraisal method overview
+
+Against-baseline ex ante appraisal of policy options in the Data Observatory is implemented through a system dynamics (SD) model. SD models are used to formalise causal effects and feedback loops between elements of linked social and physical systems.
+
+Impacts of a given policy instrument (and scenarios) in the observatory is a function of:
+
+1.  **User-supplied parameters**, including:
+
+    -   The **scope** of a lever, including products/materials of focus and institutional scope i.e. to whom the lever would apply and any exemptions;
+
+    -   At what **level** the policy is set e.g. the rate at which a tax applied; and
+
+    -   **When** the lever is introduced;
+
+2.  **Relationships** captured within the SD model, as formalised through mathematical functions; and
+
+3.  Potential **effect sizes** of policies estimated through synthesis of the literature, accounting for:
+
+    -   Likely **penetration rates** within the target group, for instance, a voluntary approach could be expected to have a lesser participation rate than a mandatory approach (though even for mandatory approaches, levels of enforcement need to be considered);
+
+    -   The potential **immediacy** of impact following introduction of a policy;
+
+    -   **Long-run** effects such as spurring innovation that may serve to alter relationships between policies and effects through time; and
+
+    -   **Interaction** effects between instruments, including accounting for sequencing.
+
+# Counterfactual construction
+
+Ex ante policy assessments requires baseline projections against which to compare scenarios with policies introduced. While a robust and credible baseline should be established, this is not necessarily a forecast of future developments, but rather a neutral viewpoint to provide a point of comparison against (Cambridge Econometrics, ).
+
+A counterfactual is constructed for a key variable in the modelling - the quantity 'placed on market' (POM) through the following steps:
+
+1.  A correlation analysis between key determinants highlighted in the literature such as final demand volume (population and/or GDP/GDHI), and variables to be modelled is undertaken to select drivers of potential greatest influence;
+2.  A ratio is calculated between the exogenous factor showing a strongest correlation and outturn values for the variable of interest (technology coefficient);
+3.  This ratio is forecasted into the future using a range of parametric time-series forecasting techniques which allow confidence intervals to be constructed;
+4.  Published projections for the exogenous variables from e.g. the ONS for population or OECD for GDP are multiplied by the forecasted ratio to calculate possible future POM values.
+
+Other variables such as the share across end of life treatment routes for waste are modelled in similar ways, as set out below:
+
+# Model assumption development and evidence review protocol
+
+Relationships in model based on...
+
+Evidence regarding the likely type and scale of effects of potential policies is drawn on from sources including theoretical modelling studies, surveys, post-implementation reviews, consultations, single policy assessments in scientific papers and meta-analyses. Evidence from these sources is synthesised into a set of '*modelling blueprints*' to input to the selected appraisal methodology in longlist and shortlist appraisal in a transparent and consistent way (Donati *et al.* 2020; [Hellweg *et al.* 2023](https://doi.org/10.1038/s43017-023-00449-2)).
+
+We undertake a systematic review of shortlisted instruments in relation to a set of criteria specific to modelled outputs. This is implemented through "a clear protocol for systematically searching defined databases over a defined time period, with transparent criteria for the inclusion or exclusion of studies, as well as the analysis and reporting of study findings" (Waddington et al., 2012: 360). Sources are reviewed and synthesised in line with guidance under the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) framework. An attempt is made to be as systematic as possible in reviewing this literature to be able to make a legitimate statement of what the evidence on policy instruments in scope says to date overall and to do so in a clear and consistent way that is accessible to a range of readers (DFID, 2010). In addition, to support the incorporation of new evidence in a structured way.
+
+## Evidence gathering
+
+### Eligibility - Inclusion criteria
+
+*Information sources*: To establish a shortlist of sources, repositories and websites were selected which could help capture evidence from acadmic studies, govenrment reports, industry reports and wider grey literature.
+
+*Search strategy*: The following inclusion criteria (translated into search terms) were used to identify sources in the literature providing evidence on the instruments of interest:
+
+-   **Policy instrument type** - we look for evidence on the following policy types in particular:
+
+    -   *Bans* - strong prohibitory instrument used to restrict outright products, services or substances viewed to present an unacceptable risk to society or the environment
+
+    -   *Charges*
+
+-   **Policy focus** - Looking specifically at instruments levied on material flows and stocks. Specific areas of value chain, specific products?
+
+-   **Region of introduction** - We prioritise evidence collected on instruments which have been applied in the UK due to institutional and contextual specificities of countries making up the UK. We do so through cross-referencing studies against a list of relevant UK policies identified through a search of legislation portal and OECD database.[^1][^2] We next prioritise evidence from countries with similar PPP.
+
+-   **Outcomes and impacts** - We assess instruments in scope against the following set of criteria or 'Critical Success Factors' (CSFs) - in the HM Treasury Green Book as '*attributes essential to the successful delivery of projects and programmes*' (HM Treasury, 2022). Evidence on the following *outcomes and impacts* were collated, with effectiveness of particular interest.
+
+    -   *Effectiveness* - There is often a high level of uncertainty regarding the impacts of policy change, with this based on a range of factors. To assess *effectiveness*, we capture evidence on the effect of instruments in relation to their objectives, which given the scope of our study includes measures such as reducing (primary) resource use, waste generation, reducing leakage and improving waste treatment and including the *immediacy* (indicative time required to implement) with which these effects arise and certainty of meeting aims (*predictability*).
+
+    -   *Efficiency* - We also consider evidence on how *efficiently* outcomes are delivered (value for money) and the role of instruments in moving the UK towards a more optimal distribution of goods, services and pollution (allocative efficiency). We include findings from both cost-effectiveness analysis[^3] and cost-benefit analysis.[^4]
+
+    -   *Financial cost to the public sector* - A key part of moving from theoretical to actual benefits is political and administrative feasibility (the ability to put a policy into effect in a given context), with government affordability an important parts of this ([OECD, 1999](https://read.oecd-ilibrary.org/environment/policy-guidance-on-resource-efficiency_9789264257344-en#page3)). In addition to considering evidence on abatement and compliance costs from the perspective of the regulatee, we look for evidence on direct and indirect administrative costs to government (including at policy design and enforcement stages) of instruments, as well as evidence on revenues generated which can offset these (HMT, 2022).
+
+    -   *Long-run effects* - We look for evidence on the long-run effects of instruments and their ability to meet regulatory aims persistently into the future while providing incentives for continued improvements beyond the minimum. This includes their continued effectiveness under a variety of circumstances and resilience to external changes such as inflation, ability to be updated in response to new information and capacity to harness technological change through providing incentives for innovation over time so as to lower the costs of achieving goals over time (Fiorino, 2004).
+
+    -   *Distributional and equity effects* - Considering the net-effects of instruments on different people and groups, and how these may exacerbate pre-existing inequities (Bryant and Bailey, 1997). Evidence of regressive effects across income strata, geography concerning any of the groups identified by the Equality Act 2010 as well as disproportionate burdens on small and micro businesses are sought to be captured ([RPC, 2019](https://www.gov.uk/government/publications/small-and-micro-business-assessment-samba-guidance)).
+
+    -   *Spillovers* - We look for evidence on spillovers, both positive and negative and including: 1) Soft effects such as impacts on attitudes, awareness and learning; 2) Wider economic impacts including on innovation and trade; and 3) Perverse incentives and any contribution to potentially unintended consequences such as negatively impacting competition or giving rise to cross-media impacts.[^5]
+
+    -   Strategic fit - How policy intervention supports 'national, regional, local or organisational policies, initiatives and targets', align with other projects and programmes and fits with wider business strategy of UK public bodies ([HM Treasury, 2018](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/749086/Project_Business_Case_2018.pdf)).
+
+[^1]: While the term 'circular economy' (CE) has only appeared more recently in policy \[recommendation\] documents released by UK \[non-\]public bodies, policies whose objectives are congruent with the CE concept by delivering against one of its 'value drivers' or measures, have been introduced in the UK since at least the 1970s. We therefore capture regulations that may not explicitly include reference to the CE, but can otherwise be recognised as relevant.
+
+[^2]: We [catalogue](https://docs.google.com/spreadsheets/d/1S4QOcgucAEt1h5LdaQ1bDbTweQwP-8QcO0yzfN5vog8/edit#gid=379393056) shortlisted policies, with instruments coded in terms of where applied along the value chain; medium of focus; material or substance(s) of focus; scale and region to which they are applied e.g. national-level and UK-wide or country region making up the UK; instrument type e.g. a ban or tax; applicable institutional sectors and where laved on industry, associated industry classification codes.
+
+[^3]: Cost-effectiveness analysis involves a monetary assessment of costs alone while not for benefits.
+
+[^4]: Cost-benefit analysis involves measuring net benefits or benefit-cost ratios through both costs and benefits being monetised.
+
+[^5]: Such as the IMO's 2018 Ship Emissions Regulation leading to the installation of equipment helping meet atmospheric emissions regulations but by routing discharge into the ocean.
+
+These inclusion criteria were translated into search terms and entered into the repositories. This was done in between October 2024 and February 2025 by two reviewers.
+
+**Table . Search terms by repository and returned hits**
+
+|                        |                |             |
+|------------------------|----------------|-------------|
+| **Search term/string** | **Repository** | **Results** |
+|                        |                |             |
+|                        |                |             |
+|                        |                |             |
+|                        |                |             |
+
+Unique entries were shortlisted.
+
+### Eligibility - Exclusion criteria
+
+This stage identified \_ sources. We excluded those viewed as unsuitable or out of scope based on the following exclusion criteria:
+
+1.  Bias
+
+## Shortlisted sources
+
+The process shortlisted \_ sources, consisting of:
+
+-   \_ Academic sources
+
+-   \_ Government reports (including policy documents)
+
+    -   X Government reports were identified through a search of the Defra Science Search repository
+
+    -   Impact assessments
+
+    -   Post implementation reviews
+
+-   \_ Industry reports and wider grey literature
+
+X were specific to the UK, X to Europe and X to the wider world.
+
+The shortlisted sources utilise a range of quantitative and qualitative ex ante and ex post methods including cost-benefit analysis, cost-effectiveness analysis, multi-criteria analysis, theoretical appraisal, regression discontinuity.
+
+Information from key sources are summarised, by policy, at the tool profile pages.
+
+# Synthesis of evidence
+
+To help inform how transferrable insights are to the UK case, these sources were inventoried/coded in relation to information on: instrument type and sub-type, CE measure of relevance, country, research methodology, target activity and/or product group(s) and CE measure of relevance drawing on community-specific classifications.
+
+Quality of sources graded based on...
+
+Development of an assumption log - the specific inputs to the model are outlined here - informed by the evidence.
+
+As part of the synthesis, a contingency analysis was lastly undertaken to understand dependencies between policies and their possible ordering. This informed the interaction assumptions.
+
+Effect measures used in the synthesis of results for key variable effectiveness. Missing data handled in this way.
+
+::: {.callout-note collapse="true"}
+## Methodological considerations
+
+-   ***Attribution*** - It is unlikely to be the case that all effects on outcomes such as pollution or resource use levels following the introduction of an instrument can be attributed to it. Attribution can be made difficult by the absence of a robust counterfactual i.e. what could have happened were the instrument not introduced. Comparisons of the performance of actors adopting an instrument versus those not can also be impacted by selection bias and other issues of representation. Policy instruments are also rarely used in isolation, such that it is often very difficult to separate individual contributions of policy measures while the joint effects on outcomes need to be recognised.
+-   ***Transboundary and cross-media effects*** - Instruments don't operate in a national vacuum, and spillover effects which might contribute to environmental degradation elsewhere and including in another environmental media, need to be considered.
+-   ***Availability & quality of information -*** Ideally our evaluation of instruments should include a comprehensive assessment against all critical success factors, but often due to data and resource constraints, this is not possible.
+:::
+
+# Extending the analysis to other appraisal frameworks used in government
+
+::: {.callout-tip collapse="true" appearance="minimal" icon="false"}
+## Cost-benefit analysis
+
+The general steps of CBA are (Boardman *et al.* ; Atkinson *et al.* 2018):
+
+1.  Selecting the portfolio of options for projects or policies;
+2.  Establishing a baseline for comparison to indicate the counterfactual;
+3.  Determine who has 'standing' and we are interested in the benefits and costs of counting i.e. the affected population for a study e.g. a watershed's population; 
+4.  Identify, list and quantify potential physical impacts for the life of the project or policy; 
+5.  Monetize impacts for each time period; 
+    -   Benefits - Outputs of the project which increase human welfare, the value of which are assessed based on how much someone is willing to pay for that benefit, even for the likes of avoided costs. A benefit or gain in an individual's wellbeing (utility or welfare) can be measured by the maximum amount of goods or services -- or money income (or wealth) -- that he or she would be willing to give up or forego in order to obtain the change. Demand curves for environmental goods and amenities and therefore WTP can be affected  (moved out and slope changed) by: 1) recognition of the importance of a good (increased recognition of the value of clean water, clean air); 2) knowledge of an additional cost accrued through using a good (e.g. illness through GM crops).
+    -   Costs = Outputs of a project that decrease human welfare, which include input costs. Taxonomy depends on kind of project e.g. conservation projects might be decomposed into acquisition, establishment, operations and maintenance costs, transaction and opportunity costs. Generally they are decomposed into: 1) Capital costs; 2) Operation Costs; 3) Externality Costs. In a more traditional economic sense, these are measured as the cost of producing a product (if produced via inputs on the free market then this can be valued easily) and the opportunity cost of using these inputs (consists of the maximum value of other outputs to which the resources used in one way could have been used in the second most efficient manner).
+    -   Private and Social Costs: Private costs accrue to those making a product. Social costs accrue to the society surrounding that person making the product and is the summation of all costs (MSC + MPC).
+6.  Aggregation then involves all benefits and costs being summed to calculate net benefits while discounting for future benefits and costs depending on the social discount rate; 
+    1.  We discount future values into those that are present-day through the use of a discount rate to account for society's preferences for benefits now rather than later and its lesser concern for costs in the future versus those now on one hand, and the opportunity cost of capital given economic productivity on the other (Speer *et al.* 2015). The choice of discount rate embodies important normative assumptions regarding intergenerational equity and short-termism. Boardman *et al.* (2006) recommend a real social discount rate of 3.5% be used for studies 1-50 year into the future, with this increasing past a 50 year period. 
+7.  Sensitivity analysis can then be used to test the sensitivity of the net benefit to changes in its determinants as an indication of uncertainty;
+    -   *Risk and uncertainty:* Benefits and costs will not be known with certainty. While conventions vary, it seems fair to distinguish "risk" from "uncertainty" in clarifying what this means and its implications for CBA. A risk context is one where benefits and/or costs are not known with certainty, but a probability distribution is known. Sometimes these probability distributions can be very crude. On some occasions they can be sophisticated. A context of uncertainty is different. There is no known probability distribution. End points might be known, i.e. it is known or expected that the value cannot be less than a number, and that it cannot be more than another number. But, in other cases, there may be pure uncertainty in the sense that "anything may happen". 
+    -   If the context is one of uncertainty, i.e. the distribution of benefits (costs) is not known, then, at the very least, CBA requires that a sensitivity analysis is performed. Sensitivity analysis requires that the CBA is computed using different values of the parameters about which there is uncertainty. Such procedures require some assumption about likely minima and maxima, but do not necessarily make assumptions about the distribution of values between these limits. For example, if a discount rate of 4% is chosen as the central case, then, say, 2 and 6% could also be chosen for a sensitivity analysis. One possible outcome is that the sign of the net benefits will be unaffected by these alternatives, in which case the analysis is said to be "robust" with respect to these assumptions. In other cases, changing assumptions may alter the CBA result.
+8.  Results are presented either as a net benefit (B-C) or a benefit-cost ratio (B/C); 
+9.  Options are selected based on the following decision-rules:
+    -   If options are mutually exclusive, choose X because it has the highest Net-Benefit. If options can be chosen independently, choose X,Y, or Z, because all have NB \> 0, and these can be ranked by their cost-benefit ratio. If options can be chosen independently, but money is limited (£100), then choose Y and Z because they provide the highest total NB before money runs out (Ranked by B/C).
+:::
+
+::: {.callout-important collapse="true" appearance="minimal" icon="false"}
+## Risk-opportunity analysis
+
+When standard assumptions of welfare economics and CBA are met, optimisation models can play an important role in analysing the potential impact of policies or projects on the allocation of existing economic resources. Where assumptions for welfare economics CBA are not met however, models should be selected which don't impose the existence of economic equilibrium, that incoporate heterogeneous actors and that represent system dynamics rather than calculate outcomes at moments in time e.g. agent-based models, system dynamics models and non-equilibrium macro-econometric models. [Sharpe *et al.*](https://www.ucl.ac.uk/bartlett/public-purpose/sites/public-purpose/files/final_iipp_2021-03_roa_simon_sharpe_et_al_21_jan.pdf)([2021](https://www.ucl.ac.uk/bartlett/public-purpose/sites/public-purpose/files/final_iipp_2021-03_roa_simon_sharpe_et_al_21_jan.pdf)) also recommend the use of 'risk opportunity analysis' (ROA) which is a more general form of cost-benefit analysis. ROA steps involve:
+
+1.  System boundaries are delimited, and all relevant interactions and positive and negative feedbacks are identified; (suitable models, if required, are chosen or designed);
+2.  The potential effects (intended and unintended) of policy options in the economy are assessed, and uncertainty ranges estimated;
+    1.  Mapping the relationships between components of the economic system of concern, in terms of reinforcing and balancing feedbacks
+    2.  Identifying the likely effect of policy interventions on system behaviour, based on changes to the structure of relationships between components (including relationships created by other policies that already exist or are under consideration). This may be extended to include the creation of a range of scenarios and storylines of cumulative causation that result from policy action, where longer-term effects are likely to be important to policy objectives;
+    3.  Comparing likely effects in terms of:
+        i.  Direction of change (of any variables of policy interest)
+        ii. Magnitude of change (which may or may not be quantifiable)
+        iii. Pace of change
+        iv. Possible accumulation of risk and opportunity (option generation)
+        v.  Confidence, or range of uncertainty, in each of i to iv above.
+3.  The risks and opportunities of options (including most likely, best-case and worst-case outcomes) are compared along multiple relevant metrics and dimensions (where probabilities may be quantifiable or unquantifiable). This includes consideration of systemic risk (breakdown of an existing system), and systemic opportunity (where policy generates a whole new system, or set of opportunities);
+4.  The preferred option is determined by the decision-maker based on a qualitative judgment of the scale of the opportunities and risks, compared to the cost of the intervention. This will necessarily be a subjective judgment (since it incorporates a weighing of outcomes in different dimensions), informed by an objective assessment of likelihood and magnitude of possible outcomes in each of the relevant dimensions; and
+5.  A clear statement of the reasoning behind the decision is recorded including the decisionmaking body's assessment of the risks and opportunities in their various dimensions. (This can be helpful for transparency and for learning from experience).
+
+Key differences in ROA to CBA are that multiple metrics are used, the focus is on expected processes that drive change rather than outcomes, unquantified risks and opportunities are central to consideration so expected values are not used, policy should aim for maximum leverage in the desired direction of change and interventions should be enough to generate self-reinforcing change in desired direction.
+:::

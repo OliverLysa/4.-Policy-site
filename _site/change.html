@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.502">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./no-intervention.html" rel="next">
-<link href="./value-drivers.html" rel="prev">
 <link href="./fav.png" rel="icon" type="image/png">
 <script src="site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
@@ -54,7 +52,10 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 2,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    null
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -89,6 +90,8 @@ cookieconsent.run({
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
+  ,
+"language":"en"
   });
 });
 </script> 
@@ -101,14 +104,13 @@ cookieconsent.run({
 }
 </script>
 <script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
 
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Public Policy Tools for a UK Circular Economy -  Policy change">
-<meta property="og:image" content="https://policylab.quarto.pub/public-policy-tools-for-a-uk-circular-economy/images/image-1601136242.png">
-<meta property="og:site-name" content="Public Policy Tools for a UK Circular Economy">
-<meta property="og:image:height" content="894">
-<meta property="og:image:width" content="1904">
 </head>
 
 <body class="nav-sidebar docked">
@@ -117,12 +119,14 @@ cookieconsent.run({
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./actors.html"><strong>Policy taxonomy</strong></a></li><li class="breadcrumb-item"><a href="./change.html"><i class="fa-solid fa-road" aria-label="road"></i> Policy change</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Public Policy Tools for a UK Circular Economy
+      </li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -132,7 +136,7 @@ cookieconsent.run({
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Public Policy Tools for a UK Circular Economy</a> 
@@ -171,7 +175,7 @@ cookieconsent.run({
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-signs-post" aria-label="signs-post"></i> <strong>Contents</strong></span></a>
+ <span class="menu-text"><i class="fa-solid fa-signs-post" aria-label="signs-post"></i> <strong>Site overview</strong></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -185,26 +189,38 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./actors.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-people-arrows" aria-label="people-arrows"></i> Actors</span></a>
+  <a href="./prologue.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-timeline" aria-label="timeline"></i> Prologue</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./instruments.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-toolbox" aria-label="toolbox"></i> Policy instruments</span></a>
+  <a href="./taxonomic_approach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-folder-tree" aria-label="folder-tree"></i> A taxonomic approach</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./value-drivers.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-circle-nodes" aria-label="circle-nodes"></i> Linking CE value drivers to policy objectives</span></a>
+ <span class="menu-text"><i class="fa-solid fa-circle-nodes" aria-label="circle-nodes"></i> The circular economy as way to deliver societal objectives</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./change.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><i class="fa-solid fa-road" aria-label="road"></i> Policy change</span></a>
+  <a href="./actors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-people-arrows" aria-label="people-arrows"></i> Value chain actors and activities</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./instruments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-toolbox" aria-label="toolbox"></i> Public policy tools</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./instrument_selection.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-check-double" aria-label="check-double"></i> Policy tool selection</span></a>
   </div>
 </li>
       </ul>
@@ -220,8 +236,8 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./no-intervention.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-circle-arrow-right" aria-label="circle-arrow-right"></i> No intervention</span></a>
+  <a href="./bans-standards.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-circle-exclamation" aria-label="circle-exclamation"></i> Bans and standards</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -232,74 +248,24 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./information-based.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-circle-info" aria-label="circle-info"></i> Information-based tools</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./procurement-requirements.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-basket-shopping" aria-label="basket-shopping"></i> Procurement</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./consumer-rights.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-gavel" aria-label="gavel"></i> Consumer rights</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./extended-producer-responsibility.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-reply" aria-label="reply"></i> Responsibility-based approaches</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./taxes-subsidies.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><i class="fa-solid fa-sterling-sign" aria-label="sterling-sign"></i> Price and market-based instruments</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./trade-policy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-globe" aria-label="globe"></i> Trade policy and international governance</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./procedural.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-list-check" aria-label="list-check"></i> Planning and permitting requirements</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./target-setting.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-arrow-up" aria-label="arrow-up"></i> Direction-setting</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./bans-standards.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-circle-exclamation" aria-label="circle-exclamation"></i> Bans and standards</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./project-level-interventions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><i class="fa-solid fa-building" aria-label="building"></i> Project-level &amp; public sector delivery</span></a>
-  </div>
-</li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>References</strong></span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<p><img src="./logo.svg" class="img-fluid"></p>
-</div></div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
     </div>
 <!-- main -->
@@ -320,7 +286,9 @@ cookieconsent.run({
   </div>
   
 
+
 </header>
+
 
 <div class="cell">
 <style type="text/css">
@@ -428,7 +396,8 @@ The ‘issue attention cycle’
 </section>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<p>Implementation covers all activities relating to putting policies into effect/practice including creating or changing standards, rules or guidance and building/putting in place administrative apparatus for legal or policy implementation. This can also extend to policy maintenace or termination. Introducing specific legal or policy instruments can occur through Primary legislation arising through Acts of Parliament i.e.&nbsp;‘statutes’ or secondary legislation by bodies afforded power by primary legislation including Statutory Instruments and Statutory Rules. In some cases, ‘tertiary’ legislation might be used to refer to procedures and/or guidelines issued by public bodies.</p>
+<p>Implementation covers all activities relating to putting policies into effect/practice including creating or changing standards, rules or guidance and building/putting in place administrative apparatus for legal or policy implementation. This can also extend to policy maintenance or termination. Introducing specific legal or policy instruments can occur through Primary legislation arising through Acts of Parliament i.e.&nbsp;‘statutes’ or secondary legislation by bodies afforded power by primary legislation including Statutory Instruments and Statutory Rules. In some cases, ‘tertiary’ legislation might be used to refer to procedures and/or guidelines issued by public bodies.</p>
+<p>Establishing effective regulatory systems is not always straightforward and can be subject to significant delays and implementation constraints. For instance, the Collection and Packaging reforms for England, including Extended Producer Responsibility for packaging (pEPR), Deposit Return Scheme for drinks containers (DRS) and Consistency in Recycling Collections (Consistency) was registered by the Infrastructure and Projects Authority (IPA) as being ‘unachievable’ in their 21/22 and 22/23 <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1175756/IPA-Annual-report-2022-2023.pdf.pdf">annual reports</a> and potentially needing to be rescoped or have their overall viability assessed.</p>
 <p>The introduction of policy instruments such as permitting processes, standards and taxes often requires the involvement of public bodies such as HMRC, the Environment Agency (and its devolved administration equivalents) or local authorities. Effective adoption and implementation by these bodies is critical to shaping final outcomes and can be influenced by the availability of required resources and technical expertise (Barrett, 2004; Sharman and Perkins, 2017). To avoid the risk of slippage or reversal, ensuring regulations are unambiguous and engaging with those involved in implementation, equipping required agencies with required resources and building support, including among target groups can help (Sabatier and Mazamanian, 1979).</p>
 </div>
 <div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
@@ -447,17 +416,17 @@ The ‘issue attention cycle’
 
 
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
 <li id="fn1"><p>At the same time, processes of policy-making can vary significantly and cross-cutting models of policy change should therefore be understood as simplifications (Bauer and Knill, 2014; Gravey and Jordan, 2016).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>While on one hand actors may seek to encourage a particular response on an issue, others may attempt to contain or limit action (Cobb and Coughlin, 1988).<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p>Consultation documents allowing people inside and outside of Parliament to provide feedback on policy or legislative proposals.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn4"><p>The basic aim of cost-benefit analysis (CBA) is to help provide a rational, transparent, consistent and accountable decision-making tool to help choose between proposals in a comparable way on the basis of the welfare/utility changes they yield to people in society.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p>Baseline scenarios can be developed using, among other methods: 1) trend extrapolation; 2) econometric methods, including a dummy variable for the date of introduction; 3) linear programming techniques; and 4) judgmental methods.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Baseline scenarios can be developed using, among other methods: 1) time-series trend extrapolation; 2) econometric methods; 3) linear programming techniques; and 4) judgment-based methods.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn6"><p>Quantitative analytical methods which can be used across both ex ante and ex post assessment include risk assessment, cost-benefit analysis, cost-effectiveness analysis, multi-criteria analysis, counterfactual analysis enabled through matching and difference-in-difference assessment and randomised control trials. Qualitative analytical methods generally involve in-depth studies of small sample size, with approaches include case studies (including those comparative), discourse and content analysis, interviews and surveys.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</section></div></main> <!-- /main -->
+</aside></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -499,6 +468,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -567,13 +563,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -652,10 +650,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -665,8 +662,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -679,6 +685,135 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        typesetMath(container);
+        return container.innerHTML
+      } else {
+        typesetMath(note);
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      typesetMath(note);
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -722,6 +857,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -747,6 +883,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -806,38 +968,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./value-drivers.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><i class="fa-solid fa-circle-nodes" aria-label="circle-nodes"></i> Linking CE value drivers to policy objectives</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./no-intervention.html" class="pagination-link">
-        <span class="nav-page-text"><i class="fa-solid fa-circle-arrow-right" aria-label="circle-arrow-right"></i> No intervention</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./nicer.html">UKRI NICER Programme</a>
+    <a class="nav-link" href="./nicer.html">
+<p>About NICER</p>
+</a>
   </li>  
 </ul>
     </div>   
-    <div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/OliverLysa/ce-policy/edit/main/change.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/OliverLysa/ce-policy/issues/new" class="toc-action">Report an issue</a></p></div></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-center">
+
+<div class="toc-actions"><ul><li><a href="https://github.com/OliverLysa/ce-policy/edit/main/change.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/OliverLysa/ce-policy/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
-  </li>  
-</ul>
+      &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 

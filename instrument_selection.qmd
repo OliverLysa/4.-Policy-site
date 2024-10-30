@@ -1,0 +1,216 @@
+---
+title: "Selection criteria for policy tools"
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  cache = FALSE
+)
+
+# Require packages
+library(dplyr)
+library(ggplot2)
+library(readxl)
+library(tidyverse)
+library(magrittr)
+library(plotly)
+
+# Turn off scientific notation
+options(scipen = 999)
+```
+
+```{css, echo=FALSE}
+.callout {
+  style="column-gap: 0;"
+  margin-top: 0;
+  margin-bottom: 0.5;
+  padding-right: 0em;
+}
+```
+
+> [This page outlines how policy tools link to government objectives and criteria for comparing between policy options]{style="color: SteelBlue;"}.
+
+# Linking policy tools to policy objectives
+
+Logic models are often used to represent the theory (causal pathways and feedback loops) of how an intervention and its inputs can contribute to outcomes and yield benefits by addressing key drivers of performance (OHID, 2018). These are often made up of the following components:
+
+-   **Input**: Something put into a process, project or change e.g. monetary or operational resources;
+
+-   **Activity**: What is done with the resources to produce the intended outputs e.g. introduction of policy or research as part of a programme like NICER;
+
+-   **Outputs**: Goods and services produced from inputs which result from the completion of activities;
+
+-   **Intermediate outcomes**: Changes resulting from outputs that have interacted with people and which might be the first outcomes that are observed (e.g. policy goals to support CE principles); and
+
+-   **Strategic objectives/priority outcomes**: The real-world (and generally, longer-term) impact the department is seeking to achieve e.g. social, economic or environmental change.
+
+![](images/Screenshot%202024-01-03%20at%206.22.39%20PM.png){fig-align="center" width="700"}
+
+**Illustrative logic model**
+
+To be robust, logic models need to have their assumptions grounded in evidence (HMT, 2023). Even where so, logic models models should be understood as simplifications. 'Systems mapping' is an increasingly incorporated part of the option identification process, and can help identify dependencies between policies, barriers and contingencies on other actors and inputs at an early stage (Barbrook-Johnson and Penn, 2022).
+
+## Where policies can focus
+
+While policies focusing directly on the flows and stocks of materials are often seen as most directly relevant to realizing the principles of a CE, policies in adjacent or supporting areas can also be as effective, or even critical as part of a policy mix. Policies of potential relevance to the CE can therefore be separated into different domains of focus and particularly whether they are levied on:
+
+::: {.callout-note collapse="true" appearance="simple" icon="false"}
+## Material flows and stocks in and at the interface of the economy
+
+These consist of - policies levied on material flows and stocks (built capital) within the economy such as mandated recycling rates or secondary material requirements as well as more widely relating to the quality, quantity and location of materials, components or products; and - policies applied at the technosphere-ecosphere boundary such as relating to the use of the environment as a material source or sink e.g. the UK Landfill Tax or UK Aggregates Levy.
+:::
+
+::: {.callout-tip collapse="true" appearance="simple" icon="false"}
+## Wider effluents
+
+As well as being relevant to CE objectives through contributing to the same long-term outcomes sought, instruments directly regulating emissions to the environment (atmosphere, land and water) can indirectly leverage CE value drivers. For instance, some evidence suggests fuel economy standards introduced primarily to reduce fuel use have been met partly through the lightweighting of vehicles (IRP,2020). At the same time, other evidence points to fuel economy standards potentially encouraging a shift towards larger size vehicles in some markets (Whitefoot and Skerlos, 2011), while policies such as increasing the turnover of capital stocks via scrappage schemes to reduce the emissions intensity of the in-use stock, can appear to run directly counter to CE value drivers in the immediate term and the impacts of these should be considered and managed as best as possible.
+:::
+
+::: {.callout-important collapse="true" appearance="simple" icon="false"}
+## The natural capital stock
+
+Instruments regulating the condition and/or processes of the natural capital stock such as targets on tree cover or microplastic pollution levels, can also be relevant to the CE outcomes and principles outlined through routes such as increasing the supply of sustainable feedstocks or indirectly incentivizing reductions in the environmental intensity of economic activities through limits on the use of the environment as a source or sink.
+:::
+
+::: {.callout-caution collapse="true" appearance="simple" icon="false"}
+## Financial, human and social capital and transfers
+
+The Ellen MacArthur Foundation outline strategic-level *policy goals* 'to develop, deploy and scale circular economy solutions' (EMF, 2021) and which include: make the economics work; invest in innovation, infrastructure and skills e.g. investing in domestic reprocessing capacity (HM Government, 2023); and collaborate for systems change. Reflected here is the importance of investing in human capital and innovation for a CE transition -- including education and specific knowledge, enabling development processes such as retraining as well as the availability and alignment of other inputs such as finance. Institutional and social capital, including networks, norms and trust can also help lower transaction costs in a CE transition and support the innovation process (alongside project-level support) across stages from invention to niche market creation, diffusion and saturation (Maskell, 2000). Macroeconomic policy can also be highly relevant through its effect on the scale of economic activities and resultant material and energy throughput (Sterner and Corsia, 2013).
+:::
+
+Other policy domains of indirect relevance to CE objectives, include those relating to human health e.g. the UK ban on asbestos which can make reduce risks and barriers to construction waste recovery activities.
+
+## Policy rationale - tackling barriers and failures
+
+Barriers are things that restrain change towards a particular outcome and can represent elements of the status quo which if not managed, can delay or limit change, in some cases indefinitely (OECD, 2009). Barriers to CE implementation can arise in many forms across economic, policy, technological, social and operational dimensions and which can differ by product or value chain stage. Introducing regulation without consideration of these can lead to deadweight loss.
+
+As an example, barriers to the expansion of domestic recycling capacity have been noted to include relatively lower prices for exporting waste (which is treated as equivalent to domestic reprocessing in current regulatory frameworks), the volatility of recycling note values in existing packaging recycling note markets and resultant uncertain returns on investments (Iacovidou et al. 2020 in OECD, 2022). Further examples of barriers along the value chain are outlined in the figure below.
+
+![](images/Screenshot%202024-01-03%20at%206.35.05%20PM.png)
+
+**Examples of barriers along the value chain**
+
+<!-- ::: {.callout-note collapse="true" appearance="simple" icon="false"} -->
+
+<!-- ## More info -->
+
+<!-- In relation to economic barriers, the potential high upfront capital costs for introducing new products, processes, businesses or reverse logistics systems can act as a limit to change, including for new market entrants.[^1] In addition, CE business models can be associated with higher operating expenditures such as for secondary versus virgin material inputs or for production models requiring higher labour inputs as is often the case at present for e.g. improved separation of waste or reverse logistics. For instance, where lime-based mortar is used, there is a very high technical potential for the reuse of bricks however this is often not exploited due to high costs (Hopkinson *et al.* 2018). In addition, potential differentiation advantages of new products may be undermined by a limited willingness of consumers to pay a premium or switch at all (Olander and Thøgersen, 2014). For instance, the inconvenience and cost of repairing electronics has been identified as a barrier to consumers for adopting these practices (Cole, Cooper and Gnanapragasam, 2017). -->
+
+<!-- Technical and knowledge barriers are also major hindrances for enterprises. Technological barriers to circular economy objectives in the UK exist at the product and process level, and include poor product design for durability and disassembly, quality issues with secondary materials (Jaeger and Upadhyay, 2020), a lack of technical expertise, skills and training in relevant solutions, a lack of infrastructure such as for waste treatment and technical solutions to support CE such as recovery and sorting of complex materials and gaps in data systems. Other barriers are financial, including financial structures within enterprises and lack of external financial support from banks (Melati, Nikam and Nguyen, 2021). -->
+
+<!-- Among businesses, hesitancy in adopting CE practices can result from firm core rigidities but also a short-term business culture. Behavioural barriers such as the 'status quo' bias can lead to companies underestimating the value of long-term benefits versus short-term costs and/or overestimate the risks associated with such investments (HM Government, 2013). A prominent cultural barrier to the CE among households is the lack of public awareness about what the circular economy is and its potential benefits, leading to a lack of demand for relevant products and practices - highlighted in Ireland's 'Whole of Government Circular Economy Strategy' 2022-23 (Department of the Environment, Climate and Communications, 2021). -->
+
+<!-- ::: -->
+
+<!-- [^1]: These capital cost will also be associated with opportunity costs for alternative investments that may have greater payoff certainty (Flachenecker, Bleischwitz and Rentschler, 2018). -->
+
+The grounds for introducing policy is sometimes thought about in terms of responding to particular 'failures' described further below.
+
+::: {.callout-note collapse="true" appearance="simple" icon="false"}
+## {{< fa shop >}} Market failures
+
+Theoretically, a market failure is a problem that violates one of the assumptions of the first theorem of welfare economics (that a private market economy will achieve efficiency) and causes the market economy to deliver an outcome that does not maximize efficiency. The conditions required to maximize market efficiency include, among others, full information as well as the absence of externalities and split incentives (van Ewijk, 2018). At the level of the economy as a whole, 'market failures' that inhibit an increase in resource efficiency, resource productivity and a more circular economy include (van Ewijk, 2018):
+
+1.  **Externalities -** As well as eating into natural capital stocks when use rates exceed those of renewal, processes of extraction, production and disposal can often also negatively impact the environment via pollution and land use change. These impacts are frequently unmarketed, with externalities referring to uncompensated costs or benefits not accounted for in production/consumption functions. Correcting these frequently requires the involvement of government to reduce the oversupply of negative externalities or enhance the undersupply of positive externalities. Price and market-based instruments work by reflecting externalised environmental costs within market prices or by creating property rights over the environment and facilitating exchange of these;
+
+2.  **Missing markets or excessive market frictions -** An absence of markets can lead to missing economic incentives for activities that can reduce externalities such as using secondary materials. Regulation can encourage these markets to develop such as secondary material requirements or reduced market frictions through providing data platforms for industrial symbiosis e.g. N. Ireland's resource matchmaking scheme;
+
+3.  **Split incentives -** Split incentives refer to instances where an actor in the position of being able to make a decision which might improve the treatment of resources does not stand to gain even though others may, and thereby leading to limit incentives to make changes (Ekins *et al*. 2019),. Examples of this are manufacturers not being incentivised to design products for more circular end of life treatment as they do not shoulder the costs of waste disposal nor stand to gain from recovered resources under most management regimes. Policy levers which can help correct this include market-ordering instruments such as EPR, though design is an important consideration. Market-ordering instruments such as EPR work by aligning the incentives of actors to ensure they are responsible for and benefit from, environmentally-relevant decisions; and
+
+4.  **Information failures -** More circular systems frequently require new or improved information exchange between actors. A wide range of data-gaps nevertheless exist relevant to the circular economy and in particular, information asymmetries can exist between producers and consumers regarding product characteristics such as for durability or ease of repair. These can be viewed as a failure in information markets. Information-based instruments, including programmes of guidance for SMEs, developing data systems and disclosure requirements can be used to resolve information undersupply and asymmetries.
+:::
+
+::: {.callout-tip collapse="true" appearance="simple" icon="false"}
+## {{< fa lightbulb >}} System failures
+
+The UK is one of the most technologically innovative countries in the world, supported by conducive physical and technological infrastructure, scientific and technological capabilities and high levels of human capital alongside strong education and training, the availability of risk capital and wider social contextual factors (Storper, 1997). An 'innovation-systems' perspective emphasises the role of regulation in tackling factors inhibiting innovation and which can indirectly hinder CE outcomes ([van Ewijk, 2018](http://randd.defra.gov.uk/Default.aspx?Menu=Menu&Module=More&Location=None&Completed=1&ProjectID=20074)). These partly overlap with market failures (e.g., positive knowledge externalities), but also include an absence of relevant infrastructure and institutions (Maskell, 2000), low levels of human capital and limited access to required resource.
+
+Government bodies can support innovation processes via laws and regulation. This includes through technology-push policies stimulating the supply of new technologies, demand-pull policies to increase the size of a market for new technologies and environmental policies, to support technologies the emergence or expansion of which may be undermined by market failures (Sandén and Azar, 2005). Government, and too other actors, can also support innovation through enabling interactions via the development of stakeholder discussion platforms to support constructive collaboration and competition. The use of waste as resources, for example, depends on mutual trust between entrepreneurs as well as effective standards. To tackle these failures, government can also build capabilities through the provision of education, funds and collaborative platforms to build knowledge and skills.
+:::
+
+::: {.callout-important collapse="true" appearance="simple" icon="false"}
+## {{< fa road-circle-check >}} Transition failures
+
+While addressing market failures is often a primary objective in UK regulation, even well-functioning markets in terms of being allocatively efficient can be blind to long-term societal goals (van Ewijk, 2018). To promote sustainable consumption, production and investment, some degree of institutional planning initiated by a community or government can also be necessary (van Ewijk, 2018; Weber and Rohracher, 2012). In many cases furthermore, major societal breakthroughs have been achieved through concerted government effort to drive long-term change, including dedicated research funding and infrastructural development (Mazzucato, 2015). The government plays an important role in driving the direction of long-term societal change that meets the needs of the whole populace as part of public interest regulation. Therefore, transitioning to more resource productive systems of production and consumption can be undermined by 'transition failures', such as insufficient guidance and coordination being in place for driving a system towards intended outcomes.
+
+Policy instruments to resolve transition failures include target setting which can offer strategic direction to engender focused action. Another set of policy intervention relates to the coordination of sectors to ensure coherence in actions. Coordination and ensuring policy coherence across sectors and time can be done through aligning policies across sectors and materials, such as between requirements for recycled content and the sufficient provision of waste infrastructure to collect recyclables. Innovation policies can also be key to overcome existing technological equilibria where no individual actor has sufficiently strong incentive or capacity to make change.
+:::
+
+::: {.callout-caution collapse="true" appearance="simple" icon="false"}
+## {{< fa road-barrier >}} Amending government failures
+
+Government or regulatory failure can occur through two forms. Firstly, where state actors have failed to intervene where doing so could have otherwise realistically promoted greater efficiency. This can be understood as regulatory failure of the first type. Secondly, previous government intervention may have led to a less efficient situation than before or what might have otherwise realistically been due e.g. to poor policy design, the costs of interventions being higher than benefits or missing information. This can be thought of as government failure of the second type. The types of issues arising through government failure can span all other failures outlined here. For instance, predominant models of producer responsibility in the UK have been based on 'collective responsibility', with the costs for the collection and recycling shared among participating companies based on the amount of products put on the market. This approach lowers the ambition of individual companies to develop more circular products as a company would have to bear the costs of improved design and production changes while the benefits of the reduced end-of-life costs would be shared with all other companies in the market i.e. there is a split incentive as a result (van Rossem *et al*. 2006). Tackling historic government failures can therefore be an important part of a CE policy pathway.
+:::
+
+# Criteria for instrument selection
+
+Key questions that policy-generating government departments may have in the longlist process of policy options include what is the alignment of an option to strategic objectives of the department and what are the critical interventions needed to deliver required changes, their likely effectiveness, feasibility and affordability. Policy instruments can differ in their effectiveness and efficiency in achieving medium and long-term policy objectives, meaning the choice of instrument can be a key factor to consider additional to measures sought to be driven. At the longlist appraisal stage therefore, policy options (a combination of both a measure and policy instrument) can be assessed against a set of criteria or 'Critical Success Factors' (CSFs) i.e. '*attributes essential to the successful delivery of projects and programmes*' (HM Treasury, 2023a). Multi-criteria decision analysis (MCDA) can be used to facilitate the consideration of multiple criteria in decision-making.[^1]Examples of relevant CSFs are outlined below.
+
+[^1]: The recommended method for longlist appraisal in the Green Book is a Multi-Criteria Decision Analysis (MCDA) approach using factors whose weights are defined through swing-weighting. Such an approach can be used to provide an overall score to policies based on how they score against individual CSF in combination with weights applied to each CSF which are intended to represent the perceived importance of that criterion.
+
+::: {.callout-note collapse="true" appearance="simple" icon="false"}
+## {{< fa bars-progress >}} Effectiveness and efficiency
+
+For CE-related policy and regulation, the potential effectiveness of an option can be assessed in relation to objectives such as reducing (primary) resource use, waste generation, reducing leakage and improving waste treatment. The *immediacy* (the indicative time required to implement) with which these effects might arise and certainty of meeting aims (*predictability*) are also key aspects of effectiveness over a given time frame.
+
+Since 1999 in the UK (NAO, 2014), laws and policies expected to have a large welfare impact are subject to an extended shortlist appraisal process. Cost-benefit analysis (CBA) as part of an impact assessment is the default analytical framework when formulating government regulation with an anticipated impact over a certain threshold (British Ecological Society, 2017). At the longlist stage, policy options can therefore be considered in relation to how *efficiently* outcomes are delivered and whether these outcomes move the UK towards a more optimal distribution of goods, services and pollution (allocative efficiency).
+:::
+
+::: {.callout-tip collapse="true" appearance="simple" icon="false"}
+## {{< fa money-bill >}} Financial cost to the public sector
+
+A key part of moving from theoretical to actual benefits is political and administrative feasibility (the ability to put a policy into effect in a given context). Government affordability is an important part of this. In addition to considering evidence on abatement and compliance costs from the perspective of potential regulatees, evidence on direct and indirect administrative costs to government (including at policy design and enforcement stages) of options, as well as any revenues generated which can offset these are important aspects to consider (HMT, 2022).
+:::
+
+::: {.callout-important collapse="true" appearance="simple" icon="false"}
+## {{< fa route >}} Long-run effects
+
+Long-run effects include the ability of a policy instrument to meet regulatory aims persistently into the future (longevity) and to do so robustly in the context of external changes such as inflation. In addition, the ability of an instrument to be updated in response to new information and its capacity to harness technological change so as to lower the costs of achieving goals over time should be considered (Fiorino, 2004). Traditional CBA can struggle to capture dynamics effects resulting from the impacts on policies on processes of change in the economy, including innovation, diffusion, growth and structural change and other methodological approaches e.g. econometric models can be employed to explore these (Sharpe et al. 2021).
+:::
+
+::: {.callout-caution collapse="true" appearance="simple" icon="false"}
+## {{< fa people-roof >}} Distributional and equity effects
+
+The state plays an important role in trying to ensure that the preferences of not only current citizens, but too future citizens and those who are less well heard (both today and tomorrow), are taken into account in decision-making. Considering the net-effects of instruments on different people and groups, and how these may exacerbate pre-existing inequities is an important consideration when selecting policy options therefore (Bryant and Bailey, 1997). While there have been some attempts to incorporate distributional concerns into CBA (OECD, 2018), its underpinning principles lack a distributional perspective, treating bearers of costs and benefits equally. Therefore, considering these separately is important as well as accordance with other ethical principles such as the 'polluter pays principle'. Evidence of regressive effects across income strata or geographies and particularly concerning any of the groups identified by the Equality Act 2010, as well as disproportionate burdens on small and micro businesses are furthermore required to be considered as part of the policy process in many cases (RPC, 2019).
+:::
+
+::: {.callout-warning collapse="true" appearance="simple" icon="false"}
+## {{< fa shuffle >}} Spillovers
+
+Spillovers, both positive and negative can include: soft effects such as any impacts on attitudes, awareness and learning; wider economic impacts including on innovation and trade balance; and perverse incentives, as well as any contribution to potentially unintended consequences such as negatively impacting competition, giving rise to cross-media impacts or increasing waste crime. An example of a negative cross-media impact of a policy intervention was the IMO's 2018 Ship Emissions Regulation which led to the installation of equipment helping meet atmospheric emissions regulations but by routing discharge into the ocean. Another is possible increases in waste crime resulting from increased policy stringency via e.g. price increases in Landfill Tax. Another key 'spillover' of concern around CE regulation relates to possible 'rebound effects' eating into resource productivity gains, which can arise directly through lower prices, and indirectly through income effects. These are a particular risk under conditions of economic growth and stable or declining resource prices (Jevons, 1866; Alcott, 2005).
+:::
+
+::: {.callout-note collapse="true" appearance="simple" icon="false"}
+## {{< fa stamp >}} Strategic fit
+
+The 'strategic fit' of a policy option reflects how policy interventions might support 'national, regional, local or organisational policies, initiatives and targets', align with other projects and programmes and fit with wider business strategy of UK public bodies (HM Treasury, 2023a).
+:::
+
+# Policy mixes and interactions
+
+Instrument choice can be consequential for overall costs and benefits of pathways, risk management, spillovers and immediacy of impacts, among other dimensions (Berestycki and Dechezleprêtre, 2020). Policy issuing government bodies can have a choice between discrete instruments or an instrument 'mix'. All policy instruments have strengths and weaknesses and differ in their suitability in relation to given policy objectives, while none have the ability to address every aspect of developing a more circular economy on their own. This is often the case even for individual product groups e.g. textiles (WRAP, 2023). This implies that policies to support a circular economy are likely to need to be introduced as a mix, levied also at different scales (del Rio and Howlett, 2013; Wilts and O'Brien, 2019). In the UK, new policies are also not introduced in a vacuum and will interact with existing legislative and regulatory requirements.
+
+::: {.callout-note collapse="true"}
+## The COM-B framework - An example of the need for policy mix to affect desired behaviours, actions and practices
+
+Pro-environmental behavior encompasses choices and actions that reduce environmental impact or improve the environment (West and Michie, 2020). The COM-B model, which consists of Capability, Opportunity, and Motivation, is one of several behavior models used to understand and influence behavior. Other models also exist, each offering unique insights and approaches. In the context of government tools for driving change, the COM-B model classifies these tools into three categories:
+
+-   Enhancing capability through knowledge and skill development
+-   Increasing opportunities for desired actions, such as infrastructure provision and financial support
+-   Boosting motivation for desired behaviors
+
+The COM-B framework suggests that policies should combine these elements to create conditions for desired actions. For example, an effective recycling policy may require businesses to have the capability, opportunity, and motivation to recycle (Defra, 2018b).
+:::
+
+When developing a policy response, diversity of instruments for diversity's sake should be avoided (Gunningham 2009). A[ ](https://www.oecd.org/env/tools-evaluation/mixesofpolicyinstruments.htm)2007 OECD study found a mix of instruments were not always better than a single one for delivering environmental outcomes efficiently. Where there is a sound basis to introduce policies alongside one another, these need to be leveraged within a coherent framework across the lifecycle of materials, products and services to be efficient, in addition to the system in which those materials and products operate. Certain instrument mixes such as EPR and taxes, which can be additive in nature or environmental tax and subsidy reform, may offer greater complementarity than others.
+
+Coherence with the wider policy landscape is also key, particularly with policies for delivering 'net zero' and industrial strategy. Complementarities and conflicts between instruments and broader considerations such as performance against critical success factors and alignment with existing domestic cultural, legal, technological and policy arrangements can be considered to ensure policies do not combine to be less than the sum of their parts (Howlett, 2004).
+
+## Sequencing
+
+The sequence in which instruments are introduced as part of a policy pathway can have implications for aggregate costs and benefits given the potential for interactions. For instance, while certain instruments such as taxes might help reach near-term objectives, technology-push policies might need to be introduced concurrently to bring new technologies to the shelf without which more ambitious long-term objectives may not easily be met (Sandén and Azar, 2005).
+
+Different schools of thought exist on best sequencing approaches. Bleischwitz (2010) calls for a step-by-step approach to policy introduction addressing market failures first. 'Smart regulation principles' recommend a responsive approach, whereby instrument choice is escalated from combinations including least interventionist approaches to those which involve a higher degree of coercion based on responsiveness of regulatees (Gunningham, 2009). Marginal abatement cost-curve (MACC) approaches propose starting with policies with least net cost and expanding out. Criticisms of MACC-based approaches relate primarily to overlooking temporal interdependence between policies, however. For instance, Grubb and Wieners (2020) illustrate a slow carbon price ramp approach is likely inefficient in the case when carbon abatement costs are shaped by innovation.  In this case, higher cost options may be more effective to start with if they drive down innovation over time, and therefore reduce cumulative costs.
